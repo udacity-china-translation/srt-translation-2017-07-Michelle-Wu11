@@ -1,0 +1,43 @@
+1
+00:00:00,190 --> 00:00:02,900
+So there's no correct answer to this quiz, of course.
+
+2
+00:00:02,900 --> 00:00:07,240
+What I'm getting here, is usually between 40 and 60,
+
+3
+00:00:07,240 --> 00:00:11,150
+sometimes it was between 60 and 100, never much above
+
+4
+00:00:11,150 --> 00:00:14,870
+60. So, this is the answer that I'm getting. I
+
+5
+00:00:14,870 --> 00:00:17,550
+know some of you are, unfortunately, having much less bandwidth
+
+6
+00:00:17,550 --> 00:00:19,320
+from that, and I hope you're still able to get
+
+7
+00:00:19,320 --> 00:00:21,880
+the videos okay. If you have less than one kilobit
+
+8
+00:00:21,880 --> 00:00:25,720
+per second, unfortunately, you're probably having a really hard time.
+
+9
+00:00:25,720 --> 00:00:28,970
+And some of you probably live in countries that have much better bandwidth than
+
+10
+00:00:28,970 --> 00:00:30,780
+the United States, and are fortunate enough
+
+11
+00:00:30,780 --> 00:00:32,670
+to have over 200 megabits per second.

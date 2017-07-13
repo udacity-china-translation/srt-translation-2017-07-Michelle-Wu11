@@ -1,0 +1,155 @@
+1
+00:00:00,000 --> 00:00:05,000
+For this question, we need to determine if the given grammar generates
+
+2
+00:00:05,000 --> 00:00:10,000
+infinitely many strings starting from the nonterminal word.
+
+3
+00:00:10,000 --> 00:00:12,000
+So we can start from either substitution rule.
+
+4
+00:00:12,000 --> 00:00:16,000
+If we start from the first one, then we end up with 1 possible word.
+
+5
+00:00:16,000 --> 00:00:20,000
+If we start from the second word, then we get the letter a,
+
+6
+00:00:20,000 --> 00:00:21,000
+and then we can insert another word.
+
+7
+00:00:21,000 --> 00:00:25,000
+This can be udacity, so then we end up with audacity.
+
+8
+00:00:25,000 --> 00:00:28,000
+We can do the same thing but twice.
+
+9
+00:00:28,000 --> 00:00:33,000
+So we have a, then instead of going to udacity, we do a again,
+
+10
+00:00:33,000 --> 00:00:35,000
+and then we do udacity.
+
+11
+00:00:35,000 --> 00:00:38,000
+The way this is breaking down kind of looks like this.
+
+12
+00:00:38,000 --> 00:00:42,000
+It should be pretty clear that we can continue this forever and eventually end
+
+13
+00:00:42,000 --> 00:00:43,000
+with udacity.
+
+14
+00:00:43,000 --> 00:00:46,000
+So we can have an arbitrary number of a's, followed by udacity.
+
+15
+00:00:46,000 --> 00:00:51,000
+This inidicates that this grammar generates an infinite number of possible words.
+
+16
+00:00:51,000 --> 00:00:56,000
+In this grammar, we can see that every word begins with a root and then a tail.
+
+17
+00:00:56,000 --> 00:00:59,000
+So what we're going to do to see how many strings this generates is,
+
+18
+00:00:59,000 --> 00:01:05,000
+go through every possible root there can be and then every tail there can be.
+
+19
+00:01:05,000 --> 00:01:09,000
+So root can be uda and also boda.
+
+20
+00:01:09,000 --> 00:01:14,000
+Tail can go directly to cious and city.
+
+21
+00:01:14,000 --> 00:01:19,000
+But we should also look at this substitution rule that has root going directly to tail.
+
+22
+00:01:19,000 --> 00:01:24,000
+So you could have a word that's really the same as tail tail,
+
+23
+00:01:24,000 --> 00:01:28,000
+which adds 2 more possible combinations to what root can be.
+
+24
+00:01:28,000 --> 00:01:33,000
+This gives us 4 possibilites for root and 2 possibilities for tail,
+
+25
+00:01:33,000 --> 00:01:35,000
+which means 8 possibilities all together.
+
+26
+00:01:35,000 --> 00:01:38,000
+This grammar can generate 8 different words.
+
+27
+00:01:38,000 --> 00:01:47,000
+We know that 8 < infinity, so this grammar does not generate an infinite number of words.
+
+28
+00:01:47,000 --> 00:01:51,000
+So here we have a grammar that looks a lot like our first one.
+
+29
+00:01:51,000 --> 00:01:55,000
+However, let's still work it out to see if there's an infinite number of words.
+
+30
+00:01:55,000 --> 00:01:57,000
+So according to problem, we start with word.
+
+31
+00:01:57,000 --> 00:02:00,000
+And there's only 1 substitution rule for word.
+
+32
+00:02:00,000 --> 00:02:02,000
+From pre udacious, we have 2 options.
+
+33
+00:02:02,000 --> 00:02:07,000
+We could go to super udacious, which gives us one complete word,
+
+34
+00:02:07,000 --> 00:02:09,000
+or we can do pre super udacious.
+
+35
+00:02:09,000 --> 00:02:14,000
+You might have already noticed that we can keep substituting the pre with pre super,
+
+36
+00:02:14,000 --> 00:02:16,000
+and we can keep doing this forever,
+
+37
+00:02:16,000 --> 00:02:20,000
+and stopping at any point and ending with some number of supers
+
+38
+00:02:20,000 --> 00:02:22,000
+followed by udacious.
+
+39
+00:02:22,000 --> 00:02:25,000
+This grammar generates an infinite number of strings.

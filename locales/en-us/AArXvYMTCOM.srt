@@ -1,0 +1,383 @@
+1
+00:00:00,390 --> 00:00:02,420
+So what do we need to do to make lookup faster?
+
+2
+00:00:02,420 --> 00:00:05,620
+Well let's think about why it was so slow, right? The reason
+
+3
+00:00:05,620 --> 00:00:08,630
+it was so slow is that we were doing this for loop,
+
+4
+00:00:08,630 --> 00:00:12,130
+we were going through all the elements in order, and we're checking
+
+5
+00:00:12,130 --> 00:00:14,470
+if they match the keyword, right? And we had to do this going through
+
+6
+00:00:14,470 --> 00:00:18,550
+the entire index, for an entry, for a keyword that's not
+
+7
+00:00:18,550 --> 00:00:21,170
+in the index, to determine that it's not there, we had to
+
+8
+00:00:21,170 --> 00:00:25,850
+go through the whole index. This is not the way we use indexes
+
+9
+00:00:25,850 --> 00:00:29,160
+in real life, right? If you're looking for a word in the
+
+10
+00:00:29,160 --> 00:00:31,830
+index of a book, you don't have to look through every single entry
+
+11
+00:00:31,830 --> 00:00:35,090
+to see if that word exists. You can jump around, and the
+
+12
+00:00:35,090 --> 00:00:37,590
+reason that you can jump around is because the entries in the index,
+
+13
+00:00:37,590 --> 00:00:41,200
+are sorted, they're sorted in alphabetical order, so you know where that
+
+14
+00:00:41,200 --> 00:00:44,230
+entry would belong. You just need to find the right place and see
+
+15
+00:00:44,230 --> 00:00:46,960
+if it's there. So we can do that with our index instead
+
+16
+00:00:46,960 --> 00:00:50,930
+of having our index kept in arbitrary order. If we kept our index
+
+17
+00:00:50,930 --> 00:00:54,140
+in assorted order, then we could find the place where
+
+18
+00:00:54,140 --> 00:00:57,820
+that entry belongs and look for it. Sorting is a very
+
+19
+00:00:57,820 --> 00:01:01,050
+interesting problem. It's something we're not actually going to talk about more
+
+20
+00:01:01,050 --> 00:01:04,260
+in this class. We're going to do a different way of doing
+
+21
+00:01:04,260 --> 00:01:06,140
+that. What we're going to do is find a way to
+
+22
+00:01:06,140 --> 00:01:10,010
+find where the entry should be that doesn't require actually keeping
+
+23
+00:01:10,010 --> 00:01:12,330
+all the entries sorted. What we want is something that will
+
+24
+00:01:12,330 --> 00:01:16,200
+allow us, given a keyword, we're going to have some function that
+
+25
+00:01:16,200 --> 00:01:18,810
+tells us where it belongs. We're going to call that
+
+26
+00:01:18,810 --> 00:01:23,000
+a hash function. That tells us where in the entry
+
+27
+00:01:23,000 --> 00:01:25,640
+to look. And so instead of having to look through
+
+28
+00:01:25,640 --> 00:01:29,300
+the whole index, the hash function will tell us where
+
+29
+00:01:29,300 --> 00:01:32,520
+that entry belongs. So what we need for this is
+
+30
+00:01:32,520 --> 00:01:34,990
+some function that's going to take a key word, map
+
+31
+00:01:34,990 --> 00:01:38,010
+it to a number And that number is the position
+
+32
+00:01:38,010 --> 00:01:41,380
+in the index where that number belongs. We could do this
+
+33
+00:01:41,380 --> 00:01:44,070
+lots of different ways. One simple thing would be to
+
+34
+00:01:44,070 --> 00:01:47,910
+think, well we know alphabet. This is more like the way
+
+35
+00:01:47,910 --> 00:01:51,060
+an index for a book would work, and we're going to
+
+36
+00:01:51,060 --> 00:01:55,040
+have for each entry and index, we'll have based on the
+
+37
+00:01:55,040 --> 00:01:58,050
+first letter, we'll put all the entries that start with
+
+38
+00:01:58,050 --> 00:02:01,000
+that first letter in the same place. So, if we're looking
+
+39
+00:02:01,000 --> 00:02:04,700
+for a keyword that starts with u, that prefer hash
+
+40
+00:02:04,700 --> 00:02:06,420
+would tell us to look in the place where all the
+
+41
+00:02:06,420 --> 00:02:08,820
+words that start with u are. And then we'd only have to
+
+42
+00:02:08,820 --> 00:02:11,490
+look through the words that start with u. So this would allow
+
+43
+00:02:11,490 --> 00:02:13,770
+us to do a look up much more quickly than looking through
+
+44
+00:02:13,770 --> 00:02:17,490
+the whole index. This isn't quite the best way to do things. If
+
+45
+00:02:17,490 --> 00:02:20,780
+we made our places based on the letter, well, then we have
+
+46
+00:02:20,780 --> 00:02:23,693
+a problem if we have two words with the same first letter. You
+
+47
+00:02:23,693 --> 00:02:27,100
+generally expect to have more than one word that starts with the
+
+48
+00:02:27,100 --> 00:02:31,950
+same letter. So instead of having just an element here for each position,
+
+49
+00:02:31,950 --> 00:02:34,960
+we're going to have a list of elements that would be all
+
+50
+00:02:34,960 --> 00:02:38,970
+the words that start with u So when we look up the
+
+51
+00:02:38,970 --> 00:02:42,650
+word udacity, we look in the entry for u, and if the
+
+52
+00:02:42,650 --> 00:02:46,010
+word that's there doesn't match then we know udacity isn't in the
+
+53
+00:02:46,010 --> 00:02:48,920
+index. There are lots of problems with this. The first problem is
+
+54
+00:02:48,920 --> 00:02:51,350
+well, there might be more than one word that starts with u.
+
+55
+00:02:51,350 --> 00:02:53,780
+So we can't just have one entry here. What we need to
+
+56
+00:02:53,780 --> 00:02:57,120
+have is a list of entries We often call this a bucket.
+
+57
+00:02:57,120 --> 00:02:59,340
+So we need a bucket of all the entries that
+
+58
+00:02:59,340 --> 00:03:02,990
+start with u that would be in this position. So, instead
+
+59
+00:03:02,990 --> 00:03:05,690
+of just having one entry like the old structure of our
+
+60
+00:03:05,690 --> 00:03:08,180
+index, now we're going to have a list of entries, and
+
+61
+00:03:08,180 --> 00:03:10,680
+each element of the index will now be a bucket, which
+
+62
+00:03:10,680 --> 00:03:14,810
+is a list of entries that are in the right position.
+
+63
+00:03:14,810 --> 00:03:17,800
+This is going to be our bucket of our, all the entries
+
+64
+00:03:17,800 --> 00:03:22,320
+that start with u, and that would have all the different
+
+65
+00:03:22,320 --> 00:03:25,970
+entries that start with the letter u in that bucket. So this
+
+66
+00:03:25,970 --> 00:03:28,890
+is getting better. Now, for each look up, instead of having to
+
+67
+00:03:28,890 --> 00:03:31,180
+look through all of the words in index, we just need to
+
+68
+00:03:31,180 --> 00:03:34,482
+find the position that starts with the right letter. That's got a
+
+69
+00:03:34,482 --> 00:03:36,590
+bucket of all the words that start with that letter, and then
+
+70
+00:03:36,590 --> 00:03:39,520
+we just need to look through that bucket. This works okay, but
+
+71
+00:03:39,520 --> 00:03:43,440
+this doesn't really scale very well. At best, if we have you
+
+72
+00:03:43,440 --> 00:03:47,540
+know, ten million words well now instead of having ten million entries
+
+73
+00:03:47,540 --> 00:03:50,720
+to go through, we need to go through ten million divided
+
+74
+00:03:50,720 --> 00:03:54,620
+by say 26, if we have 26 letters. It's not making
+
+75
+00:03:54,620 --> 00:03:57,940
+things much faster. It's making things maybe at best, 26 times
+
+76
+00:03:57,940 --> 00:04:01,760
+letter. That assumes that all of the buckets are the same size.
+
+77
+00:04:01,760 --> 00:04:04,470
+Certainly if we make the buckets based on the first letter,
+
+78
+00:04:04,470 --> 00:04:06,470
+that's not going to be the same size. If the words
+
+79
+00:04:06,470 --> 00:04:08,890
+are a typical English words. We're going to have many more
+
+80
+00:04:08,890 --> 00:04:12,420
+words that start with s or t, say than start with u.
+
+81
+00:04:12,420 --> 00:04:15,590
+So, we want to fix those two problems. We want to
+
+82
+00:04:15,590 --> 00:04:17,779
+be able to have more buckets. So we're not going to just
+
+83
+00:04:17,779 --> 00:04:20,140
+use the first letter, we're going to use some function on the
+
+84
+00:04:20,140 --> 00:04:24,020
+whole word that tells us where it belongs. And we're going to try
+
+85
+00:04:24,020 --> 00:04:27,640
+to make that function distribute the words fairly well. So the
+
+86
+00:04:27,640 --> 00:04:30,460
+structure that I've described is what's called a hash table. This
+
+87
+00:04:30,460 --> 00:04:33,460
+is a very useful data structure. It's so useful that it's
+
+88
+00:04:33,460 --> 00:04:37,450
+built into Python. There's the Python type called a dictionary. Which provides
+
+89
+00:04:37,450 --> 00:04:40,270
+this functionality. At the end of today's unit, I'll explain
+
+90
+00:04:40,270 --> 00:04:42,190
+how the Python dictionary works, and how to use it,
+
+91
+00:04:42,190 --> 00:04:45,280
+and we'll modify the search engine code to use dictionary
+
+92
+00:04:45,280 --> 00:04:48,010
+instead of the lookup table that we built, but before
+
+93
+00:04:48,010 --> 00:04:51,080
+we do that, we are going to implement it ourselves. We
+
+94
+00:04:51,080 --> 00:04:52,690
+are going to make sure that we understand how the hash
+
+95
+00:04:52,690 --> 00:04:54,840
+table works by writing all the code to do it
+
+96
+00:04:54,840 --> 00:04:58,568
+ourselves and then we'll switch to using the built-in Python type.

@@ -1,0 +1,31 @@
+1
+00:00:00,080 --> 00:00:01,480
+So the question is, why does this not
+
+2
+00:00:01,480 --> 00:00:04,620
+work? Why does multiplying empty list times n buckets
+
+3
+00:00:04,620 --> 00:00:06,310
+not produce what we need for the empty hash
+
+4
+00:00:06,310 --> 00:00:09,280
+table? And the possible answers are, because it's too
+
+5
+00:00:09,280 --> 00:00:11,720
+easy, and we like doing things the hard way.
+
+6
+00:00:11,720 --> 00:00:13,560
+Because each element in the output refers to the
+
+7
+00:00:13,560 --> 00:00:16,790
+same empty list, or because the store operator means
+
+8
+00:00:16,790 --> 00:00:18,800
+something different for lists than it does for strings.

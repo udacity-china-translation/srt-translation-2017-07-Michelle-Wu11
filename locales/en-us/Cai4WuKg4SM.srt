@@ -1,0 +1,39 @@
+1
+00:00:00,520 --> 00:00:03,500
+So, maybe you can see a pattern here. For the quiz,
+
+2
+00:00:03,500 --> 00:00:06,180
+I'm going to see if you can figure out how many times we'll
+
+3
+00:00:06,180 --> 00:00:11,480
+need to evaluate Fibonacci 30. Evaluate fibo 30 when we're evaluating fibo
+
+4
+00:00:11,480 --> 00:00:15,140
+36. See if you can figure this out without drawing out the
+
+5
+00:00:15,140 --> 00:00:17,000
+whole thing and counting it, that's going to be a lot of
+
+6
+00:00:17,000 --> 00:00:19,810
+work. But if you think about what we've seen so far, maybe
+
+7
+00:00:19,810 --> 00:00:22,360
+you see a pattern here, and you can figure out the result
+
+8
+00:00:22,360 --> 00:00:25,590
+for how many calls there would be to fibo 30 without doing
+
+9
+00:00:25,590 --> 00:00:27,020
+all that work. So see if you can
+
+10
+00:00:27,020 --> 00:00:31,739
+figure out the answer without working out every step.

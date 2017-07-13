@@ -1,0 +1,75 @@
+1
+00:00:00,000 --> 00:00:03,000
+To get the entry for China, we need to select
+
+2
+00:00:03,000 --> 00:00:07,000
+the first element of countries that's indexed at position 0.
+
+3
+00:00:07,000 --> 00:00:13,000
+To get the population, well, that's the third element of that list,
+
+4
+00:00:13,000 --> 00:00:16,000
+so that's the entry at position 2.
+
+5
+00:00:16,000 --> 00:00:20,000
+To compute the multiple, we need to divide that by the same value
+
+6
+00:00:20,000 --> 00:00:25,000
+for the entry for Romania, and when we run this,
+
+7
+00:00:25,000 --> 00:00:30,000
+we see that the population of China is approximately 64 times
+
+8
+00:00:30,000 --> 00:00:33,000
+the population of Romania, and I should point out
+
+9
+00:00:33,000 --> 00:00:37,000
+that this is integer division, so this is not the exact result.
+
+10
+00:00:37,000 --> 00:00:43,000
+If we looked at actually multiplying 21 by 64,
+
+11
+00:00:43,000 --> 00:00:48,000
+the result that we get is 1344, so 1 billion 344 million.
+
+12
+00:00:48,000 --> 00:00:54,000
+But the population that we get for China was 1 billion 350 million.
+
+13
+00:00:54,000 --> 00:00:58,000
+If we wanted a more exact answer, we need to use floating point division.
+
+14
+00:00:58,000 --> 00:01:00,000
+We could do that by changing the values in our list
+
+15
+00:01:00,000 --> 00:01:02,000
+to make one a floating point number.
+
+16
+00:01:02,000 --> 00:01:06,000
+Adding a decimal point would be enough.
+
+17
+00:01:06,000 --> 00:01:09,000
+Now when we run it, we get a more precise answer.
+
+18
+00:01:09,000 --> 00:01:11,000
+Of course, these populations are just estimates,
+
+19
+00:01:11,000 --> 00:01:14,000
+so the answer of 64 would probably be a better answer to the actual question.

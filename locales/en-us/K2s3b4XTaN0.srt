@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:05,000
+For this question, you're asked to define a function, pick_one,
+
+2
+00:00:05,000 --> 00:00:12,000
+which takes as its input a Boolean and a Boolean can be the values True or False.
+
+3
+00:00:12,000 --> 00:00:19,000
+If the value of the Boolean is True, you're going to return the first input.
+
+4
+00:00:19,000 --> 00:00:22,000
+I'm going to call that true_response.
+
+5
+00:00:22,000 --> 00:00:27,000
+If the it's false, you return the second input--false_response.
+
+6
+00:00:27,000 --> 00:00:30,000
+I've named them like that so I don't forget which way around they are.
+
+7
+00:00:30,000 --> 00:00:37,000
+In order to define the procedure, I'll call the first variable boolean, with a lowercase b.
+
+8
+00:00:37,000 --> 00:00:39,000
+Don't forget the colon.
+
+9
+00:00:39,000 --> 00:00:45,000
+What we need is we need something that happens when the Boolean is true,
+
+10
+00:00:45,000 --> 00:00:54,000
+and if I do if boolean, then the code underneath this is executed when boolean is true.
+
+11
+00:00:54,000 --> 00:00:58,000
+In that case, I want to return true_response.
+
+12
+00:00:58,000 --> 00:01:06,082
+Otherwise, when the boolean is false, I want to return false_response.

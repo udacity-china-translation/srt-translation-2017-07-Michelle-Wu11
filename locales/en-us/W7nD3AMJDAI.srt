@@ -1,0 +1,203 @@
+1
+00:00:00,000 --> 00:00:03,000
+I'm here with Isabelle Stanton, who is a PhD student at Berkeley,
+
+2
+00:00:03,000 --> 00:00:05,000
+and she works on theory of computation.
+
+3
+00:00:05,000 --> 00:00:07,000
+So what are you working on?
+
+4
+00:00:07,000 --> 00:00:10,000
+Lately I've been working in computational economics,
+
+5
+00:00:10,000 --> 00:00:15,000
+which is this exciting thing that really Berkeley focuses on,
+
+6
+00:00:15,000 --> 00:00:17,000
+so looking at problems that economists face
+
+7
+00:00:17,000 --> 00:00:20,000
+and see whether or not we can develop algorithms and ways to solve this.
+
+8
+00:00:20,000 --> 00:00:25,000
+So particularly the thing that I've been working on has been computational social choice.
+
+9
+00:00:25,000 --> 00:00:29,000
+Social choice functions are ones that aggregate people's preferences.
+
+10
+00:00:29,000 --> 00:00:31,000
+So think about this as a voting mechanism.
+
+11
+00:00:31,000 --> 00:00:36,000
+Everybody gets to say, "I prefer Candidate A to Candidate B to Candidate C,"
+
+12
+00:00:36,000 --> 00:00:40,000
+and then we take everyone's votes and we output some kind of winner.
+
+13
+00:00:40,000 --> 00:00:45,000
+And you'd really like this winner to be the one most people prefer or something.
+
+14
+00:00:45,000 --> 00:00:50,000
+The problem that I've been specifically looking at is that back in the 1970s
+
+15
+00:00:50,000 --> 00:00:55,000
+Gibbard and Satterthwaite showed that for any kind of reasonable voting mechanism
+
+16
+00:00:55,000 --> 00:00:58,000
+it's going to be susceptible to manipulation.
+
+17
+00:00:58,000 --> 00:01:01,000
+So is this like when someone doesn't vote for their preferred candidate
+
+18
+00:01:01,000 --> 00:01:03,000
+because they think it's going to be better for them
+
+19
+00:01:03,000 --> 00:01:07,000
+if they vote for sort of the more popular, less preferred candidate? >>Exactly.
+
+20
+00:01:07,000 --> 00:01:10,000
+So if you knew that your favorite person was the underdog
+
+21
+00:01:10,000 --> 00:01:13,000
+and there was no way, you might change your vote
+
+22
+00:01:13,000 --> 00:01:18,000
+so that way your second favorite person would be the one that's elected.
+
+23
+00:01:18,000 --> 00:01:21,000
+We've been specifically looking at Binary Cup voting protocols,
+
+24
+00:01:21,000 --> 00:01:25,000
+which are familiar to people as single elimination tournaments.
+
+25
+00:01:25,000 --> 00:01:28,000
+So how could someone manipulate a tournament like this?
+
+26
+00:01:28,000 --> 00:01:32,000
+The tournament organizer is allowed to pick the seeding of the players,
+
+27
+00:01:32,000 --> 00:01:36,000
+and that's the bracket, that's in each round who plays against who.
+
+28
+00:01:36,000 --> 00:01:39,000
+For example, I can show you over here on the computer.
+
+29
+00:01:39,000 --> 00:01:43,000
+Here on this slide we have actually the Women's World Cup.
+
+30
+00:01:43,000 --> 00:01:48,000
+The seeding is this picking of Germany versus Japan, Sweden versus Australia.
+
+31
+00:01:48,000 --> 00:01:50,000
+If I wanted something else to happen,
+
+32
+00:01:50,000 --> 00:01:52,000
+maybe I could have picked a different initial seeding here,
+
+33
+00:01:52,000 --> 00:01:54,000
+like maybe I have Sweden play England,
+
+34
+00:01:54,000 --> 00:01:58,000
+and that would end up with a different result out of the tournament.
+
+35
+00:01:58,000 --> 00:02:01,000
+Let's go over a simple example.
+
+36
+00:02:01,000 --> 00:02:03,000
+Everyone is familiar with the game rock, paper, scissors.
+
+37
+00:02:03,000 --> 00:02:06,000
+And in computer science we like things to be a power of 2,
+
+38
+00:02:06,000 --> 00:02:09,000
+so let's add in hand grenade so that way we have 4 players.
+
+39
+00:02:09,000 --> 00:02:16,000
+So we've got rock, paper, scissors, hand grenade.
+
+40
+00:02:16,000 --> 00:02:20,000
+Now we can look at 2 different tournament brackets that have different winners.
+
+41
+00:02:20,000 --> 00:02:27,000
+So if we have rock, hand grenade, paper, scissors,
+
+42
+00:02:27,000 --> 00:02:34,000
+first rock wins this match-up and then scissors wins here
+
+43
+00:02:34,000 --> 00:02:36,000
+and then rock wins the total bracket.
+
+44
+00:02:36,000 --> 00:02:43,000
+If, on the other hand, we have rock face paper and scissors face hand grenade,
+
+45
+00:02:43,000 --> 00:02:49,000
+then paper knocks out rock, hand grenade still wins,
+
+46
+00:02:49,000 --> 00:02:52,000
+and hand grenade is the final winner.
+
+47
+00:02:52,000 --> 00:02:56,000
+So the tournament manipulation problem is to figure out if there's a bracket
+
+48
+00:02:56,000 --> 00:02:59,000
+so that your favorite player wins, like this,
+
+49
+00:02:59,000 --> 00:03:02,000
+given information about the match outcomes.
+
+50
+00:03:02,000 --> 00:03:05,000
+I'm not sure if this explains how the US lost the Women's World Cup,
+
+51
+00:03:05,000 --> 00:03:08,000
+but we'll leave that as an open problem.
