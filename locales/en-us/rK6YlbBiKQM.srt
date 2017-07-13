@@ -1,0 +1,88 @@
+﻿1
+00:00:00,000 --> 00:00:02,549
+Let's go over the structure of this course.
+
+2
+00:00:02,549 --> 00:00:06,580
+First, we'll learn how to work with text and numeric data.
+
+3
+00:00:06,580 --> 00:00:09,405
+We'll explore Python build-in functions and methods,
+
+4
+00:00:09,404 --> 00:00:12,969
+so that we can do useful work without having to write lots of new code of our own.
+
+5
+00:00:12,970 --> 00:00:15,900
+Then, we'll put together these basic parts,
+
+6
+00:00:15,900 --> 00:00:18,060
+create data structures to hold information,
+
+7
+00:00:18,059 --> 00:00:19,799
+and write our own functions.
+
+8
+00:00:19,800 --> 00:00:23,505
+This means you'll be able to write Python programs to automate the things you care about.
+
+9
+00:00:23,504 --> 00:00:25,649
+For example, watch out scores on a bunch of
+
+10
+00:00:25,649 --> 00:00:28,439
+individual restaurant of use and tell their overall rating.
+
+11
+00:00:28,440 --> 00:00:31,980
+It will clean noisy data sets by removing duplicate injuries and sorting them.
+
+12
+00:00:31,980 --> 00:00:34,590
+You'll get the opportunity to apply
+
+13
+00:00:34,590 --> 00:00:37,575
+what you've learned to a real life scenario in the lab.
+
+14
+00:00:37,575 --> 00:00:39,820
+You'll be getting nosy by processing
+
+15
+00:00:39,820 --> 00:00:43,259
+some phone records and analyzing the patterns you find in them.
+
+16
+00:00:43,259 --> 00:00:45,299
+The last part of this course will be a bit different.
+
+17
+00:00:45,299 --> 00:00:48,640
+At this point, you'll know enough Python to write large programs.
+
+18
+00:00:48,640 --> 00:00:50,265
+So instead of learning more syntax,
+
+19
+00:00:50,265 --> 00:00:54,774
+we'll focus on how to approach real problems and how to design programs to solve them.
+
+20
+00:00:54,774 --> 00:00:57,045
+We'll show you how to break problems down into smaller ones.
+
+21
+00:00:57,045 --> 00:01:00,685
+And Sharon and I will demonstrate this process by writing a web crawler together.
+
+22
+00:01:00,685 --> 00:01:02,000
+Let's go and learn some Python.
+

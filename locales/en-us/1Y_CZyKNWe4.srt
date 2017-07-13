@@ -1,0 +1,172 @@
+﻿1
+00:00:00,000 --> 00:00:03,009
+You've already interacted with the HTML in
+
+2
+00:00:03,009 --> 00:00:06,125
+a Wikipedia page via your browser's developer tools.
+
+3
+00:00:06,125 --> 00:00:10,125
+Now, let's figure out how to get that HTML into Python,
+
+4
+00:00:10,125 --> 00:00:12,660
+so we can work with it programmatically.
+
+5
+00:00:12,660 --> 00:00:14,474
+I'll start with an internet search for,
+
+6
+00:00:14,474 --> 00:00:19,829
+"Python request web page from a URL."
+
+7
+00:00:19,829 --> 00:00:24,899
+Okay. This first link looks like it's from the Python three docs, which is great.
+
+8
+00:00:24,899 --> 00:00:27,109
+I'll click it and see what it says.
+
+9
+00:00:27,109 --> 00:00:28,710
+Let's take a look.
+
+10
+00:00:28,710 --> 00:00:31,080
+This yellow box stands out.
+
+11
+00:00:31,079 --> 00:00:36,769
+The requests package is recommended for a higher level HTTP client interface.
+
+12
+00:00:36,770 --> 00:00:39,085
+High level is probably what we want.
+
+13
+00:00:39,085 --> 00:00:43,170
+Let's try to keep things simple for a first attempt at getting a page from the web.
+
+14
+00:00:43,170 --> 00:00:46,020
+I think I'll try using the request package.
+
+15
+00:00:46,020 --> 00:00:50,300
+Okay, the docs for the request package are a little bit silly.
+
+16
+00:00:50,299 --> 00:00:55,649
+It's says, "Safe for human consumption," so that's reassuring, I think.
+
+17
+00:00:55,649 --> 00:00:58,524
+Here's a simple bit of code to get us started.
+
+18
+00:00:58,524 --> 00:01:03,109
+I'm going to try it because request is not part of the standard library,
+
+19
+00:01:03,109 --> 00:01:08,784
+I'll need to get it installed first using pip, pip3 install requests.
+
+20
+00:01:08,784 --> 00:01:10,653
+Okay, that's now installed.
+
+21
+00:01:10,653 --> 00:01:16,560
+Great. Now, I'll fire up the Python interactive interpreter to test the example code.
+
+22
+00:01:16,560 --> 00:01:19,439
+I'll copy the format of this code to get
+
+23
+00:01:19,439 --> 00:01:23,159
+the HTML for the Wikipedia page on the dead parrot sketch.
+
+24
+00:01:23,159 --> 00:01:25,674
+First, I import requests,
+
+25
+00:01:25,674 --> 00:01:27,606
+I'll call the variable response,
+
+26
+00:01:27,606 --> 00:01:35,730
+it's a bit more descriptive than they are in the example,
+
+27
+00:01:35,730 --> 00:01:37,469
+response equals requests dot get parenthesis and inside the parenthesis
+
+28
+00:01:37,469 --> 00:01:44,694
+I will put the URL for the Wikipedia page on the dead parrot sketch.
+
+29
+00:01:44,694 --> 00:01:47,159
+The example code shows several things I can do to
+
+30
+00:01:47,159 --> 00:01:49,890
+get information after this response object.
+
+31
+00:01:49,890 --> 00:01:51,060
+But what I really want,
+
+32
+00:01:51,060 --> 00:01:57,930
+is to see the HTML of the page itself that's held in the text attribute of the response.
+
+33
+00:01:57,930 --> 00:02:01,644
+Let's print it to have a look.
+
+34
+00:02:01,644 --> 00:02:04,227
+Okay.
+
+35
+00:02:04,227 --> 00:02:08,140
+Wow, that's a lot of content on this page.
+
+36
+00:02:08,139 --> 00:02:11,329
+I recognized some of the tags we might expect to see,
+
+37
+00:02:11,330 --> 00:02:13,540
+there's an anchor tag,
+
+38
+00:02:13,539 --> 00:02:16,384
+and there's a div,
+
+39
+00:02:16,384 --> 00:02:19,424
+but it's a little difficult to read this.
+
+40
+00:02:19,425 --> 00:02:23,420
+It's much more difficult than just looking at the rendered page itself.
+
+41
+00:02:23,419 --> 00:02:27,709
+So, it looks like a lot of text but let's just
+
+42
+00:02:27,710 --> 00:02:33,930
+check what type this response.text actually is.
+
+43
+00:02:33,930 --> 00:02:40,010
+Okay, it's just the string that contains all the HTML of the Wikipedia page.
+

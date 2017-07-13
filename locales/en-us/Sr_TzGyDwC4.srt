@@ -1,0 +1,40 @@
+﻿1
+00:00:00,000 --> 00:00:03,345
+Welcome back. Well done your work on the lab.
+
+2
+00:00:03,345 --> 00:00:05,580
+I hope you found out some interesting things about
+
+3
+00:00:05,580 --> 00:00:09,175
+the calling and texting habits of the users in that data set.
+
+4
+00:00:09,175 --> 00:00:12,500
+The lab should have tested a lot of what you've already learned about Python.
+
+5
+00:00:12,500 --> 00:00:14,820
+Next, we're going to build upon that knowledge.
+
+6
+00:00:14,820 --> 00:00:18,344
+You will get acquainted with tuples and learn more about writing functions.
+
+7
+00:00:18,344 --> 00:00:21,839
+We'll also show you how to read from files and how to leverage the power of
+
+8
+00:00:21,839 --> 00:00:25,679
+the community by importing and using Python modules and libraries.
+
+9
+00:00:25,679 --> 00:00:27,429
+I say, we should get going.
+
+10
+00:00:27,429 --> 00:00:29,000
+Yes. Enjoy.
+

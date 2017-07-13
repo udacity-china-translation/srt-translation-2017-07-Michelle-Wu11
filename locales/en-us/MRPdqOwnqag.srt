@@ -1,0 +1,24 @@
+﻿1
+00:00:00,000 --> 00:00:03,899
+So far, we've been working on figuring out the steps that should be included in
+
+2
+00:00:03,899 --> 00:00:06,035
+our code and code it up to continue
+
+3
+00:00:06,035 --> 00:00:09,439
+Crawl Function to control when the while loop should end.
+
+4
+00:00:09,439 --> 00:00:13,349
+My next job is to work from the contents of that while loop.
+
+5
+00:00:13,349 --> 00:00:16,410
+I'll transcribe the full steps we ordered earlier into
+
+6
+00:00:16,410 --> 00:00:20,000
+comments in the body of the loop then, at the actual code.
+

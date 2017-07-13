@@ -1,0 +1,32 @@
+﻿1
+00:00:00,000 --> 00:00:02,480
+Nice work. You've now installed Python,
+
+2
+00:00:02,480 --> 00:00:05,560
+written complete programs and run them on your own computer.
+
+3
+00:00:05,559 --> 00:00:10,059
+You learned how to define functions and how to write code with branches.
+
+4
+00:00:10,060 --> 00:00:12,300
+You also practiced your software engineering skills by
+
+5
+00:00:12,300 --> 00:00:15,480
+breaking a complicated problem down into smaller pieces.
+
+6
+00:00:15,480 --> 00:00:20,149
+Next, you'll learn about Python's data structures for storing collections of data.
+
+7
+00:00:20,149 --> 00:00:23,669
+We'll discuss iteration using for loops and while loops.
+
+8
+00:00:23,670 --> 00:00:27,480
+We'll spend some time working on code organization skills too. See you soon.
+

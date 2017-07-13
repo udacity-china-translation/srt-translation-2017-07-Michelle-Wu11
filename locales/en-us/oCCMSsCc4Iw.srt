@@ -1,0 +1,24 @@
+﻿1
+00:00:00,000 --> 00:00:04,769
+Welcome back. You've already met some of Python's data types and built-in functions.
+
+2
+00:00:04,769 --> 00:00:08,214
+Now, you'll take the next step towards competent Python programming.
+
+3
+00:00:08,214 --> 00:00:09,794
+You will define your own functions,
+
+4
+00:00:09,794 --> 00:00:12,410
+install Python, and use conditionals and iterate.
+
+5
+00:00:12,410 --> 00:00:16,274
+We'll point out good Python programming practices along the way.
+
+6
+00:00:16,274 --> 00:00:19,089
+Enjoy your work, and happy Python programming.
+

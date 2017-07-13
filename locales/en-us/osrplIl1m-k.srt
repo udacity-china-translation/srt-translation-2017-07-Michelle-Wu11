@@ -1,0 +1,216 @@
+﻿1
+00:00:00,000 --> 00:00:02,625
+Hi Charlie, what are you up to?
+
+2
+00:00:02,625 --> 00:00:06,929
+Oh, hey Philip, I was just looking up something about mixture models on Wikipedia,
+
+3
+00:00:06,929 --> 00:00:11,029
+but somehow I ended up learning about Norwegian blue parrots.
+
+4
+00:00:11,029 --> 00:00:13,304
+I'm not really sure how I got there.
+
+5
+00:00:13,304 --> 00:00:17,250
+I know that feeling. It's easy to get distracted when you are exploring Wikipedia.
+
+6
+00:00:17,250 --> 00:00:19,679
+A funny thing that I found in my explorations is that if I go
+
+7
+00:00:19,679 --> 00:00:22,379
+from page to page by clicking the first link in each article,
+
+8
+00:00:22,379 --> 00:00:25,574
+I eventually find myself at the philosophy article.
+
+9
+00:00:25,574 --> 00:00:27,539
+That's weird.
+
+10
+00:00:27,539 --> 00:00:29,224
+I wonder if that will happen every time.
+
+11
+00:00:29,225 --> 00:00:30,860
+I'm going to try it out.
+
+12
+00:00:30,859 --> 00:00:34,219
+I'll click on the first link on each Wikipedia page I come to.
+
+13
+00:00:34,219 --> 00:00:36,195
+So, here's what I'm doing.
+
+14
+00:00:36,195 --> 00:00:41,234
+Let me start at some Wikipedia page like the article for African swallow.
+
+15
+00:00:41,234 --> 00:00:44,189
+I suppose I could have used the random article feature
+
+16
+00:00:44,189 --> 00:00:46,489
+if I didn't have this topic in mind already.
+
+17
+00:00:46,490 --> 00:00:51,020
+Now, I'm going to click the first link I come to in the main part of the article.
+
+18
+00:00:51,020 --> 00:00:55,600
+I'll skip the disambiguation link and head to the article proper.
+
+19
+00:00:55,600 --> 00:00:59,679
+That takes me to the article for bird.
+
+20
+00:00:59,679 --> 00:01:03,209
+The first link here is endothermic.
+
+21
+00:01:03,209 --> 00:01:07,400
+So, I can keep going on like this for quite a long time.
+
+22
+00:01:07,400 --> 00:01:11,775
+The first link in this article takes me to ancient Greek,
+
+23
+00:01:11,775 --> 00:01:16,150
+and the next step is Greek language.
+
+24
+00:01:16,150 --> 00:01:19,015
+From there, I get to modern Greek.
+
+25
+00:01:19,015 --> 00:01:22,390
+Here, the first link is a pronunciation help link.
+
+26
+00:01:22,390 --> 00:01:24,635
+I think it's a good idea to skip over that.
+
+27
+00:01:24,635 --> 00:01:26,760
+It's not taking me to another article,
+
+28
+00:01:26,760 --> 00:01:30,640
+just teaching me how to say modern Greek in modern Greek.
+
+29
+00:01:30,640 --> 00:01:34,724
+The first link to another article is colloquially.
+
+30
+00:01:34,724 --> 00:01:36,359
+After that comes word,
+
+31
+00:01:36,359 --> 00:01:40,310
+and then linguistics, and then scientific.
+
+32
+00:01:40,310 --> 00:01:43,230
+These articles are getting more and more abstract.
+
+33
+00:01:43,230 --> 00:01:46,650
+The first link in this article is knowledge,
+
+34
+00:01:46,650 --> 00:01:49,020
+and that leads to awareness,
+
+35
+00:01:49,019 --> 00:01:52,664
+and then quality which is a philosophical term.
+
+36
+00:01:52,665 --> 00:01:56,310
+So eventually, I make it to Philosophy.
+
+37
+00:01:56,310 --> 00:01:58,359
+So, the process is go to
+
+38
+00:01:58,359 --> 00:02:03,390
+a Wikipedia page and find the first ordinary link in the main part of the text.
+
+39
+00:02:03,390 --> 00:02:06,775
+Click through to the new page and repeat the process.
+
+40
+00:02:06,775 --> 00:02:08,950
+Keep going until you reach philosophy,
+
+41
+00:02:08,949 --> 00:02:13,079
+which seems to happen pretty often or until you get tired of clicking.
+
+42
+00:02:13,080 --> 00:02:15,005
+Let's try the process again.
+
+43
+00:02:15,004 --> 00:02:17,004
+Hmm, where should I start?
+
+44
+00:02:17,004 --> 00:02:18,719
+Why not the chair article?
+
+45
+00:02:18,719 --> 00:02:21,330
+The first link in the article is here, the word furniture.
+
+46
+00:02:21,330 --> 00:02:25,025
+And the first link in the furniture article takes me back to chair.
+
+47
+00:02:25,025 --> 00:02:27,629
+So not every article chain makes it to philosophy.
+
+48
+00:02:27,629 --> 00:02:30,090
+Instead, some chains make loops.
+
+49
+00:02:30,090 --> 00:02:32,865
+We can try this with some other articles to see what happens.
+
+50
+00:02:32,865 --> 00:02:34,885
+All this clicking is a bit slow though.
+
+51
+00:02:34,884 --> 00:02:37,204
+This is something we can automate with Python.
+
+52
+00:02:37,205 --> 00:02:41,760
+It's surprising how often I find that everyday tasks can be made better with programming,
+
+53
+00:02:41,759 --> 00:02:43,560
+and it will give us a chance to practice
+
+54
+00:02:43,560 --> 00:02:46,000
+everything that's happened in this course so far.
+

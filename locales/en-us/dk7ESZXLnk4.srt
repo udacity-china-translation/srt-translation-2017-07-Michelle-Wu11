@@ -1,0 +1,140 @@
+﻿1
+00:00:00,000 --> 00:00:01,860
+When I'm working with a new library,
+
+2
+00:00:01,860 --> 00:00:04,294
+I like to try it out in the interactive shell.
+
+3
+00:00:04,294 --> 00:00:07,529
+This is the fastest way to try out its methods in syntax.
+
+4
+00:00:07,530 --> 00:00:09,539
+I have opened the Beautiful Soup Documentation besides
+
+5
+00:00:09,539 --> 00:00:12,660
+my terminal so I can reference it as I try it out.
+
+6
+00:00:12,660 --> 00:00:16,289
+The documentation has it's convenient quick start guide that we can follow along with.
+
+7
+00:00:16,289 --> 00:00:20,189
+Let's start at the Python interpreter and import Beautiful Soup.
+
+8
+00:00:20,190 --> 00:00:22,850
+The documentation suggests we import the library with this line
+
+9
+00:00:22,850 --> 00:00:26,385
+here from bs4 import BeautifulSoup.
+
+10
+00:00:26,385 --> 00:00:30,670
+Next, the documentation shows how to create a soup object from a string.
+
+11
+00:00:30,670 --> 00:00:34,515
+The quick start guide uses a small html sample that's in a string.
+
+12
+00:00:34,515 --> 00:00:37,250
+I've always thought though that I learn best when I don't follow some instructions
+
+13
+00:00:37,250 --> 00:00:41,969
+exactly so I think I'll make a soup object out of a Wikipedia's html source instead.
+
+14
+00:00:41,969 --> 00:00:46,289
+Charlie showed us how to get an html string with requests so we'll do that here.
+
+15
+00:00:46,289 --> 00:00:50,509
+I'll get Wikipedia's main page and store it source in a variable called html.
+
+16
+00:00:50,509 --> 00:00:53,504
+Let's verify that we got the html.
+
+17
+00:00:53,505 --> 00:00:56,265
+Whoa, that's a lot of html.
+
+18
+00:00:56,265 --> 00:01:00,099
+Now, let's make it into a soup object using these instructions from the documentation.
+
+19
+00:01:00,098 --> 00:01:08,750
+The quick start guide suggests that we get the title tag like this.
+
+20
+00:01:08,909 --> 00:01:12,094
+Okay, that works.
+
+21
+00:01:12,094 --> 00:01:14,929
+Good. Let's try getting a paragraph tag.
+
+22
+00:01:14,930 --> 00:01:19,498
+The documentation says we can do that with soup.p.
+
+23
+00:01:19,498 --> 00:01:22,484
+OK. This is a lot of html again,
+
+24
+00:01:22,483 --> 00:01:24,554
+but at least it's just one paragraph.
+
+25
+00:01:24,555 --> 00:01:29,030
+I'll open Wikipedia in my browser to compare this to what the browser displays.
+
+26
+00:01:29,030 --> 00:01:31,670
+It looks like today's featured articles about Frost's bolete,
+
+27
+00:01:31,670 --> 00:01:36,200
+a type of fungus, and that's the same paragraph we got from Beautiful Soup. Great.
+
+28
+00:01:36,200 --> 00:01:40,999
+If you want the first instance of a paragraph tag on a page, we use soup.p.
+
+29
+00:01:40,998 --> 00:01:45,622
+We can get nested tags like this, soup.p.a.
+
+30
+00:01:45,623 --> 00:01:50,469
+This selects the first anchor tag inside of the first paragraph tag.
+
+31
+00:01:50,469 --> 00:01:53,420
+In this case, it's a link to the featured article.
+
+32
+00:01:53,420 --> 00:01:55,519
+The rest of this quick start guide shows how to get
+
+33
+00:01:55,519 --> 00:01:58,189
+lists of anchor tags instead of just one tag.
+
+34
+00:01:58,189 --> 00:02:01,459
+Install Beautiful Soup, open up the documentation in the terminal,
+
+35
+00:02:01,459 --> 00:02:03,140
+and try this out for yourself.
+

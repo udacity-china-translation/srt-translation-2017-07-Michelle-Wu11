@@ -1,0 +1,60 @@
+﻿1
+00:00:00,000 --> 00:00:02,589
+Now that we have defined the problem we're trying to solve,
+
+2
+00:00:02,589 --> 00:00:05,269
+gotten familiar with the libraries you want to use and I've broken
+
+3
+00:00:05,269 --> 00:00:08,769
+the problem down into smaller pieces, we can begin coding.
+
+4
+00:00:08,769 --> 00:00:10,769
+There's another benefit to all this planning,
+
+5
+00:00:10,769 --> 00:00:13,612
+because we have defined the different pieces of our program,
+
+6
+00:00:13,612 --> 00:00:15,809
+we can split up the work between us.
+
+7
+00:00:15,810 --> 00:00:19,495
+Since there's two of us, I think it makes sense to split the work into two major pieces.
+
+8
+00:00:19,495 --> 00:00:22,260
+Yeah. I'll work on writing the main loop.
+
+9
+00:00:22,260 --> 00:00:25,005
+This part of the code will manage the article chain,
+
+10
+00:00:25,004 --> 00:00:27,044
+limits how quickly we make requests,
+
+11
+00:00:27,045 --> 00:00:28,620
+and print the output of the call.
+
+12
+00:00:28,620 --> 00:00:32,039
+And override the code that actually makes the requests and find the links.
+
+13
+00:00:32,039 --> 00:00:35,339
+Defining each piece will help us to collaborate,
+
+14
+00:00:35,340 --> 00:00:39,220
+but we might need to be flexible if things happen that we weren't expecting.
+
+15
+00:00:39,219 --> 00:00:42,000
+I'll get started with the continue call function.
+

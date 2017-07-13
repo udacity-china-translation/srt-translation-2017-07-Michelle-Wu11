@@ -1,0 +1,136 @@
+﻿1
+00:00:00,000 --> 00:00:01,710
+There are at least as many ways to set up
+
+2
+00:00:01,710 --> 00:00:04,075
+a programming environment as there are programmers,
+
+3
+00:00:04,075 --> 00:00:06,740
+and there's no right or wrong way to go about it.
+
+4
+00:00:06,740 --> 00:00:08,599
+However, if you're just starting out in writing
+
+5
+00:00:08,599 --> 00:00:12,035
+Python you might like to see my screen to get some ideas.
+
+6
+00:00:12,035 --> 00:00:14,114
+Time for a tour of my screen.
+
+7
+00:00:14,114 --> 00:00:16,219
+Over here, I have my text editor.
+
+8
+00:00:16,219 --> 00:00:19,035
+I'm using sublime text which is great for getting started,
+
+9
+00:00:19,035 --> 00:00:22,428
+but my fellow Udacians recommended a notepad++,
+
+10
+00:00:22,428 --> 00:00:25,464
+atom, vim and many others.
+
+11
+00:00:25,464 --> 00:00:29,740
+A text editor is really different from a word processor, so don't mix them up.
+
+12
+00:00:29,739 --> 00:00:31,834
+Code needs to be written line by line,
+
+13
+00:00:31,835 --> 00:00:34,625
+with line breaks and indentations included on purpose.
+
+14
+00:00:34,625 --> 00:00:38,179
+In ways that fundamentally change how the code is read and run.
+
+15
+00:00:38,179 --> 00:00:39,409
+Good text editors have
+
+16
+00:00:39,409 --> 00:00:43,579
+simple but vital features such as syntax highlighting and line numbers.
+
+17
+00:00:43,579 --> 00:00:46,945
+Editors are highly customizable to suit your style.
+
+18
+00:00:46,945 --> 00:00:49,070
+One setting that I use on coding in Python
+
+19
+00:00:49,070 --> 00:00:51,740
+is the setting that converts tabs into four spaces.
+
+20
+00:00:51,740 --> 00:00:54,800
+Indentation levels in Python are always multiples of
+
+21
+00:00:54,799 --> 00:00:58,608
+four spaces and I don't want to be making mistakes as I hit the spacebar.
+
+22
+00:00:58,609 --> 00:01:01,024
+The tabs shortcut really helps.
+
+23
+00:01:01,024 --> 00:01:04,224
+The text editor isn't the only thing on my screen right now.
+
+24
+00:01:04,224 --> 00:01:09,609
+The terminal window is here so that I can run my script.
+
+25
+00:01:09,609 --> 00:01:12,504
+Generally, I can't write a whole lot of code in one go
+
+26
+00:01:12,504 --> 00:01:16,224
+because something will go wrong and I'll need to find the issue and debug it.
+
+27
+00:01:16,224 --> 00:01:18,564
+When there is an error it will show up here,
+
+28
+00:01:18,564 --> 00:01:20,560
+in the terminal for me to read.
+
+29
+00:01:20,560 --> 00:01:22,975
+I make small changes to the code in the text editor,
+
+30
+00:01:22,974 --> 00:01:25,359
+then run the script to see the output.
+
+31
+00:01:25,359 --> 00:01:31,230
+If I see a problem I'll try to fix it or if things seem to be working, I'll move on.
+
+32
+00:01:31,230 --> 00:01:35,340
+I've also got the Udacity classroom and some documentation open in my browser.
+
+33
+00:01:35,340 --> 00:01:37,570
+Normally, I'll need a browser open to look up
+
+34
+00:01:37,569 --> 00:01:41,419
+documentation or to search for the solution to a bug I encounter along the way.
+

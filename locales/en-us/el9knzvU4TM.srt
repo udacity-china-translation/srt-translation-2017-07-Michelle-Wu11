@@ -1,0 +1,132 @@
+﻿1
+00:00:00,000 --> 00:00:02,560
+You've learned a lot of Python so far.
+
+2
+00:00:02,560 --> 00:00:05,679
+You know how to represent numerical and text data and you know
+
+3
+00:00:05,679 --> 00:00:09,529
+how historic collections of data and lists sets and dictionaries.
+
+4
+00:00:09,529 --> 00:00:13,059
+Yes, you've collected a set of tools for working with data.
+
+5
+00:00:13,060 --> 00:00:15,160
+You can use Python's built-in methods and
+
+6
+00:00:15,160 --> 00:00:18,160
+functions and you can write functions of your own.
+
+7
+00:00:18,160 --> 00:00:22,780
+You can iterate with loops and make conditional decisions with if and else.
+
+8
+00:00:22,780 --> 00:00:26,476
+With these tools, you can solve most programming problems.
+
+9
+00:00:26,475 --> 00:00:28,599
+Sure, there's more to Python than all we've covered
+
+10
+00:00:28,600 --> 00:00:31,355
+so far and we'll get to more topics later on.
+
+11
+00:00:31,355 --> 00:00:33,158
+But now, it's time to apply this course you've
+
+12
+00:00:33,158 --> 00:00:35,850
+learned so you can practice the craft of programming.
+
+13
+00:00:35,850 --> 00:00:39,145
+That's right. Programming is more than just syntax.
+
+14
+00:00:39,145 --> 00:00:42,095
+To solve a problem you need to define it first.
+
+15
+00:00:42,094 --> 00:00:44,320
+For example, you'll need to think about inputs to
+
+16
+00:00:44,320 --> 00:00:47,560
+the program and the results that you should give as output.
+
+17
+00:00:47,560 --> 00:00:49,570
+Once you thought through the goals of your program,
+
+18
+00:00:49,570 --> 00:00:53,679
+you need to think about how to break the program down into smaller pieces.
+
+19
+00:00:53,679 --> 00:00:57,744
+Then, you need to evaluate your plan to make sure it solves the original problem.
+
+20
+00:00:57,744 --> 00:01:00,039
+I often find that when I plan a new program,
+
+21
+00:01:00,039 --> 00:01:02,875
+I realize that the problem is more complicated than I had assumed.
+
+22
+00:01:02,875 --> 00:01:06,689
+Planning before coding, helps me understand the problem better.
+
+23
+00:01:06,689 --> 00:01:09,870
+There are other things to keep in mind when you do begin coding.
+
+24
+00:01:09,870 --> 00:01:12,189
+You want to write some test cases so that you
+
+25
+00:01:12,189 --> 00:01:15,034
+can check that your code does what it's supposed to do.
+
+26
+00:01:15,034 --> 00:01:17,468
+You also need to make your code readable.
+
+27
+00:01:17,468 --> 00:01:21,089
+If your code is so complicated that you could only just understand it,
+
+28
+00:01:21,090 --> 00:01:24,460
+as you write it, you have no hope of understanding it later on.
+
+29
+00:01:24,459 --> 00:01:26,954
+Before we move on to the next topics,
+
+30
+00:01:26,954 --> 00:01:29,920
+there will be a lab that lets you practice these skills.
+
+31
+00:01:29,920 --> 00:01:31,587
+Good luck. As you work,
+
+32
+00:01:31,587 --> 00:01:33,895
+remember to break problems into smaller pieces,
+
+33
+00:01:33,894 --> 00:01:38,000
+to plan, and to focus on readability. We'll see you soon.
+

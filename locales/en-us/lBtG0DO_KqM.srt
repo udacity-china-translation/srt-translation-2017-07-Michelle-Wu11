@@ -1,0 +1,60 @@
+﻿1
+00:00:00,000 --> 00:00:02,935
+We've used several useful string methods so far,
+
+2
+00:00:02,935 --> 00:00:04,474
+but where did they come from?
+
+3
+00:00:04,474 --> 00:00:08,589
+You can learn which methods the different types offer in Python's official documentation.
+
+4
+00:00:08,589 --> 00:00:11,144
+Here's the count method we just used.
+
+5
+00:00:11,144 --> 00:00:16,160
+Notice how the documentation mentions two optional arguments, start and end.
+
+6
+00:00:16,160 --> 00:00:18,329
+You can use these to limit the counts to occurrences
+
+7
+00:00:18,329 --> 00:00:20,954
+that appear within specified sections of a string.
+
+8
+00:00:20,954 --> 00:00:22,754
+Throughout the documentation,
+
+9
+00:00:22,754 --> 00:00:26,160
+optional arguments are indicated with square brackets like these.
+
+10
+00:00:26,160 --> 00:00:29,274
+Any arguments surrounded by square brackets are optional.
+
+11
+00:00:29,274 --> 00:00:31,834
+The documentation tends to be terse and precise,
+
+12
+00:00:31,835 --> 00:00:33,960
+but it's your most valuable resource.
+
+13
+00:00:33,960 --> 00:00:35,399
+Don't be afraid to use it.
+
+14
+00:00:35,399 --> 00:00:38,759
+Try out some of the other string methods that are listed in the documentation.
+
+15
+00:00:38,759 --> 00:00:41,369
+I've included a link to this section of the docs below this video.
+

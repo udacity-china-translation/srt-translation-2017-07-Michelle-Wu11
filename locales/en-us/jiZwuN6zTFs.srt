@@ -1,0 +1,128 @@
+﻿1
+00:00:00,000 --> 00:00:05,105
+We did it. Putting the work between us and that includes you,
+
+2
+00:00:05,105 --> 00:00:07,799
+we managed to get our Wikipedia crawler up and running.
+
+3
+00:00:07,799 --> 00:00:09,414
+Let's review how we did it.
+
+4
+00:00:09,414 --> 00:00:14,254
+The very first thing we did was to try out clicking the wikipedia links by hand.
+
+5
+00:00:14,255 --> 00:00:17,940
+We came to understand what we were trying to achieve with our program.
+
+6
+00:00:17,940 --> 00:00:19,620
+Next, we did some learning.
+
+7
+00:00:19,620 --> 00:00:22,600
+We found out about the structure of the input data HTML,
+
+8
+00:00:22,600 --> 00:00:26,005
+and we researched useful Python packages that would help us process it.
+
+9
+00:00:26,004 --> 00:00:27,894
+Next, we designed a program,
+
+10
+00:00:27,894 --> 00:00:29,864
+but without coding it up yet.
+
+11
+00:00:29,864 --> 00:00:32,564
+We made decisions about the kind of loop to use,
+
+12
+00:00:32,564 --> 00:00:34,304
+the data structures that we would need,
+
+13
+00:00:34,304 --> 00:00:37,619
+and decided the steps we would perform in that order.
+
+14
+00:00:37,619 --> 00:00:41,709
+There was also a specific extra item that's important if you're interacting with the Web.
+
+15
+00:00:41,710 --> 00:00:44,969
+We slowed the program down to avoid it being a nuisance.
+
+16
+00:00:44,969 --> 00:00:48,589
+Only after all that work did we start writing code.
+
+17
+00:00:48,590 --> 00:00:51,420
+Charlie wrote the continued call function that controls the while loop,
+
+18
+00:00:51,420 --> 00:00:54,020
+and laid out the main steps inside of that while loop.
+
+19
+00:00:54,020 --> 00:00:59,145
+In the process, she actually ended up planning a separate function, find_first_link.
+
+20
+00:00:59,145 --> 00:01:01,125
+She worked out what do we need to do,
+
+21
+00:01:01,125 --> 00:01:03,179
+but not actually how to do it.
+
+22
+00:01:03,179 --> 00:01:07,670
+I was the one who wrote the find_first_link function following Charlie's specification.
+
+23
+00:01:07,670 --> 00:01:09,489
+I also tested everything to make sure that all that
+
+24
+00:01:09,489 --> 00:01:12,140
+worked on a variety of Wikipedia pages.
+
+25
+00:01:12,140 --> 00:01:14,459
+I iterated on the code that I had written
+
+26
+00:01:14,459 --> 00:01:16,890
+in order to make it work on every Wikipedia page that I found.
+
+27
+00:01:16,890 --> 00:01:19,560
+You can use these bullet points and
+
+28
+00:01:19,560 --> 00:01:22,784
+this example to help next time you're writing a program.
+
+29
+00:01:22,784 --> 00:01:24,554
+Depending on the work you're doing,
+
+30
+00:01:24,555 --> 00:01:26,130
+you might need to change the order,
+
+31
+00:01:26,129 --> 00:01:28,469
+or repeat the step more than once.
+
+32
+00:01:28,469 --> 00:01:33,000
+These are basic steps that you'll come back to again and again when you're programming.
+

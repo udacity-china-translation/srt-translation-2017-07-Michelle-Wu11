@@ -1,0 +1,44 @@
+﻿1
+00:00:00,000 --> 00:00:01,815
+We've come all the way to the end.
+
+2
+00:00:01,815 --> 00:00:03,389
+Well done for all of your hard work.
+
+3
+00:00:03,390 --> 00:00:05,334
+You've learned about types,
+
+4
+00:00:05,334 --> 00:00:09,214
+methods, functions, data structures and much more.
+
+5
+00:00:09,214 --> 00:00:11,789
+You've had practice writing your own code and seeing lots of
+
+6
+00:00:11,789 --> 00:00:16,019
+examples from short one-liners to the big case study about Wikipedia.
+
+7
+00:00:16,019 --> 00:00:20,074
+We think you're ready to start using Python in the real world.
+
+8
+00:00:20,074 --> 00:00:23,515
+Don't forget what you've learned about breaking problems into steps,
+
+9
+00:00:23,515 --> 00:00:25,890
+looking up documentation and testing your code.
+
+10
+00:00:25,890 --> 00:00:27,563
+Wherever it may take you next,
+
+11
+00:00:27,562 --> 00:00:29,269
+enjoy coding in Python.
+

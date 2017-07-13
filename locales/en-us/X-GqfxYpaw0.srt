@@ -1,0 +1,52 @@
+﻿1
+00:00:00,000 --> 00:00:02,830
+I tried the new and improved link extraction code,
+
+2
+00:00:02,830 --> 00:00:06,490
+on this article by Yoshiharu Yamaguchi.
+
+3
+00:00:06,490 --> 00:00:10,650
+I expected the extraction code to find this link to Osaka, but instead,
+
+4
+00:00:10,650 --> 00:00:13,576
+it found this little question mark which is actually a link
+
+5
+00:00:13,576 --> 00:00:16,649
+to the Wikipedia page about Japanese character sets.
+
+6
+00:00:16,649 --> 00:00:19,854
+Technically, beautiful suit found the right link.
+
+7
+00:00:19,855 --> 00:00:22,859
+But once again, this is not what I really want.
+
+8
+00:00:22,859 --> 00:00:25,294
+The same behavior can lead to other bugs too.
+
+9
+00:00:25,295 --> 00:00:29,545
+If the first link in the article is a link to a footnote or a citation for example,
+
+10
+00:00:29,545 --> 00:00:31,925
+that's what the link extractor will find.
+
+11
+00:00:31,925 --> 00:00:33,465
+What we really want to do though,
+
+12
+00:00:33,465 --> 00:00:36,400
+is to find what first linked us to an ordinary Wikipedia article,
+
+13
+00:00:36,399 --> 00:00:39,000
+not to a help page. How can we do that?
+

@@ -1,0 +1,36 @@
+﻿1
+00:00:00,000 --> 00:00:02,984
+Nice work so far. You're starting to get to know
+
+2
+00:00:02,984 --> 00:00:06,333
+Python syntax and use data types including integers,
+
+3
+00:00:06,333 --> 00:00:08,322
+booleans, floats, and strings.
+
+4
+00:00:08,321 --> 00:00:10,574
+You've called some of Python's built-in functions,
+
+5
+00:00:10,574 --> 00:00:13,574
+compared values, and assigned values to variables.
+
+6
+00:00:13,574 --> 00:00:17,214
+All of these goals will be useful as you continue to learn and program in Python.
+
+7
+00:00:17,214 --> 00:00:19,905
+Next, you'll start to write your own programs,
+
+8
+00:00:19,905 --> 00:00:22,920
+complete with functions and conditional statements.
+
+9
+00:00:22,920 --> 00:00:24,330
+We'll see you in the next section.
+

@@ -1,0 +1,120 @@
+﻿1
+00:00:00,000 --> 00:00:03,254
+I'll test the link extraction code on this article about PICALM,
+
+2
+00:00:03,254 --> 00:00:04,995
+which is a protein, apparently.
+
+3
+00:00:04,995 --> 00:00:07,050
+I'll go through the process of downloading and
+
+4
+00:00:07,049 --> 00:00:09,434
+soupifying the HTML again with this article.
+
+5
+00:00:09,435 --> 00:00:13,060
+Using the up key on my keyboard saves me a lot of time.
+
+6
+00:00:13,060 --> 00:00:17,535
+Hmm. So the first link in the article is to the protein article,
+
+7
+00:00:17,535 --> 00:00:21,175
+but our code found the sling to geneontology.org.
+
+8
+00:00:21,175 --> 00:00:23,190
+What went wrong? Let's think about it.
+
+9
+00:00:23,190 --> 00:00:42,176
+It took me a few minutes of searching,
+
+10
+00:00:42,176 --> 00:00:45,519
+but I eventually found the geneontology link here in the sidebar.
+
+11
+00:00:45,520 --> 00:00:47,885
+When I look at this anchor tag in the developer tools,
+
+12
+00:00:47,884 --> 00:00:53,869
+I see that it's part of a paragraph and that paragraph is part of the div we care about.
+
+13
+00:00:53,869 --> 00:00:56,159
+This is technically what we asked Beautiful Soup for,
+
+14
+00:00:56,159 --> 00:00:57,839
+but this isn't the link we want.
+
+15
+00:00:57,840 --> 00:00:59,270
+Let's look at the link we do want,
+
+16
+00:00:59,270 --> 00:01:04,490
+protein, so we can guess why Beautiful Soup didn't find it.
+
+17
+00:01:05,299 --> 00:01:10,689
+OK. So the protein link is inside of a paragraph tag,
+
+18
+00:01:10,689 --> 00:01:11,926
+and the paragraph tag,
+
+19
+00:01:11,926 --> 00:01:13,570
+if we scroll up far enough,
+
+20
+00:01:13,569 --> 00:01:15,939
+is also inside of the content div.
+
+21
+00:01:15,939 --> 00:01:20,709
+But this protein link comes farther down the HTML document than the infobox does.
+
+22
+00:01:20,709 --> 00:01:22,000
+So even though the infobox is
+
+23
+00:01:22,000 --> 00:01:25,043
+a distant descendant of the div compared to the protein link,
+
+24
+00:01:25,043 --> 00:01:26,989
+Beautiful Soup found it first.
+
+25
+00:01:26,989 --> 00:01:30,184
+It seems like this problem is more complicated than we assumed.
+
+26
+00:01:30,185 --> 00:01:33,204
+We're not just looking for the first link in the first paragraph,
+
+27
+00:01:33,204 --> 00:01:36,069
+we're looking for the first link that's in the first paragraph
+
+28
+00:01:36,069 --> 00:01:39,614
+that isn't also part of an infobox or something weird like that.
+
+29
+00:01:39,614 --> 00:01:41,844
+Let's go back to the Beautiful Soup documentation
+
+30
+00:01:41,844 --> 00:01:44,140
+and see if there is any mention of a situation like this.
+

@@ -1,0 +1,68 @@
+﻿1
+00:00:00,000 --> 00:00:02,310
+Next, you'll practice reading and trying to
+
+2
+00:00:02,310 --> 00:00:04,919
+understand Python code that's already been written.
+
+3
+00:00:04,919 --> 00:00:07,019
+Whenever you're programming, you need to think about
+
+4
+00:00:07,019 --> 00:00:09,719
+the future readers and maintainers of the code you're writing.
+
+5
+00:00:09,720 --> 00:00:12,870
+In this section, you won't change what the code does,
+
+6
+00:00:12,869 --> 00:00:15,914
+but you'll first try to understand it in its current state,
+
+7
+00:00:15,914 --> 00:00:19,484
+then you'll make it easy to use, read and maintain.
+
+8
+00:00:19,484 --> 00:00:23,725
+Reading and refactoring code are important skills for Python programmer.
+
+9
+00:00:23,725 --> 00:00:25,836
+What do you mean by refactoring, Charlie?
+
+10
+00:00:25,836 --> 00:00:31,195
+Factoring is another word for decomposing a complex problem into simpler parts.
+
+11
+00:00:31,195 --> 00:00:33,855
+You practiced that earlier on this course durating problem.
+
+12
+00:00:33,854 --> 00:00:39,529
+Refactoring just means doing this decomposition process on code that already exists.
+
+13
+00:00:39,530 --> 00:00:41,384
+It's like reorganizing the workshop.
+
+14
+00:00:41,384 --> 00:00:46,240
+To work efficiently, you need to tidy up so you can find each tool as you need it.
+
+15
+00:00:46,240 --> 00:00:48,030
+In general, keeping you on top of
+
+16
+00:00:48,030 --> 00:00:51,620
+the organization of your code will make it easier to maintain.
+
+17
+00:00:51,619 --> 00:00:53,000
+You'll thank yourself later.
+

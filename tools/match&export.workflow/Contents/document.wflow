@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>419</string>
+	<key>AMApplicationVersion</key>
+	<string>2.6</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>Run AppleScript</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}		set theDirectory to quoted form of POSIX path of (choose folder with prompt "Select Search Directory")	set theDestination to quoted form of POSIX path of (choose folder with prompt "Select Directory to Copy Files")		tell application "Numbers"		tell front document to tell active sheet						tell (first table whose selection range's class is range)				set theList to the value of every cell			end tell						repeat with theItem in theList				if contents of theItem is not {""} then					do shell script "find " &amp; theDirectory &amp; " -iname '" &amp; theItem &amp; "*' -exec cp {} " &amp; theDestination &amp; " \\;"				end if			end repeat					end tell	end tell		return inputend run# see https://discussions.apple.com/thread/5528059?tstart=0</string>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}		set theDirectory to quoted form of POSIX path of (choose folder with prompt "Select Search Directory")	set theDestination to quoted form of POSIX path of (choose folder with prompt "Select Directory to Copy Files")		tell application "Numbers"		tell front document to tell active sheet						tell (first table whose selection range's class is range)				set theList to the value of every cell			end tell						repeat with theItem in theList				if contents of theItem is not {""} then					do shell script "find " &amp; theDirectory &amp; " -iname '" &amp; theItem &amp; "*' -exec cp {} " &amp; theDestination &amp; " \\;"				end if			end repeat					end tell	end tell		return inputend run# see https://discussions.apple.com/thread/5528059?tstart=0</string>
+					<key>temporary items path</key>
+					<string>/var/folders/jy/2q2md9vx3k74gb_0fpvdf52h0000gn/T/4882FEA9-9B94-4E06-A4C2-3EBC6FDBE70B/1/com.apple.Automator.RunScript</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>6533200A-2856-410C-9F3A-2C3877AD5C6A</string>
+				<key>Keywords</key>
+				<array>
+					<string>Run</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>FB9C1711-349E-42C2-BB05-2DBAA57932A5</string>
+				<key>UUID</key>
+				<string>4560C957-273F-42E4-B259-1CD8C73A1A6E</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>378.500000:248.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict/>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.workflow</string>
+	</dict>
+</dict>
+</plist>

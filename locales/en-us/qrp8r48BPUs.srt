@@ -1,0 +1,80 @@
+﻿1
+00:00:00,000 --> 00:00:04,724
+When you're coding, it's tempting to try writing a program that does everything.
+
+2
+00:00:04,724 --> 00:00:07,964
+Typically, you'll be coding something that you thought was simple,
+
+3
+00:00:07,964 --> 00:00:10,150
+and then a new idea arises.
+
+4
+00:00:10,150 --> 00:00:11,259
+You slide it right in,
+
+5
+00:00:11,259 --> 00:00:13,657
+because it makes sense to you here and now.
+
+6
+00:00:13,657 --> 00:00:16,364
+Before you know it, your code ends up very long,
+
+7
+00:00:16,364 --> 00:00:20,209
+quite complicated, and basically impossible to debug.
+
+8
+00:00:20,210 --> 00:00:23,339
+You really don't want such a big code block.
+
+9
+00:00:23,339 --> 00:00:26,894
+Your program might be full of clever ideas and slick implementation,
+
+10
+00:00:26,894 --> 00:00:29,189
+but it's impossible to read and you simply can't
+
+11
+00:00:29,190 --> 00:00:31,859
+reuse all that great code somewhere else.
+
+12
+00:00:31,859 --> 00:00:35,859
+This is why it's important to plan your ideas before you start coding.
+
+13
+00:00:35,859 --> 00:00:38,707
+That one great idea you're trying to implement,
+
+14
+00:00:38,707 --> 00:00:42,339
+it's almost certainly got several parts, multiple steps,
+
+15
+00:00:42,340 --> 00:00:44,922
+or different cases that can be split apart,
+
+16
+00:00:44,921 --> 00:00:47,064
+worked on, and put back together again.
+
+17
+00:00:47,064 --> 00:00:50,189
+Thinking about the pieces of the problem you're solving before
+
+18
+00:00:50,189 --> 00:00:53,849
+your fingers even touch the keyboard means you can lay plans,
+
+19
+00:00:53,850 --> 00:00:57,240
+split up the work, and plan how to test your code early on.
+
+20
+00:00:57,240 --> 00:00:58,660
+Let's try an example.
+

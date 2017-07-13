@@ -1,0 +1,68 @@
+﻿1
+00:00:00,000 --> 00:00:04,865
+I'll calculate the average of these numbers by adding them up and dividing by three.
+
+2
+00:00:04,865 --> 00:00:07,589
+I'll use the print function to see the result.
+
+3
+00:00:07,589 --> 00:00:11,809
+Hmm.
+
+4
+00:00:11,810 --> 00:00:15,419
+This is not what I expected. It's an error message.
+
+5
+00:00:15,419 --> 00:00:16,614
+It's a bit disappointing,
+
+6
+00:00:16,614 --> 00:00:20,134
+but hopefully the error message will explain the issue.
+
+7
+00:00:20,135 --> 00:00:22,480
+The bottom line says that I made
+
+8
+00:00:22,480 --> 00:00:27,554
+a syntax error and the caret points to the relevant line of the code.
+
+9
+00:00:27,554 --> 00:00:34,000
+So, it looks like I made a typo and left out the first parenthesis in the call to print.
+
+10
+00:00:34,000 --> 00:00:35,829
+I'll fix it and try again.
+
+11
+00:00:35,829 --> 00:00:41,484
+OK, good. It worked this time.
+
+12
+00:00:41,484 --> 00:00:45,659
+Great. Fortunately, this error message was pretty straightforward.
+
+13
+00:00:45,659 --> 00:00:47,529
+This won't always be the case though.
+
+14
+00:00:47,530 --> 00:00:50,185
+Sometimes you'll get errors that are more difficult to read.
+
+15
+00:00:50,185 --> 00:00:51,795
+They can still be helpful though.
+
+16
+00:00:51,795 --> 00:00:53,984
+If you get an error that you don't understand,
+
+17
+00:00:53,984 --> 00:00:58,000
+copy it into a search engine to get more information about what has happened.
+

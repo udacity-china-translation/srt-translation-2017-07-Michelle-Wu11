@@ -1,0 +1,48 @@
+﻿1
+00:00:00,000 --> 00:00:02,379
+Hey, well done on your work.
+
+2
+00:00:02,379 --> 00:00:04,459
+Yeah, you've done a great job.
+
+3
+00:00:04,459 --> 00:00:08,445
+You have used tuples and practice using default arguments in your functions.
+
+4
+00:00:08,445 --> 00:00:11,550
+You also learned to read data from a file and how to
+
+5
+00:00:11,550 --> 00:00:15,080
+input modules from the standard library and third party libraries.
+
+6
+00:00:15,080 --> 00:00:19,405
+You practiced using the Internet to figure out programming questions and problems.
+
+7
+00:00:19,405 --> 00:00:22,315
+This sounds simple but this is a really important skill.
+
+8
+00:00:22,315 --> 00:00:24,540
+I never program without using the Internet.
+
+9
+00:00:24,539 --> 00:00:26,000
+In the next section,
+
+10
+00:00:26,000 --> 00:00:28,039
+we'll be working through a case study together.
+
+11
+00:00:28,039 --> 00:00:30,000
+We'll be practicing a lot of the skills we've
+
+12
+00:00:30,000 --> 00:00:32,450
+discussed so far. It should be a lot of fun.
+

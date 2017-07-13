@@ -1,0 +1,88 @@
+﻿1
+00:00:00,000 --> 00:00:04,679
+So far, you've been working on a tame version of Python inside the Udacity classroom.
+
+2
+00:00:04,679 --> 00:00:06,599
+But in time, you're going to need to be able to run
+
+3
+00:00:06,599 --> 00:00:10,154
+Python scripts and experiment in the Python interpreter on your own computer.
+
+4
+00:00:10,154 --> 00:00:12,179
+So it's installation time. Ready?
+
+5
+00:00:12,179 --> 00:00:14,490
+Go for it.
+
+6
+00:00:14,490 --> 00:00:17,820
+Python is a popular open-source programming language.
+
+7
+00:00:17,820 --> 00:00:21,890
+Open-source means that it's free to download, change, and use.
+
+8
+00:00:21,890 --> 00:00:25,140
+And the fact that it's already popular means there are online instructions to
+
+9
+00:00:25,140 --> 00:00:28,664
+help you get it installed for most common operating systems.
+
+10
+00:00:28,664 --> 00:00:31,494
+Because it's popular and open-source,
+
+11
+00:00:31,495 --> 00:00:34,896
+there's a large global community working on developing Python.
+
+12
+00:00:34,896 --> 00:00:37,003
+For you, as a Python user,
+
+13
+00:00:37,003 --> 00:00:39,780
+that means there will be new versions coming out as
+
+14
+00:00:39,780 --> 00:00:43,399
+Python is improved by the community. Should we try this one?
+
+15
+00:00:43,399 --> 00:00:48,039
+Okay. You might find yourself needing to update Python from time to time,
+
+16
+00:00:48,039 --> 00:00:50,979
+especially if you're collaborating with other people as you write
+
+17
+00:00:50,979 --> 00:00:54,294
+Python programs that are compatible with the version of Python they're using.
+
+18
+00:00:54,295 --> 00:00:56,350
+Next, we'll introduce you to the Python we're
+
+19
+00:00:56,350 --> 00:00:58,679
+using so that our code is compatible with yours,
+
+20
+00:00:58,679 --> 00:01:02,600
+and we'll help you make sure you've got it up and running correctly. Need a hand?
+
+21
+00:01:02,600 --> 00:01:08,447
+Yes please. One, two, three.
+
+22
+00:01:08,447 --> 00:01:12,000
+Okay. We've got this one installed. Now it's your turn.
+

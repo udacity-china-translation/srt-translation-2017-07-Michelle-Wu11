@@ -1,0 +1,104 @@
+﻿1
+00:00:00,000 --> 00:00:03,540
+This code has the functionality that was specified for
+
+2
+00:00:03,540 --> 00:00:07,030
+each of the cases where the program should stop calling Wikipedia.
+
+3
+00:00:07,030 --> 00:00:12,970
+There's an IF or an ELIF statement with a print statement and a return statement.
+
+4
+00:00:12,970 --> 00:00:16,260
+If none of those cases apply, we return true.
+
+5
+00:00:16,260 --> 00:00:19,950
+This is my code and it definitely isn't the only way to make it work.
+
+6
+00:00:19,949 --> 00:00:22,734
+Your answer might be different and that's fine.
+
+7
+00:00:22,734 --> 00:00:25,879
+There's one place where I'd like to make an improvement to this code.
+
+8
+00:00:25,879 --> 00:00:31,079
+Here, I wrote the limit of 25 steps as part of the IF statement.
+
+9
+00:00:31,079 --> 00:00:35,049
+If I wanted to change the maximum number of steps allowed in the future,
+
+10
+00:00:35,049 --> 00:00:39,634
+I'd have to find this line in the code and change it manually to another value.
+
+11
+00:00:39,634 --> 00:00:42,640
+This kind of thing is called a magic number.
+
+12
+00:00:42,640 --> 00:00:46,564
+That just means a value included in the code with no explanation.
+
+13
+00:00:46,564 --> 00:00:52,530
+It's better to avoid using magic numbers and instead encode such a value in a variable.
+
+14
+00:00:52,530 --> 00:00:55,770
+This way the meaning of the number is much clearer to
+
+15
+00:00:55,770 --> 00:00:59,275
+somebody reading the code and it's easy to replace it if needed.
+
+16
+00:00:59,274 --> 00:01:00,869
+To remove this magic number,
+
+17
+00:01:00,869 --> 00:01:04,829
+I'm going to add a new argument to continue_crawl function,
+
+18
+00:01:04,829 --> 00:01:06,640
+the maximum number of steps allowed.
+
+19
+00:01:06,640 --> 00:01:08,969
+I'll call it max_steps.
+
+20
+00:01:08,969 --> 00:01:12,230
+I want to keep the functionality exactly the same as before.
+
+21
+00:01:12,230 --> 00:01:15,420
+So I'm going to give max_steps a default value of
+
+22
+00:01:15,420 --> 00:01:20,579
+25 and I'll replace the 25 in the code with max_steps.
+
+23
+00:01:20,579 --> 00:01:24,734
+Now, if Philip wants to use a different number of steps he can easily change it,
+
+24
+00:01:24,734 --> 00:01:25,799
+when he calls the function.
+
+25
+00:01:25,799 --> 00:01:28,418
+But IF just uses two arguments,
+
+26
+00:01:28,418 --> 00:01:31,000
+my default value of 25 will be the limit.
+

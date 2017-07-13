@@ -1,0 +1,96 @@
+﻿1
+00:00:00,000 --> 00:00:02,319
+Hello and welcome. I'm Charlie.
+
+2
+00:00:02,319 --> 00:00:05,984
+You're going to learn to write Python programs to solve practical problems.
+
+3
+00:00:05,985 --> 00:00:08,065
+And I'm Phillip. As Charlie said,
+
+4
+00:00:08,064 --> 00:00:10,140
+you'll be learning about Python but we'll also be
+
+5
+00:00:10,140 --> 00:00:13,225
+demonstrating the skills you need to be an effective programmer.
+
+6
+00:00:13,224 --> 00:00:16,359
+That's right. There's more to programming than just syntax.
+
+7
+00:00:16,359 --> 00:00:19,980
+For example, programmers need to be able to take an idea and turn it into
+
+8
+00:00:19,980 --> 00:00:24,120
+code and you'll need to be able to research solutions to novel problems.
+
+9
+00:00:24,120 --> 00:00:26,810
+First though, we should introduce ourselves better.
+
+10
+00:00:26,809 --> 00:00:28,544
+I've been using Python for seven years.
+
+11
+00:00:28,545 --> 00:00:30,155
+Mostly as a web developer.
+
+12
+00:00:30,155 --> 00:00:31,460
+I've worked on payment portals,
+
+13
+00:00:31,460 --> 00:00:35,310
+internationalizations, web scrapers and general back end work.
+
+14
+00:00:35,310 --> 00:00:38,388
+Python is also my go to language for solving random problems.
+
+15
+00:00:38,387 --> 00:00:40,248
+Even ones that aren't related to web development.
+
+16
+00:00:40,249 --> 00:00:43,395
+Yeah. Python is good for all sorts of things.
+
+17
+00:00:43,395 --> 00:00:45,855
+In my previous life, I was a mathematician.
+
+18
+00:00:45,854 --> 00:00:49,140
+My first big Python project was working on Sage which
+
+19
+00:00:49,140 --> 00:00:52,920
+is open source mathematical software that I was using for my research.
+
+20
+00:00:52,920 --> 00:00:55,350
+It was surprisingly easy to get started on contributing
+
+21
+00:00:55,350 --> 00:00:58,350
+to Sage and the community taught me a lot.
+
+22
+00:00:58,350 --> 00:01:00,640
+It sounds like we've had pretty different experiences.
+
+23
+00:01:00,640 --> 00:01:02,070
+Here's hoping that this is the start of
+
+24
+00:01:02,070 --> 00:01:05,310
+an exciting Python programming career for you. Let's get to it.
+
