@@ -1,0 +1,176 @@
+﻿1
+00:00:00,000 --> 00:00:02,319
+Hello and welcome.
+
+2
+00:00:02,319 --> 00:00:04,605
+Today we'll be learning all about version control,
+
+3
+00:00:04,605 --> 00:00:06,620
+and we'll be using the version control tool
+
+4
+00:00:06,620 --> 00:00:10,199
+Git to help us manage different versions of our project.
+
+5
+00:00:10,199 --> 00:00:12,809
+Now, before we dive into some of the nitty gritty details,
+
+6
+00:00:12,810 --> 00:00:16,199
+let me tell you a story, because who doesn't love story time?
+
+7
+00:00:16,199 --> 00:00:20,044
+Back in the day, my brother and his best friend would play games all the time.
+
+8
+00:00:20,045 --> 00:00:24,325
+But, one of their favorite board games was a popular World War II strategy board game.
+
+9
+00:00:24,324 --> 00:00:25,919
+The board game shows a map of the world,
+
+10
+00:00:25,920 --> 00:00:28,679
+and you put pieces on the board and move them around.
+
+11
+00:00:28,679 --> 00:00:32,630
+I didn't really care for the game all that much because it would take so long to play.
+
+12
+00:00:32,630 --> 00:00:35,565
+Sometimes, they'd be playing a single game for a day or more.
+
+13
+00:00:35,564 --> 00:00:38,958
+Now, because there's a big board with lots of pieces that move around,
+
+14
+00:00:38,959 --> 00:00:40,365
+if they had to pause the game,
+
+15
+00:00:40,365 --> 00:00:43,245
+they would snap a picture with their phone.
+
+16
+00:00:43,244 --> 00:00:45,009
+They'd use these pictures as save
+
+17
+00:00:45,009 --> 00:00:47,799
+points in case anything happened to the board or the pieces,
+
+18
+00:00:47,799 --> 00:00:49,779
+like someone bumping the table or the dog
+
+19
+00:00:49,780 --> 00:00:52,590
+coming along and knocking the pieces everywhere.
+
+20
+00:00:52,590 --> 00:00:53,950
+If there were a problem,
+
+21
+00:00:53,950 --> 00:00:55,660
+they could use a picture to recreate
+
+22
+00:00:55,659 --> 00:00:58,889
+the exact setup and jump back to that point in the game.
+
+23
+00:00:58,890 --> 00:01:01,395
+So each of these pictures is a save point.
+
+24
+00:01:01,395 --> 00:01:03,137
+The pictures record the time,
+
+25
+00:01:03,137 --> 00:01:06,670
+who took the picture, and the state and location of the pieces.
+
+26
+00:01:06,670 --> 00:01:11,680
+This idea of a save point is exactly what version control does.
+
+27
+00:01:11,680 --> 00:01:14,955
+You don't seem all that impressed.
+
+28
+00:01:14,954 --> 00:01:17,659
+Well, let me tell you that it's incredibly powerful and I
+
+29
+00:01:17,659 --> 00:01:20,978
+love having it because when you use version control,
+
+30
+00:01:20,978 --> 00:01:23,825
+you create safe points that save your project.
+
+31
+00:01:23,825 --> 00:01:26,350
+This lets you have the freedom to change absolutely anything about
+
+32
+00:01:26,349 --> 00:01:29,559
+your project and be confident that nothing will be lost.
+
+33
+00:01:29,560 --> 00:01:31,448
+Total security and total freedom,
+
+34
+00:01:31,448 --> 00:01:32,834
+who wouldn't want that?
+
+35
+00:01:32,834 --> 00:01:35,334
+And you get all of that with a version control system.
+
+36
+00:01:35,334 --> 00:01:37,058
+Sounds pretty awesome, right?
+
+37
+00:01:37,058 --> 00:01:38,515
+So hi, I'm Richard,
+
+38
+00:01:38,515 --> 00:01:40,870
+and I've been using version control for years,
+
+39
+00:01:40,870 --> 00:01:43,785
+and Git has saved me from countless sticky situations.
+
+40
+00:01:43,784 --> 00:01:47,289
+For example, one time I'd realized I deleted an important image,
+
+41
+00:01:47,290 --> 00:01:51,790
+but I was able to recover it because the project was being tracked with version control.
+
+42
+00:01:51,790 --> 00:01:56,030
+It's an incredibly helpful tool and you'll grow to depend on it as much as I do.
+
+43
+00:01:56,030 --> 00:01:57,579
+You ready to get started?
+
+44
+00:01:57,578 --> 00:01:59,000
+Awesome, let's get going.
+

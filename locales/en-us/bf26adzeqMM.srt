@@ -1,0 +1,124 @@
+﻿1
+00:00:00,000 --> 00:00:02,040
+When I was first learning Git,
+
+2
+00:00:02,040 --> 00:00:06,985
+one of the hardest things for me to pick up on were all the various terms that were used.
+
+3
+00:00:06,985 --> 00:00:10,150
+For those of you that see a big long list of terms and zone out,
+
+4
+00:00:10,150 --> 00:00:13,109
+don't worry, just skim the list for big picture ideas.
+
+5
+00:00:13,109 --> 00:00:16,364
+If you're like me and like knowing the terms that are being used,
+
+6
+00:00:16,364 --> 00:00:18,139
+then this section's for you.
+
+7
+00:00:18,140 --> 00:00:22,310
+These terms are the vocabulary we use to talk about version control,
+
+8
+00:00:22,309 --> 00:00:24,195
+features of a version control system,
+
+9
+00:00:24,195 --> 00:00:28,875
+changes we like to make to our code while it's in a version control system, and so on.
+
+10
+00:00:28,875 --> 00:00:30,585
+Some terms are, well,
+
+11
+00:00:30,585 --> 00:00:34,155
+version control system, source code manager, commit,
+
+12
+00:00:34,155 --> 00:00:37,125
+repository, repo, checkout, working directory, staging area,
+
+13
+00:00:37,125 --> 00:00:38,639
+the index, staging index, SHA, branching,
+
+14
+00:00:38,639 --> 00:00:40,435
+merging, merge conflicts, remotes.
+
+15
+00:00:40,435 --> 00:00:42,785
+Get these things out of here.
+
+16
+00:00:42,784 --> 00:00:46,314
+So yeah, the terminology can be a bit overwhelming.
+
+17
+00:00:46,314 --> 00:00:48,989
+There are a number of good handouts around the web, though,
+
+18
+00:00:48,990 --> 00:00:50,545
+but I've created one for you that lists
+
+19
+00:00:50,545 --> 00:00:55,234
+the most important terms along with a brief definition as a companion to this course.
+
+20
+00:00:55,234 --> 00:00:58,530
+I highly recommend that you download this right now.
+
+21
+00:00:58,530 --> 00:01:01,965
+Place it on your desktop, or print it out and have it on your desk.
+
+22
+00:01:01,965 --> 00:01:05,335
+Use it as we progress through the course to review key terms.
+
+23
+00:01:05,334 --> 00:01:07,199
+At first, the words might not make any sense
+
+24
+00:01:07,200 --> 00:01:09,409
+because this is one of those chicken and egg scenarios.
+
+25
+00:01:09,409 --> 00:01:12,733
+Should I learn the terminology first or how to actually use Git?
+
+26
+00:01:12,733 --> 00:01:15,149
+I think it's easiest if you learn Git if
+
+27
+00:01:15,150 --> 00:01:17,900
+you have some familiarity with the terms it uses.
+
+28
+00:01:17,900 --> 00:01:20,989
+In addition, it might be helpful for you to create your own cheatsheet.
+
+29
+00:01:20,989 --> 00:01:24,570
+If you get stuck on a word or idea, just write it down.
+
+30
+00:01:24,569 --> 00:01:28,139
+So if you get a handle on version control's somewhat foreign terminology,
+
+31
+00:01:28,140 --> 00:01:31,290
+you're already a giant step towards becoming a Git master.
+

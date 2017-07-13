@@ -1,0 +1,48 @@
+﻿1
+00:00:00,000 --> 00:00:03,270
+The dash dash stat flag doesn't change the output as
+
+2
+00:00:03,270 --> 00:00:06,589
+drastically as the dash dash oneline flag did.
+
+3
+00:00:06,589 --> 00:00:09,990
+It just adds a new section down at the bottom of each commit.
+
+4
+00:00:09,990 --> 00:00:12,974
+This gives us a closer look at what was changed in the commit.
+
+5
+00:00:12,974 --> 00:00:15,958
+This section down here shows us the summary of changes.
+
+6
+00:00:15,958 --> 00:00:19,964
+In this commit, one file was changed and five lines were added.
+
+7
+00:00:19,964 --> 00:00:22,190
+But what file was changed?
+
+8
+00:00:22,190 --> 00:00:24,375
+It lists the modified files above.
+
+9
+00:00:24,375 --> 00:00:26,850
+The CSS file was changed.
+
+10
+00:00:26,850 --> 00:00:33,314
+This commit modified two files with a total of 91 insertions and 58 deletions.
+
+11
+00:00:33,314 --> 00:00:37,289
+31 of the lines were added to the CSS file while
+
+12
+00:00:37,289 --> 00:00:42,000
+118 lines were either added or deleted in index.html.
+

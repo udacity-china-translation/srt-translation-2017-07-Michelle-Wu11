@@ -1,0 +1,176 @@
+﻿1
+00:00:00,000 --> 00:00:04,695
+Let's say we have a repository that is made up of these three files.
+
+2
+00:00:04,695 --> 00:00:07,724
+We want to start using version control in this project.
+
+3
+00:00:07,724 --> 00:00:09,754
+So we create a new git repository.
+
+4
+00:00:09,755 --> 00:00:11,069
+In a git repository,
+
+5
+00:00:11,069 --> 00:00:13,920
+there are three main areas we need to know about.
+
+6
+00:00:13,919 --> 00:00:15,833
+First, there's the working directory,
+
+7
+00:00:15,833 --> 00:00:17,556
+then there's the staging index,
+
+8
+00:00:17,556 --> 00:00:19,649
+and last is the repository.
+
+9
+00:00:19,649 --> 00:00:22,129
+So we have these three distinct areas in git.
+
+10
+00:00:22,129 --> 00:00:23,750
+When you're first working with git,
+
+11
+00:00:23,750 --> 00:00:26,984
+it can be a bit hard to realize that there are these three distinct areas,
+
+12
+00:00:26,984 --> 00:00:31,524
+because you don't really see any visible change to the files on your computer.
+
+13
+00:00:31,524 --> 00:00:33,795
+Git manages these three different areas though,
+
+14
+00:00:33,795 --> 00:00:36,450
+and we'll be using the git shell command to interact
+
+15
+00:00:36,450 --> 00:00:39,650
+with files and move them from section to section.
+
+16
+00:00:39,649 --> 00:00:42,820
+Okay, so we've created this empty git repository,
+
+17
+00:00:42,820 --> 00:00:46,725
+we can tell it's an empty repository because the repository section is empty.
+
+18
+00:00:46,725 --> 00:00:49,785
+Git knows about files that it hasn't seen before.
+
+19
+00:00:49,784 --> 00:00:52,709
+Let's indicate that a file is new with a green star.
+
+20
+00:00:52,710 --> 00:00:56,465
+Git keeps track of files by adding them to the repository.
+
+21
+00:00:56,465 --> 00:00:59,535
+We can't move these files right into the repository though,
+
+22
+00:00:59,534 --> 00:01:02,375
+they have to be moved to the staging index first.
+
+23
+00:01:02,375 --> 00:01:05,680
+So will use git to move the changes to the staging index.
+
+24
+00:01:05,680 --> 00:01:07,845
+Remember that the staging index is where you can place
+
+25
+00:01:07,844 --> 00:01:10,685
+all of the files that are about to be committed.
+
+26
+00:01:10,685 --> 00:01:13,930
+Now let's commit them, which moves them into the repository.
+
+27
+00:01:13,930 --> 00:01:17,485
+Now the files in their current state are safe.
+
+28
+00:01:17,484 --> 00:01:20,745
+Let's say we then make some changes to our sites CSS file.
+
+29
+00:01:20,745 --> 00:01:24,510
+Git sees this change and marks the file as modified.
+
+30
+00:01:24,510 --> 00:01:26,609
+We take the same steps to move the changes in
+
+31
+00:01:26,609 --> 00:01:30,150
+the CSS file to the staging index, and then commit them.
+
+32
+00:01:30,150 --> 00:01:31,215
+I think you get the idea,
+
+33
+00:01:31,215 --> 00:01:33,284
+but let's look at it one more time.
+
+34
+00:01:33,284 --> 00:01:36,659
+Let's say the HTML and JavaScript files have changed.
+
+35
+00:01:36,659 --> 00:01:39,729
+Remember that git knows what files are new or changed.
+
+36
+00:01:39,730 --> 00:01:43,109
+We'll move these changes to the staging index, and then commit them.
+
+37
+00:01:43,109 --> 00:01:47,028
+So the process is, add a new file or modify an existing file,
+
+38
+00:01:47,028 --> 00:01:49,155
+move the changes to the staging index,
+
+39
+00:01:49,155 --> 00:01:52,162
+commit the changes to the repository. You got it?
+
+40
+00:01:52,162 --> 00:01:54,548
+Okay then, what about this scenario,
+
+41
+00:01:54,549 --> 00:01:59,665
+let's say the HTML and CSS files have changed and we staged the changes.
+
+42
+00:01:59,665 --> 00:02:03,015
+If we then decide to modify the HTML file again,
+
+43
+00:02:03,015 --> 00:02:05,355
+what would happen if we made a commit right now?
+
+44
+00:02:05,355 --> 00:02:07,320
+Seems like a good time for a quiz.
+

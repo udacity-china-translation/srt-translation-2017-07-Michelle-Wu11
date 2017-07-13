@@ -1,0 +1,60 @@
+﻿1
+00:00:00,000 --> 00:00:03,240
+We just covered a ton of information in this lesson.
+
+2
+00:00:03,240 --> 00:00:06,120
+We looked at using git add to stage content.
+
+3
+00:00:06,120 --> 00:00:10,144
+We used git commit to actually commit changes to the repository.
+
+4
+00:00:10,144 --> 00:00:13,324
+We also looked at what makes a good commit message.
+
+5
+00:00:13,324 --> 00:00:15,809
+Then we learned about how helpful git diff can
+
+6
+00:00:15,810 --> 00:00:19,054
+be to help us recall changes that haven't been committed yet.
+
+7
+00:00:19,054 --> 00:00:21,210
+And last, we just looked at the git ignore
+
+8
+00:00:21,210 --> 00:00:24,185
+file to tell git what files it should not track.
+
+9
+00:00:24,184 --> 00:00:26,849
+You now know how to create or clone a repo,
+
+10
+00:00:26,850 --> 00:00:28,500
+how to make professional commits with
+
+11
+00:00:28,500 --> 00:00:33,344
+clear descriptive commit messages and then how to review existing commits.
+
+12
+00:00:33,344 --> 00:00:38,344
+With this knowledge, you can jump in and start working on any git repository.
+
+13
+00:00:38,344 --> 00:00:41,579
+One powerful concept, we'll look at in the next lesson is branching.
+
+14
+00:00:41,579 --> 00:00:45,284
+Branching lets you work on a project in multiple different states
+
+15
+00:00:45,284 --> 00:00:49,209
+and it will take your git skills to the next level. Let's go check it out.
+

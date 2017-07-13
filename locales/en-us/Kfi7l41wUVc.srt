@@ -1,0 +1,96 @@
+﻿1
+00:00:00,000 --> 00:00:03,835
+Making commits to a repository can be nerve wracking.
+
+2
+00:00:03,835 --> 00:00:05,310
+What if I make a mistake?
+
+3
+00:00:05,309 --> 00:00:07,410
+What if I want to undo something I did in the past?
+
+4
+00:00:07,410 --> 00:00:09,224
+Or what if I want to totally erase
+
+5
+00:00:09,224 --> 00:00:13,449
+the last few commits because I'm positive they will never be used?
+
+6
+00:00:13,449 --> 00:00:15,599
+That's exactly what we're going to look at.
+
+7
+00:00:15,599 --> 00:00:19,140
+In this lesson we'll look at git commit --amend,
+
+8
+00:00:19,140 --> 00:00:22,050
+git revert, and git reset.
+
+9
+00:00:22,050 --> 00:00:24,069
+With git commit --amend,
+
+10
+00:00:24,068 --> 00:00:27,189
+you can alter the most recent commit.
+
+11
+00:00:27,190 --> 00:00:29,670
+You'd want to do this if you forgot to include a file
+
+12
+00:00:29,670 --> 00:00:32,685
+in the commit or had a typo in the commit message.
+
+13
+00:00:32,685 --> 00:00:37,400
+With git revert, you provide it the SHA of the commit that you want reverted.
+
+14
+00:00:37,399 --> 00:00:40,545
+The changes that were made in that commit are reversed.
+
+15
+00:00:40,545 --> 00:00:43,445
+So lines that were added in the commit will be deleted.
+
+16
+00:00:43,445 --> 00:00:45,524
+Don't worry though. We'll look at this in detail.
+
+17
+00:00:45,524 --> 00:00:49,244
+With git reset, you can actually delete commits.
+
+18
+00:00:49,244 --> 00:00:51,134
+Now you can't delete just any commit.
+
+19
+00:00:51,134 --> 00:00:53,250
+You have to delete commits in order.
+
+20
+00:00:53,250 --> 00:00:55,689
+But this is a potentially dangerous command
+
+21
+00:00:55,689 --> 00:00:58,884
+because you are removing items from the repository.
+
+22
+00:00:58,884 --> 00:01:01,215
+With these new commands, you'll have the git powers
+
+23
+00:01:01,215 --> 00:01:04,070
+to tackle anything your job can throw at you.
+
+24
+00:01:04,069 --> 00:01:07,000
+Let's look at git commits --amend flag.
+

@@ -1,0 +1,88 @@
+﻿1
+00:00:00,000 --> 00:00:04,290
+This is the lesson where we finally learn how to make commits of our very own.
+
+2
+00:00:04,290 --> 00:00:06,374
+Are you excited? Because I am.
+
+3
+00:00:06,373 --> 00:00:10,974
+We've laid the groundwork of learning the git init command to create a new repository,
+
+4
+00:00:10,974 --> 00:00:14,309
+the git clone command to copy an existing repository,
+
+5
+00:00:14,310 --> 00:00:17,054
+the git log command to review existing commits,
+
+6
+00:00:17,054 --> 00:00:21,644
+and the all important git status command to see the status of the repository.
+
+7
+00:00:21,644 --> 00:00:25,245
+As a side note, remember to have a download sheet with all the terms handy
+
+8
+00:00:25,245 --> 00:00:29,550
+during this lesson since we'll be using almost every term on that sheet.
+
+9
+00:00:29,550 --> 00:00:31,859
+So we have these as the foundation we'll
+
+10
+00:00:31,859 --> 00:00:34,798
+build on top of them in this lesson with git add,
+
+11
+00:00:34,798 --> 00:00:37,213
+git commit, and git diff.
+
+12
+00:00:37,213 --> 00:00:42,104
+With git add, you'll add files from the working directory to the staging index.
+
+13
+00:00:42,104 --> 00:00:45,089
+With git commit, you'll take files from the staging index and save
+
+14
+00:00:45,090 --> 00:00:48,515
+them in the repository which is what actually makes a commit.
+
+15
+00:00:48,515 --> 00:00:51,000
+The git diff command is really cool and will seem pretty
+
+16
+00:00:51,000 --> 00:00:54,500
+familiar actually since you've already seen its output before.
+
+17
+00:00:54,500 --> 00:00:58,655
+git diff displays the difference between two versions of a file.
+
+18
+00:00:58,655 --> 00:01:00,719
+Its output is exactly like the output of
+
+19
+00:01:00,719 --> 00:01:04,379
+the git log dash p command we used in the previous lesson.
+
+20
+00:01:04,379 --> 00:01:07,989
+So we've got a couple of new commands and one that's going to be very familiar.
+
+21
+00:01:07,989 --> 00:01:10,979
+Now before we can use the commit or diff commands we have to
+
+22
+00:01:10,980 --> 00:01:14,020
+learn how to use git add. So let's get cracking.
+

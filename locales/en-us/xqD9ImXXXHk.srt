@@ -1,0 +1,72 @@
+﻿1
+00:00:00,000 --> 00:00:03,944
+At its core, git records changes to files as commits.
+
+2
+00:00:03,944 --> 00:00:06,599
+These commits are all saved in a repository.
+
+3
+00:00:06,599 --> 00:00:09,359
+Everything else, things like the working directory branches and
+
+4
+00:00:09,359 --> 00:00:13,349
+SHAs are there to help make and reference commits.
+
+5
+00:00:13,349 --> 00:00:18,239
+As you've seen the terminology that version control uses is kind of cryptic at first.
+
+6
+00:00:18,239 --> 00:00:20,579
+Hopefully you had the hand out with you and reviewed it as you
+
+7
+00:00:20,579 --> 00:00:23,594
+went through the high level overview of how git it is used.
+
+8
+00:00:23,594 --> 00:00:27,204
+In the next section we're going to install and configure git.
+
+9
+00:00:27,204 --> 00:00:29,159
+Make sure to follow each of the steps in order
+
+10
+00:00:29,160 --> 00:00:32,070
+so that your computer will be configured like mine.
+
+11
+00:00:32,070 --> 00:00:34,530
+Now, configuring your terminal isn't required
+
+12
+00:00:34,530 --> 00:00:37,594
+for git to work correctly or to continue with this course.
+
+13
+00:00:37,594 --> 00:00:39,933
+You can do the entire course without this step,
+
+14
+00:00:39,933 --> 00:00:42,794
+but not only does it make it easier to use,
+
+15
+00:00:42,795 --> 00:00:45,260
+all professionals reconfigure their terminal.
+
+16
+00:00:45,259 --> 00:00:47,820
+The reconfiguration we'll be doing will add color to
+
+17
+00:00:47,820 --> 00:00:50,975
+the terminal and display specific git information.
+
+18
+00:00:50,975 --> 00:00:53,000
+Sounds good. Let's get to it.
+

@@ -1,0 +1,84 @@
+﻿1
+00:00:00,000 --> 00:00:04,378
+We're looking at the log of commits that have been made in this repository.
+
+2
+00:00:04,378 --> 00:00:07,649
+This is one commit, here is another.
+
+3
+00:00:07,650 --> 00:00:11,019
+Look at all of the information that the log is displaying.
+
+4
+00:00:11,019 --> 00:00:12,765
+It's showing the commits Shaw,
+
+5
+00:00:12,765 --> 00:00:14,737
+the person who made the commit,
+
+6
+00:00:14,737 --> 00:00:16,454
+the date the commit was made,
+
+7
+00:00:16,454 --> 00:00:18,809
+and the message for the commit.
+
+8
+00:00:18,809 --> 00:00:22,984
+This is just a short description of what changes were made in this commit.
+
+9
+00:00:22,984 --> 00:00:26,850
+Now these are just the first three or so commits that can fit on the screen.
+
+10
+00:00:26,850 --> 00:00:28,260
+There are plenty more.
+
+11
+00:00:28,260 --> 00:00:30,615
+How do I know that? The colon here
+
+12
+00:00:30,614 --> 00:00:33,420
+means that there are more lines of output to be displayed.
+
+13
+00:00:33,420 --> 00:00:35,520
+If you're familiar with the command line,
+
+14
+00:00:35,520 --> 00:00:38,845
+GIT uses the less program as its pager.
+
+15
+00:00:38,844 --> 00:00:41,729
+If you're not familiar with less or pagers that's no problem.
+
+16
+00:00:41,729 --> 00:00:44,739
+A pager is used to page through content.
+
+17
+00:00:44,740 --> 00:00:47,550
+This is just the command line e-way of scrolling.
+
+18
+00:00:47,549 --> 00:00:52,619
+Press either the J key or the down arrow to scroll down one line at a time.
+
+19
+00:00:52,619 --> 00:00:56,280
+To scroll up press the K key or the up arrow.
+
+20
+00:00:56,280 --> 00:01:01,314
+You'll know you've reached the very last commit when the colon changes to the word end.
+
+21
+00:01:01,314 --> 00:01:04,170
+To get out of the pager just press the Q key.
+

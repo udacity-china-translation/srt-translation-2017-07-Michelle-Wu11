@@ -1,0 +1,128 @@
+﻿1
+00:00:00,000 --> 00:00:03,915
+Here are the configuration file that I've downloaded and unzipped.
+
+2
+00:00:03,915 --> 00:00:06,890
+I need to move these files into the home directory.
+
+3
+00:00:06,889 --> 00:00:09,509
+The easiest way is to right click on the window and
+
+4
+00:00:09,509 --> 00:00:12,914
+choose Git Bash Here from the list of options.
+
+5
+00:00:12,914 --> 00:00:17,364
+This option shows up because I've already installed Git on this machine.
+
+6
+00:00:17,364 --> 00:00:21,000
+In the shell, just type cd and press enter.
+
+7
+00:00:21,000 --> 00:00:23,164
+This moves the shell to the home directory.
+
+8
+00:00:23,164 --> 00:00:25,235
+To open this director in Windows Explorer,
+
+9
+00:00:25,234 --> 00:00:27,934
+type start and a period.
+
+10
+00:00:27,934 --> 00:00:31,070
+I like being able to jump to this directory,
+
+11
+00:00:31,070 --> 00:00:33,710
+so I'll pin this to the quick access menu.
+
+12
+00:00:33,710 --> 00:00:40,490
+To do that right click on quick access and choose "Pin current folder to Quick access".
+
+13
+00:00:40,490 --> 00:00:43,585
+Now let me shift these windows around to organize them better.
+
+14
+00:00:43,585 --> 00:00:45,335
+Now that we have the home directory open,
+
+15
+00:00:45,335 --> 00:00:47,590
+we can move the configuration files over.
+
+16
+00:00:47,590 --> 00:00:51,465
+Select both items and drag them to the home directory window.
+
+17
+00:00:51,465 --> 00:00:54,135
+They're in the correct location.
+
+18
+00:00:54,134 --> 00:00:56,644
+Now they just need to be named correctly.
+
+19
+00:00:56,645 --> 00:01:00,550
+Both files need to have a dot at the beginning of their names.
+
+20
+00:01:00,549 --> 00:01:03,589
+Since Windows rename feature doesn't allow that,
+
+21
+00:01:03,590 --> 00:01:05,659
+we have to do it on the command line.
+
+22
+00:01:05,659 --> 00:01:11,914
+We'll use the mv command to rename bash_profile to.bash_profile.
+
+23
+00:01:11,915 --> 00:01:14,160
+We'll do the same thing with the folder.
+
+24
+00:01:14,159 --> 00:01:15,859
+We'll use the mv command to
+
+25
+00:01:15,859 --> 00:01:20,209
+rename you udacity-terminal-config to.udacity-terminal-config.
+
+26
+00:01:20,209 --> 00:01:23,939
+To see the changes we'll have to open a new shell.
+
+27
+00:01:23,938 --> 00:01:27,613
+So the shell is now configured with the correct content,
+
+28
+00:01:27,614 --> 00:01:31,230
+but I also like having a white background with black text,
+
+29
+00:01:31,230 --> 00:01:33,855
+so I click in the top left corner of the app,
+
+30
+00:01:33,855 --> 00:01:37,350
+choose options, and then update
+
+31
+00:01:37,349 --> 00:01:43,243
+the foreground color to black and the background color to white.
+
+32
+00:01:43,243 --> 00:01:46,430
+Perfect. Now everything is configured.
+

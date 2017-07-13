@@ -1,0 +1,52 @@
+﻿1
+00:00:00,000 --> 00:00:02,240
+We finally reached the end.
+
+2
+00:00:02,240 --> 00:00:03,704
+Can you believe it?
+
+3
+00:00:03,704 --> 00:00:06,935
+Think back to your former self when you first started this course.
+
+4
+00:00:06,934 --> 00:00:08,247
+The new and improved you,
+
+5
+00:00:08,247 --> 00:00:10,114
+now has Git superpowers.
+
+6
+00:00:10,115 --> 00:00:14,720
+You can create a GIT repository from scratch, make commits,
+
+7
+00:00:14,720 --> 00:00:18,890
+review the history of a repository, develop on branches,
+
+8
+00:00:18,890 --> 00:00:21,844
+merge branches together and handle any merge conflicts,
+
+9
+00:00:21,844 --> 00:00:24,849
+and then revert and reset commits.
+
+10
+00:00:24,850 --> 00:00:29,130
+Git and version control in general can be a challenging skill to acquire.
+
+11
+00:00:29,129 --> 00:00:30,589
+But now you've done it.
+
+12
+00:00:30,589 --> 00:00:32,570
+Congratulations.
+
+13
+00:00:32,570 --> 00:00:36,000
+Check out the ideas below on how you can start using your new skills.
+

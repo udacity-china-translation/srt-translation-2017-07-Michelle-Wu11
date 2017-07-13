@@ -1,0 +1,136 @@
+﻿1
+00:00:00,000 --> 00:00:04,544
+We've got here the three sections of our repository: the working directory,
+
+2
+00:00:04,544 --> 00:00:07,609
+the staging index, and the repository up at the top.
+
+3
+00:00:07,610 --> 00:00:10,714
+Let's say our repo currently has these commits in it,
+
+4
+00:00:10,714 --> 00:00:13,650
+with master currently pointing at the most recent commit.
+
+5
+00:00:13,650 --> 00:00:15,583
+We have HEAD pointing at master,
+
+6
+00:00:15,583 --> 00:00:18,199
+and our files are in the working directory.
+
+7
+00:00:18,199 --> 00:00:20,504
+Let's shift things around a second.
+
+8
+00:00:20,504 --> 00:00:25,634
+These are the three places content from a reset commit will go: the working directory,
+
+9
+00:00:25,635 --> 00:00:27,828
+the staging index, and the trash,
+
+10
+00:00:27,827 --> 00:00:29,425
+meaning it'll be erased.
+
+11
+00:00:29,425 --> 00:00:35,230
+Running git reset HEAD's parent will move HEAD and master to the previous commit.
+
+12
+00:00:35,229 --> 00:00:39,003
+But what happens to the commit with the number three?
+
+13
+00:00:39,003 --> 00:00:43,618
+The changes that were made could be moved to the working directory or the staging index,
+
+14
+00:00:43,618 --> 00:00:45,329
+or they could just be thrown out.
+
+15
+00:00:45,329 --> 00:00:48,979
+It all depends on the flag that's used with the reset command.
+
+16
+00:00:48,979 --> 00:00:50,399
+Let's move this commit back.
+
+17
+00:00:50,399 --> 00:00:53,265
+If we run git reset without any flags,
+
+18
+00:00:53,265 --> 00:00:55,378
+then the changes that were made in the commit with
+
+19
+00:00:55,378 --> 00:00:59,159
+SHA-3 are applied to the files in the working directory.
+
+20
+00:00:59,159 --> 00:01:02,169
+This is because --mixed is the default.
+
+21
+00:01:02,170 --> 00:01:06,704
+So running get reset without a flag is the same as running it with --mixed.
+
+22
+00:01:06,704 --> 00:01:08,905
+So if we stage the files and commit again,
+
+23
+00:01:08,905 --> 00:01:11,230
+we'll get the same commit content.
+
+24
+00:01:11,230 --> 00:01:13,259
+We'll get a different commit SHA just because
+
+25
+00:01:13,260 --> 00:01:16,015
+the time stamp of the commit will be different from the original one,
+
+26
+00:01:16,015 --> 00:01:18,939
+but the commit content will be exactly the same.
+
+27
+00:01:18,939 --> 00:01:22,379
+Using the --soft flag will move
+
+28
+00:01:22,379 --> 00:01:26,609
+the changes that were made in the commit with SHA-3 to the staging index.
+
+29
+00:01:26,609 --> 00:01:29,359
+It's the same changes and now they're even staged for you.
+
+30
+00:01:29,359 --> 00:01:32,504
+All you have to do is run git commit to get the commit back.
+
+31
+00:01:32,504 --> 00:01:34,828
+Again, since the time stamp is different,
+
+32
+00:01:34,828 --> 00:01:37,209
+the new commit SHA will be different.
+
+33
+00:01:37,209 --> 00:01:40,229
+The last is the --hard flag.
+
+34
+00:01:40,230 --> 00:01:44,040
+This one will throw out all of the changes that were made in the commit with SHA-3.
+

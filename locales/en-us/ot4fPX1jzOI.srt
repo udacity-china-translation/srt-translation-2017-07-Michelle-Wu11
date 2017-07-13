@@ -1,0 +1,64 @@
+﻿1
+00:00:00,000 --> 00:00:02,575
+Branches, merges, and merge conflicts.
+
+2
+00:00:02,575 --> 00:00:06,515
+Wow, this lesson had a ton of useful information in it.
+
+3
+00:00:06,514 --> 00:00:10,129
+Branches let us work in isolation from the rest of the project.
+
+4
+00:00:10,130 --> 00:00:11,280
+Then after you're finished,
+
+5
+00:00:11,279 --> 00:00:14,219
+you can use Git to merge your branches together.
+
+6
+00:00:14,220 --> 00:00:16,109
+Now, it doesn't happen all the time,
+
+7
+00:00:16,109 --> 00:00:17,730
+but if there's a merge conflict,
+
+8
+00:00:17,730 --> 00:00:21,179
+just pop open your editor and search for the merge conflict indicators.
+
+9
+00:00:21,179 --> 00:00:23,501
+Remove the lines with the indicators,
+
+10
+00:00:23,501 --> 00:00:25,530
+figure out what lines you're going to keep,
+
+11
+00:00:25,530 --> 00:00:27,510
+save the file, stage the file,
+
+12
+00:00:27,510 --> 00:00:30,179
+and then commit. Easy-peasy.
+
+13
+00:00:30,179 --> 00:00:33,500
+Congratulations, you are now a Git master.
+
+14
+00:00:33,500 --> 00:00:35,939
+But if you'd like to learn one last skill,
+
+15
+00:00:35,939 --> 00:00:38,519
+check out the next lesson where we look at editing,
+
+16
+00:00:38,520 --> 00:00:41,000
+undoing, and erasing commits.
+

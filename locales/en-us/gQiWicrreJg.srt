@@ -1,0 +1,84 @@
+﻿1
+00:00:00,000 --> 00:00:04,035
+Here's our imaginary project that's got the different branches.
+
+2
+00:00:04,035 --> 00:00:08,429
+Let's say we want to merge the master and sidebar branches together.
+
+3
+00:00:08,429 --> 00:00:10,904
+When a merge happens, it makes a commit.
+
+4
+00:00:10,904 --> 00:00:13,769
+Since head is pointing to the master branch,
+
+5
+00:00:13,769 --> 00:00:17,820
+the merge commit will be placed on the master branch and it will move forward.
+
+6
+00:00:17,820 --> 00:00:21,350
+Let's merge sidebar into master.
+
+7
+00:00:21,350 --> 00:00:26,005
+Notice that a merge commit links to two different earlier commits.
+
+8
+00:00:26,004 --> 00:00:27,960
+This doesn't affect the sidebar branch.
+
+9
+00:00:27,960 --> 00:00:30,630
+We can switch back to it and still make commits on it.
+
+10
+00:00:30,629 --> 00:00:33,625
+No problem. Let's switch back to master.
+
+11
+00:00:33,625 --> 00:00:38,835
+Let's say we had a social links branch that's a bit ahead of the master branch.
+
+12
+00:00:38,835 --> 00:00:43,085
+The master branch doesn't have the social links commits in it yet.
+
+13
+00:00:43,085 --> 00:00:45,719
+If we want those commits in the master branch we would
+
+14
+00:00:45,719 --> 00:00:48,975
+merge the social links branch into the master branch.
+
+15
+00:00:48,975 --> 00:00:51,120
+Since head is pointing to master,
+
+16
+00:00:51,119 --> 00:00:53,909
+the master branch will move when a merge is made.
+
+17
+00:00:53,909 --> 00:00:57,254
+Now because the social links branch is just ahead of master,
+
+18
+00:00:57,255 --> 00:01:00,929
+GIT we'll do what's called a fast forward merge.
+
+19
+00:01:00,929 --> 00:01:04,334
+Also, the order of the colored lines doesn't matter here.
+
+20
+00:01:04,334 --> 00:01:07,619
+We can move the red line to the top and nothing changes.
+
+21
+00:01:07,620 --> 00:01:10,010
+The lines are just there to connect commits together.
+

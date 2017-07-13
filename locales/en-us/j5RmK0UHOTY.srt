@@ -1,0 +1,52 @@
+﻿1
+00:00:00,000 --> 00:00:01,919
+All right. In lesson one,
+
+2
+00:00:01,919 --> 00:00:04,740
+we figured out how to work with remote repositories.
+
+3
+00:00:04,740 --> 00:00:09,179
+In lesson two, we looked at how to start developing on a shared repository.
+
+4
+00:00:09,179 --> 00:00:12,330
+Now, let's look at how to sync our new changes back to
+
+5
+00:00:12,330 --> 00:00:14,189
+our forked remote repository and how to
+
+6
+00:00:14,189 --> 00:00:17,429
+retrieve updates from the original source repository.
+
+7
+00:00:17,429 --> 00:00:19,379
+Some things we'll look at in this lesson are,
+
+8
+00:00:19,379 --> 00:00:22,928
+learning what a pull request is and how to make one,
+
+9
+00:00:22,928 --> 00:00:24,789
+retrieving updates that have been made in
+
+10
+00:00:24,789 --> 00:00:28,140
+the source repository and including them in our fork,
+
+11
+00:00:28,140 --> 00:00:30,870
+working with an active pull request,
+
+12
+00:00:30,870 --> 00:00:34,600
+squashing commits with git rebase and more.
+
+13
+00:00:34,600 --> 00:00:38,300
+Let's start out by looking what a pull request is and how to create one.
+

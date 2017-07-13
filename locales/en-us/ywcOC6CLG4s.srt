@@ -1,0 +1,240 @@
+﻿1
+00:00:00,000 --> 00:00:04,504
+This is the sample git repository we built up in the previous lesson.
+
+2
+00:00:04,504 --> 00:00:06,585
+There are just a number of commits in the repository,
+
+3
+00:00:06,585 --> 00:00:08,339
+and there's a tag on one of the commits.
+
+4
+00:00:08,339 --> 00:00:10,894
+In addition to the tag, there's also a branch.
+
+5
+00:00:10,894 --> 00:00:13,515
+It's been hidden all this time, but let's show it.
+
+6
+00:00:13,515 --> 00:00:18,170
+By default, the first branch name is "master" but that's not a special name.
+
+7
+00:00:18,170 --> 00:00:21,210
+It's just the default name that's provided by git.
+
+8
+00:00:21,210 --> 00:00:22,515
+Now here's the cool part.
+
+9
+00:00:22,515 --> 00:00:25,710
+When a commit is made in the repository it's added to
+
+10
+00:00:25,710 --> 00:00:29,380
+the branch and the branch pointer moves to point to it.
+
+11
+00:00:29,379 --> 00:00:30,798
+Pretty neat, right?
+
+12
+00:00:30,798 --> 00:00:34,289
+If you remember, a tag is a permanent pointer to a commit,
+
+13
+00:00:34,289 --> 00:00:38,814
+and it doesn't move, but a branch does move when a new commit is added.
+
+14
+00:00:38,814 --> 00:00:42,899
+Let's add another branch to the repository and call it "sidebar".
+
+15
+00:00:42,899 --> 00:00:44,738
+Now, why would we want to do this?
+
+16
+00:00:44,738 --> 00:00:48,059
+Well, branches are incredibly powerful because they let us
+
+17
+00:00:48,060 --> 00:00:52,380
+work on the same project in different isolated environments.
+
+18
+00:00:52,380 --> 00:00:54,895
+Hold tight for a second and we'll see how this works.
+
+19
+00:00:54,895 --> 00:00:56,804
+A question you might be asking is,
+
+20
+00:00:56,804 --> 00:00:58,320
+"If we make a commit now,
+
+21
+00:00:58,320 --> 00:01:00,070
+which branch will move?
+
+22
+00:01:00,070 --> 00:01:03,450
+Will it be "master" or "sidebar"?"
+
+23
+00:01:03,450 --> 00:01:06,445
+Well, there's another hidden thing we need to reveal.
+
+24
+00:01:06,444 --> 00:01:09,119
+It's the oddly named "head" pointer,
+
+25
+00:01:09,120 --> 00:01:11,609
+and it points to the branch that's active.
+
+26
+00:01:11,609 --> 00:01:14,170
+Right now it's pointing to the "master" branch,
+
+27
+00:01:14,171 --> 00:01:16,980
+so "master" is the active branch.
+
+28
+00:01:16,980 --> 00:01:20,969
+We can use the checkout command to switch which branch it's pointing to.
+
+29
+00:01:20,969 --> 00:01:23,010
+To switch to the "sidebar" branch,
+
+30
+00:01:23,010 --> 00:01:26,120
+we'd use the command "git checkout sidebar".
+
+31
+00:01:26,120 --> 00:01:29,255
+Let's switch back with "git checkout master. "
+
+32
+00:01:29,254 --> 00:01:31,304
+If we make a commit right now,
+
+33
+00:01:31,305 --> 00:01:34,140
+the commit is added to the branch that "head" points to
+
+34
+00:01:34,140 --> 00:01:37,680
+because "head" indicates the current or active branch.
+
+35
+00:01:37,680 --> 00:01:40,875
+Let's switch over to the "sidebar" branch and add a commit there.
+
+36
+00:01:40,875 --> 00:01:42,861
+Now that "head" points to "sidebar,
+
+37
+00:01:42,861 --> 00:01:46,840
+" making commits now will add them to the "sidebar" branch.
+
+38
+00:01:46,840 --> 00:01:49,530
+Not only can we have as many branches as we want,
+
+39
+00:01:49,530 --> 00:01:51,960
+but we can choose where it starts from.
+
+40
+00:01:51,959 --> 00:01:55,819
+Let's say there's a problem with our header that was introduced back on commit a.
+
+41
+00:01:55,819 --> 00:01:59,314
+We can create a new branch right there with the branch command,
+
+42
+00:01:59,314 --> 00:02:03,299
+switch to it with the checkout command,
+
+43
+00:02:03,299 --> 00:02:10,164
+and make the necessary changes to fix the problem.
+
+44
+00:02:10,164 --> 00:02:13,884
+There's one quick but very important thing that I need to point out.
+
+45
+00:02:13,884 --> 00:02:17,719
+Let's switch back to the "master" branch for a second and make a commit.
+
+46
+00:02:17,719 --> 00:02:20,879
+The word "master" here indicates the tip of the branch,
+
+47
+00:02:20,879 --> 00:02:24,254
+but this most recent commit is connected to past commits.
+
+48
+00:02:24,254 --> 00:02:28,229
+The red line indicates all of the commits that are in the "master" branch.
+
+49
+00:02:28,229 --> 00:02:32,519
+So the commits 7 and b are not included in the "master" branch,
+
+50
+00:02:32,520 --> 00:02:36,870
+and the commits f and 4 are not in the "master" branch either.
+
+51
+00:02:36,870 --> 00:02:39,015
+So if we open up our code editor right now,
+
+52
+00:02:39,014 --> 00:02:42,824
+the changes that we made on commits f, 4, 7,
+
+53
+00:02:42,824 --> 00:02:45,704
+and b will not appear in any of the files
+
+54
+00:02:45,705 --> 00:02:49,490
+because git is only showing changes that are in the "master" branch.
+
+55
+00:02:49,490 --> 00:02:52,754
+Don't worry though. These commits are stored safely in the repository.
+
+56
+00:02:52,754 --> 00:02:54,585
+To get those commits out of the repository,
+
+57
+00:02:54,585 --> 00:02:58,150
+we just need to switch to the branch that has the commits we're looking for.
+
+58
+00:02:58,150 --> 00:03:01,425
+For example, if we switch to the header-fix branch,
+
+59
+00:03:01,425 --> 00:03:04,410
+the commits that are included on that branch will now
+
+60
+00:03:04,409 --> 00:03:08,000
+appear in the computer's file system and in the code editor.
+

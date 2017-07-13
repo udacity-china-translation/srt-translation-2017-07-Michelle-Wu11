@@ -1,0 +1,260 @@
+﻿1
+00:00:00,000 --> 00:00:04,634
+Let's run the git log -p command to see the commits,
+
+2
+00:00:04,634 --> 00:00:10,879
+but also include the actual code changes or patch made to the files.
+
+3
+00:00:10,880 --> 00:00:14,172
+This first part is the same as the regular git log command.
+
+4
+00:00:14,172 --> 00:00:16,425
+Just like the --stat flag,
+
+5
+00:00:16,425 --> 00:00:23,700
+the -p or --patch flag will add extra information below the standard commit info.
+
+6
+00:00:23,699 --> 00:00:27,155
+This is the start of the patch output.
+
+7
+00:00:27,155 --> 00:00:29,515
+I admit this output is a bit cryptic,
+
+8
+00:00:29,515 --> 00:00:31,560
+so bear with me just a second because you won't
+
+9
+00:00:31,559 --> 00:00:34,060
+really look at the top few lines most of the time,
+
+10
+00:00:34,060 --> 00:00:36,216
+but it's good to know what they are.
+
+11
+00:00:36,216 --> 00:00:39,759
+A diff and a patch refer to the same thing.
+
+12
+00:00:39,759 --> 00:00:41,849
+The patch is showing the difference between
+
+13
+00:00:41,850 --> 00:00:45,810
+the original version of the file and the changed version of the file.
+
+14
+00:00:45,810 --> 00:00:48,315
+We're looking at the CSS file.
+
+15
+00:00:48,314 --> 00:00:49,979
+There's the first version of the file.
+
+16
+00:00:49,979 --> 00:00:54,274
+It shows up in a directory called "a" because it's the first.
+
+17
+00:00:54,274 --> 00:00:57,144
+That's not a directory you'll actually see in the repo though.
+
+18
+00:00:57,145 --> 00:00:58,835
+And then there's the second version.
+
+19
+00:00:58,835 --> 00:01:02,685
+It shows up in a "b" directory because it's the second.
+
+20
+00:01:02,685 --> 00:01:05,159
+These two are the same name because we're looking
+
+21
+00:01:05,159 --> 00:01:08,119
+at two different versions of the same file.
+
+22
+00:01:08,120 --> 00:01:10,760
+These could be different if the file was renamed.
+
+23
+00:01:10,760 --> 00:01:13,590
+Yep, git can keep track of renamed files.
+
+24
+00:01:13,590 --> 00:01:16,540
+Pretty cool, right? Now, back to the output.
+
+25
+00:01:16,540 --> 00:01:19,230
+This line shows the hash of the first version of
+
+26
+00:01:19,230 --> 00:01:23,300
+the file before the change and the hash after the change.
+
+27
+00:01:23,299 --> 00:01:26,394
+These hashes are different from the commit SHA.
+
+28
+00:01:26,394 --> 00:01:28,729
+I never really look at this line.
+
+29
+00:01:28,730 --> 00:01:31,515
+These two are the same as these right here.
+
+30
+00:01:31,515 --> 00:01:34,170
+They are the old and new versions of the files.
+
+31
+00:01:34,170 --> 00:01:38,010
+We'll come back to this line in just a second.
+
+32
+00:01:38,010 --> 00:01:41,460
+Now, this is the actual code of the CSS file.
+
+33
+00:01:41,459 --> 00:01:44,489
+These lines here that are both in green and have
+
+34
+00:01:44,489 --> 00:01:49,704
+the plus symbol in front of them mean that these lines have been added in this commit.
+
+35
+00:01:49,704 --> 00:01:51,894
+Let's jump back to this line now.
+
+36
+00:01:51,894 --> 00:01:55,524
+This is telling us where in the file the edits are made.
+
+37
+00:01:55,525 --> 00:01:58,650
+This says that in the old or original version of the file,
+
+38
+00:01:58,650 --> 00:02:03,815
+this code is from line 38 and then that's showing six lines of code.
+
+39
+00:02:03,814 --> 00:02:05,974
+Those six lines are here: one,
+
+40
+00:02:05,974 --> 00:02:10,109
+two, three, four, five, six.
+
+41
+00:02:10,110 --> 00:02:13,305
+In the new or current version of the file,
+
+42
+00:02:13,305 --> 00:02:15,370
+it starts on line 38 as well,
+
+43
+00:02:15,370 --> 00:02:20,730
+but now there are 11 lines of code: the original six plus the five new ones.
+
+44
+00:02:20,729 --> 00:02:23,664
+We can see all 11 lines right here.
+
+45
+00:02:23,664 --> 00:02:26,185
+Now, this commit only has additions.
+
+46
+00:02:26,185 --> 00:02:29,555
+What does it look like when lines are removed? Well, let's look.
+
+47
+00:02:29,555 --> 00:02:33,250
+We need to scroll down to the next commit. Here it is.
+
+48
+00:02:33,250 --> 00:02:38,016
+This first patch output is of the CSS file again,
+
+49
+00:02:38,016 --> 00:02:42,030
+and here is the patch output of the HTML file.
+
+50
+00:02:42,030 --> 00:02:47,449
+The lines that have been removed by the commit are in red and begin with the minus sign.
+
+51
+00:02:47,449 --> 00:02:50,139
+Something to note here that's very important.
+
+52
+00:02:50,139 --> 00:02:55,279
+Git tracks edits by lines so if an edit is made to a line,
+
+53
+00:02:55,280 --> 00:02:58,890
+it will show the line being removed and then added again.
+
+54
+00:02:58,889 --> 00:03:01,328
+For example, it says "main" was deleted,
+
+55
+00:03:01,329 --> 00:03:04,375
+but then here it says "main" was added again.
+
+56
+00:03:04,375 --> 00:03:06,860
+The "div" with the class container was added,
+
+57
+00:03:06,860 --> 00:03:09,680
+and the "main" element and all its code was indented,
+
+58
+00:03:09,680 --> 00:03:12,079
+so it nest's correctly in the HTML file.
+
+59
+00:03:12,079 --> 00:03:15,155
+Indenting this line changed it.
+
+60
+00:03:15,155 --> 00:03:19,400
+So, to git, this line with one indentation was removed,
+
+61
+00:03:19,400 --> 00:03:23,069
+while this one with two indents was added.
+
+62
+00:03:23,069 --> 00:03:25,844
+I know there's a lot of information in the patch output,
+
+63
+00:03:25,844 --> 00:03:29,625
+but some of it is redundant and some of it can be ignored.
+
+64
+00:03:29,625 --> 00:03:33,930
+The important things in the patch output are: the file we're looking at,
+
+65
+00:03:33,930 --> 00:03:39,139
+the changes, and it's sometimes helpful to know where in the file the changes were made.
+

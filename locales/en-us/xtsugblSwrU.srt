@@ -1,0 +1,80 @@
+﻿1
+00:00:00,000 --> 00:00:01,965
+I have a confession to make.
+
+2
+00:00:01,965 --> 00:00:05,088
+When I first learned about the oneline flag for git log,
+
+3
+00:00:05,088 --> 00:00:07,095
+I was really excited about it.
+
+4
+00:00:07,094 --> 00:00:10,818
+Now I didn't have to scroll and scroll and scroll to read all of the comment messages.
+
+5
+00:00:10,819 --> 00:00:15,420
+It worked for a couple of times until one time I got this.
+
+6
+00:00:15,419 --> 00:00:16,864
+Why isn't it working now?
+
+7
+00:00:16,864 --> 00:00:18,574
+I tried restarting the terminal.
+
+8
+00:00:18,574 --> 00:00:23,350
+That didn't do anything. I restarted my computer and that didn't help.
+
+9
+00:00:23,350 --> 00:00:27,685
+Finally, I actually read Git's helpful error message carefully.
+
+10
+00:00:27,684 --> 00:00:31,479
+I had typed out "online" instead of oneline.
+
+11
+00:00:31,480 --> 00:00:35,039
+It says, "fatal: unrecognized argument: --online."
+
+12
+00:00:35,039 --> 00:00:38,905
+Online is unrecognized, which means Git doesn't know about it.
+
+13
+00:00:38,905 --> 00:00:41,175
+This error message, or something similar,
+
+14
+00:00:41,174 --> 00:00:43,399
+is common to run into while programming.
+
+15
+00:00:43,399 --> 00:00:44,807
+So, keep an eye out for it.
+
+16
+00:00:44,807 --> 00:00:49,340
+Unfound or unrecognized arguments often mean a simple spelling mistake.
+
+17
+00:00:49,340 --> 00:00:53,435
+So, the moral of the story, spelling is important.
+
+18
+00:00:53,435 --> 00:00:56,135
+Make sure you actually spell things correctly.
+
+19
+00:00:56,134 --> 00:00:59,019
+Also, Git will try and provide helpful feedback.
+
+20
+00:00:59,020 --> 00:01:00,400
+Make sure you read it carefully.
+

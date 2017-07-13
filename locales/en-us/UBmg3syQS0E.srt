@@ -1,0 +1,184 @@
+﻿1
+00:00:00,000 --> 00:00:03,774
+Let me ask you a question. What did you do yesterday?
+
+2
+00:00:03,774 --> 00:00:06,594
+Did you go to the beach? Take a walk around the block?
+
+3
+00:00:06,594 --> 00:00:10,349
+Cook yourself some sweet and sour chicken because it's amazing?
+
+4
+00:00:10,349 --> 00:00:12,669
+What about the day before yesterday?
+
+5
+00:00:12,669 --> 00:00:14,745
+How about two weeks ago?
+
+6
+00:00:14,744 --> 00:00:17,280
+When I was young, my parents wanted me to keep
+
+7
+00:00:17,280 --> 00:00:19,589
+a daily journal so that I could look back on it
+
+8
+00:00:19,589 --> 00:00:24,789
+sometime in the future and remember places I'd gone and experiences I'd encountered.
+
+9
+00:00:24,789 --> 00:00:28,410
+Unfortunately, I wrote in it about once a year,
+
+10
+00:00:28,410 --> 00:00:30,629
+which is terrible because the entries weren't
+
+11
+00:00:30,629 --> 00:00:33,990
+detailed at all and just touched on high-level events.
+
+12
+00:00:33,990 --> 00:00:38,190
+A good journal entry should have a date so you know when it occurred,
+
+13
+00:00:38,189 --> 00:00:41,469
+a heading so you can give it a short description of that entry,
+
+14
+00:00:41,469 --> 00:00:45,089
+and then the entry itself that has all of the information.
+
+15
+00:00:45,090 --> 00:00:47,320
+Each time a new entry is made in the journal,
+
+16
+00:00:47,320 --> 00:00:49,920
+it's like making a commit in the repository.
+
+17
+00:00:49,920 --> 00:00:51,645
+And just like your journal entries,
+
+18
+00:00:51,645 --> 00:00:54,000
+you want your commits to be frequent and
+
+19
+00:00:54,000 --> 00:00:58,094
+descriptive so you can see the progress of your project over time.
+
+20
+00:00:58,094 --> 00:01:00,390
+Git automatically records the date and
+
+21
+00:01:00,390 --> 00:01:03,570
+the content changes that have been made when a commit is created,
+
+22
+00:01:03,570 --> 00:01:09,060
+so all you need to do is provide the descriptive heading or message for the commit.
+
+23
+00:01:09,060 --> 00:01:10,890
+You want journal commits to be frequent so that you can
+
+24
+00:01:10,890 --> 00:01:13,769
+see the ups and downs in life over time.
+
+25
+00:01:13,769 --> 00:01:18,164
+Similarly, you want to make frequent commits with descriptive messages.
+
+26
+00:01:18,165 --> 00:01:22,090
+This will make it easy to look back at the project and see how it has evolved.
+
+27
+00:01:22,090 --> 00:01:24,159
+We're not making commits just yet,
+
+28
+00:01:24,159 --> 00:01:26,379
+but start getting used to the idea that you should make
+
+29
+00:01:26,379 --> 00:01:29,244
+commits often with descriptive commit messages.
+
+30
+00:01:29,245 --> 00:01:31,130
+But how often is often,
+
+31
+00:01:31,129 --> 00:01:33,640
+and how can you know what makes a good commit?
+
+32
+00:01:33,640 --> 00:01:37,263
+How many files or lines of code should be included in the commit?
+
+33
+00:01:37,263 --> 00:01:41,664
+One of the best ways to know what makes a good commit is to look at existing commits.
+
+34
+00:01:41,665 --> 00:01:47,275
+The tools we'll be using to review a repository's history are git log and git show.
+
+35
+00:01:47,275 --> 00:01:51,295
+With git log, you'll be able to display information about the existing commits.
+
+36
+00:01:51,295 --> 00:01:55,120
+Git log is extremely powerful and you'll be using it all of the time.
+
+37
+00:01:55,120 --> 00:01:58,865
+The git show command displays info about the given commit.
+
+38
+00:01:58,864 --> 00:02:01,569
+So, with this one, you provide it the commit ID,
+
+39
+00:02:01,569 --> 00:02:02,989
+also known as the SHA,
+
+40
+00:02:02,989 --> 00:02:06,054
+and the command displays info about just that one commit.
+
+41
+00:02:06,054 --> 00:02:09,064
+Just two commands, git log and git show.
+
+42
+00:02:09,064 --> 00:02:14,145
+Seem small, right? But this might actually be the most important lesson in the course.
+
+43
+00:02:14,145 --> 00:02:17,020
+Learning how to display a repository's history and reviewing
+
+44
+00:02:17,020 --> 00:02:20,622
+specific commits is useful for so many things.
+
+45
+00:02:20,622 --> 00:02:23,129
+Are you ready? You're focused?
+
+46
+00:02:23,128 --> 00:02:26,000
+Let's look at the all powerful git log.
+

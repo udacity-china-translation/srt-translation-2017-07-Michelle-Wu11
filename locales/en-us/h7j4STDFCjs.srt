@@ -1,0 +1,32 @@
+﻿1
+00:00:00,000 --> 00:00:04,700
+In this lesson, we use git init to create our own repository.
+
+2
+00:00:04,700 --> 00:00:08,050
+We used git clone to copy an existing repository,
+
+3
+00:00:08,050 --> 00:00:12,179
+and we used git status to determine the status of a repository.
+
+4
+00:00:12,179 --> 00:00:14,548
+Now, you might want to just jump right into making commits
+
+5
+00:00:14,548 --> 00:00:17,449
+because a repository isn't very useful without them.
+
+6
+00:00:17,449 --> 00:00:18,869
+But before we start,
+
+7
+00:00:18,870 --> 00:00:22,914
+being able to review commits will help immensely when we start making our own.
+
+8
+00:00:22,914 --> 00:00:26,710
+So, let's learn how to review existing commits.
+

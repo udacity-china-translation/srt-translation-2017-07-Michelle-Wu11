@@ -1,0 +1,92 @@
+﻿1
+00:00:00,000 --> 00:00:02,616
+Now that you're a pro at making commits,
+
+2
+00:00:02,616 --> 00:00:04,714
+it's time to level up again.
+
+3
+00:00:04,714 --> 00:00:07,049
+This leveling-up is going to be an awesome step that
+
+4
+00:00:07,049 --> 00:00:09,824
+will really give you version control superpowers.
+
+5
+00:00:09,824 --> 00:00:12,509
+In this lesson, we'll look at git tag,
+
+6
+00:00:12,509 --> 00:00:16,545
+git branch, git checkout and git merge.
+
+7
+00:00:16,545 --> 00:00:20,525
+With git tag, you'll be able to add tags to specific commits.
+
+8
+00:00:20,524 --> 00:00:24,734
+A tag is an extra label for a commit that can indicate useful information,
+
+9
+00:00:24,734 --> 00:00:27,059
+like, this is the beta release.
+
+10
+00:00:27,059 --> 00:00:29,219
+With git branch, you'll be able to create
+
+11
+00:00:29,219 --> 00:00:31,649
+branches that let you develop different features of
+
+12
+00:00:31,649 --> 00:00:33,810
+your project in parallel without getting
+
+13
+00:00:33,810 --> 00:00:36,990
+confused as to which commits belong to which feature.
+
+14
+00:00:36,990 --> 00:00:38,809
+That might sound a bit confusing,
+
+15
+00:00:38,808 --> 00:00:40,844
+just hang on, and we'll cover it in detail.
+
+16
+00:00:40,844 --> 00:00:45,725
+With git checkout, you'll be able to switch between different branches and tags.
+
+17
+00:00:45,725 --> 00:00:47,895
+Git merge is amazingly helpful,
+
+18
+00:00:47,895 --> 00:00:49,740
+because you can use it to take changes on
+
+19
+00:00:49,740 --> 00:00:53,234
+different branches and combine them together automatically.
+
+20
+00:00:53,234 --> 00:00:55,539
+It's an incredibly powerful feature.
+
+21
+00:00:55,539 --> 00:00:57,719
+The commands we're covering in this lesson will help keep
+
+22
+00:00:57,719 --> 00:01:00,664
+your project organized and speed up development.
+
+23
+00:01:00,664 --> 00:01:04,000
+Let's start things out with the easiest command, git tag.
+

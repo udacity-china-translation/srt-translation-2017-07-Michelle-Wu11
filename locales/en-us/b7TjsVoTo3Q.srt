@@ -1,0 +1,100 @@
+﻿1
+00:00:00,000 --> 00:00:03,000
+There are a number of version control systems out there,
+
+2
+00:00:03,000 --> 00:00:08,004
+but three of the most popular are Git, Subversion and Mercurial.
+
+3
+00:00:08,005 --> 00:00:11,599
+Not only are there dozens and dozens of different version control systems,
+
+4
+00:00:11,599 --> 00:00:13,974
+there are actually two different categories.
+
+5
+00:00:13,974 --> 00:00:17,850
+There's the centralized model and then the distributed model.
+
+6
+00:00:17,850 --> 00:00:22,849
+In a centralized model there's one all powerful central computer that hosts the project;
+
+7
+00:00:22,849 --> 00:00:25,815
+every interaction must go through this central computer.
+
+8
+00:00:25,815 --> 00:00:30,405
+In the distributed model there's no central repository of information.
+
+9
+00:00:30,405 --> 00:00:33,600
+Each developer has a complete copy of the project on their computer,
+
+10
+00:00:33,600 --> 00:00:36,368
+which is cool because that means you can also work off line.
+
+11
+00:00:36,368 --> 00:00:39,534
+In this course we'll be using the version control system Git,
+
+12
+00:00:39,534 --> 00:00:42,993
+which is a distributed version control system.
+
+13
+00:00:42,993 --> 00:00:45,009
+Now, you might have heard of Git hub.
+
+14
+00:00:45,009 --> 00:00:47,884
+Git and GitHub are quite different.
+
+15
+00:00:47,884 --> 00:00:49,810
+Git, is the version control tool,
+
+16
+00:00:49,810 --> 00:00:53,635
+while GitHub is the service that hosts Git projects.
+
+17
+00:00:53,634 --> 00:00:56,844
+To work with Git projects you're not required to use GitHub,
+
+18
+00:00:56,844 --> 00:00:59,350
+but it's an awesome tool and you should definitely check it out.
+
+19
+00:00:59,350 --> 00:01:01,539
+For now, you can think of it as basically,
+
+20
+00:01:01,539 --> 00:01:04,540
+just another computer where you can upload a copy of your project.
+
+21
+00:01:04,540 --> 00:01:06,879
+Centralized, distributed, if these
+
+22
+00:01:06,879 --> 00:01:09,454
+don't make a lot of sense right now, that's totally fine.
+
+23
+00:01:09,453 --> 00:01:13,048
+This is to give you a big picture idea of where things fit together.
+
+24
+00:01:13,049 --> 00:01:15,954
+These terms are more important if you're working with a team but
+
+25
+00:01:15,953 --> 00:01:20,000
+you'll be working locally on your computer for the entirety of this course.
+

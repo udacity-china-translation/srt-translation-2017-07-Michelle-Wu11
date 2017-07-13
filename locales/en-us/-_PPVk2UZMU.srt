@@ -1,0 +1,24 @@
+﻿1
+00:00:00,000 --> 00:00:06,325
+We look that git commits dash dash amend flag to reword or update the most recent commit.
+
+2
+00:00:06,325 --> 00:00:10,039
+We looked at the git revert command to undo a specific commit,
+
+3
+00:00:10,039 --> 00:00:14,774
+and we just looked at the git reset command to reset or erase changes,
+
+4
+00:00:14,775 --> 00:00:17,574
+but remember to be careful with that last one.
+
+5
+00:00:17,574 --> 00:00:22,000
+Knowing how to fix mistakes definitely gave me the confidence to experiment,
+
+6
+00:00:22,000 --> 00:00:26,129
+and hope you feel more confident making changes now that you know how undo them.
+

@@ -1,0 +1,76 @@
+﻿1
+00:00:00,000 --> 00:00:03,810
+Here's the outline for this course you're taking right now.
+
+2
+00:00:03,810 --> 00:00:07,919
+Let's click on this link to get to its revision history page.
+
+3
+00:00:07,918 --> 00:00:10,108
+This main part shows the document that we see in
+
+4
+00:00:10,108 --> 00:00:15,169
+the normal view but this sidebar provides all the awesome features we want.
+
+5
+00:00:15,169 --> 00:00:18,449
+This is the history of the changes made to this document.
+
+6
+00:00:18,449 --> 00:00:22,030
+They're organized by date and show who made the edits.
+
+7
+00:00:22,030 --> 00:00:23,579
+Clicking on one of these will swap out
+
+8
+00:00:23,579 --> 00:00:26,320
+the current version of the document with an older one.
+
+9
+00:00:26,320 --> 00:00:29,550
+Let's click on the October 13 version.
+
+10
+00:00:29,550 --> 00:00:34,590
+The main area now shows the version of the document as it appeared on October 13.
+
+11
+00:00:34,590 --> 00:00:39,140
+It also provides these arrows to let us jump to the edits that were made.
+
+12
+00:00:39,140 --> 00:00:44,493
+The highlight color indicates which user made the edit.
+
+13
+00:00:44,493 --> 00:00:46,700
+If I like this older version of the document,
+
+14
+00:00:46,700 --> 00:00:48,920
+I can replace the current version with this older
+
+15
+00:00:48,920 --> 00:00:52,274
+one by clicking the Restore this revision link.
+
+16
+00:00:52,274 --> 00:00:54,664
+One last thing is that Google Docs will group
+
+17
+00:00:54,664 --> 00:00:57,689
+lots of changes together in one larger group.
+
+18
+00:00:57,689 --> 00:01:00,048
+If you want to see smaller sets of changes,
+
+19
+00:01:00,048 --> 00:01:03,658
+that's what the, Show more detailed revisions button does.
+

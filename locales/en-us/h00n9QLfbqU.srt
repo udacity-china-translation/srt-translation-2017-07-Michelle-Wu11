@@ -1,0 +1,96 @@
+﻿1
+00:00:00,000 --> 00:00:03,374
+I've downloaded the files and unzipped the directory.
+
+2
+00:00:03,374 --> 00:00:07,513
+In the Terminal, I'll type cd to make sure I'm in the home directory.
+
+3
+00:00:07,514 --> 00:00:09,525
+Using the move command,
+
+4
+00:00:09,525 --> 00:00:13,794
+I'll move the udacity-terminal-config directory into my home directory,
+
+5
+00:00:13,794 --> 00:00:17,969
+but I also want to rename it by adding a dot at the front.
+
+6
+00:00:17,969 --> 00:00:20,018
+Since the Terminal is in the home directory,
+
+7
+00:00:20,018 --> 00:00:27,659
+I'll move this directory into the home directory and name it.udacity-terminal-config.
+
+8
+00:00:27,660 --> 00:00:31,056
+The bash_profile file also needs to be in my home directory,
+
+9
+00:00:31,056 --> 00:00:34,034
+but this is a very common file and if I already have this file,
+
+10
+00:00:34,034 --> 00:00:35,750
+then I don't want to overwrite it.
+
+11
+00:00:35,750 --> 00:00:42,863
+I'll use ls -a to check if I already have one.
+
+12
+00:00:42,863 --> 00:00:45,959
+I already have a bash_profile file,
+
+13
+00:00:45,960 --> 00:00:49,829
+so I'll open it up in my code editor.
+
+14
+00:00:51,109 --> 00:00:54,594
+Now that I have this file open,
+
+15
+00:00:54,594 --> 00:00:59,879
+I just need to copy the text out of here into this file.
+
+16
+00:01:06,069 --> 00:01:10,419
+Now just save the file and I'm done.
+
+17
+00:01:10,420 --> 00:01:12,915
+If you don't already have a bash_profile file,
+
+18
+00:01:12,915 --> 00:01:17,400
+then you'd use the move command to move this file into your home directory,
+
+19
+00:01:17,400 --> 00:01:19,984
+making sure to name it with a dot at the beginning.
+
+20
+00:01:19,984 --> 00:01:24,545
+But I'm not going to run this because I already have updated my.bash_profile file.
+
+21
+00:01:24,545 --> 00:01:27,013
+Now even though I've updated my bash_profile,
+
+22
+00:01:27,013 --> 00:01:28,996
+nothing's changed with the Terminal.
+
+23
+00:01:28,996 --> 00:01:32,561
+That's because I need to restart it.
+
+24
+00:01:32,561 --> 00:01:35,469
+So here's what your Terminal should look like.
+

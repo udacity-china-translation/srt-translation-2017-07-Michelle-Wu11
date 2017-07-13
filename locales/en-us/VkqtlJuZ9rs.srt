@@ -1,0 +1,44 @@
+﻿1
+00:00:00,000 --> 00:00:04,759
+In the previous lesson we looked at working with remote repositories.
+
+2
+00:00:04,759 --> 00:00:07,525
+Now we'll use those skills in this lesson to copy
+
+3
+00:00:07,525 --> 00:00:11,130
+another developer's repository and to start working on it.
+
+4
+00:00:11,130 --> 00:00:13,500
+The skills we'll be covering in this lesson are,
+
+5
+00:00:13,500 --> 00:00:15,800
+being able to fork a repository,
+
+6
+00:00:15,800 --> 00:00:20,205
+reviewing the changes that have been made on a project by other developers,
+
+7
+00:00:20,204 --> 00:00:24,744
+knowing what changes to make now that you have access to the repository.
+
+8
+00:00:24,745 --> 00:00:28,394
+One of the tools we'll be using a lot and this lesson is GIT log.
+
+9
+00:00:28,394 --> 00:00:31,820
+I expect you to already know the basics of GIT log and we'll be delving
+
+10
+00:00:31,821 --> 00:00:36,570
+a lot more into its capabilities to narrow down the information in the repository.
+
+11
+00:00:36,570 --> 00:00:40,460
+Sounds good? Let's check out what this whole forking thing is all about.
+

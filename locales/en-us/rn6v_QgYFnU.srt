@@ -1,0 +1,60 @@
+﻿1
+00:00:00,000 --> 00:00:04,945
+I've got two terminals open and both are located in the blog project.
+
+2
+00:00:04,945 --> 00:00:10,835
+Let's run git log in this one and git log --oneline over here.
+
+3
+00:00:10,835 --> 00:00:13,755
+The line holds the information for just one commit.
+
+4
+00:00:13,755 --> 00:00:15,800
+It's the first seven characters of the Shaw,
+
+5
+00:00:15,800 --> 00:00:18,554
+and then the commit message.
+
+6
+00:00:18,554 --> 00:00:20,890
+Here's the Shaw for the most recent commit.
+
+7
+00:00:20,890 --> 00:00:23,719
+And here's the same commit with the full Shaw.
+
+8
+00:00:23,719 --> 00:00:26,629
+See how the first six characters are the same.
+
+9
+00:00:26,629 --> 00:00:28,919
+This commit here is this one.
+
+10
+00:00:28,920 --> 00:00:30,595
+And here's the second commit.
+
+11
+00:00:30,594 --> 00:00:32,185
+And here it is over here.
+
+12
+00:00:32,185 --> 00:00:34,135
+So nothing has changed in the repo.
+
+13
+00:00:34,134 --> 00:00:38,780
+The --oneline flag just alters the way the information is displayed.
+
+14
+00:00:38,780 --> 00:00:39,899
+It's a pretty helpful command,
+
+15
+00:00:39,899 --> 00:00:43,000
+if you want to quickly review a repository's commits.
+

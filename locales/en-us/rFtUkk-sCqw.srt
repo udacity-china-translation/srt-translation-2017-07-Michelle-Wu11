@@ -1,0 +1,56 @@
+﻿1
+00:00:00,000 --> 00:00:01,583
+When a commit is made,
+
+2
+00:00:01,583 --> 00:00:06,320
+only the changes that are on the staging index are moved into the repository.
+
+3
+00:00:06,320 --> 00:00:09,330
+If we want to include the second set of changes in the commit,
+
+4
+00:00:09,330 --> 00:00:11,359
+then we need to stage the changes.
+
+5
+00:00:11,359 --> 00:00:14,858
+Now that the second change to the HTML file has been staged,
+
+6
+00:00:14,858 --> 00:00:19,350
+the two sets of changes to the HTML file are combined into just one set of changes.
+
+7
+00:00:19,350 --> 00:00:22,950
+And then we can commit like normal to move these changes into the repository.
+
+8
+00:00:22,949 --> 00:00:25,644
+We have all of these changes saved in our repository,
+
+9
+00:00:25,644 --> 00:00:28,039
+but how do we access these commits?
+
+10
+00:00:28,039 --> 00:00:30,344
+What if we want to look at this specific commit?
+
+11
+00:00:30,344 --> 00:00:31,919
+When each commit is made,
+
+12
+00:00:31,920 --> 00:00:33,899
+git creates an ID for it.
+
+13
+00:00:33,899 --> 00:00:36,278
+The ID for the commit is its SHA,
+
+14
+00:00:36,279 --> 00:00:41,230
+the first seven characters what each commits SHA might look like.
+

@@ -1,0 +1,24 @@
+﻿1
+00:00:00,000 --> 00:00:04,724
+This is a very important thing to understand when starting to work with branches.
+
+2
+00:00:04,724 --> 00:00:09,330
+If content is stored on one branch and their commits on another branch,
+
+3
+00:00:09,330 --> 00:00:13,365
+those other commits are invisible until we switch to that other branch.
+
+4
+00:00:13,365 --> 00:00:16,379
+When we switch, then we'll see those commits.
+
+5
+00:00:16,379 --> 00:00:20,369
+But the original commits will no longer appear in our code editor.
+
+6
+00:00:20,370 --> 00:00:24,570
+They aren't lost. They're just not displaying since we've checked out a different branch.
+

@@ -1,0 +1,44 @@
+﻿1
+00:00:00,000 --> 00:00:02,532
+Great job setting up your computer to use GIT.
+
+2
+00:00:02,532 --> 00:00:07,405
+Going through this lesson you laid a solid foundation to start learning version control.
+
+3
+00:00:07,405 --> 00:00:11,490
+We looked at the benefits of version control and how incredibly helpful it can be.
+
+4
+00:00:11,490 --> 00:00:14,595
+You also looked at the terminology that version control systems use.
+
+5
+00:00:14,595 --> 00:00:18,025
+And you did download the terminology document, right?
+
+6
+00:00:18,024 --> 00:00:21,974
+It'll be extremely helpful to have on hand as you go through the remaining lessons,
+
+7
+00:00:21,975 --> 00:00:26,355
+and last you installed GIT and got everything configured. Fantastic work!
+
+8
+00:00:26,355 --> 00:00:28,469
+Really, a lot of people get bogged down with
+
+9
+00:00:28,469 --> 00:00:30,859
+all this stuff and never actually learn version control.
+
+10
+00:00:30,859 --> 00:00:32,729
+So congrats on getting this far.
+
+11
+00:00:32,729 --> 00:00:36,059
+Now let's head to the next lesson to learn how to create a GIT repository.
+

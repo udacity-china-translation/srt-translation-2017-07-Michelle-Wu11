@@ -1,0 +1,48 @@
+﻿1
+00:00:00,000 --> 00:00:06,150
+Awesome work! You've made it to the end of this section on reviewing existing commits.
+
+2
+00:00:06,150 --> 00:00:08,009
+Remember, that being able to display
+
+3
+00:00:08,009 --> 00:00:12,550
+a repository's history can be especially helpful when you're first starting out.
+
+4
+00:00:12,550 --> 00:00:15,464
+It's beneficial to know what's being stored in a commit,
+
+5
+00:00:15,464 --> 00:00:18,570
+and how to view it after the commit is made.
+
+6
+00:00:18,570 --> 00:00:21,240
+You know, we keep talking about commits and have been
+
+7
+00:00:21,239 --> 00:00:23,609
+reviewing all of these existing commits,
+
+8
+00:00:23,609 --> 00:00:26,789
+I think it's time we actually make our first commit. What do you think?
+
+9
+00:00:26,789 --> 00:00:28,318
+In the next lesson,
+
+10
+00:00:28,318 --> 00:00:30,105
+you'll learn about making commits,
+
+11
+00:00:30,105 --> 00:00:33,268
+viewing a file's changes before the commit is made,
+
+12
+00:00:33,268 --> 00:00:36,000
+telling it to not track specific files and more.
+
