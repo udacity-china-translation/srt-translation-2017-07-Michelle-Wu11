@@ -1,0 +1,295 @@
+1
+00:00:00,000 --> 00:00:03,000
+So congratulations--you've now built a search engine.
+
+2
+00:00:03,000 --> 00:00:06,000
+You've got all of the components that you need for a search engine.
+
+3
+00:00:06,000 --> 00:00:08,000
+You've got a way to collect a corpus,
+
+4
+00:00:08,000 --> 00:00:11,000
+using a Web crawler that you built in the first 3 Units.
+
+5
+00:00:11,000 --> 00:00:13,000
+In Units 4 and 5, you figured out--
+
+6
+00:00:13,000 --> 00:00:15,000
+and hopefully understood--how to build the index
+
+7
+00:00:15,000 --> 00:00:18,000
+and then how to make it faster in Unit 5.
+
+8
+00:00:18,000 --> 00:00:20,000
+And in Unit 6--what we've just finished--
+
+9
+00:00:20,000 --> 00:00:22,000
+you figured out how to rank the results.
+
+10
+00:00:22,000 --> 00:00:24,000
+There's one little bit left:
+
+11
+00:00:24,000 --> 00:00:26,000
+we haven't used those ranks,
+
+12
+00:00:26,000 --> 00:00:28,000
+so one of the questions on your homework
+
+13
+00:00:28,000 --> 00:00:31,000
+will be using the ranks to get the best result.
+
+14
+00:00:31,000 --> 00:00:33,000
+If we want to get the best result, just having the dictionary ranks
+
+15
+00:00:33,000 --> 00:00:36,000
+is not enough--we need to use that to find
+
+16
+00:00:36,000 --> 00:00:38,000
+the result that matches the query that has the best rank.
+
+17
+00:00:38,000 --> 00:00:42,000
+And that's one of the questions that you'll do on the homework for this Unit.
+
+18
+00:00:42,000 --> 00:00:44,000
+There are a lot of other hard problems.
+
+19
+00:00:44,000 --> 00:00:46,000
+So you have a few problems left to solve
+
+20
+00:00:46,000 --> 00:00:49,000
+before you can build a search engine that will compete with Google.
+
+21
+00:00:49,000 --> 00:00:51,000
+Probably the hardest one: you've got to come up with a name.
+
+22
+00:00:51,000 --> 00:00:53,000
+This is really hard.
+
+23
+00:00:53,000 --> 00:00:56,000
+You could try "Yoogle",
+
+24
+00:00:56,000 --> 00:00:59,000
+You could try "DuckDuck Find".
+
+25
+00:00:59,000 --> 00:01:02,000
+None of those really work--you'll have to come up with a better name,
+
+26
+00:01:02,000 --> 00:01:04,000
+and this is a pretty tough problem.
+
+27
+00:01:04,000 --> 00:01:06,000
+Make sure to also talk to your Trademark lawyers.
+
+28
+00:01:06,000 --> 00:01:08,000
+Another thing you'd like to be able to do
+
+29
+00:01:08,000 --> 00:01:10,000
+is actually get your search engine on the Web
+
+30
+00:01:10,000 --> 00:01:12,000
+so other people can send queries to it.
+
+31
+00:01:12,000 --> 00:01:15,000
+That's not something we're going to cover in this class,
+
+32
+00:01:15,000 --> 00:01:17,000
+but if you take the Web Applications course
+
+33
+00:01:17,000 --> 00:01:19,000
+that will start shortly after this class finishes,
+
+34
+00:01:19,000 --> 00:01:21,000
+you'll learn a lot about how to build
+
+35
+00:01:21,000 --> 00:01:23,000
+Web applications and be able to do that.
+
+36
+00:01:23,000 --> 00:01:26,000
+So congratulations--you've reached the end of Unit 6.
+
+37
+00:01:26,000 --> 00:01:28,000
+And this is actually the last technical content
+
+38
+00:01:28,000 --> 00:01:30,000
+that will be in this course.
+
+39
+00:01:30,000 --> 00:01:33,000
+Unit 7 will get you ready for the final exam and will give you
+
+40
+00:01:33,000 --> 00:01:37,000
+some interesting examples of using Computing in Context.
+
+41
+00:01:37,000 --> 00:01:39,000
+So congratulations. You've now finished building a search engine
+
+42
+00:01:39,000 --> 00:01:41,000
+and it actually does Page Ranking
+
+43
+00:01:41,000 --> 00:01:44,000
+better than any search engine that existed before 1998.
+
+44
+00:01:44,000 --> 00:01:46,000
+That's quite amazing.
+
+45
+00:01:46,000 --> 00:01:49,000
+I first want to also congratulate David for getting you to this point.
+
+46
+00:01:49,000 --> 00:01:51,000
+I think that's quite amazing and, honestly, he's put a lot of
+
+47
+00:01:51,000 --> 00:01:53,000
+sleepless nights into thisl.
+
+48
+00:01:53,000 --> 00:01:55,000
+But also, i want to tell you: you guys are my heroes.
+
+49
+00:01:55,000 --> 00:01:57,000
+You got to a point where you reached something, I think,
+
+50
+00:01:57,000 --> 00:01:59,000
+really significant in this class--you actually learned how to--
+
+51
+00:01:59,000 --> 00:02:02,000
+And you programmed your own search engine.
+
+52
+00:02:02,000 --> 00:02:04,000
+Now, I have to say--I'm a little bit jealous.
+
+53
+00:02:04,000 --> 00:02:06,000
+When I was a student at college,
+
+54
+00:02:06,000 --> 00:02:08,000
+there was no search engines, and there wasn't even
+
+55
+00:02:08,000 --> 00:02:10,000
+and ability for me to learn all this stuff.
+
+56
+00:02:10,000 --> 00:02:13,000
+As for you, you've been afforded the ability to learn all this stuff.
+
+57
+00:02:13,000 --> 00:02:16,000
+But then you really got an amazing speed here.
+
+58
+00:02:16,000 --> 00:02:18,000
+That's something really, really significant.
+
+59
+00:02:18,000 --> 00:02:20,000
+I hope--I mean, if you keep up that speed
+
+60
+00:02:20,000 --> 00:02:23,000
+and keep improving yourself with that same speed and learn new things--
+
+61
+00:02:23,000 --> 00:02:25,000
+maybe in 3 or 4 years you are the next Google.
+
+62
+00:02:25,000 --> 00:02:27,000
+That would be really amazing.
+
+63
+00:02:27,000 --> 00:02:29,000
+Well, I think you're definitely on track to doing that,
+
+64
+00:02:29,000 --> 00:02:32,000
+and I hope you'll take some of the courses that we'll start offering,
+
+65
+00:02:32,000 --> 00:02:35,000
+as 200 available courses and more advanced courses later.
+
+66
+00:02:35,000 --> 00:02:37,000
+This is the end of Unit 6--we're not going to have
+
+67
+00:02:37,000 --> 00:02:39,000
+any more technical content to the course.
+
+68
+00:02:39,000 --> 00:02:41,000
+Unit 7 is going to be all field trips and interviews,
+
+69
+00:02:41,000 --> 00:02:43,000
+giving you some idea of how the things that you've learned in class
+
+70
+00:02:43,000 --> 00:02:45,000
+fit into Context--and that should be a lot of fun.
+
+71
+00:02:45,000 --> 00:02:47,000
+The other thing that you'll have, as part of Unit 7,
+
+72
+00:02:47,000 --> 00:02:49,000
+is the final exam.
+
+73
+00:02:49,000 --> 00:02:51,000
+And I hope everyone enjoys Homework 6
+
+74
+00:02:51,000 --> 00:02:54,000
+and will be ready for the final next week. >>And I hope you enjoy the final exam.
