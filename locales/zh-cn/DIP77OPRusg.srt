@@ -1,212 +1,175 @@
 ﻿1
 00:00:00,499 --> 00:00:01,950
-Congratulations.恭喜你
+恭喜你
 
 2
 00:00:01,950 --> 00:00:05,009
-Publishing an app to Google  在 Google Play 上发布应用是非常独特和强大的 
-Play is a unique and powerful
+在 Google Play 上发布应用是个
 
 3
 00:00:05,009 --> 00:00:06,089
-opportunity. 机会
+非常特别的机会
 
 4
 00:00:06,089 --> 00:00:08,730
-So from designing and developing 从设计和开发应用 到为发布
-an app to preparing it
+从设计和开发应用 到为
 
 5
 00:00:08,730 --> 00:00:12,690
-for the Play Store, you've 在 Play 商店中做准备 你完成并学到了很多
-done and learned a lot.
+在 Play 商店中发布做准备 你学到了很多
 
 6
 00:00:12,689 --> 00:00:14,369
-Remember that users 记住 用户安装你的应用
-install your app
+记住 用户安装你的应用
 
 7
 00:00:14,369 --> 00:00:16,079
-because they believe 是因为他们相信你的产品
-in your product,
+是因为他们相信你的产品
 
 8
 00:00:16,079 --> 00:00:18,750
-and their continued 而让他们继续在使用中获得乐趣
-enjoyment of using your app
+而让他们继续在使用中获得乐趣
 
 9
 00:00:18,750 --> 00:00:21,100
-is your benchmark for success.便是你取得成功的基准
+便是你取得成功的基准
 
 10
 00:00:21,100 --> 00:00:23,580
-So with thousands of new 每周发布的新应用有成千上万个
-apps published every week,
+每周发布的新应用有成千上万个
 
 11
 00:00:23,579 --> 00:00:25,049
-there are active 你可以主动采取一些措施
-steps that you can
+你可以主动采取一些措施
 
 12
 00:00:25,050 --> 00:00:28,440
-do to ensure yours gets the 来确保获得最大的可见性和最高的
-most visibility and the highest
+来确保获得最大的可见性和
 
 13
 00:00:28,440 --> 00:00:29,880
-ratings possible. 得分
+最高的评分
 
 14
 00:00:29,879 --> 00:00:31,379
-Learn from other 你可以从其他开发人员那里学习
-developers on how
+你可以从其他开发者那里学习
 
 15
 00:00:31,379 --> 00:00:33,899
-to continue optimizing 如何继续优化你的应用
-your app for success
+如何继续优化你的应用
 
 16
 00:00:33,899 --> 00:00:35,549
-and be able to 并从中实现利润
-monetize your app,
+并从中实现利润
 
 17
 00:00:35,549 --> 00:00:37,649
-as well as how to continue 以及如何继续为用户
-providing the best
+以及如何继续为用户
 
 18
 00:00:37,649 --> 00:00:39,939
-experience for your users.提供最佳的体验
+提供最佳的体验
 
 19
 00:00:39,939 --> 00:00:42,960
-Now Google provides a plethora    Google 提供了大量资源 来帮助开发人员
-of resources for developers
+Google 提供了大量资源 来帮助开发者
 
 20
 00:00:42,960 --> 00:00:45,329
-to continue 继续改进他们的应用
-improving their apps.
+继续改进他们的应用
 
 21
 00:00:45,329 --> 00:00:47,219
-Learn how to choose the 了解如何选择正确的营利模式
-correct monetization
+了解如何选择正确的营利模式
 
 22
 00:00:47,219 --> 00:00:51,750
-model to how to sell goods 以及如何使用 Android Play 销售商品与服务
-and services with Android Play.
+以及如何使用 Android Play 销售商品与服务
 
 23
 00:00:51,750 --> 00:00:53,909
-Google also provides     Google 还提供了一个强大的分析工具
-a powerful analytics
+Google 还提供了一个强大的分析工具
 
 24
 00:00:53,909 --> 00:00:56,489
-tool called Firebase Analytics. 叫作 Firebase Analytics
+叫作 Firebase Analytics
 
 25
 00:00:56,490 --> 00:00:59,130
-It's a free tool that gives  这是一款免费工具 可以让你作为开发人员
-you as the developer insights
+这是一款免费工具 可以让你作为开发人员
 
 26
 00:00:59,130 --> 00:01:02,460
-into how users are using  了解用户使用你的应用和与之交互的方式
-and engaging with your app
+了解用户使用你的应用和与之交互的方式
 
 27
 00:01:02,460 --> 00:01:05,250
-so that you can continue making 以持续在应用营销和改进方面
-informed decisions about how
+以持续在应用营销和改进方面
 
 28
 00:01:05,250 --> 00:01:08,489
-to market and improve 做出明智的决定
-your application.
+做出明智的决定
 
 29
 00:01:08,489 --> 00:01:10,500
-Now something that I 我经常会听到很多其他开发人员
-always find inspiring
+我经常会听到很多其他开发者
 
 30
 00:01:10,500 --> 00:01:13,260
-is hearing the stories of how 通过 Android 和 Google Play 商店取得成功的故事
-many other developers have
+通过 Android 和 Google Play 商店取得成功的故事
 
 31
 00:01:13,260 --> 00:01:16,170
-found success with 这让我备受鼓舞
-Android and Google Play.
+这让我备受鼓舞
 
 32
 00:01:16,170 --> 00:01:17,609
-Check out their  你可以查看这些开发人员的故事
-developer stories
+你可以查看这些开发人员的故事
 
 33
 00:01:17,609 --> 00:01:20,219
-and hear strategies 聆听他们增加安装量的策略
-to increase installs,
+聆听他们增加安装量的策略
 
 34
 00:01:20,219 --> 00:01:22,980
-improve user experiences 以及如何通过材料设计提高用户体验
-with material design,
+以及如何通过材料设计提高用户体验
 
 35
 00:01:22,980 --> 00:01:26,270
-and turn your personal passion 进而将你的个人爱好转变为成功的商业机会
-into a successful business.
+进而将你的个人爱好转变为成功的商业机会
 
 36
 00:01:26,269 --> 00:01:28,379
-And again, congratulations. 再次祝贺你
+再次祝贺你
 
 37
 00:01:28,379 --> 00:01:31,319
-You've accomplished a lot to 到这一步你完成了很多
-get to this state, all the way
+到这一步你完成了很多
 
 38
 00:01:31,319 --> 00:01:34,469
-from developing, to testing, to 从开发到测试 到设置应用
-setting your app for success,
+从开发到测试 到设置应用
 
 39
 00:01:34,469 --> 00:01:37,039
-to now engaging with your users.再到与用户交互
+再到与用户交互
 
 40
 00:01:37,040 --> 00:01:38,880
-Now give yourself a 现在你可以肯定地拍拍自己的肩膀
-big pat on the back
+现在你可以肯定地拍拍自己的肩膀
 
 41
 00:01:38,879 --> 00:01:41,409
-and go out and celebrate the 出去与朋友庆祝完成的这项重大的工作
-hard work that you've done.
+出去与朋友庆祝你完成这项重大的工作
 
 42
 00:01:41,409 --> 00:01:43,469
-Now that your app 现在你的应用已经发布
-is out in the world,
+现在你的应用已经发布
 
 43
 00:01:43,469 --> 00:01:46,109
-take advantage of all the 那么就充分利用可用的所有工具与资源
-tools and resources available
+那么就充分利用可用的所有工具与资源
 
 44
 00:01:46,109 --> 00:01:50,030
-and continue making it 持续打造令人兴奋的体验吧
-an amazing experience.
-
+持续打造令人兴奋的体验吧

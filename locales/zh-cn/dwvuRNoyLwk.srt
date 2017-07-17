@@ -1,169 +1,140 @@
 ﻿1
 00:00:00,229 --> 00:00:01,770
 Well 幸运的是 由于我们
-luckily, since we've
 
 2
 00:00:01,770 --> 00:00:03,600
-been using an 一直以来使用的都是仿真器
-emulator all along,
+一直以来使用的都是仿真器
 
 3
 00:00:03,600 --> 00:00:06,689
-we can actually fake anything,我们实际上可以虚构任何东西 因为如果你想想
-because if you think about it,
+我们实际上可以虚构任何东西 因为如果你想想
 
 4
 00:00:06,689 --> 00:00:09,280
-this entire device is 整个设备一开始都是虚构的
-all fake to start with.
+整个设备一开始都是虚构的
 
 5
 00:00:09,279 --> 00:00:11,219
-Now if you open up the 如果你打开“额外设置” (Extra Settings) 窗口
-Extra Settings window,
+如果你打开“额外设置” (Extra Settings) 窗口
 
 6
 00:00:11,220 --> 00:00:12,970
-you'll find an 你可以找到一个位置选项
-option for location
+你可以找到一个位置选项
 
 7
 00:00:12,970 --> 00:00:15,120
-where you can set the 在此设置设备的坐标 甚至是
-device's coordinates and even
+在此设置设备的坐标 甚至是
 
 8
 00:00:15,119 --> 00:00:16,669
-its altitude. 高度
+高度
 
 9
 00:00:16,670 --> 00:00:19,260
-Here, I've inputted the 我在这里输入了悉尼的坐标
-coordinates for Sydney
+我在这里输入了悉尼的坐标
 
 10
 00:00:19,260 --> 00:00:22,380
-and hopped over to 并在 Google 地图中跳到了它
-it in Google Maps.
+并在 Google 地图中跳到了它
 
 11
 00:00:22,379 --> 00:00:26,429
-Additionally, you can set up a 此外 你可以设置 GPX 或 KML 格式
-file of either GPX or KML
+此外 你可以设置 GPX 或 KML 格式
 
 12
 00:00:26,429 --> 00:00:29,609
-format and launch it to 的文件 并启动它以自定义速度模拟
-simulate a path of coordinates
+的文件 并启动它以自定义速度模拟
 
 13
 00:00:29,609 --> 00:00:31,919
-with custom speeds.坐标路径
+坐标路径
 
 14
 00:00:31,920 --> 00:00:35,010
-Here's an example of 这里有一个 KML 文件格式的示例
-a KML file format.
+这里有一个 KML 文件格式的示例
 
 15
 00:00:35,009 --> 00:00:37,759
-I've loaded that file 我将该文件加载到了这里的播放中
-into this playback here.
+我将该文件加载到了这里的播放中
 
 16
 00:00:37,759 --> 00:00:39,570
-And let's watch it go. 我们来看它播放
+我们来看它播放
 
 17
 00:00:39,570 --> 00:00:41,420
-Pretty cool, huh? 挺酷的 对吧？
+挺酷的 对吧？
 
 18
 00:00:41,420 --> 00:00:44,789
-Now however, testing 但是 测试地理围栏有点棘手
-Geofences is tricky.
+但是 测试地理围栏有点棘手
 
 19
 00:00:44,789 --> 00:00:48,269
-Remember that Geofences 记住地理围栏依赖网络、Wi-Fi 数据
-rely on network, Wi-Fi data,
+记住地理围栏依赖网络、Wi-Fi 数据
 
 20
 00:00:48,270 --> 00:00:50,220
-and the last known GPS. 和最新已知 GPS
+和最新已知 GPS
 
 21
 00:00:50,219 --> 00:00:52,799
-And using this data, it  它仅在需要时使用此数据
-only refreshes the last known
+它仅在需要时使用此数据
 
 22
 00:00:52,799 --> 00:00:54,959
-GPS when it needs to. 刷新最新已知 GPS
+刷新最新已知 GPS
 
 23
 00:00:54,960 --> 00:00:57,079
-Because remember, refreshing 因为记住 刷新最新已知 GPS
-the last known GPS
+因为记住 刷新最新已知 GPS
 
 24
 00:00:57,079 --> 00:01:00,000
-is a very battery-heavy 是一项非常耗电的操作
-operation.
+是一项非常耗电的操作
 
 25
 00:01:00,000 --> 00:01:03,689
-Now unfortunately, when we  不幸的是 当我们在仿真器上模拟 GPS 时
-do spoof GPS on an emulator,
+不幸的是 当我们在仿真器上模拟 GPS 时
 
 26
 00:01:03,689 --> 00:01:06,899
-it doesn't automatically 它不会自动更新最新已知 GPS
-update the last known GPS.
+它不会自动更新最新已知 GPS
 
 27
 00:01:06,900 --> 00:01:08,400
-However, there is 但是 我们可以使用一个技巧
-a trick we can use
+但是 我们可以使用一个技巧
 
 28
 00:01:08,400 --> 00:01:11,880
-to be able to trigger a 来从仿真器触发地理围栏
-Geofence from an emulator.
+来从仿真器触发地理围栏
 
 29
 00:01:11,879 --> 00:01:13,859
-Now while our app 虽然我们的应用不会自动
-doesn't automatically
+虽然我们的应用不会自动
 
 30
 00:01:13,859 --> 00:01:16,890
-get the latest GPS location,获取最新的 GPS 位置 但手机上的其他应用
-other apps on the phone,
+获取最新的 GPS 位置 但手机上的其他应用
 
 31
 00:01:16,890 --> 00:01:20,820
-such as Google Maps, can help 如 Google 地图 可帮助我们获取 GPS 位置
-us to acquire the GPS location.
+如 Google 地图 可帮助我们获取 GPS 位置
 
 32
 00:01:20,819 --> 00:01:24,949
-If I simply open up Google Maps, 如果我只是打开 Google 地图 它会强制执行新的 GPS 更新
-it will force a new GPS update
+如果我只是打开 Google 地图 它会强制执行新的 GPS 更新
 
 33
 00:01:24,950 --> 00:01:28,240
-and will hence refresh 因此会刷新最新的 GPS 位置
-the latest GPS location.
+因此会刷新最新的 GPS 位置
 
 34
 00:01:28,239 --> 00:01:31,559
-This will most likely trigger a 这很可能会立即触发地理围栏转换 
-Geofence transition immediately
+这很可能会立即触发地理围栏转换
 
 35
 00:01:31,560 --> 00:01:34,790
-if the device was（如果设备在这样的地理围栏内）
-inside such Geofence.
+如果设备在这样的地理围栏内
 

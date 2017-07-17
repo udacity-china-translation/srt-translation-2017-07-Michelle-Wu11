@@ -1,95 +1,80 @@
 ﻿1
 00:00:00,370 --> 00:00:00,870
-All right.好的
+好的
 
 2
 00:00:00,870 --> 00:00:02,286
-So now we've got 现在我们已在小部件和
-the communication
+现在我们已在小部件和
 
 3
 00:00:02,286 --> 00:00:04,740
-going between the widget      intent 服务之间建立了通信
-and the intent service,
+intent 服务之间建立了通信
 
 4
 00:00:04,740 --> 00:00:08,250
-offloading any test 从 UI 主线程卸载了任何测试
-from the UI main thread.
+从 UI 主线程卸载了任何测试
 
 5
 00:00:08,250 --> 00:00:10,679
-But I do feel that that 但我觉得“全部浇水”(Water-All) 按钮
-Water-All button is a bit
+但我觉得“全部浇水”(Water-All) 按钮
 
 6
 00:00:10,679 --> 00:00:12,609
-too easy for our users. 对我们的用户来说有点太简单了
+对我们的用户来说有点太简单了
 
 7
 00:00:12,609 --> 00:00:14,489
-Now I've been thinking, 我在想 我们应该改变它
-we should change it
+我在想 我们应该改变
 
 8
 00:00:14,490 --> 00:00:16,460
-so that it only waters 将它仅对小部件中当前显示
-the plant that's
+将它仅对小部件中当前显示
 
 9
 00:00:16,460 --> 00:00:18,780
-currently displayed in widget.的植物浇水
+的植物浇水
 
 10
 00:00:18,780 --> 00:00:21,780
-Also, to prevent any 而且 为了防止对植物过量浇水
-overwatering of the plants,
+而且 为了防止对植物过量浇水
 
 11
 00:00:21,780 --> 00:00:24,270
-let's set the water droplet 我们将水滴设置为仅在距离上次给植物浇水
-to only appear in the widget
+我们将水滴设置为仅在距离上次给植物浇水
 
 12
 00:00:24,269 --> 00:00:28,259
-if it's been a while since 有一段时间后再出现在小部件中
-this plant was last watered.
+有一段时间后再出现在小部件中
 
 13
 00:00:28,260 --> 00:00:31,089
-And lastly, while we're 最后 既然我们已经在做改变
-making changes already,
+最后 既然我们已经在做改变
 
 14
 00:00:31,088 --> 00:00:32,879
-I've gone ahead and 我顺便从使用此应用的朋友那里
-collected some feedback
+我顺便从使用此应用的朋友那里
 
 15
 00:00:32,880 --> 00:00:34,740
-from friends who have 收集了一些反馈
-been using the app
+收集了一些反馈
 
 16
 00:00:34,740 --> 00:00:36,416
-and written those down for you. 并写了下来供你参考
+并写了下来供你参考
 
 17
 00:00:36,415 --> 00:00:38,039
-Now I'd like you to 现在我要你自己解决这些问题
-try to tackle those
+现在我要你自己解决这些问题
 
 18
 00:00:38,039 --> 00:00:41,211
-yourself and make those changes 并尽力进行这些更改 但记住
-if you can, but remember,
+并尽力进行这些更改 但记住
 
 19
 00:00:41,212 --> 00:00:43,170
-if you do get stuck, you 如果你在哪里卡住了 可以随时查看
-can always take a look
+如果你在哪里卡住了 可以随时查看
 
 20
 00:00:43,170 --> 00:00:45,200
-at the solution code. 解决方案代码
+解决方案代码
 
