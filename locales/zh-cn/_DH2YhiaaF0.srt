@@ -1,0 +1,88 @@
+﻿1
+00:00:00,000 --> 00:00:03,484
+我们需要一个 ExoPlayer.EventListener
+
+2
+00:00:03,484 --> 00:00:07,530
+这是一个允许你监听 ExoPlayer 状态变化的接口
+
+3
+00:00:07,530 --> 00:00:08,910
+听起来很棒吧？
+
+4
+00:00:08,910 --> 00:00:11,189
+它需要你实现六个方法
+
+5
+00:00:11,189 --> 00:00:12,990
+但我们唯一感兴趣的方法是
+
+6
+00:00:12,990 --> 00:00:18,329
+onPlayerStateChanged 它在 Player 状态发生变化时调用
+
+7
+00:00:18,329 --> 00:00:20,519
+它有两个参数
+
+8
+00:00:20,518 --> 00:00:23,393
+第一个是 boolean playWhenReady
+
+9
+00:00:23,393 --> 00:00:26,338
+你可以将其视为播放暂停状态指示器
+
+10
+00:00:26,338 --> 00:00:30,549
+ExoPlayerState 整数实际上并不会告诉你是否在播放
+
+11
+00:00:30,550 --> 00:00:34,710
+只会说明已准备就绪 而这个 boolean 参数便提供了详细的状态信息
+
+12
+00:00:34,710 --> 00:00:37,798
+第二个是 playbackState 整数
+
+13
+00:00:37,798 --> 00:00:40,310
+它会告诉你 ExoPlayer 的状态
+
+14
+00:00:40,310 --> 00:00:43,015
+它可以是以下状态：STATE_IDLE、
+
+15
+00:00:43,015 --> 00:00:46,490
+STATE_IDLE、STATE_BUFFERING、STATE_READY
+
+16
+00:00:46,490 --> 00:00:51,240
+You can use this playback state to perform custom actions when the playback has ended,你可以使用这个 playbackState 在播放停止时
+
+17
+00:00:51,240 --> 00:00:53,728
+for example, or when it's buffering. 或缓冲时执行自定义操作
+
+18
+00:00:53,728 --> 00:00:56,129
+Use this method in an if else statement to 你可以在 if else 语句中使用此方法
+
+19
+00:00:56,130 --> 00:00:58,890
+log when the ExoPlayer is playing and when it's paused.来记录 ExoPlayer 何时播放及何时暂停
+
+20
+00:00:58,890 --> 00:01:01,079
+Run the app and see if playing and pausing 运行应用 看看在播放器播放和
+
+21
+00:01:01,079 --> 00:01:04,079
+the player correctly logs the state in the Android monitor.暂停时 Android 监听器是否会正确记录状态
+
+22
+00:01:04,078 --> 00:01:08,000
+You will use this method to update the media session in the following step. 你将使用此方法在下一步中更新媒体会话
+
