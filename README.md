@@ -2,7 +2,7 @@
 
 ## 试译流程
 
-到达这一步，你应该已经在 Google Spreadsheets 中认领了翻译和校对任务，并提交了截止日期。
+到达这一步，你应该已经在 [Google Spreadsheets](https://docs.google.com/spreadsheets/d/1A2Lpk6cz59dQDNdG9ul6RnQYR_SmgSLxPRBTEu-tQsw/edit#gid=982304948) 中认领了翻译和校对任务，并提交了截止日期。
 现在你需要做的是：
 
 1. 使用 git 克隆 repo 至本地，创建新 branch。
@@ -36,4 +36,9 @@
 - [中文字幕格式规范](https://discussions.youdaxue.com/t/v1-1/3313)
 - [优达学城论坛 - 翻译经验讨论](https://discussions.youdaxue.com/c/translation/69-category)
   - [对翻译有帮助的资料或网站](https://discussions.youdaxue.com/t/topic/3007)
-  - [参考词汇表](https://docs.google.com/spreadsheets/d/1u5Nf9IEqfRR2EI4Q695KhH4dySIr9yF6rP2lTGrZKjg/edit?usp=sharing)
+- [参考词汇表](https://docs.google.com/spreadsheets/d/1u5Nf9IEqfRR2EI4Q695KhH4dySIr9yF6rP2lTGrZKjg/edit?usp=sharing)
+
+## 试译中遇到问题
+
+- 在 slack 中 #training 频道 @ivylee 提问
+- 在优达字幕组入坑答疑 QQ 群：595926064 提问
