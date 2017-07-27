@@ -1,0 +1,297 @@
+1
+00:00:00,310 --> 00:00:03,160
+So the first thing we need to do
+is actually define a metric, or
+
+2
+00:00:03,160 --> 00:00:05,360
+maybe multiple metrics,
+for our experiment.
+
+3
+00:00:05,360 --> 00:00:07,870
+In other words, we need to decide
+how we're going to measure whether
+
+4
+00:00:07,870 --> 00:00:10,380
+the experiment group is better
+than the control group or not.
+
+5
+00:00:10,380 --> 00:00:12,060
+Carrie, how do you get
+started with this?
+
+6
+00:00:12,060 --> 00:00:14,770
+>> Well, the first thing you want to do
+is think about what you're going to use
+
+7
+00:00:14,770 --> 00:00:18,080
+the metrics for, before you decide
+how you're going to define them.
+
+8
+00:00:18,080 --> 00:00:18,630
+>> Right, and
+
+9
+00:00:18,630 --> 00:00:20,800
+so, if you're thinking about how
+you're going to use the metric,
+
+10
+00:00:20,800 --> 00:00:23,180
+there are really two main use cases.
+
+11
+00:00:23,180 --> 00:00:26,100
+The first is what we call
+invariant checking, and these
+
+12
+00:00:26,100 --> 00:00:30,140
+are the metrics that shouldn't change
+across your experiment and your control.
+
+13
+00:00:30,140 --> 00:00:32,310
+For example,
+if you're running an experiment and
+
+14
+00:00:32,310 --> 00:00:37,090
+a control, one major term of comparison
+is, are the populations the same?
+
+15
+00:00:37,090 --> 00:00:41,380
+So you might check one, do you have
+the same number of users across the two?
+
+16
+00:00:41,380 --> 00:00:44,590
+The other thing that you might check is,
+is the distribution the same?
+
+17
+00:00:44,590 --> 00:00:50,000
+So, do you have comparable numbers of
+users across countries, or by language?
+
+18
+00:00:50,000 --> 00:00:53,500
+All of these things are sanity checked
+to make sure that your experiment is
+
+19
+00:00:53,500 --> 00:00:54,558
+actually run properly.
+
+20
+00:00:54,558 --> 00:00:56,600
+The second use case is
+going to be evaluation,
+
+21
+00:00:56,600 --> 00:01:00,100
+which is basically what Carrie
+talked about in the first place.
+
+22
+00:01:00,100 --> 00:01:01,350
+>> And even for evaluation,
+
+23
+00:01:01,350 --> 00:01:03,600
+you're going to have a couple of
+different things to think about.
+
+24
+00:01:03,600 --> 00:01:06,570
+First, you have what you think of
+as high level business metrics, so
+
+25
+00:01:06,570 --> 00:01:10,630
+that might be how much revenue you make,
+what your market share is,
+
+26
+00:01:10,630 --> 00:01:12,480
+how many users you have.
+
+27
+00:01:12,480 --> 00:01:15,510
+And then you're going to want more
+detailed metrics that focus on, say,
+
+28
+00:01:15,510 --> 00:01:18,040
+the user experience with
+actually using your product,
+
+29
+00:01:18,040 --> 00:01:20,670
+how long they stay on your page,
+things like that.
+
+30
+00:01:20,670 --> 00:01:22,590
+>> Okay.
+Can you give some examples of when you'd
+
+31
+00:01:22,590 --> 00:01:24,100
+need these more detailed metrics?
+
+32
+00:01:24,100 --> 00:01:24,740
+>> Sure.
+
+33
+00:01:24,740 --> 00:01:28,840
+So, let's say for example that you
+have a particular user experience.
+
+34
+00:01:28,840 --> 00:01:34,710
+One example is maybe users aren't
+finishing a class, on audacity.
+
+35
+00:01:34,710 --> 00:01:36,730
+Well, we don't know why, but we,
+
+36
+00:01:36,730 --> 00:01:41,710
+what we want to do is we want to dig in
+to the user experience for that class.
+
+37
+00:01:41,710 --> 00:01:44,950
+Maybe the videos are taking too long
+to load, and we should look at latency.
+
+38
+00:01:44,950 --> 00:01:47,060
+Maybe some of the quizzes
+are particularly difficult, and
+
+39
+00:01:47,060 --> 00:01:48,840
+the students are having
+trouble with that.
+
+40
+00:01:48,840 --> 00:01:49,410
+Right?
+And so
+
+41
+00:01:49,410 --> 00:01:52,674
+what we want is we want a set of
+techniques to help us really dig
+
+42
+00:01:52,674 --> 00:01:54,468
+into that user experience.
+
+43
+00:01:54,468 --> 00:01:56,705
+And so we'll talk about
+a bunch of these methods.
+
+44
+00:01:56,705 --> 00:01:58,931
+One of them is going to be
+user experience research,
+
+45
+00:01:58,931 --> 00:02:01,450
+which we can use in order
+to brainstorm metrics.
+
+46
+00:02:01,450 --> 00:02:04,070
+>> And sometimes your business
+metrics may just not work out in
+
+47
+00:02:04,070 --> 00:02:06,040
+the context of any experiment.
+
+48
+00:02:06,040 --> 00:02:09,060
+So for you may not have the information
+you need, or the time that you're
+
+49
+00:02:09,060 --> 00:02:12,510
+running the experiment may be too
+short to measure what you want.
+
+50
+00:02:12,510 --> 00:02:15,820
+If we think about our online courses,
+maybe what we're really interested
+
+51
+00:02:15,820 --> 00:02:19,300
+in is whether students get more
+jobs after taking the class, or
+
+52
+00:02:19,300 --> 00:02:22,900
+something more nebulous like
+did they have improved skills.
+
+53
+00:02:22,900 --> 00:02:27,420
+Now the problem with the jobs one is we
+just don't have complete information.
+
+54
+00:02:27,420 --> 00:02:31,230
+We could try serving students, but we'll
+never really know if they got a job as
+
+55
+00:02:31,230 --> 00:02:35,470
+a result of this class except maybe
+over a very long period of time.
+
+56
+00:02:35,470 --> 00:02:37,090
+And then we also don't have time, right?
+
+57
+00:02:37,090 --> 00:02:40,260
+We're running an experiment right now,
+and even if we could prove that someone
+
+58
+00:02:40,260 --> 00:02:43,250
+got a job as a result of this,
+we wouldn't necessarily get that
+
+59
+00:02:43,250 --> 00:02:46,730
+information within a month,
+they might get a job six months later.
+
+60
+00:02:46,730 --> 00:02:48,930
+And then there's the category of
+things which are more nebulous,
+
+61
+00:02:48,930 --> 00:02:50,490
+like improved skills.
+
+62
+00:02:50,490 --> 00:02:52,280
+How do we really measure
+that in an experiment?

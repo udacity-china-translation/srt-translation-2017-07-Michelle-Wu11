@@ -1,0 +1,328 @@
+1
+00:00:00,420 --> 00:00:03,550
+Okay, we've talked about how to size
+our experiment, what comes next?
+
+2
+00:00:03,550 --> 00:00:07,689
+>> Well we have to translate our ideal
+size into a set of practical decisions.
+
+3
+00:00:07,689 --> 00:00:11,450
+First of all, what's the duration of
+the experiment that I want to run?
+
+4
+00:00:11,450 --> 00:00:13,750
+Secondly, when do I want
+to run the experiment?
+
+5
+00:00:13,750 --> 00:00:16,200
+Is, you know,
+back to school a good time to run it?
+
+6
+00:00:16,200 --> 00:00:17,338
+What about holidays?
+
+7
+00:00:17,338 --> 00:00:19,860
+Is it going to overlap
+something that's important and
+
+8
+00:00:19,860 --> 00:00:23,090
+then third you have to think about what
+fraction of your traffic you're going to
+
+9
+00:00:23,090 --> 00:00:24,970
+send through the experiment.
+
+10
+00:00:24,970 --> 00:00:28,120
+Those are all interrelated as they
+get you to the ideal size but
+
+11
+00:00:28,120 --> 00:00:30,170
+you need to think about them
+a little bit separately.
+
+12
+00:00:30,170 --> 00:00:31,210
+>> The fist two make sense.
+
+13
+00:00:31,210 --> 00:00:33,750
+Could you go over the last
+one a little bit more?
+
+14
+00:00:33,750 --> 00:00:34,290
+>> Sure.
+
+15
+00:00:34,290 --> 00:00:37,250
+So what's that your unit
+of diversion is a cookie.
+
+16
+00:00:37,250 --> 00:00:40,160
+And so what we're really
+asking is on any given day
+
+17
+00:00:40,160 --> 00:00:42,860
+what proportion or what percentage of
+the cookies are you sending to your
+
+18
+00:00:42,860 --> 00:00:43,871
+experiment and your control?
+
+19
+00:00:45,050 --> 00:00:49,435
+Now, let's say we're and we need 1
+million cookies in our experiment and
+
+20
+00:00:49,435 --> 00:00:51,160
+our control combined.
+
+21
+00:00:51,160 --> 00:00:55,850
+Now, if you only get a 100,000 cookies
+visiting your site on any given day.
+
+22
+00:00:55,850 --> 00:00:58,690
+That means that if you
+want to run 50% of
+
+23
+00:00:58,690 --> 00:01:00,645
+your traffic through the experiment and
+
+24
+00:01:00,645 --> 00:01:05,360
+50% through the control, you need to run
+your experiment control for ten days.
+
+25
+00:01:05,360 --> 00:01:09,010
+Now, another choice is to run
+your experiment at 25% each, say,
+
+26
+00:01:09,010 --> 00:01:11,010
+it's because you want
+to run another test,
+
+27
+00:01:11,010 --> 00:01:14,060
+then you'd have to run your experiment
+for 20 days as opposed to 10.
+
+28
+00:01:14,060 --> 00:01:17,560
+And that's how, the duration of your
+experiment, is related to the proportion
+
+29
+00:01:17,560 --> 00:01:19,840
+of traffic that you're sending
+through your experiment.
+
+30
+00:01:19,840 --> 00:01:22,530
+Okay, why wouldn't you always
+run on all of your traffic so
+
+31
+00:01:22,530 --> 00:01:24,150
+you can get results quicker?
+
+32
+00:01:24,150 --> 00:01:25,810
+>> Well,
+there's a couple of different reasons.
+
+33
+00:01:25,810 --> 00:01:28,140
+The first, which we've
+touched on before, is safety.
+
+34
+00:01:28,140 --> 00:01:32,370
+So basically, you may have a new UI
+feature, and you're not sure either how
+
+35
+00:01:32,370 --> 00:01:35,630
+well it functions in all browsers,
+or I mean, hopefully you know.
+
+36
+00:01:35,630 --> 00:01:37,220
+But you may want to test it.
+
+37
+00:01:37,220 --> 00:01:39,530
+Or how your users are going to react.
+
+38
+00:01:39,530 --> 00:01:41,250
+So they might get frustrated with it.
+
+39
+00:01:41,250 --> 00:01:42,360
+It might not work that well.
+
+40
+00:01:42,360 --> 00:01:45,607
+So you might want to actually keep
+the site mostly the same, and
+
+41
+00:01:45,607 --> 00:01:49,950
+only expose a few people to it until
+you feel more comfortable with it.
+
+42
+00:01:49,950 --> 00:01:52,210
+The other reason would
+be something like press.
+
+43
+00:01:52,210 --> 00:01:53,390
+Let's say it's a new feature.
+
+44
+00:01:53,390 --> 00:01:55,620
+You're not really sure
+you're going to keep it.
+
+45
+00:01:55,620 --> 00:01:58,760
+Do you really want a lot of people
+seeing this and potentially blogging
+
+46
+00:01:58,760 --> 00:02:02,110
+about if you're not sure it's even going
+to be the way you go with the site?
+
+47
+00:02:02,110 --> 00:02:06,550
+>> So, another reason is that right now
+we're randomizing across the unit of
+
+48
+00:02:06,550 --> 00:02:08,979
+diversion, but the question is what
+
+49
+00:02:08,979 --> 00:02:12,470
+other things are actually impacting
+the variability of your results?
+
+50
+00:02:12,470 --> 00:02:16,050
+Carrie mentioned something at the
+beginning of this video which is about
+
+51
+00:02:16,050 --> 00:02:18,290
+you know,
+what if it ran on a holiday, right?
+
+52
+00:02:18,290 --> 00:02:21,244
+Well, you know,
+if you're running a 50-50 experiment,
+
+53
+00:02:21,244 --> 00:02:24,740
+then you can gather all data on a single
+day, would you actually want to
+
+54
+00:02:24,740 --> 00:02:28,390
+make a decision based on
+a single day if it was a holiday?
+
+55
+00:02:28,390 --> 00:02:32,340
+Well, a more common scenario is that you
+have to have very different behavior
+
+56
+00:02:32,340 --> 00:02:33,710
+on weekdays and weekends.
+
+57
+00:02:33,710 --> 00:02:37,555
+And so you might actually prefer to run
+at a smaller percentage across multiple
+
+58
+00:02:37,555 --> 00:02:40,992
+days to get a sense for how the
+differences are by week day and weekend,
+
+59
+00:02:40,992 --> 00:02:44,777
+across holidays, by different times of
+day, all of those different types of
+
+60
+00:02:44,777 --> 00:02:49,440
+things that you are actually accounting
+for those other sources of variability.
+
+61
+00:02:49,440 --> 00:02:52,750
+>> And the other option is, you may be
+running multiple tasks at your company
+
+62
+00:02:52,750 --> 00:02:55,900
+or you may be running multiple tasks
+of the same feature with you know,
+
+63
+00:02:55,900 --> 00:02:59,840
+different levels of a parameter or
+different types of the same feature?
+
+64
+00:02:59,840 --> 00:03:03,230
+And if you really want those things to
+be directly comparable, the easiest
+
+65
+00:03:03,230 --> 00:03:07,660
+thing to do is to run them at the same
+time on smaller percentages of traffic.
+
+66
+00:03:07,660 --> 00:03:10,930
+And then you know that if one of
+the tests was affected by a holiday or
+
+67
+00:03:10,930 --> 00:03:14,530
+a strange shift in your traffic,
+they all were, and you should be able to
+
+68
+00:03:14,530 --> 00:03:17,278
+compare the relative ordering
+of the tests against each other.
+
+69
+00:03:17,278 --> 00:03:18,169
+>> Got it.

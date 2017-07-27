@@ -1,0 +1,76 @@
+1
+00:00:00,390 --> 00:00:03,550
+Now consider invariant metrics for
+another experiment.
+
+2
+00:00:03,550 --> 00:00:07,240
+This time, Audacity changes the location
+of the sign in button to see if they can
+
+3
+00:00:07,240 --> 00:00:09,060
+get users to sign in sooner.
+
+4
+00:00:09,060 --> 00:00:13,130
+The sign in button currently appears
+on the course list page, and if a user
+
+5
+00:00:13,130 --> 00:00:16,610
+who isn't signed in tries to enroll in
+a course, they are prompted to sign in.
+
+6
+00:00:16,610 --> 00:00:20,610
+But in the experiment group, the sign
+in button is added to every page,
+
+7
+00:00:20,610 --> 00:00:22,260
+including the home page.
+
+8
+00:00:22,260 --> 00:00:24,915
+The unit of diversion is a cookie,
+since Audacity wants
+
+9
+00:00:24,915 --> 00:00:28,500
+a consistent experience across
+the sign-in sign-out boundary.
+
+10
+00:00:28,500 --> 00:00:31,340
+Again, which metrics would
+make good invariants?
+
+11
+00:00:31,340 --> 00:00:35,840
+Number of events, click through rate or
+CTR on the start now button,
+
+12
+00:00:35,840 --> 00:00:38,580
+the probability of a user
+enrolls in a course.
+
+13
+00:00:38,580 --> 00:00:40,070
+The sign in rate, that is,
+
+14
+00:00:40,070 --> 00:00:44,310
+the rate at which users who are not
+signed in, complete the sign in process.
+
+15
+00:00:44,310 --> 00:00:46,740
+Or finally,
+the average load time of the video.
+
+16
+00:00:46,740 --> 00:00:49,960
+Again, check each metric that would be
+a good invariant for this experiment.

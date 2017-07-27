@@ -1,0 +1,192 @@
+1
+00:00:00,410 --> 00:00:02,820
+Now let's say Audacity
+does another experiment,
+
+2
+00:00:02,820 --> 00:00:06,310
+this time changing the order courses
+appear on their course list page.
+
+3
+00:00:06,310 --> 00:00:09,680
+The metric they use is the overall
+click-through-rate to individual
+
+4
+00:00:09,680 --> 00:00:10,780
+course pages.
+
+5
+00:00:10,780 --> 00:00:13,960
+That is, the total number of times
+the user clicks on any course,
+
+6
+00:00:13,960 --> 00:00:16,070
+divided by the number of page views.
+
+7
+00:00:16,070 --> 00:00:18,790
+To give a consistent user
+experience of the course list,
+
+8
+00:00:18,790 --> 00:00:22,190
+while still including non-logged
+in traffic in the experiment,
+
+9
+00:00:22,190 --> 00:00:25,370
+Audacity chooses cookie
+as the unit-of-diversion.
+
+10
+00:00:25,370 --> 00:00:30,360
+And they use their standard values
+of 0.05 and 0.2 for alpha and beta.
+
+11
+00:00:30,360 --> 00:00:34,095
+Their practical significance boundary,
+or dmin, is 0.01, and
+
+12
+00:00:34,095 --> 00:00:38,646
+they empirically estimate that their
+standard error to be 0.0628 for
+
+13
+00:00:38,646 --> 00:00:42,440
+1,000 page views,
+sampled using cookie based diversion.
+
+14
+00:00:42,440 --> 00:00:44,950
+The result is that
+Audacity would need at
+
+15
+00:00:44,950 --> 00:00:48,550
+least 300,000 page views in each
+group in order to have enough power,
+
+16
+00:00:48,550 --> 00:00:51,420
+which would correspond to all
+of their traffic for a month.
+
+17
+00:00:51,420 --> 00:00:54,070
+Audacity isn't willing to spend
+that long getting results on this
+
+18
+00:00:54,070 --> 00:00:55,120
+one experiment,
+
+19
+00:00:55,120 --> 00:00:58,865
+especially if it means they can't run
+any other experiments in the meantime.
+
+20
+00:00:58,865 --> 00:01:01,365
+Which of the following
+strategies could Audacity try,
+
+21
+00:01:01,365 --> 00:01:05,375
+in order to reduce the total number
+of page views needed to get a result?
+
+22
+00:01:05,375 --> 00:01:08,705
+First, you already saw in lesson one,
+that they could increase the practical
+
+23
+00:01:08,705 --> 00:01:12,575
+significance boundary, that is,
+not try to detect a smaller change.
+
+24
+00:01:12,575 --> 00:01:14,075
+Or, alpha or beta, that is,
+
+25
+00:01:14,075 --> 00:01:18,205
+accept a higher probability of
+a false positive or a false negative.
+
+26
+00:01:18,205 --> 00:01:19,780
+So, this would work.
+
+27
+00:01:19,780 --> 00:01:22,550
+But here are some other things
+they could consider changing.
+
+28
+00:01:22,550 --> 00:01:25,670
+First, would it help to change the unit
+of diversion to a page view rather
+
+29
+00:01:25,670 --> 00:01:26,700
+than a cookie?
+
+30
+00:01:26,700 --> 00:01:29,710
+That is, if each page view was
+randomly assigned to the control or
+
+31
+00:01:29,710 --> 00:01:32,850
+experiment group, even if two page
+views came from the same cookie,
+
+32
+00:01:32,850 --> 00:01:36,460
+would this reduce the total
+number of page views needed?
+
+33
+00:01:36,460 --> 00:01:40,130
+Second, would targeting the experiment
+to specific traffic help?
+
+34
+00:01:40,130 --> 00:01:44,600
+That is, suppose that Audacity has
+classes in many languages, and
+
+35
+00:01:44,600 --> 00:01:47,940
+this experiment only reorders
+the English classes.
+
+36
+00:01:47,940 --> 00:01:52,220
+So then, would it help to restrict this
+experiment to only the English traffic?
+
+37
+00:01:52,220 --> 00:01:55,230
+And finally, would it help to
+change the metric to a cookie-based
+
+38
+00:01:55,230 --> 00:01:58,420
+click-through-probability rather
+than a click-through rate?
+
+39
+00:01:58,420 --> 00:02:01,556
+Check any of these three changes that
+would reduce the total number of page
+
+40
+00:02:01,556 --> 00:02:02,171
+views needed.

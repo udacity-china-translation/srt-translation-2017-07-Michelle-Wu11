@@ -1,0 +1,443 @@
+1
+00:00:00,165 --> 00:00:03,324
+Now let's discuss how discuss how
+Audacity could apply these other
+
+2
+00:00:03,324 --> 00:00:07,152
+techniques, to either validate metrics
+from the customer funnel we talked about
+
+3
+00:00:07,152 --> 00:00:11,510
+previously, or brain storm new metrics
+that are not covered by the funnel.
+
+4
+00:00:11,510 --> 00:00:15,040
+At the top of the funnel,
+audacity could compare the count
+
+5
+00:00:15,040 --> 00:00:18,870
+of how many users visit their website
+to externally available metrics,
+
+6
+00:00:18,870 --> 00:00:21,680
+from companies like comScore or
+Hit Wise.
+
+7
+00:00:21,680 --> 00:00:24,380
+Audacity could also look at
+the completion rate of classes and
+
+8
+00:00:24,380 --> 00:00:26,860
+compare that to externally
+available data.
+
+9
+00:00:26,860 --> 00:00:30,280
+If Audacity sees that a particular
+lesson is getting a very low completion
+
+10
+00:00:30,280 --> 00:00:33,810
+rate, they might do a UER
+study to investigate that.
+
+11
+00:00:33,810 --> 00:00:36,800
+Watching the students try to complete
+the lesson can help you figure out, do
+
+12
+00:00:36,800 --> 00:00:40,490
+the students understand where to click,
+can they find everything on the screen,
+
+13
+00:00:40,490 --> 00:00:44,400
+are they progressing in order,
+how do they interact with the coach?
+
+14
+00:00:44,400 --> 00:00:47,900
+You might see users twiddling their
+thumbs, waiting for a video to load and
+
+15
+00:00:47,900 --> 00:00:51,120
+that might give you an idea that
+you should be tracking the latency.
+
+16
+00:00:51,120 --> 00:00:54,950
+If you observe that people aren't seeing
+the instructors notes below the video,
+
+17
+00:00:54,950 --> 00:00:57,670
+then you might want to use percentage
+of people who click on the link
+
+18
+00:00:57,670 --> 00:00:59,030
+as the metric, or
+
+19
+00:00:59,030 --> 00:01:02,060
+if latency looks like an issue then
+that's a metric you could track.
+
+20
+00:01:02,060 --> 00:01:05,530
+For any metric that you come
+up with during a UER session,
+
+21
+00:01:05,530 --> 00:01:08,700
+you might want to validate that
+metric with a retrospective analysis
+
+22
+00:01:08,700 --> 00:01:11,040
+to see how that metric
+has varied over time.
+
+23
+00:01:11,040 --> 00:01:13,000
+Or you might want to run
+some new experiments and
+
+24
+00:01:13,000 --> 00:01:14,920
+see how that metric varies
+as you make changes.
+
+25
+00:01:14,920 --> 00:01:19,580
+And finally, the bottom level of the
+funnel, whether students get jobs and,
+
+26
+00:01:19,580 --> 00:01:24,740
+if they do, do the audacity classes help
+is an example of an unmeasurable metric.
+
+27
+00:01:24,740 --> 00:01:28,900
+In this case surveys might help,
+maybe via email or on repeat students.
+
+28
+00:01:28,900 --> 00:01:32,510
+For example, you could ask students
+if the material covered in class was
+
+29
+00:01:32,510 --> 00:01:34,550
+touched on in any interview
+questions there were asked.
+
+30
+00:01:35,640 --> 00:01:38,640
+Like I mentioned before,
+surveys are often useful for
+
+31
+00:01:38,640 --> 00:01:42,370
+capturing metrics like these, that
+it's not possible to measure directly.
+
+32
+00:01:42,370 --> 00:01:45,290
+The main issue, though, is that you
+can't directly compare the numbers from
+
+33
+00:01:45,290 --> 00:01:47,930
+a survey to what you get
+from any other measurements.
+
+34
+00:01:47,930 --> 00:01:50,310
+The biggest issue here is
+that the populations for
+
+35
+00:01:50,310 --> 00:01:53,510
+your internal metrics and
+your surveys might not be comparable.
+
+36
+00:01:53,510 --> 00:01:56,150
+You might be reaching a biased
+population with your survey
+
+37
+00:01:56,150 --> 00:01:58,710
+relative to the population
+taking the class.
+
+38
+00:01:58,710 --> 00:02:02,180
+Let's also go over the cases you saw
+before of metrics that were tricky to
+
+39
+00:02:02,180 --> 00:02:05,830
+measure, and go over some other
+techniques you could use.
+
+40
+00:02:05,830 --> 00:02:09,169
+I had mentioned before that if Audacity
+wants to measure the rate of students
+
+41
+00:02:09,169 --> 00:02:12,960
+returning to take a second course, they
+could definitely track this metric long
+
+42
+00:02:12,960 --> 00:02:16,680
+term, but they might not be able to
+use it for individual experiments.
+
+43
+00:02:17,830 --> 00:02:20,500
+So, Audacity might
+follow up with a survey,
+
+44
+00:02:20,500 --> 00:02:22,880
+to see what causes users to return.
+
+45
+00:02:22,880 --> 00:02:26,650
+Then, if they can find something
+measurable that predicts returning well
+
+46
+00:02:26,650 --> 00:02:28,900
+they could use that as
+a proxy in their experiments.
+
+47
+00:02:30,010 --> 00:02:33,862
+For the shopping site trying to measure
+the average happiness of shoppers,
+
+48
+00:02:33,862 --> 00:02:37,834
+this is the metric that they probably
+can't track even long term, but again,
+
+49
+00:02:37,834 --> 00:02:41,467
+they can try to find signals that
+correlate with what they really want.
+
+50
+00:02:41,467 --> 00:02:44,596
+They could instrument their
+website to pop us a survey at
+
+51
+00:02:44,596 --> 00:02:47,859
+the end of every purchase, or
+they could run a small UER and
+
+52
+00:02:47,859 --> 00:02:51,830
+use this data to brainstorm
+some metrics they could use.
+
+53
+00:02:51,830 --> 00:02:54,810
+For the search engine that wants to
+measure whether users are finding
+
+54
+00:02:54,810 --> 00:02:58,620
+the information they're looking for,
+there are a lot of possible proxies.
+
+55
+00:02:58,620 --> 00:03:00,240
+They might be able to use, for example,
+
+56
+00:03:00,240 --> 00:03:02,460
+the length of time spent
+on the search page.
+
+57
+00:03:02,460 --> 00:03:05,520
+Whether the user clicked on
+any results that were shown or
+
+58
+00:03:05,520 --> 00:03:08,840
+whether there were any follow-up queries
+trying to get at the right information
+
+59
+00:03:08,840 --> 00:03:09,460
+in a different way.
+
+60
+00:03:09,460 --> 00:03:13,648
+You might be able to identify which of
+these proxies are more promising by
+
+61
+00:03:13,648 --> 00:03:17,358
+looking at external data about
+Information finding research or
+
+62
+00:03:17,358 --> 00:03:18,744
+by running a UER study.
+
+63
+00:03:18,744 --> 00:03:22,939
+Now we didn't discuss this but another
+very common technique in this situation,
+
+64
+00:03:22,939 --> 00:03:24,337
+probably the most common,
+
+65
+00:03:24,337 --> 00:03:27,947
+is human evaluation where you pay
+human raters to evaluate your site.
+
+66
+00:03:27,947 --> 00:03:30,506
+This technique is covered in
+more detail in the PDF linked
+
+67
+00:03:30,506 --> 00:03:32,660
+in the instructor's notes.
+
+68
+00:03:32,660 --> 00:03:34,620
+Next, for
+each of the following scenarios,
+
+69
+00:03:34,620 --> 00:03:36,980
+choose which techniques you
+would use to generate metrics.
+
+70
+00:03:38,140 --> 00:03:39,910
+First, suppose Audacity wants one or
+
+71
+00:03:39,910 --> 00:03:42,360
+more metrics to measure user
+engagement in their classes.
+
+72
+00:03:43,380 --> 00:03:45,470
+They could look at course completion.
+
+73
+00:03:45,470 --> 00:03:46,950
+But that's a long term metric.
+
+74
+00:03:46,950 --> 00:03:49,960
+So it would be nice to come up
+with more detailed metrics.
+
+75
+00:03:49,960 --> 00:03:52,270
+What techniques would you
+use to either brainstorm or
+
+76
+00:03:52,270 --> 00:03:53,550
+evaluate potential metrics?
+
+77
+00:03:54,630 --> 00:03:57,630
+Second, suppose a shopping site
+sells local food products and
+
+78
+00:03:57,630 --> 00:03:59,850
+they want to decide whether
+to extend their inventory.
+
+79
+00:04:00,920 --> 00:04:02,930
+Maybe they should add
+new flavors of coffee?
+
+80
+00:04:02,930 --> 00:04:06,520
+Or maybe they should start a whole
+new line, such as cookbooks
+
+81
+00:04:06,520 --> 00:04:08,850
+How could the site measure interest and
+potential new problems?
+
+82
+00:04:10,050 --> 00:04:13,510
+Finally, suppose you wanted to test the
+placement of an advertisement on your
+
+83
+00:04:13,510 --> 00:04:17,470
+site, and so you wanted to know which
+ads are getting the most views.
+
+84
+00:04:17,470 --> 00:04:19,959
+It's hard to tell what
+users are looking at, so
+
+85
+00:04:19,959 --> 00:04:22,190
+what techniques could you
+use to come up with a proxy?
+
+86
+00:04:23,310 --> 00:04:26,620
+Choose from these techniques,
+which we just discussed.
+
+87
+00:04:26,620 --> 00:04:30,620
+External data, a user experience
+research study, a focus group,
+
+88
+00:04:30,620 --> 00:04:34,870
+a survey, retrospective analysis,
+or running a new experiment.
+
+89
+00:04:36,120 --> 00:04:40,260
+It's probably possible to use all of
+these techniques in some way or another.
+
+90
+00:04:40,260 --> 00:04:43,450
+But for each scenario, pick the two
+techniques you think are the most
+
+91
+00:04:43,450 --> 00:04:45,920
+promising and write the corresponding
+number in these boxes.

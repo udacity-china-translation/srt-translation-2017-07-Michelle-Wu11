@@ -1,0 +1,238 @@
+1
+00:00:00,420 --> 00:00:04,120
+Like Diane said, changing the unit of
+diversion can change the variability of
+
+2
+00:00:04,120 --> 00:00:06,580
+a metric, sometimes pretty dramatically.
+
+3
+00:00:06,580 --> 00:00:07,490
+I Googled Diane and
+
+4
+00:00:07,490 --> 00:00:10,850
+some of her colleagues tested this by
+measuring the variability of a metric
+
+5
+00:00:10,850 --> 00:00:14,530
+for two different units of diversion,
+query and cookie.
+
+6
+00:00:14,530 --> 00:00:17,930
+Diverting by query is a type of
+event based diversion, since for
+
+7
+00:00:17,930 --> 00:00:20,630
+a search engine,
+a query really is an event.
+
+8
+00:00:20,630 --> 00:00:23,040
+The metric they measured
+was called coverage,
+
+9
+00:00:23,040 --> 00:00:27,000
+which is defined as the percentage
+of queries for which an ad is shown.
+
+10
+00:00:27,000 --> 00:00:30,520
+You can calculate this by taking the
+total number of queries with an ad and
+
+11
+00:00:30,520 --> 00:00:32,729
+dividing by the total number of queries.
+
+12
+00:00:32,729 --> 00:00:34,910
+Since the number of queries
+is the denominator,
+
+13
+00:00:34,910 --> 00:00:38,070
+that means that the unit of
+analysis in this case is a query.
+
+14
+00:00:38,070 --> 00:00:41,650
+So when the unit of diversion was
+a query, then the unit of diversion and
+
+15
+00:00:41,650 --> 00:00:43,780
+the unit of analysis were the same.
+
+16
+00:00:43,780 --> 00:00:47,650
+This plot shows the results Diane saw,
+with the standard error on
+
+17
+00:00:47,650 --> 00:00:51,530
+the Y-axis and 1 over the square root
+of the sample size on the X-axis.
+
+18
+00:00:51,530 --> 00:00:54,879
+The red line shows the standard
+error for cookie-based diversion and
+
+19
+00:00:54,879 --> 00:00:58,690
+the black line shows the standard
+error for query-based diversion.
+
+20
+00:00:58,690 --> 00:01:01,480
+To see why the X-axis is 1
+over the square root of N,
+
+21
+00:01:01,480 --> 00:01:04,530
+instead of N directly,
+recall that the standard error for
+
+22
+00:01:04,530 --> 00:01:08,250
+a binomial is proportional to
+1 over the square root of N.
+
+23
+00:01:08,250 --> 00:01:10,780
+That's why both lines here are straight.
+
+24
+00:01:10,780 --> 00:01:13,060
+Notice that when the unit
+of diversion is a cookie,
+
+25
+00:01:13,060 --> 00:01:15,690
+which is not the same as
+the unit of analysis,
+
+26
+00:01:15,690 --> 00:01:19,860
+the variability is much higher than
+when the two units are the same.
+
+27
+00:01:19,860 --> 00:01:22,560
+The variability might be higher
+by as much as four times,
+
+28
+00:01:22,560 --> 00:01:24,370
+depending on the sample size.
+
+29
+00:01:24,370 --> 00:01:25,210
+The standard error for
+
+30
+00:01:25,210 --> 00:01:29,690
+the query based diversion was also much
+closer to the analytical standard error.
+
+31
+00:01:29,690 --> 00:01:33,350
+This lines up with what Diane mentioned
+earlier, that when your unit of analysis
+
+32
+00:01:33,350 --> 00:01:37,700
+and your unit of diversion are the same,
+the variability tends to be lower and
+
+33
+00:01:37,700 --> 00:01:40,900
+closer to the analytical estimate
+than when they're different.
+
+34
+00:01:40,900 --> 00:01:43,090
+If you'd like to see more
+details about these results,
+
+35
+00:01:43,090 --> 00:01:45,540
+see the paper linked in
+the instructor's notes.
+
+36
+00:01:45,540 --> 00:01:47,390
+Now for each of the following cases,
+
+37
+00:01:47,390 --> 00:01:51,040
+would you expect the analytic variance
+to match the empirical variance?
+
+38
+00:01:51,040 --> 00:01:53,410
+First, suppose your metric
+is click-through-rate,
+
+39
+00:01:53,410 --> 00:01:56,970
+defined as the number of clicks divided
+by the number of page views, and
+
+40
+00:01:56,970 --> 00:01:59,570
+suppose your unit of
+diversion is a cookie.
+
+41
+00:01:59,570 --> 00:02:02,380
+Second, suppose your metric is
+the number of cookies that view your
+
+42
+00:02:02,380 --> 00:02:05,560
+homepage, which you're
+computing on a daily basis.
+
+43
+00:02:05,560 --> 00:02:09,960
+You're using event based diversion, and
+in this case, an event is a page view.
+
+44
+00:02:09,960 --> 00:02:13,070
+Third, suppose your metric is
+the percent of users that sign up for
+
+45
+00:02:13,070 --> 00:02:16,330
+coaching, that is the total
+number of users who sign up for
+
+46
+00:02:16,330 --> 00:02:20,560
+coaching, divided by the total number of
+users who are enrolled in any course,
+
+47
+00:02:20,560 --> 00:02:21,860
+all within a one-week period.
+
+48
+00:02:22,900 --> 00:02:25,190
+And you're diverting based on user ID.
+
+49
+00:02:25,190 --> 00:02:27,980
+In each case, check the box if
+you think the analytical and
+
+50
+00:02:27,980 --> 00:02:29,410
+the empirical variance would match.

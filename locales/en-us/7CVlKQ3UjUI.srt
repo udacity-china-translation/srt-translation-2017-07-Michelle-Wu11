@@ -1,0 +1,164 @@
+1
+00:00:00,390 --> 00:00:03,150
+All right, now we'll go through
+an example of how to actually check
+
+2
+00:00:03,150 --> 00:00:06,370
+an invariant and see whether it's
+reasonably close between the control and
+
+3
+00:00:06,370 --> 00:00:07,740
+experiment groups.
+
+4
+00:00:07,740 --> 00:00:10,320
+Let's say you run an experiment for
+two weeks, and
+
+5
+00:00:10,320 --> 00:00:12,280
+your unit of diversion is a cookie.
+
+6
+00:00:12,280 --> 00:00:14,740
+So, the first sanity
+check you want to do
+
+7
+00:00:14,740 --> 00:00:17,240
+is to see whether the number of
+cookies in the control group
+
+8
+00:00:17,240 --> 00:00:19,820
+is roughly the same as the number
+in the experiment group.
+
+9
+00:00:19,820 --> 00:00:22,430
+So you get the number of cookies
+in each group in each day and
+
+10
+00:00:22,430 --> 00:00:23,830
+the results look like this.
+
+11
+00:00:23,830 --> 00:00:26,980
+This column has the number of cookies
+in the control group for week one.
+
+12
+00:00:26,980 --> 00:00:29,520
+This has the number of cookies
+in the experiment group.
+
+13
+00:00:29,520 --> 00:00:32,159
+And this table is the same numbers but
+for week two.
+
+14
+00:00:32,159 --> 00:00:34,900
+Now the first thing I'll do is compute
+the total number of cookies for
+
+15
+00:00:34,900 --> 00:00:37,760
+each group, and
+see if the overall division looks even.
+
+16
+00:00:37,760 --> 00:00:39,060
+If so, great.
+
+17
+00:00:39,060 --> 00:00:42,570
+If not, then I'll look at
+the day by day breakdown.
+
+18
+00:00:42,570 --> 00:00:47,480
+It turns out that the total number of
+cookies in the control group is 64,454,
+
+19
+00:00:47,480 --> 00:00:50,870
+and the total for
+the experiment group is 61,818.
+
+20
+00:00:50,870 --> 00:00:54,920
+Now, there are more cookies in the
+control group than the experiment group.
+
+21
+00:00:54,920 --> 00:00:58,268
+But, the question is,
+is this within what we expect?
+
+22
+00:00:58,268 --> 00:01:01,790
+Ignoring the day-by-day data for a
+minute, how would you figure out whether
+
+23
+00:01:01,790 --> 00:01:04,709
+the difference between the total
+number of cookies in the control and
+
+24
+00:01:04,709 --> 00:01:07,430
+experiment groups is
+within what you expect?
+
+25
+00:01:07,430 --> 00:01:10,880
+Remember, each cookie is randomly
+assigned to the control group
+
+26
+00:01:10,880 --> 00:01:16,150
+with probability 0.5, and to the
+experiment group with probability 0.5.
+
+27
+00:01:16,150 --> 00:01:18,940
+So, the question is whether
+it's surprising that out of
+
+28
+00:01:18,940 --> 00:01:23,090
+the total number of cookies, 64,454
+were assigned to the control group.
+
+29
+00:01:24,560 --> 00:01:27,480
+Take a few minutes to think about
+how you would solve this problem and
+
+30
+00:01:27,480 --> 00:01:29,900
+write the steps you would
+take in plain English.
+
+31
+00:01:29,900 --> 00:01:32,110
+Then share how you would solve
+the problem on the forums.
+
+32
+00:01:32,110 --> 00:01:35,430
+Again, take a minute to read the post
+left by the person before you and
+
+33
+00:01:35,430 --> 00:01:37,160
+compare their steps to yours.
+
+34
+00:01:37,160 --> 00:01:38,920
+When you're ready to move on,
+check this box.

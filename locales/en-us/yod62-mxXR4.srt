@@ -1,0 +1,157 @@
+1
+00:00:00,450 --> 00:00:01,889
+Lessons three, four and
+
+2
+00:00:01,889 --> 00:00:06,650
+five will dive into the technical
+details of how to run A/B tests online.
+
+3
+00:00:06,650 --> 00:00:09,570
+Before we do that, though,
+we wanted to talk about how to consider
+
+4
+00:00:09,570 --> 00:00:13,770
+the ethics of your AB test and
+how to protect your users.
+
+5
+00:00:13,770 --> 00:00:16,660
+>> This lesson gives a high level
+overview of the questions and
+
+6
+00:00:16,660 --> 00:00:20,190
+principles that you should think
+about while designing, running, and
+
+7
+00:00:20,190 --> 00:00:21,900
+analyzing your experiment.
+
+8
+00:00:21,900 --> 00:00:24,800
+We'll start with some case studies
+to motivate the importance of
+
+9
+00:00:24,800 --> 00:00:26,100
+thinking through the ethics.
+
+10
+00:00:26,100 --> 00:00:29,170
+And then go through the four
+major principles to consider,
+
+11
+00:00:29,170 --> 00:00:32,066
+before summarizing the main principles
+that you should be answering for
+
+12
+00:00:32,066 --> 00:00:33,760
+your proposed AB test.
+
+13
+00:00:33,760 --> 00:00:34,470
+>> Many people and
+
+14
+00:00:34,470 --> 00:00:37,763
+companies don't necessarily give
+much thought to these issues.
+
+15
+00:00:37,763 --> 00:00:41,080
+After all if your a streaming
+video service, a review site, or
+
+16
+00:00:41,080 --> 00:00:45,190
+your selling handmade goods or meals,
+is the service your providing really
+
+17
+00:00:45,190 --> 00:00:49,040
+affecting people to the degree where
+you need to think about ethics?
+
+18
+00:00:49,040 --> 00:00:52,160
+>> Realistically in most
+cases that's probably right.
+
+19
+00:00:52,160 --> 00:00:55,140
+>> But, you know, you can get to
+a gray line pretty quickly if you
+
+20
+00:00:55,140 --> 00:00:59,090
+think about how integrated these
+services are in people's lives.
+
+21
+00:00:59,090 --> 00:01:00,530
+Even for streaming video,
+
+22
+00:01:00,530 --> 00:01:03,440
+what if those videos are used
+to teach the Heimlich Maneuver?
+
+23
+00:01:03,440 --> 00:01:06,250
+>> Our goal in this lesson is to
+highlight the types of issues that
+
+24
+00:01:06,250 --> 00:01:09,360
+you should keep in mind as you
+design and run experiments.
+
+25
+00:01:09,360 --> 00:01:11,650
+Because those issues may
+affect little decisions,
+
+26
+00:01:11,650 --> 00:01:15,010
+from what type of user identification
+you use to divert someone into
+
+27
+00:01:15,010 --> 00:01:19,270
+the experiment, to what data you capture
+or whether you run the A/B test at all.
+
+28
+00:01:20,340 --> 00:01:23,890
+>> That said, this will only
+be a high level introduction.
+
+29
+00:01:23,890 --> 00:01:26,070
+Many of these issues are highly nuanced.
+
+30
+00:01:26,070 --> 00:01:28,380
+And our goal is to give
+you an idea of the basics.
+
+31
+00:01:28,380 --> 00:01:31,520
+If you're really running into
+potential tests that are questionable,
+
+32
+00:01:31,520 --> 00:01:33,900
+which hopefully these principles
+will help you determine,
+
+33
+00:01:33,900 --> 00:01:36,170
+then you should be seeking
+expert advice and counsel.

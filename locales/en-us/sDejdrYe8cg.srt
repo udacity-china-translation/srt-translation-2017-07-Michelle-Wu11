@@ -1,0 +1,73 @@
+1
+00:00:00,320 --> 00:00:02,620
+Can you summarize what we've
+learned about variability?
+
+2
+00:00:02,620 --> 00:00:03,520
+>> So what we've learned so
+
+3
+00:00:03,520 --> 00:00:07,050
+far is that different metrics
+have different variability.
+
+4
+00:00:07,050 --> 00:00:09,770
+And in fact, the variability may be so
+high for a metric,
+
+5
+00:00:09,770 --> 00:00:13,730
+that's actually not practical to use
+in volume in your, your experiment,
+
+6
+00:00:13,730 --> 00:00:16,840
+even if the metric makes a lot
+of business or product sense.
+
+7
+00:00:16,840 --> 00:00:20,100
+Now, what we've also learned is
+that to really be able to compute
+
+8
+00:00:20,100 --> 00:00:23,650
+the variability, we need to understand
+the distribution of the underlying data.
+
+9
+00:00:23,650 --> 00:00:26,300
+And we looked at both analytical
+techniques as well as
+
+10
+00:00:26,300 --> 00:00:29,420
+empirical techniques for
+computing that variability.
+
+11
+00:00:29,420 --> 00:00:32,000
+Now, hopefully what you've
+learned overall is that
+
+12
+00:00:32,000 --> 00:00:35,940
+computing the variability of
+a metric is actually really tricky.
+
+13
+00:00:35,940 --> 00:00:39,460
+And so you want to be taking a lot of
+care, and you want to be ensuring that
+
+14
+00:00:39,460 --> 00:00:42,810
+not just any random engineer or
+product manager is going through and
+
+15
+00:00:42,810 --> 00:00:45,390
+computing the variability,
+especially of complicated metrics

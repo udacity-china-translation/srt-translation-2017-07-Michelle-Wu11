@@ -1,0 +1,404 @@
+1
+00:00:00,410 --> 00:00:02,680
+Diane, earlier this lesson you
+mentioned learning effects.
+
+2
+00:00:02,680 --> 00:00:04,150
+Can we talk about those some more?
+
+3
+00:00:04,150 --> 00:00:05,470
+First remind me what they are?
+
+4
+00:00:05,470 --> 00:00:06,200
+>> Sure.
+
+5
+00:00:06,200 --> 00:00:09,510
+So learning effects is basically when
+you want to measure user learning.
+
+6
+00:00:09,510 --> 00:00:12,980
+Or effectively whether a user
+is adapting to a change or not.
+
+7
+00:00:12,980 --> 00:00:16,120
+Now we had briefly mentioned these back
+in lesson one where we talked about
+
+8
+00:00:16,120 --> 00:00:17,940
+two different types of learning effects.
+
+9
+00:00:17,940 --> 00:00:21,580
+Change aversion, where when users first
+see a change they're like, what is this?
+
+10
+00:00:21,580 --> 00:00:23,160
+I don't like anything.
+
+11
+00:00:23,160 --> 00:00:25,840
+Or a novelty effect which
+is the exact opposite.
+
+12
+00:00:25,840 --> 00:00:27,070
+Oh, this is a new thing.
+
+13
+00:00:27,070 --> 00:00:27,600
+What's going on?
+
+14
+00:00:27,600 --> 00:00:29,500
+Let me try everything around.
+
+15
+00:00:29,500 --> 00:00:34,510
+Now, in both situations, what happens is
+that when a user first sees a change,
+
+16
+00:00:34,510 --> 00:00:36,510
+they're going to tend to react
+in one of these two ways.
+
+17
+00:00:36,510 --> 00:00:40,600
+But over time they're going to probably
+plateau to a very different behavior.
+
+18
+00:00:40,600 --> 00:00:44,660
+Now, the key issue with trying to
+measure a learning effect is time.
+
+19
+00:00:44,660 --> 00:00:49,710
+It takes time for you just to actually
+adapt to a change and often times
+
+20
+00:00:49,710 --> 00:00:54,260
+you don't have the luxury of taking
+that much time to make a decision.
+
+21
+00:00:54,260 --> 00:00:56,180
+>> Okay, but
+if you do have that much time to spend,
+
+22
+00:00:56,180 --> 00:00:58,020
+is there anything to keep in mind?
+
+23
+00:00:58,020 --> 00:01:00,300
+>> Sure, there's a bunch
+of things to keep in mind.
+
+24
+00:01:00,300 --> 00:01:03,170
+Now one of them I mentioned earlier in
+this lesson which is choosing the unit
+
+25
+00:01:03,170 --> 00:01:04,910
+of diversion correctly.
+
+26
+00:01:04,910 --> 00:01:06,960
+If you want to measure user learning,
+
+27
+00:01:06,960 --> 00:01:11,940
+you need a stateful unit of diversion
+like a cookie or a user ID.
+
+28
+00:01:11,940 --> 00:01:14,810
+The second issue that we want
+to take into account is that
+
+29
+00:01:14,810 --> 00:01:19,070
+because a lot of the learning is
+based on not just a slight time but
+
+30
+00:01:19,070 --> 00:01:22,220
+how often they see the change so
+we call that a dosage.
+
+31
+00:01:22,220 --> 00:01:27,210
+Then you probably want to be using a
+cohort as opposed to just a population.
+
+32
+00:01:27,210 --> 00:01:30,210
+And so you would choose a cohort
+in both the experiment and
+
+33
+00:01:30,210 --> 00:01:34,110
+the control based on either how long
+they've been exposed to the change or
+
+34
+00:01:34,110 --> 00:01:36,150
+how many times they've seen it.
+
+35
+00:01:36,150 --> 00:01:39,990
+Now the last issue is a question
+about both the risk and duration.
+
+36
+00:01:39,990 --> 00:01:40,660
+Right?
+
+37
+00:01:40,660 --> 00:01:42,000
+From a duration perspective,
+
+38
+00:01:42,000 --> 00:01:44,630
+because you want to measure a learning
+effect, this is going to take
+
+39
+00:01:44,630 --> 00:01:48,420
+some amount of time to basically
+see what's going to be happening.
+
+40
+00:01:48,420 --> 00:01:51,870
+Now, the other thing though,
+is that it's going to take a long,
+
+41
+00:01:51,870 --> 00:01:52,740
+a long period of time.
+
+42
+00:01:52,740 --> 00:01:55,380
+You don't want to be
+putting a lot of your users
+
+43
+00:01:55,380 --> 00:01:58,060
+through a change that you're testing
+over a long period of time because
+
+44
+00:01:58,060 --> 00:02:00,030
+maybe you end up testing other changes.
+
+45
+00:02:00,030 --> 00:02:01,774
+Now, the other thing is one about risk.
+
+46
+00:02:01,774 --> 00:02:05,280
+If you're actually wanting to measure
+a user learning effect, that means that
+
+47
+00:02:05,280 --> 00:02:08,524
+you're probably a little uncertain
+about what the effect is going to be,
+
+48
+00:02:08,524 --> 00:02:10,955
+which means that it's probably
+a higher risk change.
+
+49
+00:02:10,955 --> 00:02:13,856
+Now, both of those mean that you're
+probably going to want to run it
+
+50
+00:02:13,856 --> 00:02:17,275
+through a small proportion of your
+users for a longer period of time.
+
+51
+00:02:17,275 --> 00:02:19,195
+>> That makes sense, and
+is there anything else you would do?
+
+52
+00:02:19,195 --> 00:02:20,615
+>> Well, we've done a lot at Google,
+
+53
+00:02:20,615 --> 00:02:22,945
+because we've done a lot of
+looking at sort of user learning.
+
+54
+00:02:22,945 --> 00:02:26,835
+Is that we've developed methodology
+where we use both pre-periods and
+
+55
+00:02:26,835 --> 00:02:27,741
+post-periods.
+
+56
+00:02:27,741 --> 00:02:31,960
+Now, both pre-periods and post-periods
+are, those uniformity trials.
+
+57
+00:02:31,960 --> 00:02:35,170
+There's a versus a test that we
+discussed back in lesson three.
+
+58
+00:02:35,170 --> 00:02:38,160
+But what we're doing is instead of
+using it across the entire system,
+
+59
+00:02:38,160 --> 00:02:41,850
+we're using it in a way that's specific
+to your experiment and your control.
+
+60
+00:02:41,850 --> 00:02:46,650
+And so what happens is that before
+you run your A/B test on your
+
+61
+00:02:46,650 --> 00:02:50,450
+experimental control, and you have those
+populations, you're on a pre-period on
+
+62
+00:02:50,450 --> 00:02:53,950
+the exact same populations but they're
+receiving the exact same frequence.
+
+63
+00:02:53,950 --> 00:02:57,100
+It's an A versus A test
+on the same set of users.
+
+64
+00:02:57,100 --> 00:02:59,920
+And what happens in the pre-period is
+that if you measure any difference
+
+65
+00:02:59,920 --> 00:03:01,260
+between your experiment and
+
+66
+00:03:01,260 --> 00:03:04,470
+your control populations that
+difference is due to something else.
+
+67
+00:03:04,470 --> 00:03:07,758
+Maybe system variability,
+user variability, things like that.
+
+68
+00:03:07,758 --> 00:03:11,770
+Now a pre-period I would note,
+is useful not just for
+
+69
+00:03:11,770 --> 00:03:14,370
+when you want to test user learning,
+but sort of across the board.
+
+70
+00:03:14,370 --> 00:03:17,780
+So that you know that any difference
+that you measure in your experiment and
+
+71
+00:03:17,780 --> 00:03:20,540
+control is due to the experiment, and
+
+72
+00:03:20,540 --> 00:03:25,400
+not due to any preexisting and
+inherent differences in your population.
+
+73
+00:03:25,400 --> 00:03:28,660
+Now, that's what a pre-period is,
+and that basically says, okay,
+
+74
+00:03:28,660 --> 00:03:31,260
+I don't have any differences
+in my populations.
+
+75
+00:03:31,260 --> 00:03:34,120
+A post-period is saying,
+after I run my experiment,
+
+76
+00:03:34,120 --> 00:03:37,610
+my control, I'm going to run
+another A versus A test.
+
+77
+00:03:37,610 --> 00:03:38,230
+And then, what,
+
+78
+00:03:38,230 --> 00:03:41,890
+what we can say is that if there are any
+differences in the experiment and
+
+79
+00:03:41,890 --> 00:03:46,800
+the control populations after I've run
+my experiment, then I can attribute
+
+80
+00:03:46,800 --> 00:03:51,540
+those differences to user learning that
+happened in the experiment period.
+
+81
+00:03:53,070 --> 00:03:55,290
+And so, that's what we basically do.
+
+82
+00:03:55,290 --> 00:03:57,850
+Now, the key thing that
+I sort of note is that
+
+83
+00:03:57,850 --> 00:03:59,360
+these are pretty advanced techniques.
+
+84
+00:03:59,360 --> 00:04:02,810
+If you're really trying to measure user
+learning, hopefully you've run tens,
+
+85
+00:04:02,810 --> 00:04:05,700
+if not, hundreds of experiments already.
+
+86
+00:04:05,700 --> 00:04:08,330
+If not, I'd probably stick to
+some of the simpler techniques.

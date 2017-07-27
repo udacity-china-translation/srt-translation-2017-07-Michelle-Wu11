@@ -1,0 +1,120 @@
+1
+00:00:00,410 --> 00:00:03,820
+Number of events would be a good
+population sizing invariant.
+
+2
+00:00:03,820 --> 00:00:06,860
+Number of cookies and number of signed
+in users would be good as well, for
+
+3
+00:00:06,860 --> 00:00:08,600
+the same reasons as before.
+
+4
+00:00:08,600 --> 00:00:11,110
+Cookies are being
+explicitly randomized over.
+
+5
+00:00:11,110 --> 00:00:13,510
+User IDs are typically
+larger than cookies,
+
+6
+00:00:13,510 --> 00:00:16,840
+in the sense that one user ID can
+correspond to multiple cookies.
+
+7
+00:00:16,840 --> 00:00:19,510
+So user IDs should be
+evenly split as well.
+
+8
+00:00:19,510 --> 00:00:23,540
+And it's more likely that the events
+could end up unevenly split, but
+
+9
+00:00:23,540 --> 00:00:24,970
+it's not something you're expecting.
+
+10
+00:00:24,970 --> 00:00:27,310
+And it would be good to catch
+that if it does happen.
+
+11
+00:00:27,310 --> 00:00:30,750
+The click-through rate on the Start Now
+button would not be a good invariant.
+
+12
+00:00:30,750 --> 00:00:33,370
+By adding a sign-in
+button to the home page,
+
+13
+00:00:33,370 --> 00:00:36,770
+the experiment could affect how many
+people click the Start Now button.
+
+14
+00:00:36,770 --> 00:00:40,770
+Maybe fewer people would click the Start
+Now button if they instead signed in and
+
+15
+00:00:40,770 --> 00:00:43,380
+then went directly to a course
+they had already started.
+
+16
+00:00:43,380 --> 00:00:46,080
+The probability that a user enrolls
+in a course would not be a good
+
+17
+00:00:46,080 --> 00:00:47,440
+invariant either.
+
+18
+00:00:47,440 --> 00:00:50,360
+Users often enroll in
+courses after signing in, so
+
+19
+00:00:50,360 --> 00:00:52,890
+changing sign in rates
+could affect enrollment.
+
+20
+00:00:52,890 --> 00:00:55,810
+The sign-in rate would definitely
+not be a good invariant.
+
+21
+00:00:55,810 --> 00:00:59,850
+This is the exact metric that Audacity
+is trying to change in this experiment.
+
+22
+00:00:59,850 --> 00:01:02,410
+The video load time would
+be a good invariant.
+
+23
+00:01:02,410 --> 00:01:04,760
+No backend changes were
+made in the experiment, and
+
+24
+00:01:04,760 --> 00:01:06,910
+the user has no control
+over a load time.
+
+25
+00:01:06,910 --> 00:01:07,950
+So, they can't affect it.

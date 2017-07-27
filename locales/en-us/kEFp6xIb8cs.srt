@@ -1,0 +1,150 @@
+1
+00:00:00,510 --> 00:00:01,280
+Like Kerry said,
+
+2
+00:00:01,280 --> 00:00:04,250
+if you think you can identify
+what population will be affected
+
+3
+00:00:04,250 --> 00:00:08,109
+by your experiment, you might want to
+target your experiment to that traffic.
+
+4
+00:00:08,109 --> 00:00:11,270
+That is, only run your experiment
+on the affected traffic.
+
+5
+00:00:11,270 --> 00:00:14,610
+Let's take a look at how this can
+affect the variability of your metric.
+
+6
+00:00:14,610 --> 00:00:17,470
+Just like you saw that changing
+the unit of diverging can change
+
+7
+00:00:17,470 --> 00:00:19,690
+the empirical estimate of variability,
+
+8
+00:00:19,690 --> 00:00:22,630
+filtering your traffic can
+change the variability as well.
+
+9
+00:00:22,630 --> 00:00:25,943
+For example, suppose you want to control
+the change that will only affect users
+
+10
+00:00:25,943 --> 00:00:29,510
+in New Zealand to see whether it
+increases click-through probability.
+
+11
+00:00:29,510 --> 00:00:33,900
+You run the experiment and looking only
+at the New Zealand data, you find that
+
+12
+00:00:33,900 --> 00:00:37,920
+there were 6021 unique visitors in
+the control group, 300 of whom clicked.
+
+13
+00:00:37,920 --> 00:00:42,740
+There were also 5979 users in the
+experiment group, 374 of whom clicked.
+
+14
+00:00:44,010 --> 00:00:47,030
+Based on this and using
+the equations you saw in lesson one,
+
+15
+00:00:47,030 --> 00:00:49,920
+the estimated probability of
+a click in the control group or
+
+16
+00:00:49,920 --> 00:00:52,407
+the baseline probability is about 5.1%.
+
+17
+00:00:52,407 --> 00:00:55,990
+The estimated probability in
+the experiment group is 6.3%.
+
+18
+00:00:55,990 --> 00:00:59,570
+And the pooled standard error is 0.0042.
+
+19
+00:00:59,570 --> 00:01:03,080
+Now suppose you had
+analyzed the global data
+
+20
+00:01:03,080 --> 00:01:05,400
+instead of just the New Zealand data.
+
+21
+00:01:05,400 --> 00:01:08,280
+Since the change doesn't affect
+other traffic, let's say for
+
+22
+00:01:08,280 --> 00:01:11,590
+the sake of simplicity that in
+all the non-New Zealand traffic,
+
+23
+00:01:11,590 --> 00:01:17,250
+there were 50,000 users in each group
+and 2,500 of them clicked in each group.
+
+24
+00:01:17,250 --> 00:01:20,800
+Now, for the global data,
+which includes both the other data and
+
+25
+00:01:20,800 --> 00:01:25,130
+the New Zealand data added together,
+what would be the pooled standard error?
+
+26
+00:01:25,130 --> 00:01:27,580
+Is this higher or
+lower than the pooled standard error for
+
+27
+00:01:27,580 --> 00:01:29,230
+just the New Zealand data?
+
+28
+00:01:29,230 --> 00:01:32,160
+Write your answer in this
+box to four decimal places.
+
+29
+00:01:32,160 --> 00:01:35,510
+Also, is there a statistically
+significant difference at alpha
+
+30
+00:01:35,510 --> 00:01:37,920
+equals 0.05 in New Zealand?
+
+31
+00:01:37,920 --> 00:01:39,230
+How about globally?
+
+32
+00:01:39,230 --> 00:01:40,840
+Select yes or no in each case.

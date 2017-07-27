@@ -1,0 +1,84 @@
+1
+00:00:00,350 --> 00:00:03,100
+We have talked about how to choose
+both our unit of diversion and
+
+2
+00:00:03,100 --> 00:00:04,050
+our population.
+
+3
+00:00:04,050 --> 00:00:04,980
+What's next?
+
+4
+00:00:04,980 --> 00:00:08,350
+>> Next, we have to actually
+size our experiment and control.
+
+5
+00:00:08,350 --> 00:00:11,288
+Now, the key thing to keep in mind is
+that this is an iterative process.
+
+6
+00:00:11,288 --> 00:00:14,040
+What we're going to do is we
+are going to try out some decisions for
+
+7
+00:00:14,040 --> 00:00:17,990
+our unit of diversion and our
+population, see what the implication is
+
+8
+00:00:17,990 --> 00:00:21,150
+on both the size as well as
+the duration of our experiment.
+
+9
+00:00:21,150 --> 00:00:22,830
+And then if we don't
+really like those results,
+
+10
+00:00:22,830 --> 00:00:25,170
+we'll need to revisit our decisions and
+iterate.
+
+11
+00:00:25,170 --> 00:00:25,750
+>> Sounds good.
+
+12
+00:00:25,750 --> 00:00:26,860
+Where do we start?
+
+13
+00:00:26,860 --> 00:00:29,660
+>> Well, it makes sense to start
+with the sizing process, and
+
+14
+00:00:29,660 --> 00:00:31,790
+we'll look back at what we
+learned in lesson one, and
+
+15
+00:00:31,790 --> 00:00:34,970
+then revisit it based on what
+we've talked about since then.
+
+16
+00:00:34,970 --> 00:00:37,890
+>> From there we'll discuss some of
+the other design considerations,
+
+17
+00:00:37,890 --> 00:00:41,750
+what the duration of the experiment is,
+what the risk factors are and
+
+18
+00:00:41,750 --> 00:00:43,030
+all of those types of decisions.

@@ -1,0 +1,61 @@
+1
+00:00:00,470 --> 00:00:03,900
+In the first case, Audacity
+definitely has access to this data.
+
+2
+00:00:05,020 --> 00:00:08,230
+But students could take a long time
+between completing one course and
+
+3
+00:00:08,230 --> 00:00:09,670
+signing up for another.
+
+4
+00:00:09,670 --> 00:00:13,080
+So this metric probably takes too long
+to measure during most A/B tests.
+
+5
+00:00:14,240 --> 00:00:15,690
+In the other two cases,
+
+6
+00:00:15,690 --> 00:00:19,110
+the companies don't have direct
+access to the data they want.
+
+7
+00:00:19,110 --> 00:00:22,430
+The shopping company doesn't know
+how happy its users are, and
+
+8
+00:00:22,430 --> 00:00:26,140
+the search engine doesn't know whether
+users found the information they wanted.
+
+9
+00:00:26,140 --> 00:00:30,650
+So these two ideal metrics can't
+be directly calculated at all.
+
+10
+00:00:30,650 --> 00:00:34,046
+So the answer is that all of these
+metrics would be difficult to
+
+11
+00:00:34,046 --> 00:00:35,980
+use in an experiment.
+
+12
+00:00:35,980 --> 00:00:38,750
+Lets talk to Diane and Carrie about
+some other techniques you can
+
+13
+00:00:38,750 --> 00:00:41,920
+use in the type of situation to
+get a proxy for what you want.

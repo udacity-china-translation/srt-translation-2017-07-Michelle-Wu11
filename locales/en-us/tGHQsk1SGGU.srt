@@ -1,0 +1,105 @@
+1
+00:00:00,390 --> 00:00:03,850
+Which of the following experiments might
+require additional ethical review?
+
+2
+00:00:04,890 --> 00:00:07,820
+Specifically consider the data
+that would need to be collected in
+
+3
+00:00:07,820 --> 00:00:09,100
+each experiment.
+
+4
+00:00:09,100 --> 00:00:10,660
+For the first experiment,
+
+5
+00:00:10,660 --> 00:00:14,040
+Audacity currently asks users if
+they would like to receive a monthly
+
+6
+00:00:14,040 --> 00:00:17,190
+newsletter as soon as they finish
+the first lesson of a course.
+
+7
+00:00:18,190 --> 00:00:21,480
+They want to test instead asking
+users about the newsletter
+
+8
+00:00:21,480 --> 00:00:23,300
+as soon as they start the course.
+
+9
+00:00:23,300 --> 00:00:24,890
+The diversion is based on user ID.
+
+10
+00:00:24,890 --> 00:00:27,670
+The second experiment is similar, but
+
+11
+00:00:27,670 --> 00:00:31,360
+now Audacity wants to test moving the
+newsletter prompt to as soon as a user
+
+12
+00:00:31,360 --> 00:00:33,900
+views details about
+any particular course.
+
+13
+00:00:33,900 --> 00:00:37,100
+Since this may happen before
+a user has created an account,
+
+14
+00:00:37,100 --> 00:00:40,030
+the diversion is based on
+cookie rather than user ID.
+
+15
+00:00:40,030 --> 00:00:43,230
+And users who do not have an account yet
+are asked for their email address,
+
+16
+00:00:43,230 --> 00:00:45,280
+if they wish to receive the newsletter.
+
+17
+00:00:45,280 --> 00:00:46,620
+In the third experiment,
+
+18
+00:00:46,620 --> 00:00:50,200
+Audacity changes some of the information
+on a course overview page, and
+
+19
+00:00:50,200 --> 00:00:53,110
+measures the click through
+probability on the enroll button.
+
+20
+00:00:53,110 --> 00:00:57,580
+Again, since users can view the course
+overview page without having an account,
+
+21
+00:00:57,580 --> 00:01:00,180
+Audacity uses cookie based diversion.
+
+22
+00:01:00,180 --> 00:01:03,160
+In each case, check the box if
+you think the experiment would
+
+23
+00:01:03,160 --> 00:01:04,489
+require additional ethical review.

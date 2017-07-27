@@ -1,0 +1,529 @@
+1
+00:00:00,370 --> 00:00:03,250
+Diane and Carrie, how much time
+do you usually spend choosing and
+
+2
+00:00:03,250 --> 00:00:05,650
+validating metrics,
+like we talked about in this lesson?
+
+3
+00:00:05,650 --> 00:00:09,190
+As opposed to, say, running the
+experiment, or analyzing the results?
+
+4
+00:00:09,190 --> 00:00:13,010
+>> So, what I would say is that, for
+a lot of the analysts that I've worked
+
+5
+00:00:13,010 --> 00:00:18,200
+with at Google, we spend the majority
+of our time actually coming up with,
+
+6
+00:00:18,200 --> 00:00:21,225
+validating, and choosing metrics
+to actually use in evaluation.
+
+7
+00:00:21,225 --> 00:00:24,271
+As opposed to evaluating
+the experiments themselves.
+
+8
+00:00:24,271 --> 00:00:25,990
+>> Especially validating metrics.
+
+9
+00:00:25,990 --> 00:00:29,690
+A lot of people like to throw out
+product metrics that all seem perfectly
+
+10
+00:00:29,690 --> 00:00:30,240
+reasonable.
+
+11
+00:00:30,240 --> 00:00:34,570
+For example, the number of times
+a particular search term shows up
+
+12
+00:00:34,570 --> 00:00:38,630
+when you're running a marketing campaign
+for a particular area like travel.
+
+13
+00:00:38,630 --> 00:00:41,790
+Now this seems like a perfectly
+reasonably thing to track.
+
+14
+00:00:41,790 --> 00:00:45,850
+But you really don't know how your
+site is actually going to respond.
+
+15
+00:00:45,850 --> 00:00:48,810
+And so sometimes you end up with
+spurious results if you haven't
+
+16
+00:00:48,810 --> 00:00:50,090
+used the metric before.
+
+17
+00:00:50,090 --> 00:00:52,540
+Oh, it went up 100, right?
+
+18
+00:00:52,540 --> 00:00:54,400
+Or you end up with no results at all.
+
+19
+00:00:54,400 --> 00:00:57,770
+It didn't move at all, and
+you have no idea if that's normal or
+
+20
+00:00:57,770 --> 00:01:00,420
+if that's something you
+should be concerned about.
+
+21
+00:01:00,420 --> 00:01:02,240
+>> Okay.
+Do you have any stories about things
+
+22
+00:01:02,240 --> 00:01:03,570
+that have gone wrong.
+
+23
+00:01:03,570 --> 00:01:05,570
+>> Sure.
+Where would you like to start?
+
+24
+00:01:05,570 --> 00:01:08,640
+>> How about data capture and
+metric definition?
+
+25
+00:01:08,640 --> 00:01:12,270
+>> So one story I like to tell
+is about click-through rate.
+
+26
+00:01:12,270 --> 00:01:13,220
+So back in 2006,
+
+27
+00:01:13,220 --> 00:01:17,080
+you know, we were running lots of
+different experiments and everyone was
+
+28
+00:01:17,080 --> 00:01:21,060
+using click-through rate to measure
+the user experience of their test.
+
+29
+00:01:21,060 --> 00:01:24,140
+Now, you're like, how hard can it
+be to calculate click-through rate?
+
+30
+00:01:24,140 --> 00:01:24,820
+I mean, really.
+
+31
+00:01:24,820 --> 00:01:27,690
+It's clicks divided by impressions or
+page views.
+
+32
+00:01:27,690 --> 00:01:29,040
+Well this is the problem.
+
+33
+00:01:29,040 --> 00:01:31,630
+Talking about impressions or page views?
+
+34
+00:01:31,630 --> 00:01:35,050
+The first page of the search results or
+all the next pages?
+
+35
+00:01:35,050 --> 00:01:37,980
+Are you doing it in the US only or
+globally?
+
+36
+00:01:37,980 --> 00:01:41,010
+Are you removing spam or
+are you not removing spam?
+
+37
+00:01:41,010 --> 00:01:45,160
+I mean, you name it, we had to decide
+every single one of those questions.
+
+38
+00:01:45,160 --> 00:01:49,360
+And so whenever someone was looking at
+experiment the first question was not
+
+39
+00:01:49,360 --> 00:01:52,370
+oh, well how does this result
+compare to this other experiment?
+
+40
+00:01:52,370 --> 00:01:56,520
+The first question was how did you
+compute six through eight again?
+
+41
+00:01:56,520 --> 00:01:59,300
+Which, which,
+which definition did you use?
+
+42
+00:01:59,300 --> 00:02:03,730
+Just being able to standardize the
+definition was really important towards
+
+43
+00:02:03,730 --> 00:02:09,110
+just being able to start the
+conversation at a whole different level.
+
+44
+00:02:09,110 --> 00:02:10,990
+>> Latency,
+which we’ve been talking about a lot, or
+
+45
+00:02:10,990 --> 00:02:14,350
+how long it takes a page to
+load is another good example.
+
+46
+00:02:14,350 --> 00:02:17,410
+Now when you think about it you don’t
+really sit next to the user and
+
+47
+00:02:17,410 --> 00:02:18,140
+measure this.
+
+48
+00:02:18,140 --> 00:02:20,110
+You’re looking in a whole
+bunch of events and
+
+49
+00:02:20,110 --> 00:02:22,630
+pings back that happen and hand offs.
+
+50
+00:02:22,630 --> 00:02:25,490
+So for example,
+when does the first byte load?
+
+51
+00:02:25,490 --> 00:02:26,980
+How did you measure that?
+
+52
+00:02:26,980 --> 00:02:28,990
+When you say how long does
+it take the page to load,
+
+53
+00:02:28,990 --> 00:02:32,980
+are you talking about when the first
+byte loads or when the last byte loads?
+
+54
+00:02:32,980 --> 00:02:36,650
+And so, it really becomes a discussion
+about agreeing on what you're
+
+55
+00:02:36,650 --> 00:02:39,410
+actually going to technically
+measure in this metric.
+
+56
+00:02:39,410 --> 00:02:43,090
+And not a discussion about, hey,
+did we improve our latency here or not?
+
+57
+00:02:43,090 --> 00:02:45,420
+>> Wow, so how about sensitivity and
+robustness?
+
+58
+00:02:45,420 --> 00:02:46,720
+Any stories about those?
+
+59
+00:02:46,720 --> 00:02:48,900
+>> Well, latency is another
+good example of those,
+
+60
+00:02:48,900 --> 00:02:51,460
+because latency tends
+to be really lumpy.
+
+61
+00:02:51,460 --> 00:02:54,110
+And you look at the mean,
+and it doesn't move at all.
+
+62
+00:02:54,110 --> 00:02:57,000
+And part of the reason is that you
+have users who have very different
+
+63
+00:02:57,000 --> 00:02:57,840
+connection speeds.
+
+64
+00:02:57,840 --> 00:03:00,410
+So you have a bunch of people
+who have super fast speeds.
+
+65
+00:03:00,410 --> 00:03:01,730
+You have people who have slow speeds.
+
+66
+00:03:01,730 --> 00:03:04,420
+You have people who have some kind
+of problem on their computer,
+
+67
+00:03:04,420 --> 00:03:06,120
+maybe they have an old browser.
+
+68
+00:03:06,120 --> 00:03:09,110
+And so these signals that you're getting
+cause these sort of lumpiness in
+
+69
+00:03:09,110 --> 00:03:10,580
+the distribution.
+
+70
+00:03:10,580 --> 00:03:14,080
+So you really want to move away from
+using something like the mean and
+
+71
+00:03:14,080 --> 00:03:16,840
+start looking at well,
+do I have to use a higher percentile?
+
+72
+00:03:16,840 --> 00:03:19,220
+Because I can't get
+the mean to move at all.
+
+73
+00:03:19,220 --> 00:03:22,180
+One change effects the people who
+have the fast connections, and
+
+74
+00:03:22,180 --> 00:03:24,870
+one change effects the people who
+have the slow connections, and
+
+75
+00:03:24,870 --> 00:03:27,070
+I can't get any sort of central measure.
+
+76
+00:03:27,070 --> 00:03:29,480
+So we spent a lot of time with latency,
+looking for
+
+77
+00:03:29,480 --> 00:03:33,620
+the right higher percentile metric,
+that we could actually get to move,
+
+78
+00:03:33,620 --> 00:03:37,230
+when we knew we'd done something that
+was positive for the latency experience.
+
+79
+00:03:37,230 --> 00:03:39,760
+>> Another example is from search.
+
+80
+00:03:39,760 --> 00:03:44,750
+Now in search, we love the metric
+tasks per user per day.
+
+81
+00:03:44,750 --> 00:03:49,110
+Now, the problem with task per user
+per day is not that it's a bad metric,
+
+82
+00:03:49,110 --> 00:03:51,250
+it's that it's a very stable metric.
+
+83
+00:03:51,250 --> 00:03:53,120
+And what that basically means is that,
+for
+
+84
+00:03:53,120 --> 00:03:56,730
+just about any experiment you
+weren't changing that metric.
+
+85
+00:03:56,730 --> 00:03:59,990
+And in fact, if you did actually measure
+a change in task per user per day,
+
+86
+00:03:59,990 --> 00:04:03,000
+it was probably a sign that
+you screwed up your experiment
+
+87
+00:04:03,000 --> 00:04:05,700
+as opposed to actually
+changing the metric.
+
+88
+00:04:05,700 --> 00:04:09,650
+Now, it's worth noting that
+even as a business metric,
+
+89
+00:04:09,650 --> 00:04:13,070
+task per user per day has
+a bunch of definition issues,
+
+90
+00:04:13,070 --> 00:04:15,850
+like what time period actually
+makes the most sense.
+
+91
+00:04:15,850 --> 00:04:18,690
+Do you care about per day, or per week?
+
+92
+00:04:18,690 --> 00:04:20,930
+I mean,
+just think about your own search habits.
+
+93
+00:04:20,930 --> 00:04:23,460
+You probably search a couple
+of times per week, or
+
+94
+00:04:23,460 --> 00:04:27,910
+even a two week period,
+as opposed to on an every day basis.
+
+95
+00:04:27,910 --> 00:04:30,660
+Now, one of the things to, sort of,
+think about as you're, sort of,
+
+96
+00:04:30,660 --> 00:04:35,690
+defining metrics is, do your metrics
+have a big weekly variability?
+
+97
+00:04:35,690 --> 00:04:38,430
+Businesses tend to love, like,
+these 30 day metrics, but
+
+98
+00:04:38,430 --> 00:04:41,785
+if your if your site has
+a bunch of weekly variability,
+
+99
+00:04:41,785 --> 00:04:45,175
+28 days might make way
+more sense than 30 days.
+
+100
+00:04:45,175 --> 00:04:46,025
+>> Yeah.
+
+101
+00:04:46,025 --> 00:04:48,675
+I mean, there's a certain amount of
+judgment that you have to apply at
+
+102
+00:04:48,675 --> 00:04:49,835
+the beginning of this process,
+
+103
+00:04:49,835 --> 00:04:52,235
+but you also really have
+to try these things out.
+
+104
+00:04:52,235 --> 00:04:55,520
+Because you actually won't think
+of all those types of effects.
+
+105
+00:04:55,520 --> 00:04:58,520
+And when you try it, you'll suddenly
+see something really strange.
+
+106
+00:04:58,520 --> 00:05:00,050
+>> I mean, as we talked about,
+
+107
+00:05:00,050 --> 00:05:02,430
+the key thing is that you're
+actually building intuition.
+
+108
+00:05:02,430 --> 00:05:05,390
+You have to understand your data,
+your system.
+
+109
+00:05:05,390 --> 00:05:08,610
+You have to work with your
+engineers to understand the nuances
+
+110
+00:05:08,610 --> 00:05:11,140
+about how data is
+actually being captured.
+
+111
+00:05:11,140 --> 00:05:12,060
+>> Wow!
+Interesting.

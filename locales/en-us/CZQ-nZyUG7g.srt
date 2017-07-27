@@ -1,0 +1,253 @@
+1
+00:00:00,440 --> 00:00:03,830
+Once I've figured out which metrics have
+significant changes, what comes next?
+
+2
+00:00:03,830 --> 00:00:07,371
+>> Well, now you have to decide what
+your results do and don't tell you.
+
+3
+00:00:07,371 --> 00:00:10,008
+If you have statistically
+significant results,
+
+4
+00:00:10,008 --> 00:00:14,980
+then that means that you're unlikely to
+have zero impact on the user experience.
+
+5
+00:00:14,980 --> 00:00:18,760
+But now the questions come down to A,
+do you understand the change?
+
+6
+00:00:18,760 --> 00:00:21,135
+And B, do you want to launch the change?
+
+7
+00:00:21,135 --> 00:00:25,474
+Okay, so what if I have a statistically
+significant change in some metrics but
+
+8
+00:00:25,474 --> 00:00:26,997
+then in others, I don't.
+
+9
+00:00:26,997 --> 00:00:30,710
+Well, that goes back to A,
+do you understand the change?
+
+10
+00:00:30,710 --> 00:00:31,775
+And having intuition and
+
+11
+00:00:31,775 --> 00:00:35,150
+experience with lots of other
+experiments can really help here.
+
+12
+00:00:35,150 --> 00:00:38,130
+For example, maybe you know that for
+small changes,
+
+13
+00:00:38,130 --> 00:00:42,795
+a change in one metric but no change all
+the other metrics is perfectly fine.
+
+14
+00:00:42,795 --> 00:00:45,245
+But if you were to see those
+same results for a big change,
+
+15
+00:00:45,245 --> 00:00:48,075
+that would probably indicate that
+there's something going wrong.
+
+16
+00:00:48,075 --> 00:00:50,085
+>> Okay, and
+the same question for slices.
+
+17
+00:00:50,085 --> 00:00:53,585
+What if your change has a positive
+impact on one slice of your users, but
+
+18
+00:00:53,585 --> 00:00:57,270
+then, for another slice, there's no
+impact or there's a negative impact?
+
+19
+00:00:57,270 --> 00:00:59,194
+>> Again, do you understand why?
+
+20
+00:00:59,194 --> 00:01:02,046
+Is it a question about
+having different users, and
+
+21
+00:01:02,046 --> 00:01:04,790
+how much they like or
+don't like the change?
+
+22
+00:01:04,790 --> 00:01:07,380
+Have you seen that effect
+in other experiments?
+
+23
+00:01:07,380 --> 00:01:08,680
+Do you have a bug?
+
+24
+00:01:08,680 --> 00:01:11,410
+These are all possibilities
+when you have changes
+
+25
+00:01:11,410 --> 00:01:13,120
+in one slice versus another.
+
+26
+00:01:13,120 --> 00:01:14,340
+Let me give you an example.
+
+27
+00:01:14,340 --> 00:01:15,240
+Bolding, right,
+
+28
+00:01:15,240 --> 00:01:18,640
+we like to basically bold certain
+words in order to give them emphasis.
+
+29
+00:01:18,640 --> 00:01:22,632
+Now, bolding in like English or
+German, or those types of alphabets,
+
+30
+00:01:22,632 --> 00:01:25,104
+works really well for
+providing emphasis.
+
+31
+00:01:25,104 --> 00:01:28,756
+But if you try and bold in Japanese,
+or Korean, or Chinese,
+
+32
+00:01:28,756 --> 00:01:32,180
+a bolded character is
+actually really hard to read.
+
+33
+00:01:32,180 --> 00:01:33,590
+And it actually makes it harder for
+
+34
+00:01:33,590 --> 00:01:37,050
+a user to read the word
+than if it was not bolded.
+
+35
+00:01:37,050 --> 00:01:39,050
+And so in that situation,
+
+36
+00:01:39,050 --> 00:01:42,120
+you may actually want to want
+something different for that slice.
+
+37
+00:01:42,120 --> 00:01:45,100
+Maybe use a different color
+as opposed to doing a bold.
+
+38
+00:01:45,100 --> 00:01:45,980
+>> That makes sense.
+
+39
+00:01:45,980 --> 00:01:49,240
+And then, bottom line, how do you decide
+whether to launch your change or not?
+
+40
+00:01:49,240 --> 00:01:51,680
+>> You really have to ask
+yourself a few questions.
+
+41
+00:01:51,680 --> 00:01:54,427
+One, do I have statistically
+significant and
+
+42
+00:01:54,427 --> 00:01:59,040
+practically significant results
+in order to justify the change?
+
+43
+00:01:59,040 --> 00:02:03,666
+The second question is, do I understand
+what that change has actually done with
+
+44
+00:02:03,666 --> 00:02:05,400
+regards to user experience?
+
+45
+00:02:05,400 --> 00:02:08,270
+And the third one is, is it worth it?
+
+46
+00:02:08,270 --> 00:02:11,050
+Now the key thing to remember
+is that the end goal is
+
+47
+00:02:11,050 --> 00:02:14,460
+actually making that recommendation
+that shows your judgment.
+
+48
+00:02:14,460 --> 00:02:17,870
+It's not about designing
+the experiment and running it and
+
+49
+00:02:17,870 --> 00:02:21,245
+sizing it properly, and having all
+of the metric chosen correctly,
+
+50
+00:02:21,245 --> 00:02:22,575
+and all those different things.
+
+51
+00:02:22,575 --> 00:02:26,059
+Those are all signposts towards
+your end goal of actually making
+
+52
+00:02:26,059 --> 00:02:27,166
+a recommendation.
+
+53
+00:02:27,166 --> 00:02:29,089
+And what's going to be remembered is,
+
+54
+00:02:29,089 --> 00:02:32,715
+did you recommend to launch it or
+not and was it the right recommendation?

@@ -1,0 +1,300 @@
+1
+00:00:00,380 --> 00:00:03,680
+Now, let's look at how to compute
+the confidence interval for our sample.
+
+2
+00:00:03,680 --> 00:00:05,810
+We've already found
+the center of the interval,
+
+3
+00:00:05,810 --> 00:00:07,939
+that is a probability of a click.
+
+4
+00:00:07,939 --> 00:00:11,901
+The equation was p hat, or the estimated
+probability equals X over N,
+
+5
+00:00:11,901 --> 00:00:14,451
+where X was the number
+of users who clicked and
+
+6
+00:00:14,451 --> 00:00:17,425
+N was the total number of
+users who visited the page.
+
+7
+00:00:17,425 --> 00:00:22,778
+In this example,
+p hat is 100 over 1000, or 0.1.
+
+8
+00:00:22,778 --> 00:00:26,500
+So, the center of the confidence
+interval will be 0.1.
+
+9
+00:00:26,500 --> 00:00:29,870
+Next, I want to calculate the width
+of the confidence interval,
+
+10
+00:00:29,870 --> 00:00:32,950
+which is also called
+the margin of error, or m.
+
+11
+00:00:32,950 --> 00:00:33,900
+To do this,
+
+12
+00:00:33,900 --> 00:00:37,720
+I'll need to use the standard error
+of the binomial distribution.
+
+13
+00:00:37,720 --> 00:00:40,240
+Recall that if the sample
+is large enough,
+
+14
+00:00:40,240 --> 00:00:42,380
+instead of using
+the binomial distribution,
+
+15
+00:00:42,380 --> 00:00:45,750
+I can assume the distribution is normal,
+like this blue line.
+
+16
+00:00:45,750 --> 00:00:49,050
+A good rule of thumb is that if
+N times p hat is greater than 5,
+
+17
+00:00:49,050 --> 00:00:51,450
+it's safe to assume
+a normal distribution.
+
+18
+00:00:51,450 --> 00:00:55,420
+You should also check that N times
+1 minus p hat, is greater than 5.
+
+19
+00:00:55,420 --> 00:00:59,310
+But, for small click-through
+probabilities like we usually see,
+
+20
+00:00:59,310 --> 00:01:01,690
+this is the more stringent condition.
+
+21
+00:01:01,690 --> 00:01:06,690
+In our case, N times p hat is 100, so
+the assumption should be safe here.
+
+22
+00:01:06,690 --> 00:01:09,750
+When we can use the normal
+approximation, then the width of
+
+23
+00:01:09,750 --> 00:01:13,420
+the confidence interval, that is
+the margin of error, will be equal
+
+24
+00:01:13,420 --> 00:01:17,810
+to the z-score of the confidence level,
+times the standard error.
+
+25
+00:01:17,810 --> 00:01:19,380
+And for the binomial distribution,
+
+26
+00:01:19,380 --> 00:01:23,750
+the standard error's the square root
+of p hat times 1 minus p hat over N.
+
+27
+00:01:23,750 --> 00:01:26,450
+If you look at this formula,
+you'll notice a few things.
+
+28
+00:01:26,450 --> 00:01:29,550
+The amount of random variation
+we expect in our sample,
+
+29
+00:01:29,550 --> 00:01:31,420
+the width of the confidence interval,
+
+30
+00:01:31,420 --> 00:01:36,630
+is a function of both the proportion of
+successes and the size of the sample.
+
+31
+00:01:36,630 --> 00:01:40,000
+This means we need to consider the
+proportion of successes when we decide
+
+32
+00:01:40,000 --> 00:01:43,570
+how many samples to collect, which we'll
+talk about again later this lesson.
+
+33
+00:01:43,570 --> 00:01:46,710
+When the success probability
+is farther from 0.5 then
+
+34
+00:01:46,710 --> 00:01:50,820
+the standard error will be smaller,
+which means the distribution is tighter,
+
+35
+00:01:50,820 --> 00:01:53,570
+which means the confidence
+interval will be smaller.
+
+36
+00:01:53,570 --> 00:01:57,150
+Similarly, if the number of samples
+is larger, the standard error and
+
+37
+00:01:57,150 --> 00:02:00,140
+the confidence interval
+will also be smaller.
+
+38
+00:02:00,140 --> 00:02:02,116
+Now I'll need to find the z-score for
+
+39
+00:02:02,116 --> 00:02:04,610
+the boundary of a 95%
+confidence interval.
+
+40
+00:02:04,610 --> 00:02:09,479
+For a normal distribution with a mean
+of 0 and a standard deviation of 1,
+
+41
+00:02:09,479 --> 00:02:12,050
+which is also called a z distribution.
+
+42
+00:02:13,080 --> 00:02:17,814
+With 95% confidence,
+the true value would be within 1.96 and
+
+43
+00:02:17,814 --> 00:02:21,578
+negative 1.96 of
+the estimate we observed.
+
+44
+00:02:21,578 --> 00:02:24,310
+The value 1.96 is called a z-score, and
+
+45
+00:02:24,310 --> 00:02:27,740
+you can look it up in a table like the
+one linked in the instructor's notes.
+
+46
+00:02:27,740 --> 00:02:30,613
+In this case,
+since we're doing a two-tailed test,
+
+47
+00:02:30,613 --> 00:02:33,493
+each tail will contain
+2.5% of the distribution.
+
+48
+00:02:33,493 --> 00:02:39,595
+So 1.96 is the z-score for
+97.5%, or 100 minus 2.5.
+
+49
+00:02:39,595 --> 00:02:44,440
+In our case, the margin of
+error comes out to about 0.019.
+
+50
+00:02:44,440 --> 00:02:49,365
+So, we'll add this margin of error to
+the point estimate to get the upper
+
+51
+00:02:49,365 --> 00:02:54,388
+bound of 0.119, and subtract to
+get the lower bound of 0.081.
+
+52
+00:02:54,388 --> 00:02:58,901
+This means, if you'd run the experiment
+again with another thousand page views,
+
+53
+00:02:58,901 --> 00:03:02,705
+you'd maybe expect to see between 80 and
+120 clicks, but more or
+
+54
+00:03:02,705 --> 00:03:05,108
+less than that would
+be pretty surprising.
+
+55
+00:03:05,108 --> 00:03:09,128
+Now, let's say you made a similar
+measurement on a different page,
+
+56
+00:03:09,128 --> 00:03:13,234
+and this time you got 2000 total
+users and 300 of them clicked.
+
+57
+00:03:13,234 --> 00:03:16,670
+And let's say,
+you wanted a 99% confidence level.
+
+58
+00:03:16,670 --> 00:03:19,880
+Calculate the upper and lower bounds
+of the confidence interval, and
+
+59
+00:03:19,880 --> 00:03:23,200
+write the numbers in these
+boxes to three decimal places.
+
+60
+00:03:23,200 --> 00:03:24,970
+To do this,
+you'll need a z-score table, and
+
+61
+00:03:24,970 --> 00:03:27,540
+you can find a link to one
+in the instructor's notes.
+
+62
+00:03:27,540 --> 00:03:29,100
+Again, you should use a two-tailed test.

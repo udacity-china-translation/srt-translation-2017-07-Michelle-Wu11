@@ -1,0 +1,224 @@
+1
+00:00:00,410 --> 00:00:02,277
+Like Carrey said,
+you might want to use a cohort,
+
+2
+00:00:02,277 --> 00:00:04,730
+depending on the type of
+problem you are looking at.
+
+3
+00:00:04,730 --> 00:00:07,930
+A cohort makes more sense than
+looking at the entire population,
+
+4
+00:00:07,930 --> 00:00:12,280
+if you're looking for learning effects,
+if you're examining user retention,
+
+5
+00:00:12,280 --> 00:00:14,930
+if you want to increase user activity,
+or
+
+6
+00:00:14,930 --> 00:00:18,900
+anything else that requires the user
+to be established for some reason.
+
+7
+00:00:18,900 --> 00:00:21,030
+Going back to the Audacity example,
+
+8
+00:00:21,030 --> 00:00:24,200
+here's a situation where they
+might need to use a cohort.
+
+9
+00:00:24,200 --> 00:00:27,290
+Suppose they have an existing course
+that's already up and running.
+
+10
+00:00:27,290 --> 00:00:30,830
+Some students have completed the course,
+other students are midway through, and
+
+11
+00:00:30,830 --> 00:00:32,930
+there are students who have not yet
+started.
+
+12
+00:00:32,930 --> 00:00:35,460
+They want to try changing
+the structure of one of the lessons
+
+13
+00:00:35,460 --> 00:00:38,600
+to see if it improves the completion
+rate of the entire course.
+
+14
+00:00:38,600 --> 00:00:41,170
+Now, because they want to see,
+what happens throughout the course where
+
+15
+00:00:41,170 --> 00:00:43,540
+students can pause or
+unpause the lessons,
+
+16
+00:00:43,540 --> 00:00:47,976
+switch devices, etc., the unit of
+diversion will need to be a user-id.
+
+17
+00:00:47,976 --> 00:00:51,180
+That said, it doesn't make sense
+to just run the experiment on
+
+18
+00:00:51,180 --> 00:00:52,990
+all the users in the course.
+
+19
+00:00:52,990 --> 00:00:56,251
+To see that, suppose that this blue
+line shows the time that students start
+
+20
+00:00:56,251 --> 00:00:59,840
+the lessons that Audacity is changing
+with later times to the right.
+
+21
+00:00:59,840 --> 00:01:02,930
+Each purple dot represents a user or
+student.
+
+22
+00:01:02,930 --> 00:01:06,900
+So, at this time four students
+started the lesson at the same time.
+
+23
+00:01:06,900 --> 00:01:10,253
+Now, suppose that Audacity starts
+running the experiment at this time, for
+
+24
+00:01:10,253 --> 00:01:12,810
+students who started
+the lesson a while ago,
+
+25
+00:01:12,810 --> 00:01:15,360
+they may actual have
+finished the lesson already.
+
+26
+00:01:15,360 --> 00:01:17,290
+So, they're already past that lesson,
+and
+
+27
+00:01:17,290 --> 00:01:19,480
+they're not even going
+to see the change.
+
+28
+00:01:19,480 --> 00:01:21,940
+So, taking this whole
+population of user-ids, and
+
+29
+00:01:21,940 --> 00:01:25,370
+running the experiment on them,
+isn't what Audacity wants.
+
+30
+00:01:25,370 --> 00:01:29,550
+Instead, it would make sense to use
+a cohort, and only include users who
+
+31
+00:01:29,550 --> 00:01:33,790
+started the lesson after the experiment
+was started in the experiment.
+
+32
+00:01:33,790 --> 00:01:37,130
+That is, it's a subset of
+the population, who have the shared
+
+33
+00:01:37,130 --> 00:01:41,610
+experience of receiving the new lesson,
+and not seeing the old lesson.
+
+34
+00:01:41,610 --> 00:01:45,800
+Now, for the control, Audacity needs
+to create a comparable cohort.
+
+35
+00:01:45,800 --> 00:01:47,650
+They can not just use these users,
+
+36
+00:01:47,650 --> 00:01:51,350
+who are not included in the experiment
+as the control because there may have
+
+37
+00:01:51,350 --> 00:01:55,600
+been other system changes in that
+time that affected the new users.
+
+38
+00:01:55,600 --> 00:02:00,580
+So, instead, Audacity will need to split
+this cohort into an experiment cohort
+
+39
+00:02:00,580 --> 00:02:02,120
+and a control cohort, so
+
+40
+00:02:02,120 --> 00:02:05,660
+that they all have the same timing
+of when they started the lesson.
+
+41
+00:02:05,660 --> 00:02:08,840
+Now, in this example,
+we chose a cohort based on time, but
+
+42
+00:02:08,840 --> 00:02:12,000
+you could also use other
+factors to create a cohort.
+
+43
+00:02:12,000 --> 00:02:15,770
+Just like running your experiment only
+on New Zealand, using a cohort is
+
+44
+00:02:15,770 --> 00:02:18,910
+limiting your experiment to
+a subset of your population.
+
+45
+00:02:18,910 --> 00:02:20,400
+Thus, in the same way,
+
+46
+00:02:20,400 --> 00:02:23,190
+using a cohort can affect
+the variability of your metric.

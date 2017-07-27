@@ -1,0 +1,136 @@
+1
+00:00:00,420 --> 00:00:03,810
+In the first case, you can't figure out
+whether you're carrying all the products
+
+2
+00:00:03,810 --> 00:00:06,160
+users need by running an A/B test.
+
+3
+00:00:06,160 --> 00:00:10,070
+You could try carrying a specific
+additional product, but if users don't
+
+4
+00:00:10,070 --> 00:00:13,710
+buy it, you still won't know if there's
+a different product you're missing.
+
+5
+00:00:13,710 --> 00:00:16,860
+Instead, you might want to try asking
+users whether there's anything
+
+6
+00:00:16,860 --> 00:00:18,200
+they feel is missing.
+
+7
+00:00:18,200 --> 00:00:21,310
+In the second case, you wouldn't be
+able to fully test whether the premium
+
+8
+00:00:21,310 --> 00:00:24,590
+service is a good business
+decision using A/B testing.
+
+9
+00:00:24,590 --> 00:00:26,930
+Users have to opt into
+a premium service, so
+
+10
+00:00:26,930 --> 00:00:31,295
+randomly assigning people to one group
+or another wouldn't really work.
+
+11
+00:00:31,295 --> 00:00:33,635
+You wouldn't have a control
+to compare against.
+
+12
+00:00:33,635 --> 00:00:37,185
+You can still get valuable
+information from an A/B test.
+
+13
+00:00:37,185 --> 00:00:37,825
+For example,
+
+14
+00:00:37,825 --> 00:00:40,785
+you could see how many users will
+read about the additional features or
+
+15
+00:00:40,785 --> 00:00:43,715
+how many will choose to upgrade
+if you make the choice available.
+
+16
+00:00:43,715 --> 00:00:46,185
+But you can't fully test out the change.
+
+17
+00:00:46,185 --> 00:00:49,149
+The third case is a great
+place to use A/B testing.
+
+18
+00:00:49,149 --> 00:00:52,860
+There are clear control and
+experiment groups, the old algorithm and
+
+19
+00:00:52,860 --> 00:00:54,070
+the new algorithm.
+
+20
+00:00:54,070 --> 00:00:57,080
+There are also probably some clear
+metrics you could use to evaluate
+
+21
+00:00:57,080 --> 00:01:01,290
+the change, such as the probability of
+a user clicking on a recommendation or
+
+22
+00:01:01,290 --> 00:01:02,800
+actually watching the movie.
+
+23
+00:01:02,800 --> 00:01:05,860
+The fourth case may be tricky to test,
+depending on whether you have
+
+24
+00:01:05,860 --> 00:01:09,340
+the computing ability to run both
+versions of the backend at once.
+
+25
+00:01:09,340 --> 00:01:12,940
+If you do though, you can definitely
+A/B test the results of the change.
+
+26
+00:01:12,940 --> 00:01:14,530
+Once again, you have clear control and
+
+27
+00:01:14,530 --> 00:01:17,340
+experiment groups since
+the groups are very comparable.
+
+28
+00:01:17,340 --> 00:01:19,230
+So, as long as you have
+the computing power to
+
+29
+00:01:19,230 --> 00:01:21,020
+run both simultaneously, you're good.

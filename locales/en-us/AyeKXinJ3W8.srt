@@ -1,0 +1,72 @@
+1
+00:00:00,430 --> 00:00:01,940
+Okay.
+In the lessons up to now,
+
+2
+00:00:01,940 --> 00:00:05,340
+you've figured out what metrics
+to use to evaluate your change.
+
+3
+00:00:05,340 --> 00:00:07,970
+You've characterized those metrics,
+you've designed and
+
+4
+00:00:07,970 --> 00:00:11,380
+at least preliminarily
+sized your experiment.
+
+5
+00:00:11,380 --> 00:00:12,820
+Now that you've run your experiment,
+
+6
+00:00:12,820 --> 00:00:15,900
+something we're not really
+covering the mechanics of here,
+
+7
+00:00:15,900 --> 00:00:19,530
+you want to see what you can conclude
+from the data that you've captured.
+
+8
+00:00:19,530 --> 00:00:22,450
+In this lesson, we'll go over how
+to analyze the results from your
+
+9
+00:00:22,450 --> 00:00:26,430
+experiment, and determine what you
+can and what you cannot conclude.
+
+10
+00:00:26,430 --> 00:00:30,050
+We'll start with the sanity checks we've
+discussed before, and then look at how
+
+11
+00:00:30,050 --> 00:00:33,910
+to handle evaluation, whether you
+have a single or multiple metrics.
+
+12
+00:00:33,910 --> 00:00:36,450
+Finally, we'll talk
+about analysis gotchas.
+
+13
+00:00:36,450 --> 00:00:40,440
+As always, remember that running
+A/B tests is an iterative process.
+
+14
+00:00:40,440 --> 00:00:43,700
+What you'll learn from this lesson may
+inform the steps that you've done up
+
+15
+00:00:43,700 --> 00:00:45,400
+to now in designing your test as well.

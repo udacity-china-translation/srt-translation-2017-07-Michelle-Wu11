@@ -1,0 +1,138 @@
+1
+00:00:00,400 --> 00:00:04,520
+Our recent online example is from
+Facebook and some Cornell researchers,
+
+2
+00:00:04,520 --> 00:00:07,670
+who studied how emotions can
+be spread on social media.
+
+3
+00:00:07,670 --> 00:00:11,640
+Specifically, one set of randomly
+selected participants saw a newsfeed
+
+4
+00:00:11,640 --> 00:00:14,020
+with slightly fewer negative posts and
+
+5
+00:00:14,020 --> 00:00:17,825
+another set saw a newsfeed with
+slightly fewer positive posts.
+
+6
+00:00:17,825 --> 00:00:21,765
+A week later, the researchers measured
+whether the posts from the participants
+
+7
+00:00:21,765 --> 00:00:23,365
+were more negative or positive.
+
+8
+00:00:24,575 --> 00:00:28,625
+For the Facebook experiment, the risk to
+the participants is substantially lower
+
+9
+00:00:28,625 --> 00:00:31,925
+than either of the other experiments,
+and there is no discussion
+
+10
+00:00:31,925 --> 00:00:34,575
+about the potential benefits that
+might result from such a study.
+
+11
+00:00:35,670 --> 00:00:40,040
+Now, these are three examples of
+problematic, or potentially problematic,
+
+12
+00:00:40,040 --> 00:00:41,390
+experiments.
+
+13
+00:00:41,390 --> 00:00:45,670
+Clearly, these are the exceptions to
+the rule, rather than the common case.
+
+14
+00:00:45,670 --> 00:00:49,720
+But it is because of these
+problematic experiments that IRBs, or
+
+15
+00:00:49,720 --> 00:00:51,790
+institutional review boards, came to be.
+
+16
+00:00:52,960 --> 00:00:55,345
+IRBs review possible experiments and
+
+17
+00:00:55,345 --> 00:00:58,380
+ensure that participants
+are adequately protected.
+
+18
+00:00:58,380 --> 00:01:02,800
+That said, most IRBs are tied to
+academic institutions and it's still
+
+19
+00:01:02,800 --> 00:01:06,918
+a grey area about whether Internet
+studies should be reviewed by an IRB.
+
+20
+00:01:06,918 --> 00:01:10,928
+However, online say you should
+still make protecting participants
+
+21
+00:01:10,928 --> 00:01:12,640
+a primary concern.
+
+22
+00:01:12,640 --> 00:01:15,350
+The four main principles
+to consider are, one, risk.
+
+23
+00:01:15,350 --> 00:01:19,080
+What risk is the participant
+being exposed to?
+
+24
+00:01:19,080 --> 00:01:20,470
+Two, benefit.
+
+25
+00:01:20,470 --> 00:01:23,500
+What benefits might be
+the outcome of the study?
+
+26
+00:01:23,500 --> 00:01:25,020
+Three, choice.
+
+27
+00:01:25,020 --> 00:01:27,600
+What other choices do participants have?
+
+28
+00:01:27,600 --> 00:01:30,100
+And finally, four, privacy.
+
+29
+00:01:30,100 --> 00:01:34,790
+What expectation of privacy and
+confidentiality do participants have?
+
+30
+00:01:34,790 --> 00:01:36,060
+We'll discuss each of these next.

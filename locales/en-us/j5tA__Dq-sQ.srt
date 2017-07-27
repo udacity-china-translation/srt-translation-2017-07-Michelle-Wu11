@@ -1,0 +1,105 @@
+1
+00:00:00,440 --> 00:00:01,750
+Like Diane and Carrie said,
+
+2
+00:00:01,750 --> 00:00:04,750
+we first need to come up with the high
+level concepts for our metrics.
+
+3
+00:00:05,790 --> 00:00:09,190
+A good place to start is with
+the overall business objective.
+
+4
+00:00:09,190 --> 00:00:12,270
+And what Audacity ultimately cares
+about is helping their students get
+
+5
+00:00:12,270 --> 00:00:13,930
+jobs in finance.
+
+6
+00:00:13,930 --> 00:00:17,720
+Of course, they also need their
+business to be financially sustainable.
+
+7
+00:00:17,720 --> 00:00:19,980
+That is, they need to make money.
+
+8
+00:00:19,980 --> 00:00:23,240
+We can break these objectives down
+into steps using a customer funnel
+
+9
+00:00:23,240 --> 00:00:25,040
+like you saw in lesson one.
+
+10
+00:00:25,040 --> 00:00:27,460
+At that point,
+we put four steps into the funnel.
+
+11
+00:00:27,460 --> 00:00:31,700
+How many users visit the homepage,
+how many users explore the site further,
+
+12
+00:00:31,700 --> 00:00:34,970
+how many create an account, and
+how many complete a course.
+
+13
+00:00:34,970 --> 00:00:38,280
+The idea is that each of these
+is a step in the process
+
+14
+00:00:38,280 --> 00:00:41,850
+of either getting a job or
+helping Audacity make money.
+
+15
+00:00:41,850 --> 00:00:45,040
+In this case, because they might
+use coaching at some point.
+
+16
+00:00:45,040 --> 00:00:47,400
+This funnel is pretty
+coarsely grained though.
+
+17
+00:00:47,400 --> 00:00:50,390
+Can you think of more stages
+a student might go through?
+
+18
+00:00:50,390 --> 00:00:54,400
+Maybe in between some of these steps or
+before or after them.
+
+19
+00:00:54,400 --> 00:00:58,110
+Try to expand the funnel until it
+has at least ten total steps, and
+
+20
+00:00:58,110 --> 00:00:59,840
+put the steps that you've
+thought of in this box.
+
+21
+00:01:01,000 --> 00:01:04,560
+Since Audacity is a hypothetical
+company, you can use Udacity or
+
+22
+00:01:04,560 --> 00:01:07,580
+another online education company
+to generate ideas if you'd like.

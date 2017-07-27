@@ -1,0 +1,108 @@
+1
+00:00:00,178 --> 00:00:06,214
+At a 95% confidence level or
+an alpha of 0.05, the Z-score is 1.96.
+
+2
+00:00:06,214 --> 00:00:10,005
+I'll multiply this Z-score by each
+standard error to get the margin of
+
+3
+00:00:10,005 --> 00:00:11,480
+error in each case.
+
+4
+00:00:11,480 --> 00:00:14,540
+Now, for the first case, the margin
+of error is smaller than the observed
+
+5
+00:00:14,540 --> 00:00:17,790
+difference, which means the confidence
+interval won't include zero.
+
+6
+00:00:17,790 --> 00:00:19,850
+So, the difference is significant.
+
+7
+00:00:19,850 --> 00:00:23,930
+In the second two cases, the margin of
+error is also smaller than the magnitude
+
+8
+00:00:23,930 --> 00:00:25,410
+of the observed difference.
+
+9
+00:00:25,410 --> 00:00:27,140
+So, these changes are significant also.
+
+10
+00:00:27,140 --> 00:00:32,290
+In the last case, the margin of error is
+wider than the observed difference, so
+
+11
+00:00:32,290 --> 00:00:34,950
+this is not statistically significant.
+
+12
+00:00:34,950 --> 00:00:39,090
+Using the Bonferroni method,
+I get an individual Z-score of 2.5.
+
+13
+00:00:39,090 --> 00:00:45,450
+It's actually between 2.49 and 2.5, but
+it's closer to 2.5, so i'll use that.
+
+14
+00:00:45,450 --> 00:00:48,520
+To get this,
+I divided the overall alpha of .05 by 4,
+
+15
+00:00:48,520 --> 00:00:52,530
+and looked up the result
+in a Z-score table.
+
+16
+00:00:52,530 --> 00:00:56,380
+Multiplying this by the standard errors,
+I get these margins of error.
+
+17
+00:00:56,380 --> 00:00:59,080
+Now, it turns out that each margin
+of error is now larger than
+
+18
+00:00:59,080 --> 00:01:01,050
+the corresponding difference, so
+
+19
+00:01:01,050 --> 00:01:05,220
+none of these metrics have a significant
+change using the Bonferroni method.
+
+20
+00:01:05,220 --> 00:01:08,920
+In this case, the Bonferroni method
+is probably too conservative.
+
+21
+00:01:08,920 --> 00:01:11,720
+If the course description was
+an improvement, then it makes
+
+22
+00:01:11,720 --> 00:01:15,340
+sense that it could cause more than
+one of these metrics to move and
+
+23
+00:01:15,340 --> 00:01:17,350
+they're probably more
+likely to move together.

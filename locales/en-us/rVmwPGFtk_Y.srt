@@ -1,0 +1,149 @@
+1
+00:00:00,370 --> 00:00:02,020
+This course will have five lessons.
+
+2
+00:00:02,020 --> 00:00:05,280
+In this first lesson, we'll be giving
+you an overview of what A/B testing is
+
+3
+00:00:05,280 --> 00:00:07,250
+and what it can and can't be used for.
+
+4
+00:00:07,250 --> 00:00:10,100
+We'll also go over an example
+A/B test from start to finish so
+
+5
+00:00:10,100 --> 00:00:12,220
+that you can see what
+the whole process looks like.
+
+6
+00:00:12,220 --> 00:00:15,020
+In that example, we'll first
+choose a metric for an experiment,
+
+7
+00:00:15,020 --> 00:00:18,490
+then review some necessary statistics,
+then we'll design our experiment, and
+
+8
+00:00:18,490 --> 00:00:20,380
+finally, we'll analyze the results.
+
+9
+00:00:20,380 --> 00:00:23,900
+Then each subsequent lesson of
+the course will dive into more detail
+
+10
+00:00:23,900 --> 00:00:25,920
+on a particular part of the process.
+
+11
+00:00:25,920 --> 00:00:28,560
+In lesson two, you'll will be
+learning about how to protect
+
+12
+00:00:28,560 --> 00:00:31,830
+the participants of your experiment,
+and what questions you should be
+
+13
+00:00:31,830 --> 00:00:34,630
+asking yourself regarding
+the ethicality of experiments.
+
+14
+00:00:34,630 --> 00:00:37,090
+In lesson three, we'll go into
+more detail on choosing and
+
+15
+00:00:37,090 --> 00:00:40,560
+characterizing metrics to use
+when evaluating your experiment.
+
+16
+00:00:40,560 --> 00:00:43,450
+In lesson four, we'll talk more about
+designing your experiment, which
+
+17
+00:00:43,450 --> 00:00:47,460
+includes choosing which users go in your
+control group and your experiment group.
+
+18
+00:00:47,460 --> 00:00:50,530
+And, in lesson five, we'll go over lots
+of examples of what your results could
+
+19
+00:00:50,530 --> 00:00:54,440
+look like, how to analyze those results,
+and how to draw valid conclusions.
+
+20
+00:00:54,440 --> 00:00:57,670
+Now, you won't need any prior experience
+with A/B testing in order to take
+
+21
+00:00:57,670 --> 00:01:00,400
+this course, because we'll be
+covering it from the ground up.
+
+22
+00:01:00,400 --> 00:01:02,520
+And you won't need any
+programming experience either,
+
+23
+00:01:02,520 --> 00:01:05,700
+because this course won't cover how to
+implement an A/B testing framework.
+
+24
+00:01:05,700 --> 00:01:08,480
+It's about how to design and
+analyze experiments.
+
+25
+00:01:08,480 --> 00:01:11,440
+Introductory knowledge of statistics,
+on the other hand, will be required.
+
+26
+00:01:11,440 --> 00:01:15,260
+So if you need to brush up, check out
+the links in the instructors notes.
+
+27
+00:01:15,260 --> 00:01:18,070
+Now throughout the course,
+I'll be going over lots of examples and
+
+28
+00:01:18,070 --> 00:01:20,500
+giving you opportunities to
+practice what you're learning.
+
+29
+00:01:20,500 --> 00:01:22,410
+I'll also be having
+conversations with Dianne and
+
+30
+00:01:22,410 --> 00:01:24,930
+Carrie about their
+experiences in A/B testing.
+
+31
+00:01:24,930 --> 00:01:25,550
+Let's do that now.

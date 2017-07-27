@@ -1,0 +1,175 @@
+1
+00:00:00,380 --> 00:00:02,310
+Diane, I've got data from my experiment.
+
+2
+00:00:02,310 --> 00:00:03,660
+Can we look at
+the click-through rate and
+
+3
+00:00:03,660 --> 00:00:05,540
+see whether the change
+was an improvement?
+
+4
+00:00:05,540 --> 00:00:07,140
+>> Hold your horsies, there!
+
+5
+00:00:07,140 --> 00:00:08,230
+Not quite yet.
+
+6
+00:00:08,230 --> 00:00:11,150
+Before we can look at click-through
+rates to determine what happened in your
+
+7
+00:00:11,150 --> 00:00:14,290
+experiment, first we have to do all
+those sanity checks in order to
+
+8
+00:00:14,290 --> 00:00:16,965
+ensure that your experiment
+was run properly.
+
+9
+00:00:16,965 --> 00:00:19,140
+>> Hm, what kind of sanity checks?
+
+10
+00:00:19,140 --> 00:00:21,400
+>> Well, there are all sorts
+of things that can go wonky,
+
+11
+00:00:21,400 --> 00:00:23,530
+that could really
+invalidate your results.
+
+12
+00:00:23,530 --> 00:00:26,320
+For example, maybe something went
+wrong in the experiment diversion and
+
+13
+00:00:26,320 --> 00:00:29,060
+now your experiment and
+your control aren't comparable.
+
+14
+00:00:29,060 --> 00:00:30,420
+Or maybe you used some filters and
+
+15
+00:00:30,420 --> 00:00:33,440
+you set up the filter differently
+in the experiment and the control.
+
+16
+00:00:33,440 --> 00:00:36,560
+Or you set up data capture and
+your data capture isn't
+
+17
+00:00:36,560 --> 00:00:40,730
+actually capturing the events that you
+want to look for in your experiment.
+
+18
+00:00:40,730 --> 00:00:42,970
+Or you know I could just
+kind of keep going.
+
+19
+00:00:42,970 --> 00:00:45,065
+Remember in lesson three when
+we talked about counting clicks?
+
+20
+00:00:45,065 --> 00:00:48,682
+Well all those ways that
+counting clicks can go wrong?
+
+21
+00:00:48,682 --> 00:00:49,364
+We have to test for
+
+22
+00:00:49,364 --> 00:00:52,480
+all of those before you can look
+at the results of your experiment.
+
+23
+00:00:52,480 --> 00:00:54,660
+>> Okay, how do I test for those things?
+
+24
+00:00:54,660 --> 00:00:56,400
+>> So do you remember
+back in lessons three and
+
+25
+00:00:56,400 --> 00:00:59,190
+lessons four when we talked
+about invariant metrics?
+
+26
+00:00:59,190 --> 00:00:59,900
+You're going to check those.
+
+27
+00:00:59,900 --> 00:01:02,510
+And there are really two
+main types of checks.
+
+28
+00:01:02,510 --> 00:01:05,430
+The first one is going to be
+the population sizing metrics,
+
+29
+00:01:05,430 --> 00:01:06,890
+based on your unit of diversion.
+
+30
+00:01:06,890 --> 00:01:10,010
+Now what you're really checking there
+is that your experiment population and
+
+31
+00:01:10,010 --> 00:01:12,660
+your control populations
+are actually comparable.
+
+32
+00:01:12,660 --> 00:01:15,070
+The other check are those
+actual invariants,
+
+33
+00:01:15,070 --> 00:01:18,020
+those metrics that shouldn't change
+when you run your experiment.
+
+34
+00:01:18,020 --> 00:01:21,350
+And what you want to do is you want
+to test that they didn't change.
+
+35
+00:01:21,350 --> 00:01:25,300
+Now, once you've done those sanity
+checks, then, and only then,
+
+36
+00:01:25,300 --> 00:01:29,610
+should you be doing the more
+complicated analysis to determine, hey,
+
+37
+00:01:29,610 --> 00:01:32,770
+was my experiment good, was it bad,
+what's my recommendation going to be?

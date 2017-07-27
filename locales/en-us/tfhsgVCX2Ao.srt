@@ -1,0 +1,114 @@
+1
+00:00:00,400 --> 00:00:02,950
+Now that you know how to calculate
+the number of page views you'll need for
+
+2
+00:00:02,950 --> 00:00:03,940
+an experiment,
+
+3
+00:00:03,940 --> 00:00:07,280
+I want you to consider the following
+possible changes to your experiment.
+
+4
+00:00:07,280 --> 00:00:09,150
+And decide whether each will increase or
+
+5
+00:00:09,150 --> 00:00:11,860
+decrease the number of
+page views you need.
+
+6
+00:00:11,860 --> 00:00:14,602
+First, suppose
+the click-through-probability in your
+
+7
+00:00:14,602 --> 00:00:17,299
+control group had been higher but
+still less than 50%.
+
+8
+00:00:17,299 --> 00:00:21,805
+Would you need more page views or
+fewer to get the same sensitivity?
+
+9
+00:00:21,805 --> 00:00:25,435
+Second, suppose you decided to increase
+your practical significance level,
+
+10
+00:00:25,435 --> 00:00:27,255
+which we've been calling dmin.
+
+11
+00:00:27,255 --> 00:00:31,815
+That is, you would no longer care about
+a 2% change but you would, for example,
+
+12
+00:00:31,815 --> 00:00:35,300
+want to see a 3% change in
+order to launch the experiment.
+
+13
+00:00:35,300 --> 00:00:38,340
+Third, suppose we decided to
+increase your confidence level
+
+14
+00:00:38,340 --> 00:00:40,610
+which is also called 1 minus alpha.
+
+15
+00:00:40,610 --> 00:00:43,050
+For example,
+maybe instead of 95% confidence,
+
+16
+00:00:43,050 --> 00:00:46,020
+you would choose a 99% confidence level.
+
+17
+00:00:46,020 --> 00:00:48,870
+Finally, suppose you wanted
+to get a higher sensitivity
+
+18
+00:00:48,870 --> 00:00:53,590
+which is also called 1 minus beta at
+the practical significance boundary.
+
+19
+00:00:53,590 --> 00:00:56,720
+For each case, mark whether you
+think you would need to increase or
+
+20
+00:00:56,720 --> 00:00:59,430
+decrease the number of page views
+to keep everything else the same.
+
+21
+00:00:59,430 --> 00:01:03,010
+I encourage you to think about what
+you would expect to happen, then
+
+22
+00:01:03,010 --> 00:01:06,640
+try changing the numbers in the online
+calculator to see what actually happens.
+
+23
+00:01:06,640 --> 00:01:09,240
+If you can't figure out why
+a change has the effect it does,
+
+24
+00:01:09,240 --> 00:01:11,250
+watch the solution video for
+an explanation.

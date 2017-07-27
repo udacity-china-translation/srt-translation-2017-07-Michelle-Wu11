@@ -1,0 +1,343 @@
+1
+00:00:00,350 --> 00:00:02,890
+So what happens if one of
+your sanity checks fails?
+
+2
+00:00:02,890 --> 00:00:04,860
+>> Well it's kind of like monopoly.
+
+3
+00:00:04,860 --> 00:00:07,560
+If your sanity checks fail,
+do not pass go.
+
+4
+00:00:07,560 --> 00:00:11,990
+Do not proceed, go straight to
+analyzing why your sanity checks fail.
+
+5
+00:00:11,990 --> 00:00:13,340
+You really have to debug and
+
+6
+00:00:13,340 --> 00:00:16,920
+understand what's going on before you
+can actually analyze your experiment.
+
+7
+00:00:16,920 --> 00:00:18,050
+Because, if you try and
+
+8
+00:00:18,050 --> 00:00:21,410
+move on past that, your conclusions
+are almost certainly wrong.
+
+9
+00:00:21,410 --> 00:00:23,820
+>> Okay, so
+how do you figure out what went wrong?
+
+10
+00:00:23,820 --> 00:00:26,466
+>> Well, there's a couple different
+avenues that you can try.
+
+11
+00:00:26,466 --> 00:00:29,320
+First, something might have
+gone wrong technically, and
+
+12
+00:00:29,320 --> 00:00:31,080
+you want to work with your
+engineers to understand,
+
+13
+00:00:31,080 --> 00:00:33,730
+is there something going on with
+the experiment infrastructure?
+
+14
+00:00:33,730 --> 00:00:35,590
+Did I get the experiment
+set up correctly?
+
+15
+00:00:35,590 --> 00:00:37,410
+Is something wrong with
+experiment diversion?
+
+16
+00:00:37,410 --> 00:00:41,240
+You really want to debug the experiment
+setup with the engineers.
+
+17
+00:00:41,240 --> 00:00:44,570
+The second thing that you can try and
+do is a retrospective analysis.
+
+18
+00:00:44,570 --> 00:00:47,460
+Try and recreate experiment
+diversion from the data capture,
+
+19
+00:00:47,460 --> 00:00:50,740
+and understand that this is something
+endemic to what you're trying to
+
+20
+00:00:50,740 --> 00:00:52,890
+do that may be causing the situation.
+
+21
+00:00:52,890 --> 00:00:55,720
+The third thing is,
+we can try and use those pre and
+
+22
+00:00:55,720 --> 00:00:58,840
+those post periods we talked
+about earlier in lesson four.
+
+23
+00:00:58,840 --> 00:00:59,730
+Right?
+
+24
+00:00:59,730 --> 00:01:02,480
+If you're in a pre-period,
+then you can say,
+
+25
+00:01:02,480 --> 00:01:05,870
+did I see the same changes in
+those invariance in my pre-period?
+
+26
+00:01:05,870 --> 00:01:09,470
+If I saw them in the pre-period and
+the experiment, that points to a problem
+
+27
+00:01:09,470 --> 00:01:13,780
+with the experiment infrastructure,
+the set up, something along those lines.
+
+28
+00:01:13,780 --> 00:01:16,760
+On the other hand, if you see
+the change only in your experiment but
+
+29
+00:01:16,760 --> 00:01:20,580
+not in the pre-period, that points to
+something with the experiment itself,
+
+30
+00:01:20,580 --> 00:01:23,390
+maybe the data capture or
+something along those lines.
+
+31
+00:01:23,390 --> 00:01:25,790
+>> Okay, what are the most
+common reasons you've seen for
+
+32
+00:01:25,790 --> 00:01:27,660
+data not matching up like this?
+
+33
+00:01:27,660 --> 00:01:31,540
+>> Well, the most common one that I
+really see is data capture, especially
+
+34
+00:01:31,540 --> 00:01:35,750
+when you want to capture a new
+experience that the user is undergoing.
+
+35
+00:01:35,750 --> 00:01:36,810
+Right?
+And so
+
+36
+00:01:36,810 --> 00:01:39,470
+maybe you just didn't
+capture it correctly.
+
+37
+00:01:39,470 --> 00:01:42,550
+Maybe the change triggers very rarely,
+and you capture it
+
+38
+00:01:42,550 --> 00:01:45,760
+correctly in the experiment, but you
+don't capture quickly in the control,
+
+39
+00:01:45,760 --> 00:01:47,870
+and so
+you're not comparing like with like.
+
+40
+00:01:47,870 --> 00:01:49,280
+That's probably the most common.
+
+41
+00:01:49,280 --> 00:01:52,060
+But other reasons could be,
+the experiment's set up.
+
+42
+00:01:52,060 --> 00:01:55,410
+So, for example, what happens if
+you have a filter to English only?
+
+43
+00:01:55,410 --> 00:01:58,200
+Maybe you set up for the experiment,
+but not the control, and
+
+44
+00:01:58,200 --> 00:02:00,330
+now your publishes aren't comparable.
+
+45
+00:02:00,330 --> 00:02:03,770
+More rarely, it could be your
+infrastructure, or the ex, you know,
+
+46
+00:02:03,770 --> 00:02:05,990
+the experiment system,
+something along those lines.
+
+47
+00:02:05,990 --> 00:02:09,190
+Maybe there's something going on to
+really sort of reset cookies, and
+
+48
+00:02:09,190 --> 00:02:10,889
+that's what's sort of
+screwing things up.
+
+49
+00:02:10,889 --> 00:02:12,980
+You just have to go through and
+test all of them.
+
+50
+00:02:12,980 --> 00:02:13,650
+>> Okay.
+
+51
+00:02:13,650 --> 00:02:15,410
+And is it ever just a real difference?
+
+52
+00:02:16,410 --> 00:02:20,330
+>> It could be, but
+it's probably not a good thing if it is.
+
+53
+00:02:20,330 --> 00:02:23,400
+For example, there's something in the
+infrastructure that's going on to cause
+
+54
+00:02:23,400 --> 00:02:24,990
+the cookies to churn.
+
+55
+00:02:24,990 --> 00:02:26,040
+You probably don't want that,
+
+56
+00:02:26,040 --> 00:02:27,750
+your user's probably not
+having a good experience, and
+
+57
+00:02:27,750 --> 00:02:30,000
+it's not good for the experiment itself.
+
+58
+00:02:30,000 --> 00:02:30,750
+Right?
+
+59
+00:02:30,750 --> 00:02:34,640
+Now the key thing to remember is
+that all of these comparisons,
+
+60
+00:02:34,640 --> 00:02:35,570
+they're approximations.
+
+61
+00:02:35,570 --> 00:02:38,590
+So you're not going to get
+an exactly the same number.
+
+62
+00:02:38,590 --> 00:02:40,870
+It's just going to be
+approximately the same.
+
+63
+00:02:40,870 --> 00:02:44,600
+The other thing that I get asked a lot
+is, well, maybe my users are learning
+
+64
+00:02:44,600 --> 00:02:48,170
+over time, maybe it's, you know,
+users are adapting to the change.
+
+65
+00:02:48,170 --> 00:02:52,890
+Now, the key thing there is that,
+if there really is a learning effect,
+
+66
+00:02:52,890 --> 00:02:55,750
+then you're going to see not very
+much change in the beginning,
+
+67
+00:02:55,750 --> 00:02:57,660
+and it's going to be
+increasing over time.
+
+68
+00:02:57,660 --> 00:02:59,798
+So if you're seeing a big change
+right from the beginning,
+
+69
+00:02:59,798 --> 00:03:03,740
+it's probably not a learning effect.
+
+70
+00:03:03,740 --> 00:03:05,180
+>> Okay.
+And then if all the sanity checks do
+
+71
+00:03:05,180 --> 00:03:07,670
+pass, then we can
+analyze the experiment.
+
+72
+00:03:07,670 --> 00:03:09,030
+>> Yes.
+Then you can analyze the experiment.

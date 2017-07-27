@@ -1,0 +1,366 @@
+1
+00:00:00,168 --> 00:00:03,388
+Here's how I would figure out whether
+this division of cookies is within
+
+2
+00:00:03,388 --> 00:00:04,190
+what I expected.
+
+3
+00:00:04,190 --> 00:00:06,610
+I have a random event with
+exactly two outcomes.
+
+4
+00:00:06,610 --> 00:00:10,155
+A cookie gets assigned to either
+the control or the experiment group.
+
+5
+00:00:10,155 --> 00:00:12,328
+I can think of this as like
+flipping a fair coin and
+
+6
+00:00:12,328 --> 00:00:15,458
+if the coin comes up heads, I'll put
+the cookie in the control group.
+
+7
+00:00:15,458 --> 00:00:20,362
+Then I want to know if it's surprising
+that the coin came up heads 64,454
+
+8
+00:00:20,362 --> 00:00:20,892
+times.
+
+9
+00:00:20,892 --> 00:00:22,323
+Does that sound familiar?
+
+10
+00:00:22,323 --> 00:00:25,403
+The number of heads will follow
+the binomial distribution, so
+
+11
+00:00:25,403 --> 00:00:28,728
+I can construct a binomial confidence
+interval like in lesson one.
+
+12
+00:00:28,728 --> 00:00:31,428
+The total sample size
+here is about 120,000,
+
+13
+00:00:31,428 --> 00:00:34,548
+which is definitely enough to
+assume a normal distribution.
+
+14
+00:00:34,548 --> 00:00:35,943
+So here are the steps I'll take.
+
+15
+00:00:35,943 --> 00:00:39,601
+First, I'll compute the standard
+deviation of a binomial distribution
+
+16
+00:00:39,601 --> 00:00:41,489
+with probability 0.5 of success,
+
+17
+00:00:41,489 --> 00:00:44,445
+which I'll define as being
+assigned to the control group.
+
+18
+00:00:44,445 --> 00:00:47,436
+Then I'll multiply the standard
+deviation by the z-score
+
+19
+00:00:47,436 --> 00:00:49,945
+of my confidence level to
+get the margin of error,
+
+20
+00:00:49,945 --> 00:00:52,903
+then I'll compute a confidence
+interval around 0.5.
+
+21
+00:00:52,903 --> 00:00:54,888
+If the experiment is setup properly,
+
+22
+00:00:54,888 --> 00:00:58,112
+it's very likely that thee
+observed fraction of successes or
+
+23
+00:00:58,112 --> 00:01:01,971
+cookies in the control group will
+fall within this confidence interval.
+
+24
+00:01:01,971 --> 00:01:05,322
+And finally, I'll compute thee
+observed fraction of successes or
+
+25
+00:01:05,322 --> 00:01:06,910
+cookies in the control group and
+
+26
+00:01:06,910 --> 00:01:10,510
+I'll check whether this value falls
+with in this confidence interval.
+
+27
+00:01:10,510 --> 00:01:13,624
+This is a little different then thee
+approach in lesson one, where we
+
+28
+00:01:13,624 --> 00:01:17,558
+computed the confidence interval around
+the observed click-through probability.
+
+29
+00:01:17,558 --> 00:01:20,128
+In that case, we didn't know
+the true click-through probability.
+
+30
+00:01:20,128 --> 00:01:23,411
+But here, I know that if
+the experiment is set up properly,
+
+31
+00:01:23,411 --> 00:01:25,260
+the true probability is 0.5.
+
+32
+00:01:25,260 --> 00:01:27,573
+So, I can compute that
+confidence interval.
+
+33
+00:01:27,573 --> 00:01:29,174
+The results are the same though.
+
+34
+00:01:29,174 --> 00:01:31,101
+Now, I'll go through these steps for
+this data.
+
+35
+00:01:31,101 --> 00:01:34,698
+The standard deviation comes to 0.0014.
+
+36
+00:01:34,698 --> 00:01:39,898
+I'll use a 95% confidence level
+as usual, so the z-score is 1.96.
+
+37
+00:01:39,898 --> 00:01:43,315
+So the margin of error comes to 0.0027.
+
+38
+00:01:43,315 --> 00:01:49,438
+That means that the confidence
+interval goes from 0.4973 to 0.5027.
+
+39
+00:01:49,438 --> 00:01:50,819
+So 95% of the time,
+
+40
+00:01:50,819 --> 00:01:54,833
+the observed fraction of cookies
+should fall within this range.
+
+41
+00:01:54,833 --> 00:01:58,264
+In fact, the fraction of
+cookies in the control group,
+
+42
+00:01:58,264 --> 00:02:00,462
+which I'll p hat is 0.5104.
+
+43
+00:02:00,462 --> 00:02:03,848
+Now this is significantly
+greater than 0.5027, so
+
+44
+00:02:03,848 --> 00:02:06,345
+something about this setup is incorrect.
+
+45
+00:02:06,345 --> 00:02:08,570
+To get a better idea of
+what could be going wrong,
+
+46
+00:02:08,570 --> 00:02:10,973
+it's a good idea to look at
+the day by day data again.
+
+47
+00:02:10,973 --> 00:02:14,258
+One good thing to check is whether
+any particular day stands out as
+
+48
+00:02:14,258 --> 00:02:17,552
+causing the problem or whether it
+seems to be an overall pattern.
+
+49
+00:02:17,552 --> 00:02:21,188
+First, I'll look at which specific days
+had more cookies in the control group.
+
+50
+00:02:21,188 --> 00:02:24,771
+It turns out that in 11 out of 14 days,
+there were more cookies in the control
+
+51
+00:02:24,771 --> 00:02:27,028
+group than the experiment,
+which is quite high.
+
+52
+00:02:27,028 --> 00:02:30,969
+I'll also compute the fraction of the
+cookies that were in the control group
+
+53
+00:02:30,969 --> 00:02:33,938
+each day, there were a few
+days with 0.53 or higher.
+
+54
+00:02:33,938 --> 00:02:36,542
+And no day obviously
+stands out as the highest.
+
+55
+00:02:36,542 --> 00:02:40,622
+This points to an overall problem rather
+than a problem on a specific day.
+
+56
+00:02:40,622 --> 00:02:43,295
+At this point, it's a good idea
+to talk to the engineers and
+
+57
+00:02:43,295 --> 00:02:46,085
+figure out if something was
+wrong with the experiment setup.
+
+58
+00:02:46,085 --> 00:02:48,191
+If that doesn't work,
+you could try slicing.
+
+59
+00:02:48,191 --> 00:02:50,064
+For example, by country, language or
+
+60
+00:02:50,064 --> 00:02:53,812
+platform to see if one particular slice
+looks like it's causing the problem or
+
+61
+00:02:53,812 --> 00:02:56,335
+you could check the age of
+the cookies in each group.
+
+62
+00:02:56,335 --> 00:02:59,745
+Does one group tend to have more new
+cookies while the other group has older
+
+63
+00:02:59,745 --> 00:03:01,293
+cookies or something like that.
+
+64
+00:03:01,293 --> 00:03:04,253
+Now suppose you run another experiment,
+this time for
+
+65
+00:03:04,253 --> 00:03:06,448
+seven days with event based diversion.
+
+66
+00:03:06,448 --> 00:03:09,303
+This table shows the number of
+pageviews in the control and
+
+67
+00:03:09,303 --> 00:03:10,768
+experiment groups each day.
+
+68
+00:03:10,768 --> 00:03:12,881
+The total number of
+events in the control and
+
+69
+00:03:12,881 --> 00:03:14,776
+experiment groups are these numbers.
+
+70
+00:03:14,776 --> 00:03:19,041
+Calculate a 95% confidence interval for
+the fraction of total pageviews in
+
+71
+00:03:19,041 --> 00:03:23,185
+the control group and put your bounds
+in these boxes to four decimal places.
+
+72
+00:03:23,185 --> 00:03:26,151
+The center of your confidence
+interval should be 0.5,
+
+73
+00:03:26,151 --> 00:03:29,965
+then calculate the observed fraction
+of pageviews in the control group and
+
+74
+00:03:29,965 --> 00:03:31,493
+write the answer in this box.
+
+75
+00:03:31,493 --> 00:03:33,395
+Also, to four decimal places.
+
+76
+00:03:33,395 --> 00:03:35,396
+Does this distribution
+between the control and
+
+77
+00:03:35,396 --> 00:03:37,202
+experiment group pass your sanity check?
+
+78
+00:03:37,202 --> 00:03:38,300
+Select yes or no.

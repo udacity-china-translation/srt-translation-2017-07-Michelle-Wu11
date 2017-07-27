@@ -1,0 +1,94 @@
+1
+00:00:00,460 --> 00:00:02,670
+Okay.
+So we've talked about how to choose and
+
+2
+00:00:02,670 --> 00:00:05,650
+characterize metrics to evaluate for
+your test.
+
+3
+00:00:05,650 --> 00:00:09,580
+And presumably you know what change or
+changes you want to test.
+
+4
+00:00:09,580 --> 00:00:12,570
+Now it's time to really apply what
+you've learned in working through
+
+5
+00:00:12,570 --> 00:00:16,050
+the decisions you need to make in
+actually designing your experiment.
+
+6
+00:00:16,050 --> 00:00:20,060
+First, we'll need to decide how you
+define what you use as a subject in your
+
+7
+00:00:20,060 --> 00:00:21,970
+experiment and in your control.
+
+8
+00:00:21,970 --> 00:00:25,340
+In other words, what are the units in
+the population that you're going to be
+
+9
+00:00:25,340 --> 00:00:27,660
+running the test on and comparing?
+
+10
+00:00:27,660 --> 00:00:30,090
+We call this the unit of diversion.
+
+11
+00:00:30,090 --> 00:00:32,619
+Next, we'll need to
+choose the population.
+
+12
+00:00:32,619 --> 00:00:35,430
+You'll need to decide which
+subjects are eligible.
+
+13
+00:00:35,430 --> 00:00:36,240
+Everyone?
+
+14
+00:00:36,240 --> 00:00:38,240
+Only subjects in the U.S.?
+
+15
+00:00:38,240 --> 00:00:41,910
+When you're testing how to change and
+computing the evaluation metrics,
+
+16
+00:00:41,910 --> 00:00:44,080
+you need to ensure that
+you're doing the test and
+
+17
+00:00:44,080 --> 00:00:46,970
+computing the metric on
+equivalent populations.
+
+18
+00:00:46,970 --> 00:00:50,540
+Then we'll use those decisions and what
+we learned in lesson three to properly
+
+19
+00:00:50,540 --> 00:00:54,550
+size your experiment, before concluding
+with a few other decisions you need to
+
+20
+00:00:54,550 --> 00:00:57,720
+finalize your experiment design,
+such as the duration of the experiment.

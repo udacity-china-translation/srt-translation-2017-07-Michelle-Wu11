@@ -1,0 +1,48 @@
+1
+00:00:00,370 --> 00:00:03,780
+Diane, what should you do if one of
+the last three cases comes up, but
+
+2
+00:00:03,780 --> 00:00:06,420
+you don't have time to
+run a new experiment?
+
+3
+00:00:06,420 --> 00:00:10,300
+>> Wouldn't life be easy if we
+only had the first three cases?
+
+4
+00:00:10,300 --> 00:00:13,010
+The problem is that despite
+our best intentions and
+
+5
+00:00:13,010 --> 00:00:15,540
+efforts to power our
+experiments properly,
+
+6
+00:00:15,540 --> 00:00:18,150
+you're going to get situations
+where the data's uncertain.
+
+7
+00:00:19,280 --> 00:00:23,550
+What you have to do is to communicate to
+the decision-makers when they're going
+
+8
+00:00:23,550 --> 00:00:27,850
+to have to make a judgement, and take
+a risk, because the data is uncertain.
+
+9
+00:00:27,850 --> 00:00:31,270
+They're going to have to use other
+factors, like strategic business issues,
+
+10
+00:00:31,270 --> 00:00:33,460
+or other factors besides the data.

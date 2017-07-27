@@ -1,0 +1,108 @@
+1
+00:00:00,400 --> 00:00:04,160
+In the first case, users probably won't
+consciously notice if the video load
+
+2
+00:00:04,160 --> 00:00:09,420
+time is a bit faster or slower, so event
+based diversion would probably be okay.
+
+3
+00:00:09,420 --> 00:00:13,380
+Like Diane mentioned, you may have some
+learned effects in this case even if
+
+4
+00:00:13,380 --> 00:00:15,730
+users don't consciously
+notice the change,
+
+5
+00:00:15,730 --> 00:00:19,180
+in which case you would need to switch
+to cookie based diversion, but event
+
+6
+00:00:19,180 --> 00:00:22,190
+based should be a good starting point,
+particularly for a short experiment.
+
+7
+00:00:23,240 --> 00:00:26,310
+In the second case, it would be pretty
+distracting if the button looked
+
+8
+00:00:26,310 --> 00:00:28,880
+different every time you
+reloaded the page, so
+
+9
+00:00:28,880 --> 00:00:32,040
+event based diversion
+wouldn't be a good idea here.
+
+10
+00:00:32,040 --> 00:00:34,760
+Cookie based diversion
+is probably good enough.
+
+11
+00:00:34,760 --> 00:00:37,490
+If the button looks different on
+different devices, that's okay,
+
+12
+00:00:37,490 --> 00:00:40,735
+since the UI usually looks a little bit
+different on different devices anyway.
+
+13
+00:00:40,735 --> 00:00:45,860
+In the third case, like the first, most
+users won't notice ranking changes, so
+
+14
+00:00:45,860 --> 00:00:48,760
+event based diversion is
+a good place to start.
+
+15
+00:00:48,760 --> 00:00:52,040
+Again, you might need to change this
+to cookie based diversion if you notice
+
+16
+00:00:52,040 --> 00:00:53,220
+a learned effect.
+
+17
+00:00:53,220 --> 00:00:56,135
+The fourth case is something that
+users will almost certainly notice.
+
+18
+00:00:56,135 --> 00:01:00,360
+Cross-device consistency will also be
+important here, if you want to be able
+
+19
+00:01:00,360 --> 00:01:03,660
+to determine whether the change
+impacts the pass rate of the quiz.
+
+20
+00:01:03,660 --> 00:01:06,870
+If a student watches the video on their
+phone, then completes the quiz on their
+
+21
+00:01:06,870 --> 00:01:11,220
+computer, for example, you'll need them
+to be in the same group both times.
+
+22
+00:01:11,220 --> 00:01:14,370
+Because of this, you'll need to
+use user-ID based diversion here.

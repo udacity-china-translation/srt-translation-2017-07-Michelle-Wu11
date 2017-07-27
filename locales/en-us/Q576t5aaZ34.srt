@@ -1,0 +1,235 @@
+1
+00:00:00,145 --> 00:00:02,319
+>> Okay.
+We can use hypothesis testing to see
+
+2
+00:00:02,319 --> 00:00:06,235
+whether a difference we observe in our
+experiment is actually significant.
+
+3
+00:00:06,235 --> 00:00:07,315
+What comes next?
+
+4
+00:00:07,315 --> 00:00:11,233
+>> So what we have to do next is decide
+from a business perspective, what change
+
+5
+00:00:11,233 --> 00:00:15,108
+in the click-through probability
+ability is practically significant.
+
+6
+00:00:15,108 --> 00:00:17,208
+In other words,
+what size change matters to us?
+
+7
+00:00:17,208 --> 00:00:19,027
+>> Well, as a statistician would say,
+
+8
+00:00:19,027 --> 00:00:22,618
+what's substantive in addition to
+being statistically significant.
+
+9
+00:00:22,618 --> 00:00:24,904
+>> That's the difference
+between what engineers say and
+
+10
+00:00:24,904 --> 00:00:26,001
+what statisticians say.
+
+11
+00:00:26,001 --> 00:00:29,820
+Substantive and practically
+significant mean the exact same thing.
+
+12
+00:00:29,820 --> 00:00:30,609
+>> Okay.
+
+13
+00:00:30,609 --> 00:00:34,018
+So why can't we say that every
+change matters to the business?
+
+14
+00:00:34,018 --> 00:00:36,968
+Can't we launch any experiment
+that makes any difference at all?
+
+15
+00:00:36,968 --> 00:00:40,538
+>> Well, you could, but you might not
+want to for a variety of reasons.
+
+16
+00:00:40,538 --> 00:00:43,746
+One, there might be an investment
+in making the change itself, so
+
+17
+00:00:43,746 --> 00:00:47,067
+it might not be worth it to you or
+you might just want to wait for the next
+
+18
+00:00:47,067 --> 00:00:50,885
+change, thinking that maybe you could
+do well here, but you could do better.
+
+19
+00:00:50,885 --> 00:00:52,386
+So, in something like medicine,
+
+20
+00:00:52,386 --> 00:00:54,835
+you always want to be clear
+that it's worth the change.
+
+21
+00:00:54,835 --> 00:00:58,940
+If you're testing a new drug, maybe
+patient's respond a little bit better,
+
+22
+00:00:58,940 --> 00:01:01,738
+but you're going to have to
+invest in training nurses,
+
+23
+00:01:01,738 --> 00:01:03,372
+actually launching the drug.
+
+24
+00:01:03,372 --> 00:01:04,370
+All these other things.
+
+25
+00:01:04,370 --> 00:01:07,971
+So you may want to have a higher level
+of practical significance to justify
+
+26
+00:01:07,971 --> 00:01:09,751
+changing the treatment protocol.
+
+27
+00:01:09,751 --> 00:01:12,715
+>> Now this is one major difference
+between the online world and
+
+28
+00:01:12,715 --> 00:01:14,873
+sort of the traditional sciences, right?
+
+29
+00:01:14,873 --> 00:01:18,251
+In medicine,
+you probably want a 5%, a 10%,
+
+30
+00:01:18,251 --> 00:01:21,093
+a 15% change to really be substantive.
+
+31
+00:01:21,093 --> 00:01:22,966
+Right?
+At Google, for example,
+
+32
+00:01:22,966 --> 00:01:27,520
+a 1 or a 2% change in click-through
+probabilities is actually quite large.
+
+33
+00:01:27,520 --> 00:01:29,786
+And so
+the differences in the magnitudes for
+
+34
+00:01:29,786 --> 00:01:33,002
+what's consider practically
+significant can be quite different.
+
+35
+00:01:33,002 --> 00:01:36,500
+>> Yeah, so what you really want
+to observe is repeatability.
+
+36
+00:01:36,500 --> 00:01:39,110
+Statistical significance
+is about repeatability.
+
+37
+00:01:39,110 --> 00:01:42,180
+>> And you want to make sure when you
+setup your experiment that you get that
+
+38
+00:01:42,180 --> 00:01:44,483
+guarantee that yes,
+these results are repeatable so
+
+39
+00:01:44,483 --> 00:01:46,085
+it's statistically significant.
+
+40
+00:01:46,085 --> 00:01:49,586
+But you also want to make sure that if
+you see a change in your experiment that
+
+41
+00:01:49,586 --> 00:01:52,145
+you're interested in from
+a business standpoint, so
+
+42
+00:01:52,145 --> 00:01:55,728
+it's practically significant,
+it's also statistically significant.
+
+43
+00:01:55,728 --> 00:01:59,613
+So you want to size your experiment
+appropriately, such that the statistical
+
+44
+00:01:59,613 --> 00:02:03,393
+significance bar is actually lower
+than the practical significance bar.
+
+45
+00:02:03,393 --> 00:02:04,205
+>> That makes sense.
+
+46
+00:02:04,205 --> 00:02:05,781
+So then, so the audacity example,
+
+47
+00:02:05,781 --> 00:02:08,365
+we still need to pick a practical
+significance boundary.
+
+48
+00:02:08,365 --> 00:02:09,073
+>> That's right.
+
+49
+00:02:09,073 --> 00:02:12,164
+So let's say that from
+a business perspective, a 2%
+
+50
+00:02:12,164 --> 00:02:16,950
+change in the click-through probability
+would be practically significant.

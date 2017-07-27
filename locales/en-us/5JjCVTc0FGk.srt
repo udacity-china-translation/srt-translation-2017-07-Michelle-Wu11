@@ -1,0 +1,161 @@
+1
+00:00:00,370 --> 00:00:01,000
+Let's wrap up.
+
+2
+00:00:01,000 --> 00:00:02,360
+What are the main things we've learned?
+
+3
+00:00:02,360 --> 00:00:03,990
+>> First you need to check.
+
+4
+00:00:03,990 --> 00:00:07,890
+Double check, triple check that your
+experiment was set up properly.
+
+5
+00:00:07,890 --> 00:00:09,320
+Look at your end variance.
+
+6
+00:00:09,320 --> 00:00:12,090
+Check that your experiment metrics
+are actually looking sane.
+
+7
+00:00:12,090 --> 00:00:15,190
+Right, you have to check that before
+you try and do anything else.
+
+8
+00:00:15,190 --> 00:00:18,120
+>> And remember you aren't just
+looking for statistical significance.
+
+9
+00:00:18,120 --> 00:00:20,380
+You're really making
+a business decision.
+
+10
+00:00:20,380 --> 00:00:23,940
+So what if you have an experiment that
+statistically significantly improves
+
+11
+00:00:23,940 --> 00:00:28,330
+the experience for 30% of users but
+it's neutral for everyone else.
+
+12
+00:00:28,330 --> 00:00:30,600
+Do you necessarily want
+to launch it as it is or
+
+13
+00:00:30,600 --> 00:00:32,479
+do you want to try to make it better.
+
+14
+00:00:32,479 --> 00:00:35,800
+And what if you're in a situation
+where it improves things for 70% but
+
+15
+00:00:35,800 --> 00:00:37,440
+makes it worse for 30%.
+
+16
+00:00:37,440 --> 00:00:40,450
+So you actually need to make a decision
+about whether you want to launch
+
+17
+00:00:40,450 --> 00:00:44,220
+the feature as it is, or if you
+want to try to fine tune it first.
+
+18
+00:00:44,220 --> 00:00:47,410
+>> And you can't actually forget
+the overall business analysis as well.
+
+19
+00:00:47,410 --> 00:00:50,750
+For example, what's the engineering
+cost of maintaining the change?
+
+20
+00:00:50,750 --> 00:00:53,770
+Are there customer support or
+sales issues?
+
+21
+00:00:53,770 --> 00:00:58,230
+Overall what's the opportunity cost if
+you actually choose to launch the change
+
+22
+00:00:58,230 --> 00:01:01,960
+relative to the rewards you're going
+to get from from the change or
+
+23
+00:01:01,960 --> 00:01:03,920
+potentially not launching the change?
+
+24
+00:01:03,920 --> 00:01:07,080
+This is all about the judgment
+call with regards to
+
+25
+00:01:07,080 --> 00:01:09,290
+the user experience and the business.
+
+26
+00:01:09,290 --> 00:01:11,923
+And ultimately that's what your
+commission has to be based on.
+
+27
+00:01:11,923 --> 00:01:14,460
+>> That makes sense,
+any other last thoughts?
+
+28
+00:01:14,460 --> 00:01:18,664
+>> Well, if you haven't actually tested
+your change on all traffic, even if it
+
+29
+00:01:18,664 --> 00:01:23,075
+only impacts a small slice, now's a good
+time to test for that incidental impact.
+
+30
+00:01:23,075 --> 00:01:26,040
+>> Yeah and
+if this is the first experiment you run,
+
+31
+00:01:26,040 --> 00:01:28,980
+especially if it's a really big or
+important feature,
+
+32
+00:01:28,980 --> 00:01:32,050
+you might want to actually try running
+a couple of different experiments.
+
+33
+00:01:32,050 --> 00:01:34,980
+Analyzing the results and then seeing
+how you feel about the results of
+
+34
+00:01:34,980 --> 00:01:37,100
+your first experiment before
+you decide to launch it.

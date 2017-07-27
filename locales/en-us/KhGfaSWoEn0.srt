@@ -1,0 +1,86 @@
+1
+00:00:00,440 --> 00:00:04,130
+In the first case, there is probably
+no new information being collected,
+
+2
+00:00:04,130 --> 00:00:07,820
+since the newsletter sign-ups were
+already being stored by user ID.
+
+3
+00:00:07,820 --> 00:00:11,640
+As long as the original data collection
+was approved, this should be fine.
+
+4
+00:00:11,640 --> 00:00:12,550
+The second case though,
+
+5
+00:00:12,550 --> 00:00:15,790
+depends on exactly how the email
+addresses are being stored.
+
+6
+00:00:15,790 --> 00:00:19,030
+The most natural implementation
+would be to store them by cookie,
+
+7
+00:00:19,030 --> 00:00:21,180
+since the diversion is by cookie.
+
+8
+00:00:21,180 --> 00:00:23,500
+That would make those
+cookies non-anonymous,
+
+9
+00:00:23,500 --> 00:00:26,960
+which potentially impacts any other
+data that is being collected.
+
+10
+00:00:26,960 --> 00:00:30,780
+For example, if another experiment is
+storing data by cookie that you wouldn't
+
+11
+00:00:30,780 --> 00:00:35,080
+want re-identified, then that data has
+now become linked to an email address.
+
+12
+00:00:35,080 --> 00:00:38,622
+Thus it would be good to seek out
+additional review for this experiment.
+
+13
+00:00:38,622 --> 00:00:41,540
+This is a pretty subtle point, but
+in general, you to watch out for
+
+14
+00:00:41,540 --> 00:00:44,608
+what whether you are accidentally
+identifying data that would otherwise
+
+15
+00:00:44,608 --> 00:00:45,810
+have been anonymous.
+
+16
+00:00:45,810 --> 00:00:48,440
+The third case does not
+require an additional review.
+
+17
+00:00:48,440 --> 00:00:51,120
+Storing clicks by cookies
+is not a problem and
+
+18
+00:00:51,120 --> 00:00:53,520
+is probably already being
+done else where on the site.

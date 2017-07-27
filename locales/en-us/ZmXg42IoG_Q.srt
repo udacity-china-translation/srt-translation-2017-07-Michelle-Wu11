@@ -1,0 +1,151 @@
+1
+00:00:00,016 --> 00:00:03,907
+For online A/B testing then,
+the questions come down to, 1,
+
+2
+00:00:03,907 --> 00:00:07,439
+are users informed about
+the data gathering in some form,
+
+3
+00:00:07,439 --> 00:00:10,776
+such as via a terms and
+services, or a privacy policy?
+
+4
+00:00:10,776 --> 00:00:14,938
+2, what user identifiers are tied
+to the data being gathered?
+
+5
+00:00:14,938 --> 00:00:19,530
+Especially if there is personally
+identifiable information, such as name,
+
+6
+00:00:19,530 --> 00:00:21,547
+email, phone number, address,
+
+7
+00:00:21,547 --> 00:00:26,154
+then the data collected becomes much
+more sensitive, and subject to review.
+
+8
+00:00:26,154 --> 00:00:29,650
+3, what type of data is being collected?
+
+9
+00:00:29,650 --> 00:00:30,900
+How sensitive is it?
+
+10
+00:00:30,900 --> 00:00:32,830
+Is there health or
+financial data being collected?
+
+11
+00:00:34,215 --> 00:00:39,320
+4, what level of confidentiality and
+security is the data subject to?
+
+12
+00:00:39,320 --> 00:00:43,170
+Can anyone at the company access
+the data, especially if it is personally
+
+13
+00:00:43,170 --> 00:00:47,410
+identifiable, or is the data secured
+with accesses logged and audited?
+
+14
+00:00:48,790 --> 00:00:53,500
+It is worth noting that these concerns
+should apply to online services, period,
+
+15
+00:00:53,500 --> 00:00:56,655
+regardless of whether AB
+testing is happening or not.
+
+16
+00:00:56,655 --> 00:00:59,804
+Now, one additional question
+that often gets asked is,
+
+17
+00:00:59,804 --> 00:01:02,300
+what about informed consent?
+
+18
+00:01:02,300 --> 00:01:05,170
+Informed consent is a process
+by which participants
+
+19
+00:01:05,170 --> 00:01:08,860
+are told that the risks that they may
+face if they participate in the study.
+
+20
+00:01:08,860 --> 00:01:10,130
+What benefits might result.
+
+21
+00:01:10,130 --> 00:01:11,700
+What other options they have.
+
+22
+00:01:11,700 --> 00:01:15,710
+What data is being gathered, and
+how that data is being handled.
+
+23
+00:01:15,710 --> 00:01:18,760
+Typically, informed consent is
+a process by which participants
+
+24
+00:01:18,760 --> 00:01:21,610
+are given a document that
+has all of that information.
+
+25
+00:01:21,610 --> 00:01:24,450
+And then, participants can
+choose whether to participate in
+
+26
+00:01:24,450 --> 00:01:25,980
+the study, or not.
+
+27
+00:01:25,980 --> 00:01:27,910
+When IRB's are assessing a study,
+
+28
+00:01:27,910 --> 00:01:32,160
+they also get to decide whether
+an informed consent is required, or not.
+
+29
+00:01:32,160 --> 00:01:35,350
+While many people may think that
+informed consent is required
+
+30
+00:01:35,350 --> 00:01:38,890
+whenever a study is considered
+human subject research.
+
+31
+00:01:38,890 --> 00:01:42,550
+In fact, situations where informed
+consent may not be required
+
+32
+00:01:42,550 --> 00:01:45,960
+are when the risk is minimal, and the
+data being gathered is not identified.

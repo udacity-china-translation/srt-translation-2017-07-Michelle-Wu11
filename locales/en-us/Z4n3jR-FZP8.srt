@@ -1,0 +1,136 @@
+1
+00:00:00,350 --> 00:00:03,890
+For the next few videos, we're going
+to go over some more examples of when
+
+2
+00:00:03,890 --> 00:00:06,280
+you can and can't use A/B tests.
+
+3
+00:00:06,280 --> 00:00:09,950
+As well as some other techniques you
+can use instead of A/B testing, and
+
+4
+00:00:09,950 --> 00:00:12,020
+a brief history of A/B testing.
+
+5
+00:00:12,020 --> 00:00:15,610
+After that, I'll introduce the example
+A/B test that we'll be using for
+
+6
+00:00:15,610 --> 00:00:17,010
+the rest of this lesson.
+
+7
+00:00:17,010 --> 00:00:19,470
+So if you'd rather skip to this point,
+you can do so
+
+8
+00:00:19,470 --> 00:00:21,980
+by following the link in
+the Instructor's Notes.
+
+9
+00:00:21,980 --> 00:00:25,420
+Right now, I'm going to go over a list
+of possible changes you might consider
+
+10
+00:00:25,420 --> 00:00:27,170
+using A/B testing for, and
+
+11
+00:00:27,170 --> 00:00:30,760
+ask you to decide when A/B
+testing would be appropriate.
+
+12
+00:00:30,760 --> 00:00:33,080
+First, suppose an online
+shopping company,
+
+13
+00:00:33,080 --> 00:00:37,070
+like Amazon, wants to know whether
+their site is complete, or
+
+14
+00:00:37,070 --> 00:00:40,530
+whether there are products users
+want to buy, that they don't have.
+
+15
+00:00:40,530 --> 00:00:44,710
+Check this box if you think they could
+answer this question using an A/B test.
+
+16
+00:00:44,710 --> 00:00:47,640
+Second, suppose the company
+already has a free service.
+
+17
+00:00:47,640 --> 00:00:49,640
+Maybe they have a to-do list app and
+
+18
+00:00:49,640 --> 00:00:53,400
+they want to provide a premium service
+that offers additional functionality.
+
+19
+00:00:53,400 --> 00:00:56,210
+To access the premium service,
+users would need to upgrade,
+
+20
+00:00:56,210 --> 00:00:59,150
+create a log in, and
+explore the new functionality.
+
+21
+00:00:59,150 --> 00:01:02,230
+Check this box if you think the company
+should test out this change,
+
+22
+00:01:02,230 --> 00:01:03,790
+using A/B testing.
+
+23
+00:01:03,790 --> 00:01:06,995
+Third, consider a site that provides
+a list of Movie recommendations for
+
+24
+00:01:06,995 --> 00:01:09,085
+users, such as Netflix.
+
+25
+00:01:09,085 --> 00:01:13,035
+They create a new algorithm to
+rank the possible recommendations.
+
+26
+00:01:13,035 --> 00:01:15,445
+Could this be tested using AB testing?
+
+27
+00:01:15,445 --> 00:01:19,275
+Finally, suppose you wanted to change
+your backend infrastructure, which could
+
+28
+00:01:19,275 --> 00:01:23,455
+impact how quickly the page loads, what
+results users see, and other things.
+
+29
+00:01:23,455 --> 00:01:25,995
+Would an A/B test be appropriate
+to test this change?

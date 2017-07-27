@@ -1,0 +1,242 @@
+1
+00:00:00,390 --> 00:00:03,660
+Like Diane said, before you run your
+experiment you'll need to decide how
+
+2
+00:00:03,660 --> 00:00:07,060
+many page views you plan to collect
+before you make your conclusion.
+
+3
+00:00:07,060 --> 00:00:09,900
+First let's look at how the distribution
+changes when you increase
+
+4
+00:00:09,900 --> 00:00:11,190
+the sample size.
+
+5
+00:00:11,190 --> 00:00:14,040
+This is what the distribution of results
+would look like if you collected
+
+6
+00:00:14,040 --> 00:00:18,200
+a thousand samples and there was no
+true difference between the two groups.
+
+7
+00:00:18,200 --> 00:00:19,950
+That's why the mean is zero.
+
+8
+00:00:19,950 --> 00:00:23,398
+You'll reject the null and conclude
+that there was a difference if you
+
+9
+00:00:23,398 --> 00:00:27,260
+measure a value less than this one
+roughly, or greater than this one.
+
+10
+00:00:27,260 --> 00:00:30,560
+So you're probability of falsely
+concluding there was a difference,
+
+11
+00:00:30,560 --> 00:00:34,076
+which is often called alpha, is 0.05.
+
+12
+00:00:34,076 --> 00:00:38,810
+If you increase your number of samples,
+say to 5,000, then the standard error
+
+13
+00:00:38,810 --> 00:00:42,700
+will decrease, so the distribution
+of results will look much narrower.
+
+14
+00:00:42,700 --> 00:00:45,270
+To keep alpha the same,
+that means the cut-offs for
+
+15
+00:00:45,270 --> 00:00:47,310
+rejecting the null
+will be closer to zero.
+
+16
+00:00:47,310 --> 00:00:50,890
+Now let's say you decided to
+only collect 1,000 page views so
+
+17
+00:00:50,890 --> 00:00:53,330
+that you could make
+a conclusion more quickly.
+
+18
+00:00:53,330 --> 00:00:56,910
+Recall that this is the distribution of
+results if there is no true difference,
+
+19
+00:00:56,910 --> 00:00:59,332
+and as we saw, alpha will be 0.05.
+
+20
+00:00:59,332 --> 00:01:02,700
+Now let's consider the case
+where there is a difference.
+
+21
+00:01:02,700 --> 00:01:05,900
+Specifically, the difference is
+equal to the practical significance
+
+22
+00:01:05,900 --> 00:01:06,960
+level of 0.02.
+
+23
+00:01:06,960 --> 00:01:09,590
+You'll fail to reject the null, and
+
+24
+00:01:09,590 --> 00:01:13,180
+conclude there was not a significant
+difference in the same cases.
+
+25
+00:01:13,180 --> 00:01:16,100
+Now, the probability of
+failing to reject the null
+
+26
+00:01:16,100 --> 00:01:21,480
+when the null was in fact false, which
+is often called Beta, is pretty high.
+
+27
+00:01:21,480 --> 00:01:23,050
+Even if there is a true difference,
+
+28
+00:01:23,050 --> 00:01:25,830
+it's pretty likely that
+you'll be inside this range.
+
+29
+00:01:25,830 --> 00:01:29,210
+So by collecting a small sample,
+alpha is low,
+
+30
+00:01:29,210 --> 00:01:32,410
+that is, you're unlikely
+to launch a bad experiment.
+
+31
+00:01:32,410 --> 00:01:37,030
+But beta is high, that is, you're likely
+to fail to launch an experiment that
+
+32
+00:01:37,030 --> 00:01:39,520
+actually did have
+a difference you care about.
+
+33
+00:01:39,520 --> 00:01:42,850
+Now beta, or the probability of
+falsely failing to draw a conclusion,
+
+34
+00:01:42,850 --> 00:01:46,010
+depends on how big
+your effect really was.
+
+35
+00:01:46,010 --> 00:01:49,360
+For well behaved distributions
+like the normal distribution,
+
+36
+00:01:49,360 --> 00:01:53,950
+as your true change gets larger and
+larger, then beta will go down.
+
+37
+00:01:53,950 --> 00:01:57,870
+So you typically consider beta at
+your practical significance boundary
+
+38
+00:01:57,870 --> 00:02:00,600
+since you don't care about
+any smaller changes, and
+
+39
+00:02:00,600 --> 00:02:04,720
+any larger changes will have a lower
+beta, that is, a lower chance of error.
+
+40
+00:02:04,720 --> 00:02:09,080
+People also refer to one minus beta
+as the sensitivity of the experiment.
+
+41
+00:02:09,080 --> 00:02:12,600
+In general, you want your experiment
+to have a high level of sensitivity at
+
+42
+00:02:12,600 --> 00:02:14,660
+the practical significance boundary.
+
+43
+00:02:14,660 --> 00:02:16,310
+People often choose 80%.
+
+44
+00:02:16,310 --> 00:02:20,490
+Now again, let's look at what happens
+if you collect 5,000 samples.
+
+45
+00:02:20,490 --> 00:02:22,830
+Both distributions get tighter.
+
+46
+00:02:22,830 --> 00:02:25,250
+And as before, alpha doesn't change.
+
+47
+00:02:25,250 --> 00:02:27,800
+However, in the case where
+there is a true difference,
+
+48
+00:02:27,800 --> 00:02:32,240
+you're much less likely to fall within
+the range of failing to reject the null.
+
+49
+00:02:32,240 --> 00:02:34,760
+That is, you're more likely
+to reject the null and
+
+50
+00:02:34,760 --> 00:02:36,730
+conclude there was a difference.
+
+51
+00:02:36,730 --> 00:02:39,990
+So beta has gone down and
+your power has increased.

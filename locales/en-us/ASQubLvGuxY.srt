@@ -1,0 +1,416 @@
+1
+00:00:00,930 --> 00:00:04,462
+So, Diane and Carrie, to start out,
+what exactly is A/B testing?
+
+2
+00:00:04,462 --> 00:00:07,920
+>> So, A/B testing is a general
+methodology used online when
+
+3
+00:00:07,920 --> 00:00:09,370
+you want to test out a new product or
+a feature.
+
+4
+00:00:09,370 --> 00:00:12,170
+And what you're doing is you're
+going to take two sets of users and
+
+5
+00:00:12,170 --> 00:00:16,030
+you're going to show one set,
+a control set, your existing product or
+
+6
+00:00:16,030 --> 00:00:19,480
+a feature, and then another set,
+your experiment, the new version.
+
+7
+00:00:19,480 --> 00:00:20,170
+And what you're going to do is,
+
+8
+00:00:20,170 --> 00:00:22,670
+you're going to say,
+how did these users respond differently,
+
+9
+00:00:22,670 --> 00:00:25,870
+in order to determine which
+version of your feature is better?
+
+10
+00:00:25,870 --> 00:00:29,380
+>> So, should you use A/B testing for
+every change you're considering, or
+
+11
+00:00:29,380 --> 00:00:31,850
+are there certain types of
+changes it works better for?
+
+12
+00:00:31,850 --> 00:00:33,040
+>> So I was talking to John Lilly.
+
+13
+00:00:33,040 --> 00:00:34,530
+He's a VC at Greylock now, but
+
+14
+00:00:34,530 --> 00:00:38,570
+he used to be the CEO of Mozilla,
+and he came up with a great analogy.
+
+15
+00:00:38,570 --> 00:00:41,350
+And his analogy is that A/B
+testing is really useful for
+
+16
+00:00:41,350 --> 00:00:43,600
+helping you climb to the peak
+of your current mountain.
+
+17
+00:00:43,600 --> 00:00:45,960
+But if you want figure out whether
+you want to be on this mountain or
+
+18
+00:00:45,960 --> 00:00:48,880
+another mountain,
+A/B testing isn't so useful.
+
+19
+00:00:48,880 --> 00:00:52,740
+>> Now that said, you can test a pretty
+wide variety of things with A/B testing,
+
+20
+00:00:52,740 --> 00:00:57,090
+everything from some new features,
+additions to your UI,
+
+21
+00:00:57,090 --> 00:01:00,440
+different look for your website,
+and a lot of companies use it.
+
+22
+00:01:00,440 --> 00:01:03,630
+So for example, when Amazon
+first started doing personalized
+
+23
+00:01:03,630 --> 00:01:07,670
+recommendations, they wanted to see
+whether people really bought more stuff.
+
+24
+00:01:07,670 --> 00:01:10,350
+And they discovered that actually
+had a signfiicant increase in
+
+25
+00:01:10,350 --> 00:01:12,220
+revenue from the personalized
+recommendations.
+
+26
+00:01:12,220 --> 00:01:15,150
+So, you can use it for
+fairly complicated changes.
+
+27
+00:01:15,150 --> 00:01:18,780
+Now, Google maybe took it
+a little too far sometimes, so
+
+28
+00:01:18,780 --> 00:01:23,697
+once we ran 41 different shades of blue
+in the UI to see how users responded,
+
+29
+00:01:23,697 --> 00:01:24,847
+if they reacted.
+
+30
+00:01:24,847 --> 00:01:27,724
+And on the one hand it was
+interesting and useful internally,
+
+31
+00:01:27,724 --> 00:01:31,250
+but it might have been going a little
+too far with those experiments.
+
+32
+00:01:31,250 --> 00:01:36,030
+>> Maybe, but we can also test
+less user visible changes.
+
+33
+00:01:36,030 --> 00:01:37,720
+So, for example, ranking changes.
+
+34
+00:01:37,720 --> 00:01:41,090
+LinkedIn tested a change where they were
+trying to figure out whether they should
+
+35
+00:01:41,090 --> 00:01:45,400
+show a news article or an encouragement
+to basically add new contacts.
+
+36
+00:01:45,400 --> 00:01:46,840
+That's a ranking change.
+
+37
+00:01:46,840 --> 00:01:49,040
+Google does a lot of ranking,
+between our search lists and
+
+38
+00:01:49,040 --> 00:01:52,520
+our ads, we test all of those
+changes also via A/B testing.
+
+39
+00:01:52,520 --> 00:01:55,560
+>> You can also test changes that you're
+not even sure a user would notice.
+
+40
+00:01:55,560 --> 00:02:00,740
+So for example, 100 milliseconds is
+not a lot of page load time, but,
+
+41
+00:02:00,740 --> 00:02:03,150
+both Amazon and
+Google have run experiments.
+
+42
+00:02:03,150 --> 00:02:08,690
+Amazon showed in 2007 that, for every
+100 milliseconds they added to the page,
+
+43
+00:02:08,690 --> 00:02:10,930
+they actually had a 1%
+decrease in revenue.
+
+44
+00:02:10,930 --> 00:02:14,010
+And for Google,
+we have similar results, that you find,
+
+45
+00:02:14,010 --> 00:02:17,700
+even though 100 milliseconds doesn't
+seem like that much, on average,
+
+46
+00:02:17,700 --> 00:02:21,130
+the number of queries people
+do actually decreases for
+
+47
+00:02:21,130 --> 00:02:23,830
+every 100 milliseconds
+of latency that you add.
+
+48
+00:02:23,830 --> 00:02:26,960
+>> Wow, so those are some things
+you can learn from A/B testing.
+
+49
+00:02:26,960 --> 00:02:29,443
+What are some things you
+can't do with A/B testing?
+
+50
+00:02:29,443 --> 00:02:32,860
+>> A/B testing isn't as useful
+testing out new experiences.
+
+51
+00:02:32,860 --> 00:02:35,210
+And you can sort of think about
+this in the obvious way, right?
+
+52
+00:02:35,210 --> 00:02:38,630
+You know, you're testing a new
+experience and you've got an existing
+
+53
+00:02:38,630 --> 00:02:41,993
+set of users and they are like, hey,
+you just changed my experience,
+
+54
+00:02:41,993 --> 00:02:45,299
+what happened, I liked my old way and
+I'm kind of like grrr, right?
+
+55
+00:02:45,299 --> 00:02:46,840
+That's called change aversion.
+
+56
+00:02:46,840 --> 00:02:49,940
+The other thing is that they can
+be like, oh, well, this is new,
+
+57
+00:02:49,940 --> 00:02:52,150
+and they test out everything.
+
+58
+00:02:52,150 --> 00:02:54,340
+That's called a novelty effect, right?
+
+59
+00:02:54,340 --> 00:02:57,620
+And so what happens in a new experience
+is there are sort of like two issues.
+
+60
+00:02:57,620 --> 00:03:01,650
+One is a question of,
+what is your baseline for comparison?
+
+61
+00:03:01,650 --> 00:03:04,420
+But two is a question about
+how much time you need
+
+62
+00:03:04,420 --> 00:03:07,070
+In order to actually have your
+users adapt to the new experience,
+
+63
+00:03:07,070 --> 00:03:10,380
+so that you can actually say what is
+going to be the plateaued experience so
+
+64
+00:03:10,380 --> 00:03:12,600
+that I can actually
+make a robust decision.
+
+65
+00:03:12,600 --> 00:03:14,730
+>> Yeah, and time can be a problem for
+other reasons.
+
+66
+00:03:14,730 --> 00:03:19,290
+So, for example, if you have a website
+that recommends apartment rentals.
+
+67
+00:03:19,290 --> 00:03:21,340
+People don't look for
+apartments that often, and
+
+68
+00:03:21,340 --> 00:03:25,530
+what you really want is return business,
+or maybe you want to grow your business
+
+69
+00:03:25,530 --> 00:03:28,390
+by referrals to other people
+who like your service.
+
+70
+00:03:28,390 --> 00:03:32,130
+And the reality is, in the scope of an
+experiment it's going to be really hard
+
+71
+00:03:32,130 --> 00:03:36,180
+to measure whether people actually
+come back to you from more referrals.
+
+72
+00:03:36,180 --> 00:03:38,310
+And even if they refer their friends,
+
+73
+00:03:38,310 --> 00:03:40,790
+well, honestly is it
+going to be next week?
+
+74
+00:03:40,790 --> 00:03:42,630
+Is it going to be six months from now?
+
+75
+00:03:42,630 --> 00:03:44,990
+So, there's certain things that you
+may want to know about your site,
+
+76
+00:03:44,990 --> 00:03:48,920
+that are pretty difficult to get at,
+through short term A/B testing, and
+
+77
+00:03:48,920 --> 00:03:52,010
+we'll talk in lesson three
+about some options for
+
+78
+00:03:52,010 --> 00:03:55,260
+coming up with some metrics that
+are good proxies for that kind of thing.
+
+79
+00:03:55,260 --> 00:03:58,817
+>> So the last example that we'll give
+for when A/B testing isn't as useful,
+
+80
+00:03:58,817 --> 00:04:02,331
+is that A/B testing can't really tell
+you if you're missing something.
+
+81
+00:04:02,331 --> 00:04:04,360
+So, let's say you're on
+a digital camera review site.
+
+82
+00:04:04,360 --> 00:04:06,367
+A/B testing can tell you whether or
+
+83
+00:04:06,367 --> 00:04:09,605
+not you should be showing this camera
+review above this camera review, but
+
+84
+00:04:09,605 --> 00:04:13,090
+A/B testing can't really tell you if
+you're missing this entire other camera
+
+85
+00:04:13,090 --> 00:04:15,480
+that you should be reviewing but
+you aren't reviewing at all.
+
+86
+00:04:15,480 --> 00:04:15,980
+>> Got it.

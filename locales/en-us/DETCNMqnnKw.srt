@@ -1,0 +1,361 @@
+1
+00:00:00,310 --> 00:00:03,090
+So, we've seen how important
+it is to precisely define what
+
+2
+00:00:03,090 --> 00:00:05,490
+data you need to compute your metric.
+
+3
+00:00:05,490 --> 00:00:06,990
+What other issues come up?
+
+4
+00:00:06,990 --> 00:00:10,650
+>> Well, for one thing, you often see,
+sort of abuse on your site,
+
+5
+00:00:10,650 --> 00:00:14,555
+such as spam or fraud, and
+you want to try to filter that out.
+
+6
+00:00:14,555 --> 00:00:17,875
+For example, if you have a competitor,
+who's looking for your site clicking on
+
+7
+00:00:17,875 --> 00:00:21,915
+absolutely everything, that's data you
+may not want to use in your experiment
+
+8
+00:00:21,915 --> 00:00:25,837
+or you may even have someone malicious
+trying to mess up your metrics.
+
+9
+00:00:25,837 --> 00:00:28,767
+Now, for a big change,
+if you're a big company too,
+
+10
+00:00:28,767 --> 00:00:32,616
+if you have a change in an experiment,
+you might actually get blog coverage for
+
+11
+00:00:32,616 --> 00:00:36,667
+that, and so you could potentially get
+a lot of traffic that's just coming to
+
+12
+00:00:36,667 --> 00:00:40,767
+look at the experiment and you'd like
+to be able to at least identify that.
+
+13
+00:00:40,767 --> 00:00:42,987
+Ideally, you'd be able to filter it out,
+but
+
+14
+00:00:42,987 --> 00:00:45,570
+you want to at least flag
+the issue when it comes up.
+
+15
+00:00:45,570 --> 00:00:48,380
+>> So there's a bunch of external
+reasons as to why you might want to
+
+16
+00:00:48,380 --> 00:00:49,430
+filter your traffic.
+
+17
+00:00:49,430 --> 00:00:51,760
+There's a bunch of
+internal reasons as well.
+
+18
+00:00:51,760 --> 00:00:53,760
+So, one example is,
+
+19
+00:00:53,760 --> 00:00:57,620
+what happens if your change only
+impacts a subset of your traffic?
+
+20
+00:00:57,620 --> 00:01:00,998
+For example, maybe you didn't want to
+internationalize your change and so
+
+21
+00:01:00,998 --> 00:01:03,350
+it only, only impacts English traffic.
+
+22
+00:01:03,350 --> 00:01:08,580
+Or, maybe it only impacts the mobile app
+version and not the web version, right?
+
+23
+00:01:08,580 --> 00:01:11,460
+And those are situations where filtering
+your traffic would actually make
+
+24
+00:01:11,460 --> 00:01:14,820
+the most sense because you don't
+want to dilute your results, right?
+
+25
+00:01:14,820 --> 00:01:17,390
+If you actually filter
+just the affected traffic,
+
+26
+00:01:17,390 --> 00:01:21,320
+then you can actually increase the power
+and sensitivity of your experiment.
+
+27
+00:01:21,320 --> 00:01:24,938
+>> Now, the goal of all this
+filtering is to de-bias your data, or
+
+28
+00:01:24,938 --> 00:01:26,279
+dull-bias your data.
+
+29
+00:01:26,279 --> 00:01:28,837
+But and often if you're
+filtering out spam and fraud,
+
+30
+00:01:28,837 --> 00:01:31,040
+that's exactly what you accomplish.
+
+31
+00:01:31,040 --> 00:01:34,590
+You do want to be careful you don't
+introduce bias into your data by doing
+
+32
+00:01:34,590 --> 00:01:35,300
+the filtering.
+
+33
+00:01:35,300 --> 00:01:38,780
+So for example, if you have a metric
+that can only be measured on logged-in
+
+34
+00:01:38,780 --> 00:01:41,290
+users, you might actually be biased
+
+35
+00:01:41,290 --> 00:01:44,320
+in your data because there's
+a bunch of sort of noncommittal or
+
+36
+00:01:44,320 --> 00:01:48,220
+newer users trying to use the site who
+maybe haven't created an account yet.
+
+37
+00:01:48,220 --> 00:01:49,830
+So that's a good example.
+
+38
+00:01:49,830 --> 00:01:53,550
+The most common thing that comes up that
+we see is people who are filtering out
+
+39
+00:01:53,550 --> 00:01:57,800
+especially long or
+weird sessions of user behavior.
+
+40
+00:01:57,800 --> 00:02:01,830
+Now, that may be a totally legitimate
+thing to do, but before you do that,
+
+41
+00:02:01,830 --> 00:02:05,620
+you want to check and make sure it's not
+actually your website, your metric, or
+
+42
+00:02:05,620 --> 00:02:08,900
+even your logging that's causing
+these sessions to come up.
+
+43
+00:02:08,900 --> 00:02:10,139
+>> So, how would you check?
+
+44
+00:02:10,139 --> 00:02:12,860
+If you got some filter
+that you're considering,
+
+45
+00:02:12,860 --> 00:02:14,700
+how do you decide whether to use it?
+
+46
+00:02:14,700 --> 00:02:15,830
+>> Realistically in most cases,
+
+47
+00:02:15,830 --> 00:02:18,710
+you're computing a baseline value for
+your metric.
+
+48
+00:02:18,710 --> 00:02:23,750
+One way to actually figure out whether
+or not you're biasing or de-biasing your
+
+49
+00:02:23,750 --> 00:02:28,120
+your data by applying these filters,
+is to actually slice your data.
+
+50
+00:02:28,120 --> 00:02:31,130
+And what this basically means
+is that you're computing
+
+51
+00:02:31,130 --> 00:02:33,460
+your metric on a bunch of disjoint sets.
+
+52
+00:02:33,460 --> 00:02:37,330
+So for example, by country, or
+by language, or by platform.
+
+53
+00:02:37,330 --> 00:02:39,440
+What you're going to do in that
+situation is you're going to complete
+
+54
+00:02:39,440 --> 00:02:42,500
+your metric on all of
+these different slices.
+
+55
+00:02:42,500 --> 00:02:45,570
+And then when you look at the filter,
+what you want to see is whether or not
+
+56
+00:02:45,570 --> 00:02:50,360
+you're moving traffic disproportionately
+from one of these places or not.
+
+57
+00:02:50,360 --> 00:02:51,710
+Now, if it is, and
+
+58
+00:02:51,710 --> 00:02:55,240
+it makes sense because let's say all
+of your spam coming from, you know,
+
+59
+00:02:55,240 --> 00:02:59,600
+Berzerkistan or some other country,
+then that might be a good thing.
+
+60
+00:02:59,600 --> 00:03:02,140
+But if you're actually moving
+disproportionately from one of
+
+61
+00:03:02,140 --> 00:03:02,734
+these places,
+
+62
+00:03:02,734 --> 00:03:06,840
+it may be an indication that you're
+actually biasing your results further.
+
+63
+00:03:06,840 --> 00:03:10,130
+>> Now, along those same lines,
+sometimes looking at week over week or
+
+64
+00:03:10,130 --> 00:03:13,710
+day over day data or
+slicing down to an individual user group
+
+65
+00:03:13,710 --> 00:03:16,910
+is a great way to identify spam or
+fraud, because often you'll
+
+66
+00:03:16,910 --> 00:03:20,650
+get requests from a single IP address,
+or they'll come all at once.
+
+67
+00:03:20,650 --> 00:03:24,910
+And so looking at week over week or
+day over day traffic pattern changes is
+
+68
+00:03:24,910 --> 00:03:28,050
+a good way to spot something that
+looks at least a little unusual.
+
+69
+00:03:28,050 --> 00:03:30,610
+>> The key thing to remember,
+when you're doing all of this
+
+70
+00:03:30,610 --> 00:03:33,830
+type of analysis about whether or not
+you're going to filter your traffic or
+
+71
+00:03:33,830 --> 00:03:36,100
+not, what you're really doing is,
+you're building intuition.
+
+72
+00:03:36,100 --> 00:03:41,395
+You have to know what changes are
+going to be expected versus unexpected,
+
+73
+00:03:41,395 --> 00:03:44,155
+so that you can determine,
+when you actually see the data for
+
+74
+00:03:44,155 --> 00:03:46,725
+your real experiment,
+do I have a problem?
+
+75
+00:03:46,725 --> 00:03:48,165
+Do I believe this?
+
+76
+00:03:48,165 --> 00:03:49,265
+What's really going on?

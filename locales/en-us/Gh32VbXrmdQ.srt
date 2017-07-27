@@ -1,0 +1,173 @@
+1
+00:00:00,410 --> 00:00:03,560
+Diane, can you tell me more about how to
+choose the subject of your experiment?
+
+2
+00:00:03,560 --> 00:00:05,050
+First, what does that mean?
+
+3
+00:00:05,050 --> 00:00:08,550
+>> So, what you need to do is you
+need to decide how to assign events
+
+4
+00:00:08,550 --> 00:00:11,140
+to either the control or
+to the experiment.
+
+5
+00:00:11,140 --> 00:00:14,540
+Now what you could do is you could
+randomly assign every event.
+
+6
+00:00:14,540 --> 00:00:17,390
+So for example,
+every page view to either the control or
+
+7
+00:00:17,390 --> 00:00:20,660
+the experiment, but
+then if you have a user visible change,
+
+8
+00:00:20,660 --> 00:00:22,760
+the user's basically going to be like,
+oh, I see the change.
+
+9
+00:00:22,760 --> 00:00:23,280
+They reload.
+
+10
+00:00:23,280 --> 00:00:24,560
+I don't see the change.
+
+11
+00:00:24,560 --> 00:00:26,150
+What's kind of going on?
+
+12
+00:00:26,150 --> 00:00:29,030
+So typically what you want to do for
+a user visible change
+
+13
+00:00:29,030 --> 00:00:31,610
+is that you want to basically
+assign people as opposed to events.
+
+14
+00:00:32,710 --> 00:00:36,380
+Now the problem with online testing is,
+what's a person?
+
+15
+00:00:36,380 --> 00:00:38,447
+Like, how do you actually
+determine who a person is?
+
+16
+00:00:38,447 --> 00:00:42,495
+One obvious example is to use
+a user ID like a log in, but
+
+17
+00:00:42,495 --> 00:00:47,260
+the problem there is,
+each person could have multiple log ins.
+
+18
+00:00:47,260 --> 00:00:52,000
+You know, for example, I have both
+a consumer and a corporate account.
+
+19
+00:00:52,000 --> 00:00:53,200
+Right?
+And so, you know, if you're a student,
+
+20
+00:00:53,200 --> 00:00:54,410
+you could have multiple
+different accounts,
+
+21
+00:00:54,410 --> 00:00:57,430
+if you wanted to try the quiz in
+different ways or for whatever reason.
+
+22
+00:00:57,430 --> 00:01:00,140
+So each person doesn't have
+to have a single account.
+
+23
+00:01:00,140 --> 00:01:04,129
+Now another option is to basically use
+an anonymous identifier like a cookie.
+
+24
+00:01:04,129 --> 00:01:06,640
+This is basically something that gets
+
+25
+00:01:06,640 --> 00:01:08,530
+assigned to a particular
+browser in a device.
+
+26
+00:01:08,530 --> 00:01:11,850
+Now, again the same issue happens here,
+right?
+
+27
+00:01:11,850 --> 00:01:15,310
+Because this is tied to a single
+browser and single device if you change
+
+28
+00:01:15,310 --> 00:01:19,580
+from your laptop to your mobile phone,
+if you change from Safari to Chrome,
+
+29
+00:01:19,580 --> 00:01:22,190
+in each of those cases,
+you're going to be changing the cookie.
+
+30
+00:01:22,190 --> 00:01:24,450
+And, so in any case, if you're
+trying to basically assign a person,
+
+31
+00:01:24,450 --> 00:01:27,210
+you're going to be using
+some imperfect proxy.
+
+32
+00:01:28,270 --> 00:01:32,140
+Now in each of these cases, whether
+you're doing an event based diversion,
+
+33
+00:01:32,140 --> 00:01:36,770
+a cookie based, or a user ID, these are
+all what we call our unit of diversion.
+
+34
+00:01:36,770 --> 00:01:39,430
+So I think before we sort of discuss the
+pros and cons of these, I think you're
+
+35
+00:01:39,430 --> 00:01:42,340
+going to be going through the details
+of what each of these really mean.
+
+36
+00:01:42,340 --> 00:01:42,840
+>> Yeah.

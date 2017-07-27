@@ -1,0 +1,126 @@
+1
+00:00:00,420 --> 00:00:03,300
+Okay, so we've designed and
+sized the experiment.
+
+2
+00:00:03,300 --> 00:00:07,100
+Now, let's assume that we've run it and
+analyzed the results of the experiment.
+
+3
+00:00:07,100 --> 00:00:11,398
+Suppose the control group had
+10,072 total page views, and
+
+4
+00:00:11,398 --> 00:00:14,092
+the experimental group had 9,886.
+
+5
+00:00:14,092 --> 00:00:17,594
+These numbers aren't exactly the same
+because of how people were randomly
+
+6
+00:00:17,594 --> 00:00:18,601
+assigned to groups.
+
+7
+00:00:18,601 --> 00:00:23,337
+In the control group 974 of those users
+clicked the Start Now button, and
+
+8
+00:00:23,337 --> 00:00:26,080
+in the experimental group, 1242 did.
+
+9
+00:00:27,420 --> 00:00:31,860
+So, it certainly looks like more people
+clicked in the experimental group, but
+
+10
+00:00:31,860 --> 00:00:34,220
+was this due to random variation?
+
+11
+00:00:34,220 --> 00:00:36,920
+To answer that, we'll need to
+calculate the confidence interval for
+
+12
+00:00:36,920 --> 00:00:38,200
+the difference.
+
+13
+00:00:38,200 --> 00:00:40,820
+I'll start by calculating
+the pooled probability,
+
+14
+00:00:40,820 --> 00:00:43,370
+that is the total number
+of clicks in both groups,
+
+15
+00:00:43,370 --> 00:00:48,450
+divided by the total number of users,
+and that comes to about 0.111.
+
+16
+00:00:48,450 --> 00:00:51,630
+Next, I'll calculate the pool to
+standard error using the formula you
+
+17
+00:00:51,630 --> 00:00:56,459
+saw before, and
+this comes to about 0.00445.
+
+18
+00:00:56,459 --> 00:00:58,620
+Now, go ahead and
+finish the calculation,
+
+19
+00:00:58,620 --> 00:01:03,730
+by calculating the estimated difference,
+or d hat, and the margin of error, or m.
+
+20
+00:01:03,730 --> 00:01:07,320
+Write your answers in these
+boxes to four decimal places.
+
+21
+00:01:07,320 --> 00:01:10,880
+Then, put the upper and lower bounds of
+the confidence interval in these boxes,
+
+22
+00:01:10,880 --> 00:01:12,820
+also to four decimal places.
+
+23
+00:01:12,820 --> 00:01:15,980
+Finally, would you launch the new
+version of the Start Now button based on
+
+24
+00:01:15,980 --> 00:01:16,820
+these results?
+
+25
+00:01:16,820 --> 00:01:18,300
+Select yes or no.
+
+26
+00:01:18,300 --> 00:01:22,238
+Don't forget to consider whether
+the change is greater than the practical
+
+27
+00:01:22,238 --> 00:01:25,810
+significance level of 2%, and
+use the 95% confidence level.

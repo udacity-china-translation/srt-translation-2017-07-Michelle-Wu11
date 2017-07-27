@@ -1,0 +1,178 @@
+1
+00:00:00,430 --> 00:00:03,840
+Okay, we've talked about user
+consistency and ethical considerations.
+
+2
+00:00:03,840 --> 00:00:05,580
+What's the third thing to keep in mind?
+
+3
+00:00:05,580 --> 00:00:07,920
+>> The third thing to keep
+in mind is variability.
+
+4
+00:00:07,920 --> 00:00:10,180
+Now, you might recall
+back in lesson three,
+
+5
+00:00:10,180 --> 00:00:13,920
+we talked about how to compute
+the variability of a metric empirically.
+
+6
+00:00:13,920 --> 00:00:17,100
+And that the reason why was because
+sometimes the empirically computed
+
+7
+00:00:17,100 --> 00:00:21,500
+variability was much higher than
+the analytically computed variability.
+
+8
+00:00:21,500 --> 00:00:25,200
+Now the reasoning for this is because
+that's what happens when your unit of
+
+9
+00:00:25,200 --> 00:00:28,240
+analysis is different than
+your unit of diversion.
+
+10
+00:00:28,240 --> 00:00:29,920
+Now, what's the unit of analysis?
+
+11
+00:00:29,920 --> 00:00:33,010
+The unit of analysis is basically
+whatever the denominator
+
+12
+00:00:33,010 --> 00:00:33,890
+of your metric is.
+
+13
+00:00:33,890 --> 00:00:36,560
+So for example, if you're doing
+click through rate, and you have
+
+14
+00:00:36,560 --> 00:00:41,130
+clicks divided by page views then page
+view would be your unit of analysis.
+
+15
+00:00:41,130 --> 00:00:45,940
+Now, when your unit of diversion is also
+a page view, so as would be the case
+
+16
+00:00:45,940 --> 00:00:49,910
+in an event base diversion, then
+the analytically computed variability
+
+17
+00:00:49,910 --> 00:00:54,070
+is likely to be very close to
+the empirically computed variability.
+
+18
+00:00:54,070 --> 00:00:59,860
+If, however, your unit of diversion is a
+cookie or a user id then the variability
+
+19
+00:00:59,860 --> 00:01:03,040
+of your same metric click through rate
+is actually going to be much higher.
+
+20
+00:01:03,040 --> 00:01:06,700
+Sometimes by a factor of four,
+five, maybe even more.
+
+21
+00:01:06,700 --> 00:01:09,590
+And in those cases you really
+want to move to an empirically
+
+22
+00:01:09,590 --> 00:01:13,020
+computed variability given
+your unit of diversion.
+
+23
+00:01:13,020 --> 00:01:15,440
+>> Wow, why does that make
+such a big difference?
+
+24
+00:01:15,440 --> 00:01:20,240
+>> So what happens is that when you're
+actually computing your variability
+
+25
+00:01:20,240 --> 00:01:23,090
+analytically, you're fundamentally
+making an assumption
+
+26
+00:01:23,090 --> 00:01:25,100
+about the distribution of the data.
+
+27
+00:01:25,100 --> 00:01:28,720
+But you're not just making an assumption
+about the distribution of the data.
+
+28
+00:01:28,720 --> 00:01:32,500
+You're also making an assumption about
+what's considered to be independent.
+
+29
+00:01:32,500 --> 00:01:34,590
+You're basically doing
+these random draws and
+
+30
+00:01:34,590 --> 00:01:36,400
+whether they're independent or not.
+
+31
+00:01:36,400 --> 00:01:40,577
+When you're doing event-based diversion
+every single event is a different random
+
+32
+00:01:40,577 --> 00:01:43,772
+draw, and so your independence
+assumption is actually valid.
+
+33
+00:01:43,772 --> 00:01:47,161
+Now when you're doing cookie or
+user ID based diversion,
+
+34
+00:01:47,161 --> 00:01:51,520
+that independence assumption is no
+longer valid because you're actually
+
+35
+00:01:51,520 --> 00:01:53,262
+diverting groups of events.
+
+36
+00:01:53,262 --> 00:01:56,050
+And so
+they're actually correlated together.
+
+37
+00:01:56,050 --> 00:01:58,160
+And that will increase
+your variability greatly.

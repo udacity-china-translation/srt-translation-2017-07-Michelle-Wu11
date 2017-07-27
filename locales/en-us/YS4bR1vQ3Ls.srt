@@ -1,0 +1,48 @@
+1
+00:00:00,420 --> 00:00:04,070
+In this lesson, we first learned about
+what the different possible choices for
+
+2
+00:00:04,070 --> 00:00:07,360
+a unit of diversion is and
+why we might have a preference.
+
+3
+00:00:07,360 --> 00:00:10,020
+We also discussed how
+to choose a population.
+
+4
+00:00:10,020 --> 00:00:13,640
+We then walked through the irrative
+process of sizing your experiment, and
+
+5
+00:00:13,640 --> 00:00:16,420
+how to choose how long your
+experiment will run for.
+
+6
+00:00:16,420 --> 00:00:20,130
+When you put these decisions together
+with what we discussed in lesson one
+
+7
+00:00:20,130 --> 00:00:23,190
+about statistical power and
+practical significance,
+
+8
+00:00:23,190 --> 00:00:27,130
+you have gone through all the decisions
+necessary to design your experiment.
+
+9
+00:00:27,130 --> 00:00:30,610
+In the next lesson, we'll be finishing
+up our course by going through how to
+
+10
+00:00:30,610 --> 00:00:32,250
+evaluate the results from our AB test.

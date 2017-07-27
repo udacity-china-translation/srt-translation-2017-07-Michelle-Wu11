@@ -1,0 +1,370 @@
+1
+00:00:00,430 --> 00:00:03,469
+Now we've gone over some techniques for
+getting to a high level concept for
+
+2
+00:00:03,469 --> 00:00:07,480
+a metric, and then translating that
+into a specific data measurement, and
+
+3
+00:00:07,480 --> 00:00:09,670
+also evaluating possible filters.
+
+4
+00:00:09,670 --> 00:00:12,430
+And a while ago you also
+mentioned summary metrics.
+
+5
+00:00:12,430 --> 00:00:13,580
+What are those?
+
+6
+00:00:13,580 --> 00:00:16,790
+>> Well so what we have so
+far are direct data measurements.
+
+7
+00:00:16,790 --> 00:00:22,110
+This can be a page view, a click measure
+of latency for a particular event.
+
+8
+00:00:22,110 --> 00:00:23,570
+And what we want to do,
+at this point is,
+
+9
+00:00:23,570 --> 00:00:28,110
+to summarize all of these individual
+events into a single summary metric.
+
+10
+00:00:28,110 --> 00:00:31,520
+Now in some cases,
+the summary metric is really obvious.
+
+11
+00:00:31,520 --> 00:00:35,590
+For example, if you're counting how
+many cookies are visiting the homepage,
+
+12
+00:00:35,590 --> 00:00:38,800
+it's a count, or
+a sum of just the total count, right?
+
+13
+00:00:38,800 --> 00:00:41,440
+You can also summarize that further
+into something like, you know,
+
+14
+00:00:41,440 --> 00:00:43,990
+the average number of visitors per week.
+
+15
+00:00:43,990 --> 00:00:46,690
+Now for a rate or a probability,
+
+16
+00:00:46,690 --> 00:00:50,650
+if you actually look at the specific
+computation, it's actually computing
+
+17
+00:00:50,650 --> 00:00:55,830
+an average over the clicks per page
+view for every single individual effect.
+
+18
+00:00:55,830 --> 00:00:57,720
+Now in all of those cases,
+
+19
+00:00:57,720 --> 00:01:00,885
+the summarization is actually
+part of the metric definition.
+
+20
+00:01:00,885 --> 00:01:04,190
+But there's a whole bunch of other
+cases where you actually have a choice
+
+21
+00:01:04,190 --> 00:01:05,390
+of summary metric.
+
+22
+00:01:05,390 --> 00:01:07,810
+>> Okay.
+What are some examples of that?
+
+23
+00:01:07,810 --> 00:01:10,640
+>> Well the primary
+situation that that occurs,
+
+24
+00:01:10,640 --> 00:01:13,430
+is when your per event
+measurement is itself a number.
+
+25
+00:01:13,430 --> 00:01:18,380
+And this is something like the load time
+of a video, or how many terms are in
+
+26
+00:01:18,380 --> 00:01:22,190
+a query, or what the position of
+the first click on the page is.
+
+27
+00:01:22,190 --> 00:01:24,710
+Now when you have a number like that,
+
+28
+00:01:24,710 --> 00:01:27,520
+you have a whole set of
+metrics to choose from.
+
+29
+00:01:27,520 --> 00:01:31,730
+For example, the mean, the median, the
+25th percentile, the 70th percentile,
+
+30
+00:01:31,730 --> 00:01:33,060
+the 90th percentile.
+
+31
+00:01:33,060 --> 00:01:37,540
+You can choose any of those types
+of metrics to actually summarize
+
+32
+00:01:37,540 --> 00:01:39,280
+your individual events.
+
+33
+00:01:39,280 --> 00:01:41,840
+>> So how would you choose
+between these different options?
+
+34
+00:01:41,840 --> 00:01:43,140
+>> Well so what you're going to do is,
+
+35
+00:01:43,140 --> 00:01:45,900
+you're going to establish a few
+characteristics for your metric.
+
+36
+00:01:45,900 --> 00:01:48,870
+The first one is going to be
+the sensitivity and robustness.
+
+37
+00:01:48,870 --> 00:01:52,340
+You want your metric to be sensitive
+enough, in order to actually detect
+
+38
+00:01:52,340 --> 00:01:57,090
+a change when you, when you're testing
+your possible future options, right?
+
+39
+00:01:57,090 --> 00:02:00,790
+The second that you're going to want to
+characterize is what the distribution
+
+40
+00:02:00,790 --> 00:02:03,400
+of your metric looks like, and
+that's going to help you choose.
+
+41
+00:02:03,400 --> 00:02:04,890
+>> Okay.
+Can you elaborate on that?
+
+42
+00:02:04,890 --> 00:02:08,350
+What kind of things do I need to do
+to characterize the distribution?
+
+43
+00:02:08,350 --> 00:02:12,550
+>> The most ideal way of doing this is
+to do a retrospective analysis, and
+
+44
+00:02:12,550 --> 00:02:14,030
+to compute a histogram.
+
+45
+00:02:14,030 --> 00:02:15,240
+Now what a histogram is,
+
+46
+00:02:15,240 --> 00:02:19,750
+is that on the x axis you have all of
+the different values for your metric.
+
+47
+00:02:19,750 --> 00:02:22,444
+So for example, you're going to
+have all the different values for
+
+48
+00:02:22,444 --> 00:02:23,431
+load time on the x axis.
+
+49
+00:02:23,431 --> 00:02:25,830
+The y axis is going to be the frequency,
+
+50
+00:02:25,830 --> 00:02:29,660
+so how often individual events
+have that particular load time.
+
+51
+00:02:31,110 --> 00:02:32,700
+When you actually plot that histogram,
+
+52
+00:02:32,700 --> 00:02:35,340
+you get a shape,
+that's going to be your distribution.
+
+53
+00:02:35,340 --> 00:02:38,760
+And what you're looking
+at is what that shape is.
+
+54
+00:02:38,760 --> 00:02:41,990
+If it's a very normal shape,
+then a mean or
+
+55
+00:02:41,990 --> 00:02:43,710
+median's going to make a lot of sense.
+
+56
+00:02:43,710 --> 00:02:47,200
+As it becomes more one sided, or
+lopsided, you might want to go more for
+
+57
+00:02:47,200 --> 00:02:50,340
+a 25th, or a 75th, or a 90th percentile.
+
+58
+00:02:50,340 --> 00:02:53,440
+That's going to also depend a lot
+
+59
+00:02:53,440 --> 00:02:55,740
+on what change it is that
+you actually want to test.
+
+60
+00:02:55,740 --> 00:02:59,210
+Now I think you're going to be going
+over these, some of the simple ones,
+
+61
+00:02:59,210 --> 00:03:01,140
+in much more detail, in the next video.
+
+62
+00:03:01,140 --> 00:03:03,900
+And in the Instructor's Note we
+have a lot more details about
+
+63
+00:03:03,900 --> 00:03:06,700
+some of the other
+distributions that can occur.
+
+64
+00:03:06,700 --> 00:03:07,430
+>> Okay.
+
+65
+00:03:07,430 --> 00:03:10,220
+And do you have any general
+categories of metrics that you
+
+66
+00:03:10,220 --> 00:03:11,460
+like to keep in mind?
+
+67
+00:03:11,460 --> 00:03:14,250
+>> There's four categories
+that I like to keep in mind.
+
+68
+00:03:14,250 --> 00:03:16,200
+The first one are the sums and counts.
+
+69
+00:03:16,200 --> 00:03:19,020
+This is, like,
+how many cookies visit the homepage.
+
+70
+00:03:19,020 --> 00:03:22,820
+The second one is going to be all of
+the distributional metrics: the means,
+
+71
+00:03:22,820 --> 00:03:25,240
+the medians, the 25th,
+the 75th and 90th percentiles.
+
+72
+00:03:26,460 --> 00:03:29,020
+The third category is going to
+be probabilities and rates.
+
+73
+00:03:29,020 --> 00:03:32,250
+We've talked about those a lot
+in these past couple of lessons.
+
+74
+00:03:32,250 --> 00:03:34,300
+And the fourth one is ratios.
+
+75
+00:03:34,300 --> 00:03:38,710
+Ratios are very, very useful, because
+they can compute a whole range of
+
+76
+00:03:38,710 --> 00:03:43,180
+different business models, and various
+different things that you may care
+
+77
+00:03:43,180 --> 00:03:45,810
+about, but they can be very
+difficult to characterize.
+
+78
+00:03:45,810 --> 00:03:46,480
+>> Okay.
+
+79
+00:03:46,480 --> 00:03:49,800
+Let's go over an example before we
+move on to sensitivity and robustness.

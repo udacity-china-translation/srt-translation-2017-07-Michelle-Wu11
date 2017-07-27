@@ -1,0 +1,208 @@
+1
+00:00:00,410 --> 00:00:02,800
+Here are some numbers that
+show the pattern I mentioned.
+
+2
+00:00:02,800 --> 00:00:05,730
+To make the pattern easier to see
+I've added the click-through-rate
+
+3
+00:00:05,730 --> 00:00:07,000
+in parentheses here.
+
+4
+00:00:07,000 --> 00:00:10,230
+By the way, you could also have used the
+same numbers from the Berkeley example
+
+5
+00:00:10,230 --> 00:00:12,030
+and gotten the similar pattern.
+
+6
+00:00:12,030 --> 00:00:13,900
+So you can see that overall
+the click-through-rate
+
+7
+00:00:13,900 --> 00:00:17,230
+is lower in the experiment group
+than in the control group.
+
+8
+00:00:17,230 --> 00:00:20,290
+But, for both new users and
+experienced users,
+
+9
+00:00:20,290 --> 00:00:23,130
+the click-through-rate is
+higher in the experiment group.
+
+10
+00:00:23,130 --> 00:00:26,740
+The new users also have a higher overall
+click-through-rate than the experienced
+
+11
+00:00:26,740 --> 00:00:29,455
+users, which explains why
+the click-through-rate
+
+12
+00:00:29,455 --> 00:00:32,795
+is higher in the control group,
+which had more new users.
+
+13
+00:00:32,795 --> 00:00:36,225
+Now wait a minute, why are there more
+page views from new users in the control
+
+14
+00:00:36,225 --> 00:00:38,425
+group than in the experiment group?
+
+15
+00:00:38,425 --> 00:00:42,245
+If the assignment to the control in
+the experiment group is random, then
+
+16
+00:00:42,245 --> 00:00:45,845
+shouldn't the new users be evenly split
+between the control and experiment?
+
+17
+00:00:45,845 --> 00:00:48,165
+And same for the experienced users.
+
+18
+00:00:48,165 --> 00:00:50,770
+The answer is they probably
+should be evenly split.
+
+19
+00:00:50,770 --> 00:00:54,130
+Earlier, you learned it's a good idea to
+make sure the number of page views is
+
+20
+00:00:54,130 --> 00:00:57,820
+the same in the experiment group and
+the control group as a sanity check.
+
+21
+00:00:57,820 --> 00:01:00,520
+Checking that breakdown across
+different slices could also be a good
+
+22
+00:01:00,520 --> 00:01:01,910
+sanity check.
+
+23
+00:01:01,910 --> 00:01:04,840
+The most likely reason you would see
+a result like this is that something is
+
+24
+00:01:04,840 --> 00:01:06,810
+wrong with your experiment setup.
+
+25
+00:01:06,810 --> 00:01:09,800
+However, it's also possible to
+get skewed numbers like this,
+
+26
+00:01:09,800 --> 00:01:12,570
+even if your setup is correct,
+if your change, or
+
+27
+00:01:12,570 --> 00:01:16,560
+experiment, affects new users and
+experienced users differently.
+
+28
+00:01:16,560 --> 00:01:19,290
+Suppose you're diverting
+based on user ID and
+
+29
+00:01:19,290 --> 00:01:23,170
+the change makes new users generate
+fewer page views, for example, they
+
+30
+00:01:23,170 --> 00:01:28,320
+refresh the page less, and experienced
+users generate more page views.
+
+31
+00:01:28,320 --> 00:01:31,540
+That explains why there are more page
+views in the experiment group for
+
+32
+00:01:31,540 --> 00:01:36,070
+experienced users and more page views
+in the control group for new users.
+
+33
+00:01:36,070 --> 00:01:38,810
+Now when making a recommendation for
+this experiment
+
+34
+00:01:38,810 --> 00:01:42,130
+it might seem tempting to say that
+the experiment was a success.
+
+35
+00:01:42,130 --> 00:01:46,580
+After all, it was an improvement for
+both new users and experienced users.
+
+36
+00:01:46,580 --> 00:01:49,380
+The reason it wasn't an improvement
+overall is because of
+
+37
+00:01:49,380 --> 00:01:52,240
+the fact that the new users and
+experienced users weren't split
+
+38
+00:01:52,240 --> 00:01:55,090
+evenly between the experiment and
+control group.
+
+39
+00:01:55,090 --> 00:01:59,070
+However, you really need to dig deeper
+and figure out why the page views for
+
+40
+00:01:59,070 --> 00:02:03,270
+new and experienced users are not being
+split evenly between the two groups.
+
+41
+00:02:03,270 --> 00:02:05,590
+Whether it's a faulty experiment set up,
+or
+
+42
+00:02:05,590 --> 00:02:09,190
+something where your change affects new
+and experienced users differently, you
+
+43
+00:02:09,190 --> 00:02:13,060
+won't be able to make a valid conclusion
+until you understand what's going on.

@@ -1,0 +1,58 @@
+1
+00:00:00,420 --> 00:00:02,820
+Now, suppose you are designing
+a training program for
+
+2
+00:00:02,820 --> 00:00:05,280
+people who run A/B
+tests at your company.
+
+3
+00:00:05,280 --> 00:00:08,084
+Which of the following is
+it ethically necessary for
+
+4
+00:00:08,084 --> 00:00:10,590
+anyone who runs A/B test to know?
+
+5
+00:00:10,590 --> 00:00:13,410
+Should they know which questions
+to consider when evaluating
+
+6
+00:00:13,410 --> 00:00:15,540
+the ethics of a proposed test?
+
+7
+00:00:15,540 --> 00:00:17,710
+How about the history of A/B testing?
+
+8
+00:00:17,710 --> 00:00:19,750
+Or the history of IRBs.
+
+9
+00:00:19,750 --> 00:00:22,790
+Should you ensure that they
+acknowledge a data policy
+
+10
+00:00:22,790 --> 00:00:26,830
+that details what data uses
+are acceptable during A/B testing?
+
+11
+00:00:26,830 --> 00:00:29,700
+Finally, should you teach them
+the principles to uphold when
+
+12
+00:00:29,700 --> 00:00:31,250
+running A/B tests?
+
+13
+00:00:31,250 --> 00:00:33,290
+Check each that is ethically necessary.

@@ -1,0 +1,118 @@
+1
+00:00:00,420 --> 00:00:04,050
+What changes when you have multiple
+evaluation metrics instead of just one?
+
+2
+00:00:04,050 --> 00:00:07,570
+>> Well one thing that comes up when you
+run evaluations of multiple metrics at
+
+3
+00:00:07,570 --> 00:00:10,350
+the same time,
+is that the more things you test,
+
+4
+00:00:10,350 --> 00:00:14,370
+the more likely you are to see
+significant differences just by chance.
+
+5
+00:00:14,370 --> 00:00:18,656
+So if you're testing 20 metrics, and
+you have a 95% confidence level.
+
+6
+00:00:18,656 --> 00:00:22,752
+You would expect to see one case at
+least that time where you got a result
+
+7
+00:00:22,752 --> 00:00:27,400
+that says it's significant but
+it's only concurring by chance.
+
+8
+00:00:27,400 --> 00:00:32,130
+So this is a problem, but you're not
+sunk because it shouldn't be repeatable.
+
+9
+00:00:32,130 --> 00:00:35,280
+That is if you did the same experiment
+on another day or you divide or
+
+10
+00:00:35,280 --> 00:00:36,310
+just slices or
+
+11
+00:00:36,310 --> 00:00:40,610
+you did some bootstrap analysis, you
+wouldn't see the same metric showing up
+
+12
+00:00:40,610 --> 00:00:44,860
+as significant differences every time,
+it should occur randomly.
+
+13
+00:00:44,860 --> 00:00:45,990
+There's another technique for
+
+14
+00:00:45,990 --> 00:00:50,450
+this called multiple comparisons that
+adjusts your significance level, so
+
+15
+00:00:50,450 --> 00:00:53,990
+that it accounts for how many metrics or
+how many different tests you're doing.
+
+16
+00:00:53,990 --> 00:00:55,534
+>> All right when would I use that?
+
+17
+00:00:55,534 --> 00:00:59,210
+>> One thing a lot of people like to do
+an experiment frameworks is do automatic
+
+18
+00:00:59,210 --> 00:01:01,060
+detection of differences.
+
+19
+00:01:01,060 --> 00:01:04,760
+So if you're doing exploratory data
+analysis you can reanalyze your data and
+
+20
+00:01:04,760 --> 00:01:07,620
+make sure the same metric isn't
+popping up every time and
+
+21
+00:01:07,620 --> 00:01:09,640
+see if the differences are repeatable.
+
+22
+00:01:09,640 --> 00:01:12,890
+But if you want to set up say
+automatic alerting that tells you,
+
+23
+00:01:12,890 --> 00:01:17,120
+one of my metrics was significantly
+different on this experiment.
+
+24
+00:01:17,120 --> 00:01:20,520
+You probably want to use multiple
+comparisons and there's notes for
+
+25
+00:01:20,520 --> 00:01:21,670
+that in the instructor's notes.

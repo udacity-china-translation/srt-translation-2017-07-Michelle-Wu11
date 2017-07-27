@@ -1,0 +1,111 @@
+1
+00:00:00,400 --> 00:00:04,720
+Often in A/B testing, you'll find that a
+metric you want is difficult to measure.
+
+2
+00:00:04,720 --> 00:00:07,990
+This can happen because you
+don't have access to the data or
+
+3
+00:00:07,990 --> 00:00:11,130
+because the metric would simply
+take too long to collect.
+
+4
+00:00:11,130 --> 00:00:12,640
+In the audacity example,
+
+5
+00:00:12,640 --> 00:00:16,120
+the last level of the funnel
+was how many students get jobs.
+
+6
+00:00:16,120 --> 00:00:19,130
+And both of these problems
+apply to this metric.
+
+7
+00:00:19,130 --> 00:00:22,870
+Audacity probably doesn't know when
+one of its students gets a job.
+
+8
+00:00:22,870 --> 00:00:26,670
+And even if it did,
+getting a job can be a long process.
+
+9
+00:00:26,670 --> 00:00:31,000
+So, it might not be possible to use
+this as a metric for most experiments.
+
+10
+00:00:31,000 --> 00:00:33,550
+Now I'm going to go over
+some additional metrics, and
+
+11
+00:00:33,550 --> 00:00:36,530
+I want you to choose which ones you
+think would be hard to measure.
+
+12
+00:00:36,530 --> 00:00:39,510
+First, suppose Audacity
+wanted to measure the rate
+
+13
+00:00:39,510 --> 00:00:41,900
+of students returning to
+take a second course.
+
+14
+00:00:41,900 --> 00:00:45,450
+That is, the number of users who
+complete one class and then start
+
+15
+00:00:45,450 --> 00:00:49,610
+a second divided by the total number of
+users who complete at least one class.
+
+16
+00:00:49,610 --> 00:00:51,840
+Would this be a difficult metric to use?
+
+17
+00:00:51,840 --> 00:00:54,880
+Or what if an online
+shopping site like Amazon
+
+18
+00:00:54,880 --> 00:00:58,620
+wanted to measure the average happiness
+of shoppers who complete a purchase?
+
+19
+00:00:58,620 --> 00:01:01,770
+And finally, suppose a search engine
+like Google wanted to measure
+
+20
+00:01:01,770 --> 00:01:05,190
+the probability that a user finds
+the information they were looking for
+
+21
+00:01:05,190 --> 00:01:06,920
+within their search results.
+
+22
+00:01:06,920 --> 00:01:09,817
+And for each metric check the box,
+if you think this metric would
+
+23
+00:01:09,817 --> 00:01:12,510
+be difficult to measure, for
+either of these two reasons.

@@ -1,0 +1,133 @@
+1
+00:00:00,540 --> 00:00:04,420
+Suppose your company is considering
+collecting or storing the following data
+
+2
+00:00:04,420 --> 00:00:07,510
+either to use in an A/B test or
+for some other purpose.
+
+3
+00:00:07,510 --> 00:00:10,550
+In which cases would the data
+be considered sensitive?
+
+4
+00:00:10,550 --> 00:00:11,760
+In other words,
+
+5
+00:00:11,760 --> 00:00:16,040
+people would be at risk if the data
+were exposed to non-trusted individuals.
+
+6
+00:00:16,040 --> 00:00:20,140
+First, suppose you are considering
+analyzing existing census data.
+
+7
+00:00:20,140 --> 00:00:24,820
+Containing race, age and gender
+distributions broken down by zip code.
+
+8
+00:00:24,820 --> 00:00:27,020
+Is this census data sensitive?
+
+9
+00:00:27,020 --> 00:00:31,640
+Next suppose you're interested in how
+many users visit some specific websites.
+
+10
+00:00:31,640 --> 00:00:33,640
+So you use a source like comScore or
+
+11
+00:00:33,640 --> 00:00:38,680
+HitWise to gather a count of the number
+of users visiting those sites each day.
+
+12
+00:00:38,680 --> 00:00:42,770
+ComScore and Hitwise are products
+providing this kind of online analytics.
+
+13
+00:00:42,770 --> 00:00:45,660
+Or what if you have a mobile app
+that helps diabetics track their
+
+14
+00:00:45,660 --> 00:00:49,140
+glucose levels, and
+you want to store each glucose level and
+
+15
+00:00:49,140 --> 00:00:50,730
+the time it was entered?
+
+16
+00:00:50,730 --> 00:00:53,270
+You don't store the person's
+name with the data, but
+
+17
+00:00:53,270 --> 00:00:56,140
+you want to know which data points
+came from the same person, so
+
+18
+00:00:56,140 --> 00:00:59,090
+you do store an anonymous
+ID with each entry.
+
+19
+00:00:59,090 --> 00:01:03,140
+Next, suppose you have an online game
+and you store things like each time
+
+20
+00:01:03,140 --> 00:01:07,570
+a user gains an achievement, kills
+an enemy, or advances to the next level.
+
+21
+00:01:07,570 --> 00:01:11,290
+Again, you associate this
+information with an anonymous ID.
+
+22
+00:01:11,290 --> 00:01:14,520
+Or suppose you have an online
+shopping company, like Amazon, and
+
+23
+00:01:14,520 --> 00:01:18,272
+you store the number of purchases made
+on your site and the total money spent,
+
+24
+00:01:18,272 --> 00:01:19,980
+broken down by zip code.
+
+25
+00:01:19,980 --> 00:01:23,370
+Finally, suppose again you have
+an online shopping company and
+
+26
+00:01:23,370 --> 00:01:26,340
+you want to store your users' credit
+card information to save it for
+
+27
+00:01:26,340 --> 00:01:27,820
+their next visit.
+
+28
+00:01:27,820 --> 00:01:30,840
+In each case, check the box if
+you think the data is sensitive.

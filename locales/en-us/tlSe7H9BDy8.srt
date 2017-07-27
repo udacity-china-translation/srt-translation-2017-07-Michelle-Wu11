@@ -1,0 +1,206 @@
+1
+00:00:00,420 --> 00:00:02,270
+Okay.
+Now that we've gone over the history of
+
+2
+00:00:02,270 --> 00:00:05,470
+AB testing,
+let's start diving into our example.
+
+3
+00:00:05,470 --> 00:00:06,440
+Throughout this course,
+
+4
+00:00:06,440 --> 00:00:10,610
+we'll use an example of an online
+education company sort of like Udacity.
+
+5
+00:00:10,610 --> 00:00:12,710
+Let's just call it Audacity.
+
+6
+00:00:12,710 --> 00:00:15,900
+Audacity is focused specifically
+on finance courses, and
+
+7
+00:00:15,900 --> 00:00:18,890
+they're trying to test features
+that increase student engagement.
+
+8
+00:00:18,890 --> 00:00:21,520
+First, let's talk about
+what a typical user flow
+
+9
+00:00:21,520 --> 00:00:23,700
+through the Audacity
+site might look like.
+
+10
+00:00:23,700 --> 00:00:27,460
+You would probably see that the largest
+number of users visit the homepage.
+
+11
+00:00:27,460 --> 00:00:30,420
+Then a subset of those users might
+explore the site by looking at a few
+
+12
+00:00:30,420 --> 00:00:31,680
+different pages.
+
+13
+00:00:31,680 --> 00:00:34,310
+An even smaller group
+might create an account.
+
+14
+00:00:34,310 --> 00:00:36,950
+And the final group might
+reach some sort of completion.
+
+15
+00:00:36,950 --> 00:00:41,320
+Maybe they make a purchase, complete
+a class, finish a series of classes, or
+
+16
+00:00:41,320 --> 00:00:43,490
+share the site on their blog,
+for example.
+
+17
+00:00:43,490 --> 00:00:46,635
+This type of flow is often
+called the customer funnel, and
+
+18
+00:00:46,635 --> 00:00:48,590
+it's a common idea for websites.
+
+19
+00:00:48,590 --> 00:00:51,200
+The idea is that you have
+the largest number of events at
+
+20
+00:00:51,200 --> 00:00:54,270
+the top of your funnel, and
+as you go down, it becomes rarer and
+
+21
+00:00:54,270 --> 00:00:56,570
+rarer that someone
+would reach that level.
+
+22
+00:00:56,570 --> 00:00:59,855
+The idea is that users
+are trickling down the funnel, but
+
+23
+00:00:59,855 --> 00:01:02,140
+that's kind of a simplistic idea.
+
+24
+00:01:02,140 --> 00:01:05,700
+Customers don't actually enter,
+create an account, and
+
+25
+00:01:05,700 --> 00:01:08,090
+then complete a class
+in a consistent manner.
+
+26
+00:01:08,090 --> 00:01:11,650
+There's a lot of back and forth swirl
+between the different states, and
+
+27
+00:01:11,650 --> 00:01:14,460
+repeat visitors who skip
+over intermediate steps.
+
+28
+00:01:14,460 --> 00:01:16,700
+We'll be discussing the funnel and
+swirl more and
+
+29
+00:01:16,700 --> 00:01:19,255
+how it ties to metric
+choice in lesson three.
+
+30
+00:01:19,255 --> 00:01:23,140
+For the rest of lesson one, we're going
+to go over a simple experiment from
+
+31
+00:01:23,140 --> 00:01:26,520
+start to finish, so that you can see
+all the steps that are necessary for
+
+32
+00:01:26,520 --> 00:01:28,500
+running an experiment end to end.
+
+33
+00:01:28,500 --> 00:01:29,690
+In future lessons,
+
+34
+00:01:29,690 --> 00:01:32,650
+we'll be going through several
+of the steps in more detail.
+
+35
+00:01:32,650 --> 00:01:36,040
+We'll consider an experimental
+change to Audacity's homepage.
+
+36
+00:01:36,040 --> 00:01:39,460
+Specifically, we'll consider
+a change to the Start Now button.
+
+37
+00:01:39,460 --> 00:01:42,985
+If users click this button, they can
+see a list of Audacity's courses.
+
+38
+00:01:42,985 --> 00:01:45,436
+In this experiment,
+we'll make a simple change,
+
+39
+00:01:45,436 --> 00:01:48,480
+making the Start Now button
+pink instead of orange.
+
+40
+00:01:48,480 --> 00:01:50,150
+So a first pass hypothesis for
+
+41
+00:01:50,150 --> 00:01:54,640
+our simple experiment is that changing
+the Start Now button from orange to pink
+
+42
+00:01:54,640 --> 00:01:57,770
+will increase how many students
+explore Audacity's courses?
+
+43
+00:01:57,770 --> 00:02:00,210
+That is, move on to the second
+step of the funnel.

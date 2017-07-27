@@ -1,0 +1,35 @@
+1
+00:00:00,380 --> 00:00:02,340
+Our baseline conversion rate is 10%.
+
+2
+00:00:02,340 --> 00:00:03,940
+That is 100 divided by 1,000.
+
+3
+00:00:03,940 --> 00:00:08,620
+And the minimum detectable effect,
+or practical significance boundary,
+
+4
+00:00:08,620 --> 00:00:11,540
+we decided was 2%, and
+that's an absolute change.
+
+5
+00:00:11,540 --> 00:00:15,840
+Finally, I'll make sure that 1 minus
+theta is 80 Percent and alpha is 5%.
+
+6
+00:00:15,840 --> 00:00:21,850
+This gives the answer that we'll need
+at least 3623 page views per branch or
+
+7
+00:00:21,850 --> 00:00:23,380
+group of the experiment.
+
+8
+00:00:23,380 --> 00:00:27,210
+So the correct answer is 3623.

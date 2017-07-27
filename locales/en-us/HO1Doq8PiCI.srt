@@ -1,0 +1,365 @@
+1
+00:00:00,440 --> 00:00:03,320
+Okay, and assuming that we're
+doing an inter-user experiment.
+
+2
+00:00:03,320 --> 00:00:05,910
+That is, there are different
+users in the different groups.
+
+3
+00:00:05,910 --> 00:00:08,650
+Is there anything else we need
+to decide about our population?
+
+4
+00:00:08,650 --> 00:00:11,540
+>> Well, you have to decide who
+you're targeting in your users.
+
+5
+00:00:11,540 --> 00:00:15,290
+So, for example, there's some easy
+divisions of your user space.
+
+6
+00:00:15,290 --> 00:00:19,710
+For example, what browser they're on
+what geo location they come from,
+
+7
+00:00:19,710 --> 00:00:22,020
+what country,
+what language they're using.
+
+8
+00:00:22,020 --> 00:00:24,620
+And depending on your website
+you may have more information.
+
+9
+00:00:24,620 --> 00:00:26,320
+If they're logged in with a user ID,
+
+10
+00:00:26,320 --> 00:00:29,620
+you may know how long they've
+been using your website.
+
+11
+00:00:29,620 --> 00:00:32,590
+And then finally you may even have,
+depending on what you're doing,
+
+12
+00:00:32,590 --> 00:00:36,570
+even demographic information, such as
+their age, that you could use to target
+
+13
+00:00:36,570 --> 00:00:40,270
+a very specific population of,
+of your user space.
+
+14
+00:00:40,270 --> 00:00:44,070
+>> Okay and would you typically
+make that decision in advance?
+
+15
+00:00:44,070 --> 00:00:46,870
+>> Well there are a couple of reasons
+why you might make that decision
+
+16
+00:00:46,870 --> 00:00:47,400
+in advance.
+
+17
+00:00:47,400 --> 00:00:50,011
+So you may want to restrict
+who sees your experiment for
+
+18
+00:00:50,011 --> 00:00:51,613
+a variety of different reasons.
+
+19
+00:00:51,613 --> 00:00:55,432
+So for example, if you're running
+a feature and you're not sure if you're
+
+20
+00:00:55,432 --> 00:00:58,295
+going to release it and
+it's a pretty high profile launch,
+
+21
+00:00:58,295 --> 00:01:01,893
+you might want to restrict how many
+of your users have actually seen it.
+
+22
+00:01:01,893 --> 00:01:05,120
+So you don't get any, you know,
+press coverage or blog coverage.
+
+23
+00:01:05,120 --> 00:01:08,570
+You might also not want to go through
+the trouble of testing your feature if
+
+24
+00:01:08,570 --> 00:01:09,980
+you have a new UI.
+
+25
+00:01:09,980 --> 00:01:11,590
+If you want to release
+it internationally,
+
+26
+00:01:11,590 --> 00:01:14,980
+you might have to go through much more
+of a testing process with, you know,
+
+27
+00:01:14,980 --> 00:01:16,260
+is this language right?
+
+28
+00:01:16,260 --> 00:01:20,260
+Is this you know, the way we want to say
+it in Japanese or something like that?
+
+29
+00:01:20,260 --> 00:01:22,400
+So you might want to
+restrict by language.
+
+30
+00:01:22,400 --> 00:01:26,260
+Or even you might not be sure that your
+feature works on old browsers, and
+
+31
+00:01:26,260 --> 00:01:28,700
+you might want to just restrict
+it to say modern browsers.
+
+32
+00:01:28,700 --> 00:01:30,910
+So, there's a variety
+of different reasons.
+
+33
+00:01:30,910 --> 00:01:32,430
+And the last one might be that,
+
+34
+00:01:32,430 --> 00:01:35,270
+if you're running a couple of different
+experiments at your company at
+
+35
+00:01:35,270 --> 00:01:38,020
+the same time,
+you might not want to overlap, right?
+
+36
+00:01:38,020 --> 00:01:41,130
+You might want to have, you know, oh,
+I'm just going to take this section of
+
+37
+00:01:41,130 --> 00:01:45,460
+traffic, and you guys can run that other
+experiment in Korean, and it'll be fine.
+
+38
+00:01:45,460 --> 00:01:46,980
+So, there's a bunch of reasons.
+
+39
+00:01:46,980 --> 00:01:50,845
+And then the last reason is sort of
+more numeric, which is you may not
+
+40
+00:01:50,845 --> 00:01:55,275
+want to dilute the effect of your
+experiment across a global population.
+
+41
+00:01:55,275 --> 00:01:58,865
+So if you're analyzing an experiment for
+the first time, and it only affects
+
+42
+00:01:58,865 --> 00:02:02,975
+English, you may want to actually do
+your analysis specific on English, and
+
+43
+00:02:02,975 --> 00:02:04,955
+be able to ignore the rest
+of the population.
+
+44
+00:02:04,955 --> 00:02:05,955
+>> That makes sense,
+
+45
+00:02:05,955 --> 00:02:09,163
+and would you ever not want to
+target the experiment in advance?
+
+46
+00:02:09,163 --> 00:02:11,785
+>> Well,
+sometimes you can't necessarily ID
+
+47
+00:02:11,785 --> 00:02:13,975
+who a particular feature
+is going to affect.
+
+48
+00:02:13,975 --> 00:02:17,540
+Like if you look for
+all search queries that bring up images.
+
+49
+00:02:17,540 --> 00:02:21,410
+You may not really know exactly
+which space that's going to be.
+
+50
+00:02:21,410 --> 00:02:24,590
+You may also be in a situation
+where you want to test the effect
+
+51
+00:02:24,590 --> 00:02:28,500
+across your global population, because
+you're not sure if it really works.
+
+52
+00:02:28,500 --> 00:02:31,550
+You know, you may not be sure your
+targeting is exact, the way you want.
+
+53
+00:02:32,560 --> 00:02:35,320
+And then finally you may just
+not care that much because it
+
+54
+00:02:35,320 --> 00:02:38,400
+could be a feature that
+effects 90% of your traffic.
+
+55
+00:02:38,400 --> 00:02:41,590
+And it's just not worth the trouble
+to try to target the experiment.
+
+56
+00:02:41,590 --> 00:02:43,020
+>> So what's involved in this?
+
+57
+00:02:43,020 --> 00:02:44,570
+Is this the same as in lesson three,
+
+58
+00:02:44,570 --> 00:02:46,905
+just compute my metrics on
+the segments I care about?
+
+59
+00:02:46,905 --> 00:02:49,958
+>> Well, you probably want to talk
+to your engineering team first, or
+
+60
+00:02:49,958 --> 00:02:51,575
+whoever implemented the feature.
+
+61
+00:02:51,575 --> 00:02:55,276
+So that you can really tell are we sure
+that this is not going to trigger for
+
+62
+00:02:55,276 --> 00:02:57,510
+this particular browser.
+
+63
+00:02:57,510 --> 00:03:00,270
+It's, you know,
+is our targeting exactly right?
+
+64
+00:03:00,270 --> 00:03:03,330
+And are we actually concerned
+about potential interactions so
+
+65
+00:03:03,330 --> 00:03:05,660
+we might want to run
+a global experiment.
+
+66
+00:03:05,660 --> 00:03:08,600
+The second thing is, you know, you
+always want to make sure that you have
+
+67
+00:03:08,600 --> 00:03:12,860
+the same filters on the targeted and
+untargeted parts of your experiment.
+
+68
+00:03:12,860 --> 00:03:15,890
+So you don't want to do
+accidentally include
+
+69
+00:03:15,890 --> 00:03:18,660
+only logged-in users
+on the targeted bit.
+
+70
+00:03:18,660 --> 00:03:21,670
+And then when you go to compare it to
+your global population you realize that
+
+71
+00:03:21,670 --> 00:03:23,300
+there's something completely wrong.
+
+72
+00:03:23,300 --> 00:03:25,720
+So you want to make sure
+that everything's lined up.
+
+73
+00:03:25,720 --> 00:03:27,880
+And finally,
+before you launch a big change,
+
+74
+00:03:27,880 --> 00:03:32,700
+you may actually want to go back and run
+a global experiment and make sure that
+
+75
+00:03:32,700 --> 00:03:36,550
+you don't have any unintentional effects
+on the traffic you weren't targeting.
+
+76
+00:03:36,550 --> 00:03:37,740
+because that can be a real issue.

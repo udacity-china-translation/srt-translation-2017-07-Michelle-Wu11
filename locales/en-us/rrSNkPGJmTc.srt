@@ -1,0 +1,87 @@
+1
+00:00:00,470 --> 00:00:03,150
+Congratulations on
+completing the lesson.
+
+2
+00:00:03,150 --> 00:00:07,070
+You learned about the history of A/B
+testing beyond the use in technology,
+
+3
+00:00:07,070 --> 00:00:10,330
+and when A/B testing is and
+is not useful.
+
+4
+00:00:10,330 --> 00:00:14,090
+We then introduced the business example
+we'll be using throughout the course and
+
+5
+00:00:14,090 --> 00:00:17,530
+used a simple scenario to set
+up an A/B test end to end.
+
+6
+00:00:17,530 --> 00:00:20,440
+In this proposed experiment,
+you learned how to state and
+
+7
+00:00:20,440 --> 00:00:22,920
+evaluate a testable hypothesis.
+
+8
+00:00:22,920 --> 00:00:26,190
+This involves choosing a metric for
+evaluating the change and
+
+9
+00:00:26,190 --> 00:00:30,740
+establishing what change in that metric
+would be practically significant.
+
+10
+00:00:30,740 --> 00:00:32,910
+We discussed the difference
+between practical and
+
+11
+00:00:32,910 --> 00:00:37,230
+statistical significance and how to
+compute a binomial conflict interval.
+
+12
+00:00:37,230 --> 00:00:40,960
+You put all of that together to be
+able to compute the statistical
+
+13
+00:00:40,960 --> 00:00:45,360
+power of an experiment and understand
+the tradeoffs between power and size.
+
+14
+00:00:45,360 --> 00:00:48,080
+Finally, you apply those
+concepts to analyzing the results
+
+15
+00:00:48,080 --> 00:00:50,970
+of an experiment and understanding
+what you can and cannot conclude.
+
+16
+00:00:52,200 --> 00:00:55,290
+In the next lesson,
+we'll go over what you need to keep
+
+17
+00:00:55,290 --> 00:00:58,080
+in mind to protect participants
+in your experiments.
+
+18
+00:00:58,080 --> 00:00:58,590
+See you then.

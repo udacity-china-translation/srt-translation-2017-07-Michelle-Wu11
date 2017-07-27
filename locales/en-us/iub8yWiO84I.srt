@@ -1,0 +1,110 @@
+1
+00:00:00,380 --> 00:00:02,120
+Because we have two samples,
+
+2
+00:00:02,120 --> 00:00:05,840
+we'll need to choose a standard error
+that gives us a good comparison of both.
+
+3
+00:00:05,840 --> 00:00:08,510
+The simplest thing we can do is
+calculate what is a called a pooled
+
+4
+00:00:08,510 --> 00:00:09,790
+standard error.
+
+5
+00:00:09,790 --> 00:00:12,440
+Recall that we'll measure
+the users who click in each group,
+
+6
+00:00:12,440 --> 00:00:16,379
+which we'll call x control and x
+experiment, as well as the total number
+
+7
+00:00:16,379 --> 00:00:20,510
+of users in each group, which we'll
+call n control and n experiment.
+
+8
+00:00:20,510 --> 00:00:23,430
+Now, the first thing we'll calculate
+will be what's called the pooled
+
+9
+00:00:23,430 --> 00:00:25,040
+probability of a click.
+
+10
+00:00:25,040 --> 00:00:28,010
+And I'm using a hat here because
+this is an estimated probability.
+
+11
+00:00:28,010 --> 00:00:31,760
+And the pooled probability is the total
+probability of a click across
+
+12
+00:00:31,760 --> 00:00:33,270
+groups, that is,
+
+13
+00:00:33,270 --> 00:00:37,247
+the total number of users who clicked
+divided by the total number of users.
+
+14
+00:00:37,247 --> 00:00:41,250
+Then we'll calculate the pooled standard
+error, which is given by this formula.
+
+15
+00:00:41,250 --> 00:00:45,160
+Now recall that we're going to estimate
+the difference between p experiment and
+
+16
+00:00:45,160 --> 00:00:48,950
+p control, and I'll call this
+difference d hat for difference.
+
+17
+00:00:48,950 --> 00:00:53,840
+Under the null hypothesis d,
+the true difference is equal to zero.
+
+18
+00:00:53,840 --> 00:00:59,390
+Then we would expect our estimation,
+d hat, to be distributed normally,
+
+19
+00:00:59,390 --> 00:01:03,990
+with a mean of zero and a standard
+deviation of the pooled standard error.
+
+20
+00:01:03,990 --> 00:01:08,250
+If the estimated d is greater than 1.96,
+our z score,
+
+21
+00:01:08,250 --> 00:01:12,220
+times the pooled standard error, or
+less than the negative of this cutoff,
+
+22
+00:01:12,220 --> 00:01:15,220
+then we can reject the null
+hypothesis as unlikely and
+
+23
+00:01:15,220 --> 00:01:18,390
+say that our difference represents
+a statistically significant difference.

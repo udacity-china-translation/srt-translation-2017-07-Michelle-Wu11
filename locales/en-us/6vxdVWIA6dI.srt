@@ -1,0 +1,393 @@
+1
+00:00:00,410 --> 00:00:02,333
+Okay.
+Let's look at the results of some A/A
+
+2
+00:00:02,333 --> 00:00:04,490
+tests on click-through-probability.
+
+3
+00:00:04,490 --> 00:00:06,851
+Since we've already done
+the analytics calculation for
+
+4
+00:00:06,851 --> 00:00:10,370
+click-through-probability, we'll be
+able to compare the empirical results
+
+5
+00:00:10,370 --> 00:00:12,070
+to the analytic results.
+
+6
+00:00:12,070 --> 00:00:16,110
+But you can also use A/A tests in cases
+where you weren't able to do an analytic
+
+7
+00:00:16,110 --> 00:00:17,490
+calculation.
+
+8
+00:00:17,490 --> 00:00:20,210
+Now, there are three main things
+you can do, using A/A testing, and
+
+9
+00:00:20,210 --> 00:00:22,670
+I'm going to go through
+an example of each of them.
+
+10
+00:00:22,670 --> 00:00:26,690
+First, if you already have an analytic
+calculation of your confidence interval,
+
+11
+00:00:26,690 --> 00:00:30,460
+you can check your A/A test results to
+see if you're getting what you expect.
+
+12
+00:00:30,460 --> 00:00:32,340
+This functions as
+a kind of sanity check.
+
+13
+00:00:32,340 --> 00:00:34,540
+If you're getting results
+that are not what you expect,
+
+14
+00:00:34,540 --> 00:00:37,270
+this indicates that something
+is wrong with your calculations.
+
+15
+00:00:37,270 --> 00:00:40,670
+Maybe you made an invalid assumption
+about the distribution of your data.
+
+16
+00:00:40,670 --> 00:00:43,780
+Second, if you are willing to make
+an assumption about the distribution of
+
+17
+00:00:43,780 --> 00:00:47,650
+your metric, but you weren't able to
+estimate the variance analytically,
+
+18
+00:00:47,650 --> 00:00:50,010
+you can estimate the variance
+empirically, and
+
+19
+00:00:50,010 --> 00:00:53,150
+then use your assumption about the
+distribution to calculate the confidence
+
+20
+00:00:53,150 --> 00:00:55,240
+interval the same way we did before.
+
+21
+00:00:55,240 --> 00:00:58,110
+And third, if you don't want to make any
+assumptions about your data, you can
+
+22
+00:00:58,110 --> 00:01:01,910
+directly estimate a confidence interval
+from the results of the A/A tests.
+
+23
+00:01:01,910 --> 00:01:04,280
+Let's start with this first use case.
+
+24
+00:01:04,280 --> 00:01:09,600
+Let's say we run 20 experiments,
+each running on 0.5% of our traffic.
+
+25
+00:01:09,600 --> 00:01:14,630
+Then, we run another 20, each on 1% of
+our traffic and 10 more, each on 5%.
+
+26
+00:01:14,630 --> 00:01:18,810
+All of these are A/A tests, with no
+difference between the two groups.
+
+27
+00:01:18,810 --> 00:01:20,020
+For the sake of simplicity,
+
+28
+00:01:20,020 --> 00:01:24,080
+I'm going to say that each of these 20
+experiments had 50 users in each group.
+
+29
+00:01:24,080 --> 00:01:28,140
+In reality, you might see around 50
+users due to the randomization, but
+
+30
+00:01:28,140 --> 00:01:30,270
+I'm going to say that each
+group had exactly 50,
+
+31
+00:01:30,270 --> 00:01:32,710
+just to make the calculations
+a little easier.
+
+32
+00:01:32,710 --> 00:01:35,960
+Similarly, each of these experiments
+had 100 users per group.
+
+33
+00:01:35,960 --> 00:01:37,480
+And each of these experiments had 500.
+
+34
+00:01:37,480 --> 00:01:41,660
+Now let's say we analyzed each of these
+experiments using the same methods as
+
+35
+00:01:41,660 --> 00:01:42,880
+in lesson one.
+
+36
+00:01:42,880 --> 00:01:46,290
+How many of them would you expect to see
+a statistically significant difference
+
+37
+00:01:46,290 --> 00:01:48,510
+between the two groups at
+the 95% confidence level?
+
+38
+00:01:48,510 --> 00:01:52,280
+Even though there was no
+difference between the two groups,
+
+39
+00:01:52,280 --> 00:01:54,950
+remember that in a 95%
+confidence interval,
+
+40
+00:01:54,950 --> 00:01:59,330
+the true value, in this case zero,
+will only be captured 95% of the time.
+
+41
+00:01:59,330 --> 00:02:02,060
+That means that out of 20 experiments,
+
+42
+00:02:02,060 --> 00:02:05,890
+we expect to see one significant
+difference on average.
+
+43
+00:02:05,890 --> 00:02:09,389
+Of course, for an individual group of
+20 experiments, it wouldn't be that
+
+44
+00:02:09,389 --> 00:02:14,610
+surprising to see zero or two, or some
+other number of significant results.
+
+45
+00:02:14,610 --> 00:02:17,320
+Now, let's say that this Google
+spreadsheet shows the actual results of
+
+46
+00:02:17,320 --> 00:02:18,500
+the experiment.
+
+47
+00:02:18,500 --> 00:02:20,770
+This column shows the
+click-through-probability measured for
+
+48
+00:02:20,770 --> 00:02:24,190
+group one and this column shows
+what was measured for group two.
+
+49
+00:02:24,190 --> 00:02:26,810
+If I scroll down,
+I can also see the results for
+
+50
+00:02:26,810 --> 00:02:30,940
+the 1% experiments here and
+the 5% experiments at the bottom.
+
+51
+00:02:32,300 --> 00:02:35,600
+Now, if I analyze these numbers
+using the methods from lesson one,
+
+52
+00:02:35,600 --> 00:02:39,810
+then I find that one experiment in
+the smallest group is significant and
+
+53
+00:02:39,810 --> 00:02:41,680
+zero in each of the other two.
+
+54
+00:02:41,680 --> 00:02:43,180
+That's not terribly surprising.
+
+55
+00:02:43,180 --> 00:02:46,820
+If I had seen, say, five positives in
+one of the groups, then that would be
+
+56
+00:02:46,820 --> 00:02:49,980
+a sign that something was wrong with
+the set-up of the experiment, or
+
+57
+00:02:49,980 --> 00:02:52,020
+in the assumptions that I made.
+
+58
+00:02:52,020 --> 00:02:54,800
+I'm not going to step through that
+calculation, but there's a sheet linked
+
+59
+00:02:54,800 --> 00:02:58,210
+in the instructor's note that
+has the calculation carried out.
+
+60
+00:02:58,210 --> 00:03:01,650
+Another thing we can check about the A/A
+tests is whether the differences follow
+
+61
+00:03:01,650 --> 00:03:03,750
+the distribution we expect.
+
+62
+00:03:03,750 --> 00:03:07,840
+To do that, I'll insert a third column
+which contains the difference between
+
+63
+00:03:07,840 --> 00:03:09,330
+the two groups for each experiment.
+
+64
+00:03:10,360 --> 00:03:12,030
+One thing to check is
+whether the differences
+
+65
+00:03:12,030 --> 00:03:14,910
+are following a normal
+distribution as we expect.
+
+66
+00:03:14,910 --> 00:03:18,710
+For the smallest experiments, the
+distribution looks fairly normal, but
+
+67
+00:03:18,710 --> 00:03:20,250
+for the other two it doesn't.
+
+68
+00:03:20,250 --> 00:03:23,050
+However, I'd say that this
+is probably due to the fact
+
+69
+00:03:23,050 --> 00:03:25,430
+that we didn't run
+that many experiments.
+
+70
+00:03:25,430 --> 00:03:30,340
+For 20 data points, this could be
+the result of a normal distribution and
+
+71
+00:03:30,340 --> 00:03:32,210
+remember this one had
+only ten data points.
+
+72
+00:03:33,310 --> 00:03:36,440
+Another thing that these plots show
+is that the distribution is getting
+
+73
+00:03:36,440 --> 00:03:39,070
+tighter as the experiment
+size increases.
+
+74
+00:03:39,070 --> 00:03:42,080
+It is hard to see that from the actual
+width of the distributions,
+
+75
+00:03:42,080 --> 00:03:45,350
+since these plots are scaled
+to the range of the values.
+
+76
+00:03:45,350 --> 00:03:48,340
+However, if you look at the actual
+range of values on the x axis,
+
+77
+00:03:48,340 --> 00:03:50,110
+you can see that
+the smallest experiment,
+
+78
+00:03:50,110 --> 00:03:54,992
+the differences ranged from
+negative 0.15, to positive 0.15.
+
+79
+00:03:54,992 --> 00:04:00,579
+While for the medium experiments, the
+range was from negative 0.09 to positive
+
+80
+00:04:00,579 --> 00:04:05,866
+0.09, and for the large, it was
+from negative .03 to positive .03.
+
+81
+00:04:05,866 --> 00:04:09,214
+So these distributions are definitely
+getting tighter as the sample size
+
+82
+00:04:09,214 --> 00:04:11,590
+increases, which is in line
+with what we expected.

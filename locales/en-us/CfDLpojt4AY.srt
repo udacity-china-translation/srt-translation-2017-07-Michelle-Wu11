@@ -1,0 +1,131 @@
+1
+00:00:00,420 --> 00:00:01,690
+If everything goes as planned,
+
+2
+00:00:01,690 --> 00:00:04,510
+this first change won't have
+any user visible changes.
+
+3
+00:00:04,510 --> 00:00:06,400
+So, it wouldn't be risky at all.
+
+4
+00:00:06,400 --> 00:00:07,270
+In practice though,
+
+5
+00:00:07,270 --> 00:00:10,640
+if this kind of change goes wrong,
+the effects could be huge.
+
+6
+00:00:10,640 --> 00:00:13,130
+Your site might go down,
+or not work at all.
+
+7
+00:00:13,130 --> 00:00:16,560
+Of course, you should always be testing
+changes like this, and all changes
+
+8
+00:00:16,560 --> 00:00:20,030
+in the controlled development
+environment before exposing it to users.
+
+9
+00:00:20,030 --> 00:00:23,750
+But, sometimes new bugs appear when
+the change is exposed to real traffic.
+
+10
+00:00:23,750 --> 00:00:26,720
+Because of this, it's often a good
+idea to roll out this kind of
+
+11
+00:00:26,720 --> 00:00:28,770
+a change to a small percentage of users,
+and
+
+12
+00:00:28,770 --> 00:00:32,020
+make sure nothing goes wrong,
+before rolling it out to everyone.
+
+13
+00:00:32,020 --> 00:00:33,720
+The second case is low risk.
+
+14
+00:00:33,720 --> 00:00:36,950
+Changing the color a button is innocent
+enough that even if all your users saw
+
+15
+00:00:36,950 --> 00:00:39,150
+the change, it would probably be fine.
+
+16
+00:00:39,150 --> 00:00:40,240
+But, of course, as always,
+
+17
+00:00:40,240 --> 00:00:43,255
+you should still test the change
+before rolling it out to users.
+
+18
+00:00:43,255 --> 00:00:44,782
+The third case is higher risk,
+
+19
+00:00:44,782 --> 00:00:47,727
+particularly if you end up not
+rolling out the experiment.
+
+20
+00:00:47,727 --> 00:00:50,453
+How are you going to deal with all
+these Facebook logins that you're not
+
+21
+00:00:50,453 --> 00:00:51,535
+supporting?
+
+22
+00:00:51,535 --> 00:00:53,665
+Keeping the affected users
+to a small number, so
+
+23
+00:00:53,665 --> 00:00:57,015
+that you won't have very many of these
+to deal with, would be a good idea.
+
+24
+00:00:57,015 --> 00:01:00,190
+Finally, assuming that you've run
+similar experiments in the past,
+
+25
+00:01:00,190 --> 00:01:04,920
+this last case is low risk also, since
+most users won't notice ranking changes.
+
+26
+00:01:04,920 --> 00:01:07,100
+If this is the first time
+you've tested a ranking change,
+
+27
+00:01:07,100 --> 00:01:10,970
+though, then this might be risky for
+the same reason as the database change.
+
+28
+00:01:10,970 --> 00:01:13,700
+If there's a bug, the courses might
+not appear at all, for example.

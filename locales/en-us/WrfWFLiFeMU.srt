@@ -1,0 +1,223 @@
+1
+00:00:00,390 --> 00:00:03,930
+What do you do when the sign test and
+the hypothesis test don't agree?
+
+2
+00:00:03,930 --> 00:00:08,050
+Or what if you have significant results
+on weekends but not on weekdays?
+
+3
+00:00:08,050 --> 00:00:10,700
+>> Well, the first thing you want to
+do as we talked about is take a really
+
+4
+00:00:10,700 --> 00:00:13,120
+critical look about how
+your feature functions.
+
+5
+00:00:13,120 --> 00:00:16,420
+Is it really operating differently for
+different subgroups for
+
+6
+00:00:16,420 --> 00:00:18,600
+example on a particular platform.
+
+7
+00:00:18,600 --> 00:00:21,340
+But there are real
+statistical reasons that you
+
+8
+00:00:21,340 --> 00:00:23,760
+might get counter-intuitive results.
+
+9
+00:00:23,760 --> 00:00:27,850
+One of them that shows off common lane
+experiments is called Simpson's paradox.
+
+10
+00:00:27,850 --> 00:00:30,990
+What it means is that there's a bunch
+of different subgroups in your data
+
+11
+00:00:30,990 --> 00:00:32,740
+like user populations.
+
+12
+00:00:32,740 --> 00:00:36,320
+And within each subgroup, the results
+are stable but when you aggregate them
+
+13
+00:00:36,320 --> 00:00:40,690
+all together, it's the mix of subgroups
+that actually drives your result.
+
+14
+00:00:40,690 --> 00:00:42,920
+>> That doesn't even sound possible.
+
+15
+00:00:42,920 --> 00:00:44,490
+Can you give me an example?
+
+16
+00:00:44,490 --> 00:00:47,890
+>> So the example that most people
+like was actually a real example about
+
+17
+00:00:47,890 --> 00:00:49,950
+graduate admissions at Berkeley.
+
+18
+00:00:49,950 --> 00:00:52,530
+So what was happening
+is that in aggregate,
+
+19
+00:00:52,530 --> 00:00:55,830
+if you looked at the number of people
+who are accepted divided by the number
+
+20
+00:00:55,830 --> 00:01:00,080
+that applied, the rate of women being
+accepted was statistically significantly
+
+21
+00:01:00,080 --> 00:01:03,770
+lower than men being accepted,
+which seemed bad.
+
+22
+00:01:03,770 --> 00:01:07,190
+But when you looked at it by department,
+there were actually departments where
+
+23
+00:01:07,190 --> 00:01:09,650
+women were accepted at
+a higher rate than men.
+
+24
+00:01:09,650 --> 00:01:11,280
+So how can that be?
+
+25
+00:01:11,280 --> 00:01:14,850
+The answer turned out to be that you had
+to look at it by department, because
+
+26
+00:01:14,850 --> 00:01:21,100
+the acceptance rates by department were
+variable, from 6% to as much as 60%.
+
+27
+00:01:21,100 --> 00:01:24,250
+And what was happening is that more
+women were applying to the smaller
+
+28
+00:01:24,250 --> 00:01:27,050
+departments that had a very
+low acceptance rate.
+
+29
+00:01:27,050 --> 00:01:28,690
+So when you aggregated the numbers,
+
+30
+00:01:28,690 --> 00:01:32,410
+ignoring department,
+you saw women accepted at a lower rate.
+
+31
+00:01:32,410 --> 00:01:35,010
+But if you looked at each
+department individually,
+
+32
+00:01:35,010 --> 00:01:37,630
+the rates were very comparable
+between men and women.
+
+33
+00:01:37,630 --> 00:01:40,855
+>> Okay, and
+how does this apply to our experiment?
+
+34
+00:01:40,855 --> 00:01:44,015
+>> Well, you can get this happening on
+our experiment because you have these
+
+35
+00:01:44,015 --> 00:01:46,590
+subgroups like people who
+use it more on weekdays or
+
+36
+00:01:46,590 --> 00:01:48,720
+people use it more on weekends.
+
+37
+00:01:48,720 --> 00:01:50,450
+And you may find that, for example,
+
+38
+00:01:50,450 --> 00:01:53,870
+new users are correlated with
+weekend use and you know,
+
+39
+00:01:53,870 --> 00:01:57,930
+experienced users who react differently
+are correlated with weekday use.
+
+40
+00:01:57,930 --> 00:02:02,100
+And so what sometimes you find in these
+cases is that what drives the results of
+
+41
+00:02:02,100 --> 00:02:05,850
+your experiment are how many
+people from each group you get.
+
+42
+00:02:05,850 --> 00:02:08,080
+Within each group,
+their behavior is stable,
+
+43
+00:02:08,080 --> 00:02:12,080
+you can get a statistically significant
+result or an insignificant result.
+
+44
+00:02:12,080 --> 00:02:13,912
+But when you add them all together,
+
+45
+00:02:13,912 --> 00:02:17,940
+all the changes in your traffic
+mix are driving the results.
+
+46
+00:02:17,940 --> 00:02:20,850
+In a minute, Caroline's going to take
+you through an example of how that
+
+47
+00:02:20,850 --> 00:02:23,190
+happens when you do
+an experiment analysis.

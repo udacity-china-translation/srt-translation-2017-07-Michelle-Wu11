@@ -1,0 +1,172 @@
+1
+00:00:00,370 --> 00:00:03,070
+Carey, first let's suppose you
+have a single evaluation metric,
+
+2
+00:00:03,070 --> 00:00:04,270
+what do you do then?
+
+3
+00:00:04,270 --> 00:00:07,070
+>> Well, the goal is to make
+a business decision about whether your
+
+4
+00:00:07,070 --> 00:00:10,110
+experiment has favorably
+impacted your metrics.
+
+5
+00:00:10,110 --> 00:00:12,650
+Analytically, that means you
+want to decide if you've observed
+
+6
+00:00:12,650 --> 00:00:16,210
+a statistically significant
+result of your experiment.
+
+7
+00:00:16,210 --> 00:00:19,280
+Now, typically we also want
+to estimate the magnitude and
+
+8
+00:00:19,280 --> 00:00:21,180
+the direction of the change.
+
+9
+00:00:21,180 --> 00:00:24,460
+Then once you have all that information
+you can make a decision about whether
+
+10
+00:00:24,460 --> 00:00:27,710
+you want to recommend that your business
+actually launch this experiment.
+
+11
+00:00:27,710 --> 00:00:29,010
+>> Let's talk about the first piece.
+
+12
+00:00:29,010 --> 00:00:32,020
+How do you decide if the change
+was statistically significant?
+
+13
+00:00:32,020 --> 00:00:34,490
+>> Well we're really just putting
+together all the pieces we've talked
+
+14
+00:00:34,490 --> 00:00:35,138
+about earlier.
+
+15
+00:00:35,138 --> 00:00:36,030
+In Lesson 3,
+
+16
+00:00:36,030 --> 00:00:40,020
+we talked about characterizing the
+metric, understanding how it behaves.
+
+17
+00:00:40,020 --> 00:00:43,660
+And in Lesson 4, we used that
+information about variability
+
+18
+00:00:43,660 --> 00:00:46,550
+to estimate how long we needed
+to run the experiment for and
+
+19
+00:00:46,550 --> 00:00:48,800
+size our experiment appropriately.
+
+20
+00:00:48,800 --> 00:00:51,490
+Now we're going to use the results
+of both of those steps
+
+21
+00:00:51,490 --> 00:00:55,460
+to try to estimate the variability we
+need to analyze the A B experiment as we
+
+22
+00:00:55,460 --> 00:00:57,910
+talked about at way back at
+the beginning of the course.
+
+23
+00:00:57,910 --> 00:01:00,290
+>> And what if our results are not
+statistically significant?
+
+24
+00:01:00,290 --> 00:01:01,610
+What do you do then?
+
+25
+00:01:01,610 --> 00:01:04,569
+>> Well that's a good time to take
+a much longer look at your results,
+
+26
+00:01:04,569 --> 00:01:07,600
+especially if you were expecting
+a really noticeable difference.
+
+27
+00:01:07,600 --> 00:01:10,940
+So for example, you might want to break
+it down into different platforms,
+
+28
+00:01:10,940 --> 00:01:12,420
+different days of the week.
+
+29
+00:01:12,420 --> 00:01:15,950
+This can not only help you find bugs in
+your experiment setup, but it might give
+
+30
+00:01:15,950 --> 00:01:20,210
+you a new hypothesis about how people
+are reacting to the experiment.
+
+31
+00:01:20,210 --> 00:01:22,500
+Now, if this is your first go around,
+
+32
+00:01:22,500 --> 00:01:26,260
+you may also want to try cross checking
+your results with other methods.
+
+33
+00:01:26,260 --> 00:01:26,840
+For example,
+
+34
+00:01:26,840 --> 00:01:30,780
+you could use the non parametric sign
+tests that we talked about earlier.
+
+35
+00:01:30,780 --> 00:01:34,590
+To compare the results to what you got
+from your parametric hypothesis test.
+
+36
+00:01:34,590 --> 00:01:35,540
+>> Sounds good.
+
+37
+00:01:35,540 --> 00:01:36,910
+Now let's go over some examples

@@ -1,0 +1,80 @@
+1
+00:00:00,410 --> 00:00:04,350
+In the first case, you won't be able
+to test this using A/B testing.
+
+2
+00:00:04,350 --> 00:00:06,450
+People buy cars very rarely, so
+
+3
+00:00:06,450 --> 00:00:09,630
+it would take too long to see
+if you get repeat customers.
+
+4
+00:00:09,630 --> 00:00:13,440
+And you don't necessarily even have data
+about whether customers are recommending
+
+5
+00:00:13,440 --> 00:00:14,930
+the site to their friends.
+
+6
+00:00:14,930 --> 00:00:18,270
+The second case seems like it
+would be easy to A/B test, and
+
+7
+00:00:18,270 --> 00:00:22,510
+you certainly could collect data about
+user behavior with the new and old logo.
+
+8
+00:00:22,510 --> 00:00:25,700
+Changing the branding of your company
+can be surprisingly emotional for
+
+9
+00:00:25,700 --> 00:00:27,060
+your users though.
+
+10
+00:00:27,060 --> 00:00:30,390
+They might need some time to get used to
+the new logo, so you wouldn't want to
+
+11
+00:00:30,390 --> 00:00:34,650
+make a decision based on a short time
+window of data collected in an A/B test.
+
+12
+00:00:34,650 --> 00:00:37,870
+The third case is a great
+thing to use A/B testing for.
+
+13
+00:00:37,870 --> 00:00:39,460
+Once again, there is a clear control and
+
+14
+00:00:39,460 --> 00:00:42,450
+experiment, and
+choosing good metrics to evaluate this
+
+15
+00:00:42,450 --> 00:00:45,800
+type of change will be much easier
+than for the first two cases.
+
+16
+00:00:45,800 --> 00:00:48,610
+You'll probably be able to choose
+something like the probability that
+
+17
+00:00:48,610 --> 00:00:50,560
+the user progresses
+past the initial page.

@@ -1,0 +1,44 @@
+1
+00:00:00,300 --> 00:00:04,290
+Okay, we expect clickthrough probability
+to follow a binomial distribution, but
+
+2
+00:00:04,290 --> 00:00:07,860
+how do we actually use this to decide
+which values should surprise us?
+
+3
+00:00:07,860 --> 00:00:11,220
+>> Well, the benefit of knowing that it
+should follow binomial distribution is
+
+4
+00:00:11,220 --> 00:00:15,770
+that we can use the formula we have for
+sample standard error for the binomial
+
+5
+00:00:15,770 --> 00:00:20,730
+to estimate how variable we expect our
+overall probability of a click to be.
+
+6
+00:00:20,730 --> 00:00:23,970
+What that means is that for
+a 95% confidence interval,
+
+7
+00:00:23,970 --> 00:00:28,410
+which is commonly what you hear people
+talk about, if we theoretically repeated
+
+8
+00:00:28,410 --> 00:00:33,300
+the experiment over and over again, we
+would expect the interval we construct
+
+9
+00:00:33,300 --> 00:00:38,060
+around our sample mean to cover the true
+value in the population 95% of the time.

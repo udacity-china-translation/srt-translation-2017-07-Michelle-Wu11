@@ -1,0 +1,128 @@
+1
+00:00:00,480 --> 00:00:02,250
+And for the updated course description,
+
+2
+00:00:02,250 --> 00:00:05,920
+the primary metric I would want to
+track is the probability progressing
+
+3
+00:00:05,920 --> 00:00:10,460
+from the course list page to the course
+overview page for that course.
+
+4
+00:00:10,460 --> 00:00:13,060
+That's metric 3 on our list over here.
+
+5
+00:00:13,060 --> 00:00:16,710
+It would also be good to track
+continued progression down the funnel.
+
+6
+00:00:16,710 --> 00:00:19,840
+If the updated description
+was accidentally misleading,
+
+7
+00:00:19,840 --> 00:00:23,810
+you might see an increased click through
+rate to the course overview page, but
+
+8
+00:00:23,810 --> 00:00:27,480
+then a drop off when students realized
+the course wasn't right for them.
+
+9
+00:00:27,480 --> 00:00:31,330
+So it might be good to track the
+probability of enrolling in the course,
+
+10
+00:00:31,330 --> 00:00:32,580
+and if you have time,
+
+11
+00:00:32,580 --> 00:00:35,490
+maybe even how students
+are progressing through the course.
+
+12
+00:00:35,490 --> 00:00:39,050
+Now by increasing the size of the Start
+Now button, you're making the button
+
+13
+00:00:39,050 --> 00:00:43,340
+more prominent, presumably with the
+intention of making it easier to find.
+
+14
+00:00:43,340 --> 00:00:46,290
+So this is a good time to use
+the click-through-rate of the button,
+
+15
+00:00:46,290 --> 00:00:48,265
+which is metric 1 on our list.
+
+16
+00:00:48,265 --> 00:00:51,360
+Click-through-probability could
+also be a good choice here, but
+
+17
+00:00:51,360 --> 00:00:54,830
+like Diane mentioned in lesson one,
+rates are usually better for
+
+18
+00:00:54,830 --> 00:00:57,180
+assessing how easy it
+is to find a button.
+
+19
+00:00:57,180 --> 00:01:00,950
+For the experiment making the benefits
+of the paid service more clear, the best
+
+20
+00:01:00,950 --> 00:01:04,569
+metric to use is the probability that
+the enrolled students start paying for
+
+21
+00:01:04,569 --> 00:01:06,980
+coaching, or metric 5.
+
+22
+00:01:06,980 --> 00:01:09,650
+It would also be good to measure
+the user retention over various
+
+23
+00:01:09,650 --> 00:01:10,430
+time periods.
+
+24
+00:01:10,430 --> 00:01:13,850
+That is, how long do the students
+continue paying for coaching?
+
+25
+00:01:13,850 --> 00:01:16,180
+Or you might also look
+at some usage metrics.
+
+26
+00:01:16,180 --> 00:01:19,110
+That is, among the students
+who are using the coaching,
+
+27
+00:01:19,110 --> 00:01:22,390
+do they use the coaching more, now that
+it's more clear what the coaches can do?

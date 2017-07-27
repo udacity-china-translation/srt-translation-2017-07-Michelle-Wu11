@@ -1,0 +1,395 @@
+1
+00:00:00,440 --> 00:00:03,690
+Let's expand on this list of steps
+that makes up our current funnel.
+
+2
+00:00:03,690 --> 00:00:06,660
+First, we could break up
+the step exploring the site.
+
+3
+00:00:06,660 --> 00:00:09,810
+Exploring the site could mean that
+the student viewed a page listing
+
+4
+00:00:09,810 --> 00:00:11,840
+all the classes that Audacity offers.
+
+5
+00:00:11,840 --> 00:00:13,510
+Or, it could mean that, from that list,
+
+6
+00:00:13,510 --> 00:00:17,050
+the student clicked on an individual
+course to view more details about it.
+
+7
+00:00:17,050 --> 00:00:20,240
+Next, there are a lot of steps
+between creating an account and
+
+8
+00:00:20,240 --> 00:00:21,570
+completing a class.
+
+9
+00:00:21,570 --> 00:00:24,660
+First you could look at how many
+students start taking a class or
+
+10
+00:00:24,660 --> 00:00:26,120
+enroll in that class.
+
+11
+00:00:26,120 --> 00:00:27,870
+And since classes have several lessons,
+
+12
+00:00:27,870 --> 00:00:30,440
+you could keep track of
+progress through the class.
+
+13
+00:00:30,440 --> 00:00:34,130
+How many users finish lesson one,
+lesson two, et cetera.
+
+14
+00:00:34,130 --> 00:00:36,190
+Audacity also provides coaching, so
+
+15
+00:00:36,190 --> 00:00:38,750
+during the lessons students can ask for
+help.
+
+16
+00:00:38,750 --> 00:00:40,290
+This is a paid service, so
+
+17
+00:00:40,290 --> 00:00:43,590
+this is also how the business
+becomes financially sustainable.
+
+18
+00:00:43,590 --> 00:00:46,520
+There are different levels of coaching
+based on how much help the student
+
+19
+00:00:46,520 --> 00:00:50,550
+needs, so you could also track
+how many students use each level.
+
+20
+00:00:50,550 --> 00:00:52,390
+After a student completes a course,
+
+21
+00:00:52,390 --> 00:00:56,100
+you could go on to track whether that
+student enrolls in a second course.
+
+22
+00:00:56,100 --> 00:00:59,240
+And ultimately you want to know how
+many students get jobs with the help of
+
+23
+00:00:59,240 --> 00:01:02,320
+Audacity classes,
+although this could be hard to measure.
+
+24
+00:01:02,320 --> 00:01:04,235
+Once we've made a list
+of potential steps,
+
+25
+00:01:04,235 --> 00:01:07,950
+we can pick the most important ones,
+and use them to define a funnel.
+
+26
+00:01:07,950 --> 00:01:11,289
+In this case I've chosen the number
+of visits to the homepage,
+
+27
+00:01:11,289 --> 00:01:15,511
+the number of visits to the course list,
+the number of visits to each individual
+
+28
+00:01:15,511 --> 00:01:18,047
+course page,
+the number of accounts created.
+
+29
+00:01:18,047 --> 00:01:20,164
+The number of enrollments and courses,
+
+30
+00:01:20,164 --> 00:01:22,405
+the number of students
+who used coaching,
+
+31
+00:01:22,405 --> 00:01:26,390
+the number of students who complete
+a course, and the number of students who
+
+32
+00:01:26,390 --> 00:01:30,390
+go on to get a job as the steps that
+will make up our primary funnel.
+
+33
+00:01:30,390 --> 00:01:33,160
+The reason this is called a funnel
+is that typically you have fewer and
+
+34
+00:01:33,160 --> 00:01:35,920
+fewer users that get to
+each stage of the funnel.
+
+35
+00:01:35,920 --> 00:01:38,430
+If you look at the actual timeline for
+a particular user,
+
+36
+00:01:38,430 --> 00:01:39,750
+though, it's more like a swirl.
+
+37
+00:01:39,750 --> 00:01:41,620
+For example,
+
+38
+00:01:41,620 --> 00:01:46,450
+in this funnel, users might complete
+courses without accessing coaching.
+
+39
+00:01:46,450 --> 00:01:48,930
+And students who haven't
+completed a course yet,
+
+40
+00:01:48,930 --> 00:01:51,170
+might return to enroll in a new course.
+
+41
+00:01:51,170 --> 00:01:54,240
+It's also important to consider how
+this funnel would look across different
+
+42
+00:01:54,240 --> 00:01:55,360
+platforms.
+
+43
+00:01:55,360 --> 00:01:58,310
+Sometimes iPhone and Android apps
+have a slightly different flow
+
+44
+00:01:58,310 --> 00:02:01,160
+both from each other and
+from your desktop site.
+
+45
+00:02:01,160 --> 00:02:05,350
+Although, in this case, these stages
+should be supported on all platforms.
+
+46
+00:02:05,350 --> 00:02:08,419
+You also need to be able to track
+progress through the funnel across
+
+47
+00:02:08,419 --> 00:02:09,410
+platforms.
+
+48
+00:02:09,410 --> 00:02:12,770
+For example, you might see that people
+start the class on their phone,
+
+49
+00:02:12,770 --> 00:02:14,880
+then continue it on their laptop.
+
+50
+00:02:14,880 --> 00:02:17,810
+Each stage in the funnel right now
+is a metric that you could use for
+
+51
+00:02:17,810 --> 00:02:21,680
+an experiment, the number of users
+who reach that point in the funnel.
+
+52
+00:02:21,680 --> 00:02:23,910
+This type of metric is called a count.
+
+53
+00:02:23,910 --> 00:02:26,770
+However, sometimes instead of a count,
+you'll want to use a rate or
+
+54
+00:02:26,770 --> 00:02:29,170
+a probability like you
+saw in lesson one.
+
+55
+00:02:29,170 --> 00:02:32,820
+Often, you'll want to keep the counts
+at a few key points in the funnel.
+
+56
+00:02:32,820 --> 00:02:35,850
+For example, the number of people
+who visit the homepage and
+
+57
+00:02:35,850 --> 00:02:38,300
+the number of people
+who enroll in courses.
+
+58
+00:02:38,300 --> 00:02:39,990
+For other points in the funnel,
+
+59
+00:02:39,990 --> 00:02:43,500
+you might want to switch to
+a rate by dividing the number of
+
+60
+00:02:43,500 --> 00:02:47,070
+users at that level of the funnel by
+the number at the previous level.
+
+61
+00:02:47,070 --> 00:02:49,960
+For example,
+instead of measuring the number of users
+
+62
+00:02:49,960 --> 00:02:53,730
+who visit the course list, you might
+measure the rate at which people
+
+63
+00:02:53,730 --> 00:02:57,100
+progress from viewing the overview
+page to the list of courses.
+
+64
+00:02:57,100 --> 00:02:59,730
+Since people move between these
+two levels of the funnel using
+
+65
+00:02:59,730 --> 00:03:02,540
+the Start Now button,
+this is the same as the click-through
+
+66
+00:03:02,540 --> 00:03:05,550
+rate of the Start Now button
+that we discussed in lesson one.
+
+67
+00:03:05,550 --> 00:03:09,440
+The reason to use a rate is because you
+want to first figure out how many people
+
+68
+00:03:09,440 --> 00:03:10,560
+enter the funnel.
+
+69
+00:03:10,560 --> 00:03:14,010
+And then increase the rate at which
+people progress down the funnel.
+
+70
+00:03:14,010 --> 00:03:17,550
+For each rate in the funnel, you might
+also care about the probability that
+
+71
+00:03:17,550 --> 00:03:20,490
+a unique user progresses
+down the funnel.
+
+72
+00:03:20,490 --> 00:03:23,750
+For viewing the list of courses,
+you probably care about how
+
+73
+00:03:23,750 --> 00:03:27,890
+easy it is to do this from the Course
+Overview page, which is all right.
+
+74
+00:03:27,890 --> 00:03:30,570
+But you probably also care
+about whether a student reached
+
+75
+00:03:30,570 --> 00:03:33,100
+the course list at all,
+which is a binary probability.
+
+76
+00:03:34,610 --> 00:03:38,960
+Now for all of these metrics, they're
+not yet metrics you could actually use.
+
+77
+00:03:38,960 --> 00:03:41,010
+We start with these high level concepts.
+
+78
+00:03:41,010 --> 00:03:43,790
+What business objective you're
+tracking through the funnel,
+
+79
+00:03:43,790 --> 00:03:48,100
+whether you care about the absolute
+number or the count, the usability, or
+
+80
+00:03:48,100 --> 00:03:51,160
+the rate, or the progression,
+the probability.
+
+81
+00:03:51,160 --> 00:03:54,450
+But, we still have to transform
+these into full definitions.
+
+82
+00:03:54,450 --> 00:03:57,430
+Before we tackle that though,
+we're first going to go into some
+
+83
+00:03:57,430 --> 00:04:00,420
+other techniques for coming up with
+these high level concept metrics.

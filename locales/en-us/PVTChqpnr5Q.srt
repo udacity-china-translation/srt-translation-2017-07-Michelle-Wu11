@@ -1,0 +1,165 @@
+1
+00:00:00,370 --> 00:00:02,400
+The shuffled cards are not independent.
+
+2
+00:00:02,400 --> 00:00:06,330
+Since each card appears in the deck
+exactly once, as you draw each card,
+
+3
+00:00:06,330 --> 00:00:08,570
+it gives you information
+about the next card.
+
+4
+00:00:08,570 --> 00:00:09,930
+If the first card is black,
+
+5
+00:00:09,930 --> 00:00:13,410
+the second is slightly less
+likely to be black, and so on.
+
+6
+00:00:13,410 --> 00:00:16,300
+If your deck were infinitely large,
+that wouldn't be a problem, but
+
+7
+00:00:16,300 --> 00:00:19,410
+drawing 20 out of 52 cards
+is a pretty big fraction.
+
+8
+00:00:19,410 --> 00:00:21,130
+The die rolls are independent.
+
+9
+00:00:21,130 --> 00:00:24,640
+The probability of success is
+one-sixth rather than one-half, but
+
+10
+00:00:24,640 --> 00:00:26,800
+the probability doesn't
+have to be a half for
+
+11
+00:00:26,800 --> 00:00:28,880
+the binomial distribution to apply.
+
+12
+00:00:28,880 --> 00:00:30,870
+The events just need to be independent.
+
+13
+00:00:30,870 --> 00:00:31,640
+And in this case,
+
+14
+00:00:31,640 --> 00:00:34,800
+each die roll doesn't affect
+the outcome of the other die rolls.
+
+15
+00:00:34,800 --> 00:00:37,440
+The search engine case
+is not independent.
+
+16
+00:00:37,440 --> 00:00:40,640
+Often, if someone doesn't find what
+they want the first time they search,
+
+17
+00:00:40,640 --> 00:00:43,280
+they'll immediately search again
+with slightly different words.
+
+18
+00:00:43,280 --> 00:00:45,940
+Those are two separate events,
+but they're not independent.
+
+19
+00:00:45,940 --> 00:00:48,615
+You would expect the results
+to be related in some way, but
+
+20
+00:00:48,615 --> 00:00:51,517
+you can't necessarily tell that
+they came from the same user.
+
+21
+00:00:51,517 --> 00:00:54,694
+The education case is probably
+not exactly independent, but
+
+22
+00:00:54,694 --> 00:00:56,210
+it's a lot closer.
+
+23
+00:00:56,210 --> 00:01:00,110
+Each student corresponds to only
+one event, not multiple events, and
+
+24
+00:01:00,110 --> 00:01:02,740
+Udacity students are spread
+out all over the world.
+
+25
+00:01:02,740 --> 00:01:06,140
+You wouldn't expect two different
+students to be terribly related.
+
+26
+00:01:06,140 --> 00:01:07,660
+Of course, there are exceptions.
+
+27
+00:01:07,660 --> 00:01:10,710
+Maybe some students create two accounts,
+in which case,
+
+28
+00:01:10,710 --> 00:01:12,870
+we wouldn't know that it's
+two different students.
+
+29
+00:01:12,870 --> 00:01:16,040
+Or maybe some take courses with
+their friends, in which case,
+
+30
+00:01:16,040 --> 00:01:18,780
+whether they complete would be
+correlated, but in practice,
+
+31
+00:01:18,780 --> 00:01:22,570
+it would probably be reasonable to
+assume a binomial distribution here.
+
+32
+00:01:22,570 --> 00:01:25,060
+The shopping cart case
+is also not independent.
+
+33
+00:01:25,060 --> 00:01:28,020
+For example, one person could
+add several items to their cart,
+
+34
+00:01:28,020 --> 00:01:29,460
+then purchase all of them.
+
+35
+00:01:29,460 --> 00:01:31,840
+The outcome for these different
+events was highly related.

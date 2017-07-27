@@ -1,0 +1,217 @@
+1
+00:00:00,430 --> 00:00:03,430
+Now that you've seen how to take a first
+pass at choosing high-level metrics,
+
+2
+00:00:03,430 --> 00:00:05,020
+it's time to get some practice.
+
+3
+00:00:05,020 --> 00:00:08,480
+I'm going to describe some of the
+experiments Audacity is considering, and
+
+4
+00:00:08,480 --> 00:00:11,630
+for each one, I want you to choose
+the metric you think would make the best
+
+5
+00:00:11,630 --> 00:00:14,460
+primary metric to
+evaluate that experiment.
+
+6
+00:00:14,460 --> 00:00:18,240
+The first experiment that Audacity
+runs changes the course list page.
+
+7
+00:00:18,240 --> 00:00:20,682
+Each course has a short
+description on this page, and
+
+8
+00:00:20,682 --> 00:00:24,030
+Audacity tests updating
+one of these descriptions.
+
+9
+00:00:24,030 --> 00:00:26,960
+The second experiment is to increase
+the size of the Start Now button
+
+10
+00:00:26,960 --> 00:00:28,900
+on Audacity's homepage.
+
+11
+00:00:28,900 --> 00:00:32,130
+And the third experiment is to add
+additional text to the site, explaining
+
+12
+00:00:32,130 --> 00:00:36,280
+what the coaches do, and what other
+benefits come with the paid service.
+
+13
+00:00:36,280 --> 00:00:37,700
+Now, for each of these experiments,
+
+14
+00:00:37,700 --> 00:00:40,360
+I'm going to give you some
+metrics to choose form.
+
+15
+00:00:40,360 --> 00:00:42,787
+Your first choice is
+the click-through-rate on the Start Now
+
+16
+00:00:42,787 --> 00:00:43,774
+button on the homepage.
+
+17
+00:00:43,774 --> 00:00:47,830
+Since the Start Now button is the only
+way of progressing from the homepage to
+
+18
+00:00:47,830 --> 00:00:52,770
+the course list, this metric is also
+the rate at which users progress from
+
+19
+00:00:52,770 --> 00:00:56,920
+the top level of our funnel we talked
+about previously, to the second level.
+
+20
+00:00:56,920 --> 00:00:59,540
+The second metric you can choose
+is the click-through-probability
+
+21
+00:00:59,540 --> 00:01:00,930
+of the Start Now button.
+
+22
+00:01:00,930 --> 00:01:05,310
+That is, the probability of progressing
+from the homepage to the course list.
+
+23
+00:01:05,310 --> 00:01:08,910
+The third metric you can choose is the
+probability that a student progresses
+
+24
+00:01:08,910 --> 00:01:11,980
+from the course list to
+a specific course page.
+
+25
+00:01:11,980 --> 00:01:14,930
+That's related to the probability
+that a user progresses from
+
+26
+00:01:14,930 --> 00:01:17,330
+the second to the third
+level of our funnel.
+
+27
+00:01:17,330 --> 00:01:21,160
+But note that it's not quite the same
+because this third level is the visit to
+
+28
+00:01:21,160 --> 00:01:24,130
+any course page, and
+depending on the experiment,
+
+29
+00:01:24,130 --> 00:01:27,730
+you might want to choose this
+to be a specific course page.
+
+30
+00:01:27,730 --> 00:01:30,680
+The fourth metric you can choose is
+the probability of progressing from
+
+31
+00:01:30,680 --> 00:01:33,960
+a specific course to
+enrolling in that course.
+
+32
+00:01:33,960 --> 00:01:37,940
+Again, this is related to, but not the
+same as, the probability of progressing
+
+33
+00:01:37,940 --> 00:01:41,210
+from this level of the funnel to this
+level, since you might want to compute
+
+34
+00:01:41,210 --> 00:01:44,140
+this metric for a specific course,
+rather than across all courses.
+
+35
+00:01:44,140 --> 00:01:48,180
+And the fifth metric you can
+track is the probability that
+
+36
+00:01:48,180 --> 00:01:53,600
+an enrolled student starts using or
+paying for coaching, the paid service.
+
+37
+00:01:53,600 --> 00:01:56,200
+Now, like Diane and Carrie mentioned,
+for most experiments,
+
+38
+00:01:56,200 --> 00:01:58,840
+you'll actually want to
+track more than one metric.
+
+39
+00:01:58,840 --> 00:01:59,690
+For this quiz,
+
+40
+00:01:59,690 --> 00:02:03,500
+choose one of these metrics for each
+experiment as the primary metric for
+
+41
+00:02:03,500 --> 00:02:07,265
+that experiment, and write the number
+of your your choice in these boxes.
+
+42
+00:02:08,495 --> 00:02:10,145
+Please also discuss on the forums,
+
+43
+00:02:10,145 --> 00:02:13,575
+what additional metrics you would
+want to track for each experiment.
+
+44
+00:02:13,575 --> 00:02:16,475
+You might want to track more than
+one metric from the list, or
+
+45
+00:02:16,475 --> 00:02:18,835
+you might think of other metrics
+you're interested in tracking.

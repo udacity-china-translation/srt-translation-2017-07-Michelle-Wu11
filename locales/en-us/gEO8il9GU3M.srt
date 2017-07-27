@@ -1,0 +1,305 @@
+1
+00:00:00,138 --> 00:00:03,378
+>> We've just seen some examples of
+metrics that are difficult to measure
+
+2
+00:00:03,378 --> 00:00:04,786
+directly or even impossible.
+
+3
+00:00:04,786 --> 00:00:07,371
+You said, there are some other
+techniques we can use here, right?
+
+4
+00:00:07,371 --> 00:00:09,568
+>> Right.
+And these techniques are actually useful
+
+5
+00:00:09,568 --> 00:00:11,805
+for generating new ideas for
+metrics, as well.
+
+6
+00:00:11,805 --> 00:00:13,073
+And so they're useful for
+
+7
+00:00:13,073 --> 00:00:16,586
+both the new ideas, as well as digging
+deeper into a user experience than
+
+8
+00:00:16,586 --> 00:00:19,137
+what your existing metrics
+might be able to get you.
+
+9
+00:00:19,137 --> 00:00:20,813
+>> Great.
+So what are these techniques?
+
+10
+00:00:20,813 --> 00:00:21,908
+>> There's a lot of techniques.
+
+11
+00:00:21,908 --> 00:00:26,852
+This ranges from surveys to
+retrospective analyses, to focus groups.
+
+12
+00:00:26,852 --> 00:00:30,310
+These techniques can be used for
+both brainstorming new metrics,
+
+13
+00:00:30,310 --> 00:00:32,479
+as well as validating possible metrics.
+
+14
+00:00:32,479 --> 00:00:36,512
+Now we briefly mentioned several of
+these techniques back in lesson one,
+
+15
+00:00:36,512 --> 00:00:40,610
+but here we're going to be focusing on
+how to use these techniques to generate
+
+16
+00:00:40,610 --> 00:00:41,924
+ideas for new metrics.
+
+17
+00:00:41,924 --> 00:00:45,768
+Now we're only going to discuss them
+very briefly, there are details for
+
+18
+00:00:45,768 --> 00:00:49,035
+all of what we're going to be
+talking about in a PDF linked off of
+
+19
+00:00:49,035 --> 00:00:50,525
+the Instructor's Notes.
+
+20
+00:00:50,525 --> 00:00:52,983
+>> So
+let's talk first about external data.
+
+21
+00:00:52,983 --> 00:00:57,064
+So when you're looking for external data
+that's going to help you to define and
+
+22
+00:00:57,064 --> 00:01:01,145
+validate metrics, the first thing that
+you can come across is companies that
+
+23
+00:01:01,145 --> 00:01:05,603
+actually collect fairly granular data of
+that market share vertical such as how
+
+24
+00:01:05,603 --> 00:01:10,028
+many people are interested in the travel
+industry and even for specific websites.
+
+25
+00:01:10,028 --> 00:01:12,628
+They may have visitor data
+that the put together.
+
+26
+00:01:12,628 --> 00:01:15,511
+So these are companies that just,
+comScore, Nielsen,
+
+27
+00:01:15,511 --> 00:01:18,643
+there's a few others and
+they all use different techniques.
+
+28
+00:01:18,643 --> 00:01:22,531
+So the second type of company that'll
+also have data you might find useful
+
+29
+00:01:22,531 --> 00:01:24,925
+are those that actually
+run surveys of user.
+
+30
+00:01:24,925 --> 00:01:28,041
+So these would be companies,
+such a Pew or Forrester,
+
+31
+00:01:28,041 --> 00:01:30,770
+they may ask users how
+many devices do you have?
+
+32
+00:01:30,770 --> 00:01:33,485
+How much time do you spend
+on them in a given day?
+
+33
+00:01:33,485 --> 00:01:35,673
+So depending on what you're looking for,
+
+34
+00:01:35,673 --> 00:01:39,378
+you may be able to either get these
+types of data from a source your company
+
+35
+00:01:39,378 --> 00:01:42,599
+already has that they may have
+marketing or for other reasons or
+
+36
+00:01:42,599 --> 00:01:45,728
+sometimes you can even get
+the results published on the web.
+
+37
+00:01:45,728 --> 00:01:48,402
+The third category is what
+I'll call academic research,
+
+38
+00:01:48,402 --> 00:01:50,265
+although it's a bit broader than that.
+
+39
+00:01:50,265 --> 00:01:53,608
+And these are papers that actually
+try to establish metrics.
+
+40
+00:01:53,608 --> 00:01:55,818
+They may run correlation studies.
+
+41
+00:01:55,818 --> 00:01:58,367
+They may have very similar results to,
+you know,
+
+42
+00:01:58,367 --> 00:02:00,375
+how much attention people are paying.
+
+43
+00:02:00,375 --> 00:02:04,166
+So something like eye tracking where you
+may actually be able to find a study
+
+44
+00:02:04,166 --> 00:02:07,654
+where they had a bunch of people in
+a lab and they look at how people read
+
+45
+00:02:07,654 --> 00:02:11,504
+a page and they actually collect, you
+know, how much reading are they doing
+
+46
+00:02:11,504 --> 00:02:14,031
+versus how much time do
+their eyes spend on the page
+
+47
+00:02:14,031 --> 00:02:17,973
+versus how long did it take them to
+actually click-through to the next page.
+
+48
+00:02:17,973 --> 00:02:20,488
+So you may be able to
+find data you need or
+
+49
+00:02:20,488 --> 00:02:23,553
+you may be able to find
+something very similar.
+
+50
+00:02:23,553 --> 00:02:26,450
+So normally, you can use these
+in multiple ways as Diane said.
+
+51
+00:02:26,450 --> 00:02:29,505
+First of all, they're great for
+brainstorming.
+
+52
+00:02:29,505 --> 00:02:31,968
+They help you think of new metric ideas.
+
+53
+00:02:31,968 --> 00:02:35,577
+The second is they're good for
+validating metrics, where you can
+
+54
+00:02:35,577 --> 00:02:39,842
+actually say, you know, on my site, I
+think I get this many visitors per day.
+
+55
+00:02:39,842 --> 00:02:41,662
+But when I look at my whole industry,
+
+56
+00:02:41,662 --> 00:02:44,435
+it looks completely out of
+whack with what I'm seeing.
+
+57
+00:02:44,435 --> 00:02:48,322
+So these can help you establish
+that your own tracking for users or
+
+58
+00:02:48,322 --> 00:02:51,865
+other sort of aggregate metrics is,
+is actually working.
+
+59
+00:02:51,865 --> 00:02:55,257
+And then the third thing is they can
+actually help you develop validation
+
+60
+00:02:55,257 --> 00:02:55,932
+techniques.
+
+61
+00:02:55,932 --> 00:02:59,180
+So, if you see that study about eye
+tracking you can look at how they
+
+62
+00:02:59,180 --> 00:03:02,544
+analyze their data and maybe you have
+other data that you could use and
+
+63
+00:03:02,544 --> 00:03:05,575
+you could analyze it in the same
+way to validate your metrics.
+
+64
+00:03:05,575 --> 00:03:07,270
+So they've a lot of different uses.

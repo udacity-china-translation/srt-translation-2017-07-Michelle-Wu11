@@ -1,0 +1,120 @@
+1
+00:00:00,430 --> 00:00:02,620
+Now, consider the following
+hypothetical AB tests.
+
+2
+00:00:03,670 --> 00:00:07,227
+If you where planning to run each of
+these tests, which cases are the most
+
+3
+00:00:07,227 --> 00:00:10,446
+ethically concerning according
+to the criteria just outlined?
+
+4
+00:00:10,446 --> 00:00:14,907
+In each case, check the box if you would
+seek further review or possibly obtain
+
+5
+00:00:14,907 --> 00:00:18,865
+user consent, rather than moving
+forward without further review.
+
+6
+00:00:18,865 --> 00:00:19,720
+And first,
+
+7
+00:00:19,720 --> 00:00:23,420
+suppose you want a news website with
+articles that give financial advice
+
+8
+00:00:23,420 --> 00:00:27,000
+such as whether to invest in index
+funds or pick individual stocks.
+
+9
+00:00:27,000 --> 00:00:29,030
+You want users to take a survey and
+
+10
+00:00:29,030 --> 00:00:32,540
+answer which of five broad
+ranges includes their net worth.
+
+11
+00:00:32,540 --> 00:00:36,310
+You want to test various methods of
+getting users to take the survey.
+
+12
+00:00:36,310 --> 00:00:39,830
+One method is an option to take
+the survey at the bottom of the article.
+
+13
+00:00:39,830 --> 00:00:43,340
+And another is to prompt the user to
+take the survey after reading the first
+
+14
+00:00:43,340 --> 00:00:47,650
+page, and not allow them to continue to
+the second page until they've responded.
+
+15
+00:00:47,650 --> 00:00:51,240
+Would you seek out further review or
+move forward with this experiment?
+
+16
+00:00:51,240 --> 00:00:54,360
+Next, suppose you work at
+a company that delivers meals and
+
+17
+00:00:54,360 --> 00:00:56,980
+you want to test different
+layouts of the menu to see
+
+18
+00:00:56,980 --> 00:01:00,120
+if users order food more often
+with particular layouts.
+
+19
+00:01:00,120 --> 00:01:02,300
+Would you seek out review in this case?
+
+20
+00:01:02,300 --> 00:01:05,940
+Finally, suppose your company builds
+devices that measure heart rate and
+
+21
+00:01:05,940 --> 00:01:09,750
+an app that allows users to track their
+heart rate during various activities.
+
+22
+00:01:09,750 --> 00:01:12,650
+You want to test whether different
+ways of presenting the heart rate
+
+23
+00:01:12,650 --> 00:01:15,740
+data leads users to increase
+how much they exercise.
+
+24
+00:01:15,740 --> 00:01:18,950
+Again, check the box if you would
+seek further ethical review of
+
+25
+00:01:18,950 --> 00:01:19,680
+this experiment.

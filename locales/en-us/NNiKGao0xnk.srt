@@ -1,0 +1,232 @@
+1
+00:00:00,151 --> 00:00:02,911
+>> So when did people first
+start to use A/B testing?
+
+2
+00:00:02,911 --> 00:00:06,447
+>> A/B testing has been around
+a long time, maybe we didn't call it
+
+3
+00:00:06,447 --> 00:00:10,242
+A/B testing, but it typically came
+from field such as agriculture,
+
+4
+00:00:10,242 --> 00:00:13,845
+where people would actually divide
+up their land into sections and
+
+5
+00:00:13,845 --> 00:00:17,610
+then test what would work better for
+a particular crop or how it grew.
+
+6
+00:00:17,610 --> 00:00:20,654
+And so there have been a lot of
+different fields that use what's
+
+7
+00:00:20,654 --> 00:00:22,731
+effectively A/B testing for a long time.
+
+8
+00:00:22,731 --> 00:00:24,515
+>> In the sciences more generally,
+
+9
+00:00:24,515 --> 00:00:28,408
+hypotheses testing is a key way that
+they really determine innovation.
+
+10
+00:00:28,408 --> 00:00:32,220
+In medicine, for example, their version
+of A/B testing is called clinical trials
+
+11
+00:00:32,220 --> 00:00:35,406
+and that's how they determine whether
+a new drug is effective or not.
+
+12
+00:00:35,406 --> 00:00:38,422
+>> The key thing that you want to
+see in A/B testing is that you have
+
+13
+00:00:38,422 --> 00:00:41,902
+a consistent response from your
+control and your experiment group, so
+
+14
+00:00:41,902 --> 00:00:45,498
+that you can actually really determine
+and structure the experiment, so
+
+15
+00:00:45,498 --> 00:00:49,094
+you can determine whether there's
+a significant behavior change in your
+
+16
+00:00:49,094 --> 00:00:51,772
+experiment group as opposed
+to in your control group.
+
+17
+00:00:51,772 --> 00:00:52,504
+>> Okay.
+
+18
+00:00:52,504 --> 00:00:56,047
+So what's the difference between
+running these types of experiments and
+
+19
+00:00:56,047 --> 00:00:57,425
+running online A/B tests?
+
+20
+00:00:57,425 --> 00:01:00,840
+>> Well, in the online world we
+often have a lot more data but
+
+21
+00:01:00,840 --> 00:01:02,487
+kind of lower resolution.
+
+22
+00:01:02,487 --> 00:01:07,165
+So in a traditional medical trial or
+in a user experience research study,
+
+23
+00:01:07,165 --> 00:01:10,490
+you might have ten, twenty,
+fifty participants.
+
+24
+00:01:10,490 --> 00:01:14,295
+So normally is the analysis different,
+because you have to be very careful,
+
+25
+00:01:14,295 --> 00:01:17,044
+but you know a lot about each
+participant in your trial,
+
+26
+00:01:17,044 --> 00:01:19,108
+so you may know their age, their weight.
+
+27
+00:01:19,108 --> 00:01:22,429
+You know its a single person, you have
+their drivers license, all this stuff.
+
+28
+00:01:22,429 --> 00:01:25,493
+You may have met them,
+whereas in an online study,
+
+29
+00:01:25,493 --> 00:01:30,428
+you may have millions of users, hundreds
+of thousands of clicks, respondents.
+
+30
+00:01:30,428 --> 00:01:33,746
+But you don't really know that
+much about who's on the other end
+
+31
+00:01:33,746 --> 00:01:34,491
+of that data.
+
+32
+00:01:34,491 --> 00:01:38,097
+So, it may be something where you have
+trouble distinguishing whether this is
+
+33
+00:01:38,097 --> 00:01:40,621
+a single person,
+whether there's multiple people.
+
+34
+00:01:40,621 --> 00:01:42,790
+Is it an internet cafe computer?
+
+35
+00:01:42,790 --> 00:01:46,065
+And those are issues that really
+come up in online user data.
+
+36
+00:01:46,065 --> 00:01:48,550
+>> The key thing to remember
+is that in the online world,
+
+37
+00:01:48,550 --> 00:01:52,086
+when you're doing A/B testing, the goal
+really is to determine whether or
+
+38
+00:01:52,086 --> 00:01:55,587
+not this new product or this new feature
+is something that users will like.
+
+39
+00:01:55,587 --> 00:01:59,683
+And so the goal in A/B testing is to
+design an experiment, that's going to be
+
+40
+00:01:59,683 --> 00:02:03,844
+robust and give you repeatable results,
+so that you can actually make a good
+
+41
+00:02:03,844 --> 00:02:07,960
+decision about whether or not to
+actually launch that product or feature.
+
+42
+00:02:07,960 --> 00:02:08,715
+>> Sounds good.
+
+43
+00:02:08,715 --> 00:02:10,538
+I know Udacity uses A/B testing.
+
+44
+00:02:10,538 --> 00:02:12,198
+How about other tech companies?
+
+45
+00:02:12,198 --> 00:02:13,638
+>> It's everywhere right now.
+
+46
+00:02:13,638 --> 00:02:16,484
+Google, Microsoft,
+eBay, PayPal, Netflix,
+
+47
+00:02:16,484 --> 00:02:20,359
+like all of the major companies
+are definitely using A/B testing.
+
+48
+00:02:20,359 --> 00:02:23,211
+There are even companies that
+focus on providing those services
+
+49
+00:02:23,211 --> 00:02:25,970
+to smaller companies,
+like optimizing their sites better.

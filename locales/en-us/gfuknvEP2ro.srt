@@ -1,0 +1,187 @@
+1
+00:00:00,390 --> 00:00:03,080
+To see how the click-through-probability
+would affect the number of page
+
+2
+00:00:03,080 --> 00:00:04,010
+views needed,
+
+3
+00:00:04,010 --> 00:00:07,530
+recall that the standard error depends
+on the click-through-probability.
+
+4
+00:00:07,530 --> 00:00:10,570
+Specifically, the standard error is
+proportional to the square root of p
+
+5
+00:00:10,570 --> 00:00:12,150
+times 1 minus p.
+
+6
+00:00:12,150 --> 00:00:15,830
+So, for example, if the probability
+were 0.5, the standard error would be
+
+7
+00:00:15,830 --> 00:00:21,470
+proportional to the square root of 0.5
+times 0.5, which comes out to 0.5.
+
+8
+00:00:21,470 --> 00:00:24,922
+On the other hand,
+if the probability were either 0.1 or
+
+9
+00:00:24,922 --> 00:00:29,060
+0.9, then the standard error
+would be proportional to 0.3.
+
+10
+00:00:29,060 --> 00:00:33,120
+It turns out that as your
+probability gets closer to 0.5 and
+
+11
+00:00:33,120 --> 00:00:38,480
+further away from extremes like 0.1 or
+0.9, then your standard error increases.
+
+12
+00:00:38,480 --> 00:00:40,670
+Thus increasing
+the click-through-probability but
+
+13
+00:00:40,670 --> 00:00:44,180
+not above 0.5 would increase
+the standard error.
+
+14
+00:00:44,180 --> 00:00:47,410
+Which means that I'd also need to
+increase the number of page views
+
+15
+00:00:47,410 --> 00:00:50,960
+in order to reduce the standard
+error back to its original level.
+
+16
+00:00:50,960 --> 00:00:54,620
+So now on the online calculator, I'll
+try increasing the baseline conversion
+
+17
+00:00:54,620 --> 00:00:59,360
+rate to 20% and sure enough the sample
+size went up to about 6,000.
+
+18
+00:00:59,360 --> 00:01:02,040
+Now if you increase your
+practical significance level,
+
+19
+00:01:02,040 --> 00:01:05,780
+you're saying you no longer care
+about detecting a 2% change.
+
+20
+00:01:05,780 --> 00:01:08,730
+You would need the change to be
+larger than 2% before you cared about
+
+21
+00:01:08,730 --> 00:01:09,850
+detecting it.
+
+22
+00:01:09,850 --> 00:01:14,390
+Larger changes are easier to detect, so
+you shouldn't need as many page views.
+
+23
+00:01:14,390 --> 00:01:17,290
+So here I'll try increasing
+the practical significance level to 5%,
+
+24
+00:01:17,290 --> 00:01:22,620
+and the sample size needed goes down
+to about 1,000 page views per branch.
+
+25
+00:01:22,620 --> 00:01:25,860
+If you increase your confidence level,
+you're saying that you want to be more
+
+26
+00:01:25,860 --> 00:01:28,940
+certain that a change has occurred
+before you reject the null.
+
+27
+00:01:28,940 --> 00:01:31,230
+In essence,
+you're being more conservative.
+
+28
+00:01:31,230 --> 00:01:34,350
+You could accomplish that by
+rejecting the null less often, but
+
+29
+00:01:34,350 --> 00:01:36,150
+then your sensitivity would go down.
+
+30
+00:01:36,150 --> 00:01:38,420
+If you want to keep
+sensitivity the same,
+
+31
+00:01:38,420 --> 00:01:41,250
+you'll need to increase the number
+of page views you collect.
+
+32
+00:01:41,250 --> 00:01:45,300
+So I'll try this out and increase the
+confidence level by decreasing alpha.
+
+33
+00:01:45,300 --> 00:01:47,400
+And, the number of page
+views needed has gone up,
+
+34
+00:01:47,400 --> 00:01:49,680
+now it's about 1,500 instead of 1,000.
+
+35
+00:01:49,680 --> 00:01:53,420
+Finally, as you've seen before, if you
+want to increase the sensitivity of your
+
+36
+00:01:53,420 --> 00:01:57,600
+experiment, you'll need to collect more
+page views to narrow the distribution.
+
+37
+00:01:57,600 --> 00:02:00,090
+So I'll try increasing sensitivity here,
+and
+
+38
+00:02:00,090 --> 00:02:01,920
+the number of page views needed goes up.
+
+39
+00:02:01,920 --> 00:02:03,729
+Now it's about 2,000 per group.

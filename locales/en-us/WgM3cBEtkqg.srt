@@ -1,0 +1,244 @@
+1
+00:00:00,450 --> 00:00:03,640
+The graph of click through rate over
+time might look something like this.
+
+2
+00:00:03,640 --> 00:00:06,230
+Now, there are some interesting
+patterns in this graph.
+
+3
+00:00:06,230 --> 00:00:09,020
+You can see both weekly and
+daily variation as
+
+4
+00:00:09,020 --> 00:00:13,020
+people are more likely to click through
+either in the evening or on the weekend.
+
+5
+00:00:13,020 --> 00:00:16,990
+But this graph can't help us answer
+our original question, which is,
+
+6
+00:00:16,990 --> 00:00:19,250
+is there a problem with
+the click tracking?
+
+7
+00:00:19,250 --> 00:00:23,160
+Like I mentioned, you can't really tell
+if this is how high the rate actually is
+
+8
+00:00:23,160 --> 00:00:27,070
+or if it's being artificially inflated
+by double clicks being recorded.
+
+9
+00:00:27,070 --> 00:00:30,040
+The click-through-probability over
+time might look something like this.
+
+10
+00:00:30,040 --> 00:00:31,940
+It looks pretty similar to the rate.
+
+11
+00:00:31,940 --> 00:00:35,240
+And again, it's hard to tell by this
+graph alone whether there's a problem.
+
+12
+00:00:36,280 --> 00:00:40,400
+Now lets take a look at both the rate
+and the probability on the same graph.
+
+13
+00:00:40,400 --> 00:00:42,560
+You can see that the rate
+is consistently higher
+
+14
+00:00:42,560 --> 00:00:44,430
+than the probability.
+
+15
+00:00:44,430 --> 00:00:47,930
+But that's to be expected whether
+there's a problem or not and
+
+16
+00:00:47,930 --> 00:00:51,710
+it's hard to know how much higher
+you would expect the rate to be.
+
+17
+00:00:51,710 --> 00:00:54,740
+The difference is also
+consistent over time, so
+
+18
+00:00:54,740 --> 00:00:57,500
+it's hard to see whether
+there is a problem.
+
+19
+00:00:57,500 --> 00:01:00,490
+Now let's take a look at
+click-through-rate by platform.
+
+20
+00:01:00,490 --> 00:01:02,840
+Now this graph is pretty suspicious,
+
+21
+00:01:02,840 --> 00:01:07,280
+because it shows the click-through-rate
+being higher on mobile than on desktop.
+
+22
+00:01:07,280 --> 00:01:12,480
+But users will have different behavior
+on desktop than on mobile so,
+
+23
+00:01:12,480 --> 00:01:16,130
+it's still not really clear that this
+is a problem with the JavaScript
+
+24
+00:01:16,130 --> 00:01:19,400
+tracking and
+not just a difference in user behavior.
+
+25
+00:01:19,400 --> 00:01:22,800
+You might think the direction of this
+is the opposite of what you'd expect.
+
+26
+00:01:22,800 --> 00:01:25,730
+Like maybe you'd expect that the
+click-through-rate would be higher on
+
+27
+00:01:25,730 --> 00:01:27,180
+desktop than mobile.
+
+28
+00:01:27,180 --> 00:01:29,850
+But it can be pretty hard to
+predict things like that.
+
+29
+00:01:29,850 --> 00:01:32,950
+So right now, this graph doesn't really
+give us enough information to be
+
+30
+00:01:32,950 --> 00:01:35,550
+certain that there's a problem,
+although it is suspicious.
+
+31
+00:01:36,660 --> 00:01:39,030
+Now if you plot,
+click-through-probability by platform,
+
+32
+00:01:39,030 --> 00:01:40,990
+you won't see anything suspicious since,
+
+33
+00:01:40,990 --> 00:01:43,370
+if JavaScript does
+send a duplicate ping.
+
+34
+00:01:43,370 --> 00:01:47,450
+The click-through probability will
+eliminate that, collapsing it into one.
+
+35
+00:01:47,450 --> 00:01:50,460
+So here we see that the probability
+is fairly similar between
+
+36
+00:01:50,460 --> 00:01:51,850
+desktop and mobile.
+
+37
+00:01:51,850 --> 00:01:54,480
+Which is maybe what you
+would have expected.
+
+38
+00:01:54,480 --> 00:01:57,600
+So again, we can't tell
+whether there was a problem.
+
+39
+00:01:57,600 --> 00:01:59,370
+Finally, if plot both rate and
+
+40
+00:01:59,370 --> 00:02:03,470
+probability by platform,
+you can clearly see the problem.
+
+41
+00:02:03,470 --> 00:02:07,585
+The click-through-probability is
+actually slightly lower on mobile,
+
+42
+00:02:07,585 --> 00:02:10,792
+but the click-through-rate
+is significantly higher.
+
+43
+00:02:10,792 --> 00:02:15,198
+You won't necessarily be able to narrow
+it down to duplicate JavaScript pings at
+
+44
+00:02:15,198 --> 00:02:16,104
+this point, but
+
+45
+00:02:16,104 --> 00:02:19,900
+this point's pretty clearly to some
+sort of instrumentation issue.
+
+46
+00:02:19,900 --> 00:02:22,380
+This is a good time to talk to
+your engineers about what could be
+
+47
+00:02:22,380 --> 00:02:23,920
+going wrong.
+
+48
+00:02:23,920 --> 00:02:24,980
+So to summarize,
+
+49
+00:02:24,980 --> 00:02:28,622
+only the final graph really made it
+crystal clear that there was a problem.
+
+50
+00:02:28,622 --> 00:02:32,010
+The click-through-rate by platform
+looked a little suspicious, but
+
+51
+00:02:32,010 --> 00:02:34,870
+it was hard to draw a conclusion
+from just that graph on its own.

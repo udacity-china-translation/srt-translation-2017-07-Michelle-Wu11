@@ -1,0 +1,87 @@
+1
+00:00:00,380 --> 00:00:03,100
+So let's say we go to measure
+the click-through probability of
+
+2
+00:00:03,100 --> 00:00:04,600
+the start now button.
+
+3
+00:00:04,600 --> 00:00:08,610
+And we see that 1,000 unique users
+visit the Audacity homepage.
+
+4
+00:00:08,610 --> 00:00:12,390
+And 100 of those visitors clicked
+the start now button at least once.
+
+5
+00:00:12,390 --> 00:00:15,770
+From this data, the best estimate
+of the click-through probability
+
+6
+00:00:15,770 --> 00:00:17,630
+would be 100 divided by 1000, or 10%.
+
+7
+00:00:17,630 --> 00:00:21,320
+But, how sure would you
+be about this estimate?
+
+8
+00:00:21,320 --> 00:00:24,580
+In other words,
+suppose you repeated the measurement.
+
+9
+00:00:24,580 --> 00:00:27,560
+You had a different 1,000
+users visit the site and
+
+10
+00:00:27,560 --> 00:00:31,120
+again you recorded how many of
+them clicked the start now button.
+
+11
+00:00:31,120 --> 00:00:33,070
+Which results would surprise you?
+
+12
+00:00:33,070 --> 00:00:36,708
+Would you be surprised if
+you got 100 clicks again?
+
+13
+00:00:36,708 --> 00:00:37,633
+101?
+
+14
+00:00:37,633 --> 00:00:38,863
+110?
+
+15
+00:00:38,863 --> 00:00:40,082
+150?
+
+16
+00:00:40,082 --> 00:00:41,719
+How about 900?
+
+17
+00:00:41,719 --> 00:00:43,685
+Check all the answers
+that would surprise you.
+
+18
+00:00:43,685 --> 00:00:47,165
+We'll talk later about how
+to quantify this, but for
+
+19
+00:00:47,165 --> 00:00:51,585
+right now just check the ones that you
+subjectively would be surprised by.

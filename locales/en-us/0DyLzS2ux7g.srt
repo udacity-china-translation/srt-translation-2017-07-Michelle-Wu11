@@ -1,0 +1,353 @@
+1
+00:00:00,260 --> 00:00:03,390
+Okay, so we've got a few different
+types of metrics we're interested in.
+
+2
+00:00:03,390 --> 00:00:06,790
+There's the sanity checking metrics and
+then there's the evaluation metrics,
+
+3
+00:00:06,790 --> 00:00:10,850
+which breaks down into these overall
+business metrics and the more detailed
+
+4
+00:00:10,850 --> 00:00:15,470
+metrics, but for all of these, how do we
+actually go about making a definition?
+
+5
+00:00:15,470 --> 00:00:17,960
+>> Well, there's really
+a bunch of different steps.
+
+6
+00:00:17,960 --> 00:00:21,590
+The first is you want to come up with
+a high level concept for a metric.
+
+7
+00:00:21,590 --> 00:00:24,260
+This is going to be your one sentence
+summary that everyone is going to be
+
+8
+00:00:24,260 --> 00:00:27,270
+able to understand,
+something like "active users" or
+
+9
+00:00:27,270 --> 00:00:29,200
+"click-through probability".
+
+10
+00:00:29,200 --> 00:00:31,070
+Everyone sort of understands that.
+
+11
+00:00:31,070 --> 00:00:32,080
+But then, from there,
+
+12
+00:00:32,080 --> 00:00:35,110
+the second step is to really figure
+out all of the nitty gritty details.
+
+13
+00:00:35,110 --> 00:00:39,010
+These are going to be things like,
+okay, you want to measure active users.
+
+14
+00:00:39,010 --> 00:00:41,780
+How do you define what active is?
+
+15
+00:00:41,780 --> 00:00:44,520
+Is it a seven day active,
+is it a 28 day active?
+
+16
+00:00:44,520 --> 00:00:47,200
+Which events count towards activity?
+
+17
+00:00:47,200 --> 00:00:49,700
+Right?
+An automatic notification may not count
+
+18
+00:00:49,700 --> 00:00:51,635
+towards it being an active user.
+
+19
+00:00:51,635 --> 00:00:54,655
+The third step is that you are taking
+all of these individual data
+
+20
+00:00:54,655 --> 00:00:57,980
+measurements, and now you need to
+summarize them into a single metric.
+
+21
+00:00:57,980 --> 00:01:01,905
+Maybe, maybe this is something like
+a sum or a count, could be an average,
+
+22
+00:01:01,905 --> 00:01:02,440
+a median.
+
+23
+00:01:02,440 --> 00:01:05,251
+We'll go through bunch of
+these possibilities later.
+
+24
+00:01:05,251 --> 00:01:09,373
+Once you have that summary, now you have
+an actual complete metric definition,
+
+25
+00:01:09,373 --> 00:01:12,948
+and now that you go into all of the
+other steps that Kerry talked about in
+
+26
+00:01:12,948 --> 00:01:14,450
+the introduction.
+
+27
+00:01:14,450 --> 00:01:15,990
+Okay.
+But before we get into that,
+
+28
+00:01:15,990 --> 00:01:17,170
+I have one more question.
+
+29
+00:01:17,170 --> 00:01:19,880
+It sounds like for sanity checking,
+you might need multiple metrics.
+
+30
+00:01:19,880 --> 00:01:21,610
+But how about for evaluation?
+
+31
+00:01:21,610 --> 00:01:24,830
+Should you stick to just one metric
+there, or do you also use multiple?
+
+32
+00:01:24,830 --> 00:01:28,000
+>> It may depend culturally on
+the company and where you are, and
+
+33
+00:01:28,000 --> 00:01:30,140
+how comfortable people
+are with the data.
+
+34
+00:01:30,140 --> 00:01:32,970
+You can certainly pick one metric and
+some companies do,
+
+35
+00:01:32,970 --> 00:01:36,930
+but at the same time, you know, your
+leaders may be more comfortable with
+
+36
+00:01:36,930 --> 00:01:40,460
+a whole suite of metrics where
+they can see how things move.
+
+37
+00:01:40,460 --> 00:01:44,440
+Now for PR purposes, external reporting,
+you may really have to settle on
+
+38
+00:01:44,440 --> 00:01:47,800
+a single overall objective
+that you have for the company.
+
+39
+00:01:47,800 --> 00:01:51,100
+And certainly if you work at a large
+company, you have the problem that
+
+40
+00:01:51,100 --> 00:01:53,650
+you don't want to have one team
+working towards one goal and
+
+41
+00:01:53,650 --> 00:01:55,750
+another team working
+towards another one.
+
+42
+00:01:55,750 --> 00:01:58,560
+And so you may, in that case, also
+want to settle on a single objective.
+
+43
+00:02:00,140 --> 00:02:03,140
+>> Now, one thing that you can do
+is if you have multiple metrics,
+
+44
+00:02:03,140 --> 00:02:05,270
+you can create a composite metric.
+
+45
+00:02:05,270 --> 00:02:08,830
+This can be something called
+an objective function or an OEC,
+
+46
+00:02:08,830 --> 00:02:12,050
+which is, stands for
+an overall evaluation criterion,
+
+47
+00:02:12,050 --> 00:02:15,650
+which is a term that Microsoft uses for
+when they come up with a weighted
+
+48
+00:02:15,650 --> 00:02:18,570
+function that combines all
+of these different metrics.
+
+49
+00:02:18,570 --> 00:02:22,330
+So when you do that,
+you now have a single combined metric
+
+50
+00:02:22,330 --> 00:02:25,620
+that summarizes all your
+individual metrics.
+
+51
+00:02:25,620 --> 00:02:28,580
+>> Now personally, I tend to shy
+away from composite metrics,
+
+52
+00:02:28,580 --> 00:02:31,880
+because of course,
+first you have to agree on a definition.
+
+53
+00:02:31,880 --> 00:02:35,470
+And getting everyone to agree to
+a combination of revenue and users and
+
+54
+00:02:35,470 --> 00:02:37,730
+all this other stuff can be very tricky.
+
+55
+00:02:37,730 --> 00:02:39,290
+I mean, it's hard to define.
+
+56
+00:02:39,290 --> 00:02:42,460
+The second is you can run into
+problems if you over-optimize,
+
+57
+00:02:42,460 --> 00:02:45,820
+looking at one thing, and you don't
+actually look at how other things move,
+
+58
+00:02:45,820 --> 00:02:49,270
+particularly if you, if you make
+a radical change to your site.
+
+59
+00:02:49,270 --> 00:02:52,170
+And then, the third is issue is
+just that the moment this metric
+
+60
+00:02:52,170 --> 00:02:56,590
+starts to move, everyone who askz you to
+have a single metric typically comes and
+
+61
+00:02:56,590 --> 00:02:58,290
+says well, why is it moving?
+
+62
+00:02:58,290 --> 00:03:00,940
+And you end up looking at all
+these different things, anyway.
+
+63
+00:03:00,940 --> 00:03:05,170
+>> Yeah, you basically go right back
+looking at all the individual metrics.
+
+64
+00:03:05,170 --> 00:03:06,249
+I agree with Carrie.
+
+65
+00:03:06,249 --> 00:03:09,833
+Now, the last situation that you'll
+sort of think about when you're trying
+
+66
+00:03:09,833 --> 00:03:13,160
+to choose a metric is how generally
+applicable the metric is.
+
+67
+00:03:13,160 --> 00:03:18,180
+If you're running a whole suite of AB
+tests, then ideally you'd have one or
+
+68
+00:03:18,180 --> 00:03:21,530
+more metrics that you can
+use across the entire suite.
+
+69
+00:03:21,530 --> 00:03:24,670
+It's much better to use a metric
+that's less optimal for
+
+70
+00:03:24,670 --> 00:03:28,790
+your test, if you can use it across the
+suites that you can do the comparison,
+
+71
+00:03:28,790 --> 00:03:32,170
+than it is to come up with
+the perfect metric for your test.
+
+72
+00:03:32,170 --> 00:03:35,720
+Whenever you do something custom,
+it just introduces more risk.
+
+73
+00:03:35,720 --> 00:03:36,790
+>> That makes sense.
+
+74
+00:03:36,790 --> 00:03:39,640
+Now let's get started by coming up with
+some high-level concepts for metrics.

@@ -1,0 +1,451 @@
+1
+00:00:00,410 --> 00:00:03,521
+Now, I'll step through an example
+of turning a high-level metric into
+
+2
+00:00:03,521 --> 00:00:05,480
+a well-defined metric.
+
+3
+00:00:05,480 --> 00:00:06,110
+In lesson one,
+
+4
+00:00:06,110 --> 00:00:09,800
+we have chosen the high-level
+metric click-through probability.
+
+5
+00:00:09,800 --> 00:00:13,410
+And we defined this as the number of
+unique users who clicked the button
+
+6
+00:00:13,410 --> 00:00:17,050
+divided by the number of unique
+users who visited the home page.
+
+7
+00:00:17,050 --> 00:00:20,260
+Now, this is actually not
+a completely specified metric yet.
+
+8
+00:00:20,260 --> 00:00:22,980
+And there are also some
+other possible definitions.
+
+9
+00:00:22,980 --> 00:00:25,490
+First, to use this definition,
+
+10
+00:00:25,490 --> 00:00:29,190
+we need some way of determining whether
+two events are from the same user.
+
+11
+00:00:29,190 --> 00:00:31,140
+Let's say we use cookies.
+
+12
+00:00:31,140 --> 00:00:35,550
+Next, if the same user or
+cookie visits the page once and
+
+13
+00:00:35,550 --> 00:00:39,700
+then comes back a week or two later, do
+we really only want to count that once?
+
+14
+00:00:40,700 --> 00:00:42,920
+Usually, you'll want to count
+those visits separately,
+
+15
+00:00:42,920 --> 00:00:45,930
+which means that you'll also
+need to choose a time period.
+
+16
+00:00:45,930 --> 00:00:51,660
+Do you only count one page view per
+user each minute, hour, day, or what?
+
+17
+00:00:51,660 --> 00:00:55,200
+So one fully specified definition
+would be that for each minute,
+
+18
+00:00:55,200 --> 00:00:58,830
+you take the number of cookies that
+clicked during that minute divided by
+
+19
+00:00:58,830 --> 00:01:01,690
+the number of cookies that interacted
+with the page at all during that minute.
+
+20
+00:01:02,720 --> 00:01:06,090
+Now, this definition actually leads
+to a whole family of definitions
+
+21
+00:01:06,090 --> 00:01:07,840
+since you could choose
+any time interval here.
+
+22
+00:01:08,970 --> 00:01:12,370
+Changing this time interval could
+give you a different answer.
+
+23
+00:01:12,370 --> 00:01:15,860
+For example, suppose your site only has
+one user who visits the site and clicks.
+
+24
+00:01:16,890 --> 00:01:21,500
+Then 5 minutes later,
+they reload the page but don't click.
+
+25
+00:01:21,500 --> 00:01:24,980
+30 seconds after that, they reload
+again and do click this time.
+
+26
+00:01:26,080 --> 00:01:30,700
+And then 12 hours later, they reload
+the page one last time and don't click.
+
+27
+00:01:30,700 --> 00:01:33,560
+Assume that this user keeps the same
+cookie throughout this process.
+
+28
+00:01:34,830 --> 00:01:36,410
+Now, if you group cookies by minute,
+
+29
+00:01:36,410 --> 00:01:40,450
+there are three separate groups where
+these two events are in the same group
+
+30
+00:01:40,450 --> 00:01:43,220
+since they happened within
+a minute of each other.
+
+31
+00:01:43,220 --> 00:01:46,742
+Since two of these groups resulted
+in a click, and the third did not,
+
+32
+00:01:46,742 --> 00:01:50,070
+the per-minute click-through
+probability is two-thirds.
+
+33
+00:01:50,070 --> 00:01:53,830
+Similarly, if you group by hour,
+there are two groups,
+
+34
+00:01:53,830 --> 00:01:56,699
+one of which had a click, so
+the probability is one-half.
+
+35
+00:01:57,810 --> 00:02:00,570
+And if you group by day,
+everything goes in the same group and
+
+36
+00:02:00,570 --> 00:02:01,570
+the probability is one.
+
+37
+00:02:02,680 --> 00:02:06,900
+An alternative definition would be to
+remove the idea of a unique user and
+
+38
+00:02:06,900 --> 00:02:09,840
+instead to create a unique ID for
+each page view.
+
+39
+00:02:09,840 --> 00:02:11,540
+And then when a user clicks,
+
+40
+00:02:11,540 --> 00:02:14,160
+record the idea of
+the corresponding parent page view.
+
+41
+00:02:15,350 --> 00:02:18,610
+Then you could define the click-through
+probability as the number of page views
+
+42
+00:02:18,610 --> 00:02:22,190
+that eventually result in a click
+divided by the number of page views.
+
+43
+00:02:23,250 --> 00:02:26,390
+This data capture is usually
+easier than recording cookies and
+
+44
+00:02:26,390 --> 00:02:27,720
+then later grouping by cookie.
+
+45
+00:02:28,970 --> 00:02:31,670
+Now, this definition also
+needs a time interval.
+
+46
+00:02:31,670 --> 00:02:34,200
+How long do you want to wait
+after each page view to see if it
+
+47
+00:02:34,200 --> 00:02:35,090
+resulted in a click?
+
+48
+00:02:36,440 --> 00:02:38,104
+Once you pick a time interval,
+
+49
+00:02:38,104 --> 00:02:42,081
+you would count how many page views
+had a click within the specified time.
+
+50
+00:02:42,081 --> 00:02:45,717
+One way these two definitions could
+give different results is if the user
+
+51
+00:02:45,717 --> 00:02:48,228
+refreshes the page within
+the given time period.
+
+52
+00:02:48,228 --> 00:02:52,066
+For example, suppose the user
+visits the page without clicking.
+
+53
+00:02:52,066 --> 00:02:53,173
+Then 30 seconds later,
+
+54
+00:02:53,173 --> 00:02:56,360
+they refreshed the page which
+generates another page view.
+
+55
+00:02:56,360 --> 00:02:59,740
+Finally, 1 second after
+the second page view, they click.
+
+56
+00:02:59,740 --> 00:03:03,190
+Then, using definition one with
+a time interval of one minute so
+
+57
+00:03:03,190 --> 00:03:06,870
+that all these events are grouped
+together, there would be 1 cookie that
+
+58
+00:03:06,870 --> 00:03:11,460
+clicked divided by 1 total cookie for
+a probability of 1.
+
+59
+00:03:11,460 --> 00:03:16,040
+But for definition two with the same
+time interval, only 1 page view resulted
+
+60
+00:03:16,040 --> 00:03:21,470
+in a click over 2 total page views,
+so the probability would be one-half.
+
+61
+00:03:21,470 --> 00:03:24,950
+Finally, an even simpler definition
+would be to count the total number of
+
+62
+00:03:24,950 --> 00:03:28,390
+clicks and divide by the total
+number of page views.
+
+63
+00:03:28,390 --> 00:03:30,522
+As you know, this would really
+be a click-through rate,
+
+64
+00:03:30,522 --> 00:03:33,100
+rather than a click-through probability.
+
+65
+00:03:33,100 --> 00:03:35,650
+Which definition you use
+will depend on your product.
+
+66
+00:03:35,650 --> 00:03:38,750
+Often, definitions one and
+two will be almost
+
+67
+00:03:38,750 --> 00:03:42,700
+indistinguishable if you choose the same
+relatively short time interval.
+
+68
+00:03:42,700 --> 00:03:45,590
+So you might want to go with definition
+two, since it's easier to compute.
+
+69
+00:03:46,650 --> 00:03:49,240
+Now, for each of the three
+definitions we just discussed,
+
+70
+00:03:49,240 --> 00:03:52,870
+the cookie-based probability,
+the page view-based probability, and
+
+71
+00:03:52,870 --> 00:03:57,470
+the rate, consider whether it would be
+affected by the following problems.
+
+72
+00:03:57,470 --> 00:03:59,260
+You can find the complete
+definitions for
+
+73
+00:03:59,260 --> 00:04:02,020
+these metrics in the instructor's notes.
+
+74
+00:04:02,020 --> 00:04:05,402
+First, suppose you want your metric
+to be unaffected by the user double
+
+75
+00:04:05,402 --> 00:04:06,160
+clicking.
+
+76
+00:04:06,160 --> 00:04:08,790
+That is, you want your metric
+to have the same value of
+
+77
+00:04:08,790 --> 00:04:11,630
+the user double clicks
+as if they single click.
+
+78
+00:04:11,630 --> 00:04:14,661
+Which of these metric definitions
+would work for this purpose?
+
+79
+00:04:14,661 --> 00:04:19,432
+And second, when the user clicks the
+Back button, the browser may have cached
+
+80
+00:04:19,432 --> 00:04:23,055
+the page, so another page view may or
+may not be generated.
+
+81
+00:04:23,055 --> 00:04:26,621
+Which if these metrics would have
+the same value regardless of whether
+
+82
+00:04:26,621 --> 00:04:30,197
+a second page view is generated when
+the user presses the Back button?
+
+83
+00:04:30,197 --> 00:04:33,666
+Third, suppose you were worried that
+JavaScript may not be tracking clicks
+
+84
+00:04:33,666 --> 00:04:35,055
+correctly.
+
+85
+00:04:35,055 --> 00:04:38,935
+For example, it might send
+two clicks instead of one, or
+
+86
+00:04:38,935 --> 00:04:40,435
+it might fail to record a click at all.
+
+87
+00:04:41,535 --> 00:04:44,385
+Which metrics would have the same
+value regardless of whether
+
+88
+00:04:44,385 --> 00:04:45,675
+problems such as this occurred?
+
+89
+00:04:46,695 --> 00:04:49,565
+In each case, check the box for
+any metric that
+
+90
+00:04:49,565 --> 00:04:53,225
+would give the same value regardless
+of whether the problem occurred.
+
+91
+00:04:53,225 --> 00:04:56,485
+In each case, assume that all the
+relevant events occurs within the time
+
+92
+00:04:56,485 --> 00:04:59,000
+interval for the probability metrics.
+
+93
+00:04:59,000 --> 00:05:03,090
+So for example, if the time interval for
+the probabilities were five minutes,
+
+94
+00:05:03,090 --> 00:05:05,570
+assume that a double click
+happens within five minutes.

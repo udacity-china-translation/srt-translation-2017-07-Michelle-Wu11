@@ -1,0 +1,497 @@
+1
+00:00:00,520 --> 00:00:03,330
+Now Carrie just spent a lot of
+time talking about how can you use
+
+2
+00:00:03,330 --> 00:00:04,610
+external data?
+
+3
+00:00:04,610 --> 00:00:08,260
+But there's also a question about
+how we can use our own data, or
+
+4
+00:00:08,260 --> 00:00:09,710
+basically do it ourselves.
+
+5
+00:00:09,710 --> 00:00:10,230
+Right?
+
+6
+00:00:10,230 --> 00:00:12,880
+So there's sort of two
+classes of methods.
+
+7
+00:00:12,880 --> 00:00:16,500
+Now one class of method basically
+uses all of our existing data.
+
+8
+00:00:16,500 --> 00:00:19,840
+If you're running experiments,
+you probably have existing logs or
+
+9
+00:00:19,840 --> 00:00:23,053
+data capture that you're
+using to measure metrics, and
+
+10
+00:00:23,053 --> 00:00:24,360
+sort of track your business.
+
+11
+00:00:24,360 --> 00:00:26,830
+And so it's going to be a set of
+techniques that are going to use
+
+12
+00:00:26,830 --> 00:00:28,070
+that set of existing data,
+
+13
+00:00:28,070 --> 00:00:31,620
+both retrospective analyses,
+as well as running experiments.
+
+14
+00:00:31,620 --> 00:00:33,460
+We'll be going over those next.
+
+15
+00:00:33,460 --> 00:00:38,380
+Now the other class of methods
+are when you want to gather new data.
+
+16
+00:00:38,380 --> 00:00:41,570
+Now these are going to be methods
+that you'll use when you want to
+
+17
+00:00:41,570 --> 00:00:44,746
+answer questions that you can't really
+answer from your existing data.
+
+18
+00:00:44,746 --> 00:00:47,660
+The main techniques here
+are going to be things like,
+
+19
+00:00:47,660 --> 00:00:51,380
+user experience research,
+surveys, and focus groups.
+
+20
+00:00:51,380 --> 00:00:52,130
+And Caroline,
+
+21
+00:00:52,130 --> 00:00:55,210
+I think you're going to going over those
+in more detail in the next video, right?
+
+22
+00:00:55,210 --> 00:00:55,800
+>> Yeah.
+
+23
+00:00:55,800 --> 00:00:58,830
+>> So let's talk a minute about what
+you can do with your own external
+
+24
+00:00:58,830 --> 00:01:01,680
+logging data, or
+data capture, from your site.
+
+25
+00:01:01,680 --> 00:01:04,290
+So first you can do what's
+called retrospective, or
+
+26
+00:01:04,290 --> 00:01:08,560
+observational analysis, where you look
+at how a metric you're interested in, or
+
+27
+00:01:08,560 --> 00:01:12,600
+just measurements you take from your
+site, change in response to changes
+
+28
+00:01:12,600 --> 00:01:16,610
+you've made in the past, experiments
+you've run, big spikes in your business.
+
+29
+00:01:16,610 --> 00:01:20,470
+So that's good to get a baseline, and
+it can also help you develop theories.
+
+30
+00:01:20,470 --> 00:01:23,260
+You can also use this data in
+conjunction with other methods,
+
+31
+00:01:23,260 --> 00:01:26,240
+such as surveys or
+user experience research,
+
+32
+00:01:26,240 --> 00:01:28,890
+to help you develop ideas of
+what you want to look at.
+
+33
+00:01:28,890 --> 00:01:33,060
+So for example, if you had a bunch of
+students in a lab doing a survey, or
+
+34
+00:01:33,060 --> 00:01:36,230
+a focus group, and you could see
+that they were all getting stuck on
+
+35
+00:01:36,230 --> 00:01:39,100
+a particular quiz,
+that might make you suspicious.
+
+36
+00:01:39,100 --> 00:01:42,500
+And you won't actually use your
+logs to analyze, hey you know,
+
+37
+00:01:42,500 --> 00:01:45,160
+how does this quiz behave,
+compared to other quizzes?
+
+38
+00:01:45,160 --> 00:01:48,080
+How long are people taking,
+so on and so forth.
+
+39
+00:01:48,080 --> 00:01:52,120
+The problem with these studies is that
+they're really, show you correlations,
+
+40
+00:01:52,120 --> 00:01:54,300
+not necessarily causation.
+
+41
+00:01:54,300 --> 00:01:57,340
+Because you're not running
+a parallel A versus B, or
+
+42
+00:01:57,340 --> 00:02:00,380
+A versus B versus C versus D experiment.
+
+43
+00:02:00,380 --> 00:02:03,480
+It's really hard to establish
+that the change you made
+
+44
+00:02:03,480 --> 00:02:07,600
+actually caused what happened, and
+it's not some funny temporal effect.
+
+45
+00:02:07,600 --> 00:02:10,910
+So that's an important difference
+between doing this type of experiment,
+
+46
+00:02:10,910 --> 00:02:14,510
+or doing this type of analysis, and
+doing a real structured experiment.
+
+47
+00:02:14,510 --> 00:02:18,350
+>> As Carrie said, using retrospective
+analysis is really best for
+
+48
+00:02:18,350 --> 00:02:20,730
+establishing a correlation and
+not a causation.
+
+49
+00:02:20,730 --> 00:02:23,840
+So one method that we can
+use to validate metrics
+
+50
+00:02:23,840 --> 00:02:25,680
+is actually running experiments.
+
+51
+00:02:25,680 --> 00:02:27,720
+Now this may seem horribly circular.
+
+52
+00:02:27,720 --> 00:02:30,350
+We're going to run an experiment
+to validate whether or
+
+53
+00:02:30,350 --> 00:02:33,780
+not we can use a metric for
+evaluating experiments?
+
+54
+00:02:33,780 --> 00:02:36,630
+The thing is that,
+what we want to do is we want to measure
+
+55
+00:02:36,630 --> 00:02:40,080
+that the metric is actually going
+to move as we make changes.
+
+56
+00:02:40,080 --> 00:02:44,350
+So using Carrie's example, if we're
+using the length of time it takes for
+
+57
+00:02:44,350 --> 00:02:48,750
+a student to complete a quiz as a metric
+for whether or not that quiz is actually
+
+58
+00:02:48,750 --> 00:02:53,900
+going to be a good measure of students
+understand that material, then
+
+59
+00:02:53,900 --> 00:02:57,080
+we have to actually test out and say,
+okay, well I'm going to try this quiz,
+
+60
+00:02:57,080 --> 00:03:00,780
+and this other quiz, and I'm going to
+try a completely different formulation.
+
+61
+00:03:00,780 --> 00:03:03,280
+And compare all of those
+different quizzes and say,
+
+62
+00:03:03,280 --> 00:03:08,410
+okay, well, which ones of them
+actually move my proposed metric?
+
+63
+00:03:08,410 --> 00:03:11,890
+Now we're going to talk about how we
+use this method more when we talk about
+
+64
+00:03:11,890 --> 00:03:14,540
+sensitivity and robustness,
+later on in this lesson.
+
+65
+00:03:14,540 --> 00:03:17,330
+>> Now, the other thing you shouldn't
+forget is to talk to your colleagues,
+
+66
+00:03:17,330 --> 00:03:20,190
+because they have great ideas, or
+may have worked in other companies that
+
+67
+00:03:20,190 --> 00:03:22,800
+use different metrics,
+or worked in research.
+
+68
+00:03:22,800 --> 00:03:24,050
+And so you should talk to them about
+
+69
+00:03:24,050 --> 00:03:26,390
+what ideas they think make sense for
+metrics.
+
+70
+00:03:26,390 --> 00:03:28,160
+And then, the other thing is, of course,
+
+71
+00:03:28,160 --> 00:03:30,400
+you want to think about
+your company's culture.
+
+72
+00:03:30,400 --> 00:03:34,630
+Some companies don't want, necessarily,
+the people developing the website
+
+73
+00:03:34,630 --> 00:03:36,610
+to think about how much
+revenue they're bringing in,
+
+74
+00:03:36,610 --> 00:03:38,620
+they want to see innovative features.
+
+75
+00:03:38,620 --> 00:03:41,890
+And then other companies are very
+focused on obtaining market share and
+
+76
+00:03:41,890 --> 00:03:44,050
+adding users, where as,
+you know, another,
+
+77
+00:03:44,050 --> 00:03:47,470
+a different company might want to just
+make their existing users happier.
+
+78
+00:03:47,470 --> 00:03:50,350
+So it's really important to take into
+account your corporate culture as you
+
+79
+00:03:50,350 --> 00:03:51,960
+define your business metrics.
+
+80
+00:03:51,960 --> 00:03:52,780
+>> That makes sense.
+
+81
+00:03:52,780 --> 00:03:55,620
+Do you usually only use one
+of these methods at a time?
+
+82
+00:03:55,620 --> 00:03:56,430
+>> You can, but
+
+83
+00:03:56,430 --> 00:04:00,600
+it's usually more robust to
+triangulate between different methods.
+
+84
+00:04:00,600 --> 00:04:03,450
+So for example,
+let's say that you wanted to see
+
+85
+00:04:03,450 --> 00:04:05,618
+if students are really
+happy with your website.
+
+86
+00:04:05,618 --> 00:04:09,090
+So in our audacity experiment,
+we want to say well,
+
+87
+00:04:09,090 --> 00:04:11,060
+are we,
+are we seeing signs of happiness?
+
+88
+00:04:11,060 --> 00:04:14,660
+So first you might look through your
+logs and say, given that somebody took
+
+89
+00:04:14,660 --> 00:04:18,089
+a second course, which we'll say
+is being happy, what did they do?
+
+90
+00:04:18,089 --> 00:04:19,860
+How long did they spend?
+
+91
+00:04:19,860 --> 00:04:22,380
+How many months were
+they active on the site?
+
+92
+00:04:22,380 --> 00:04:24,350
+You want to get some baseline for that.
+
+93
+00:04:24,350 --> 00:04:26,630
+And then given that they
+took a second course,
+
+94
+00:04:26,630 --> 00:04:30,180
+then you might also want to trigger
+surveys that happened within your site,
+
+95
+00:04:30,180 --> 00:04:33,940
+or do a focus group, where people
+who've done a single course, actually
+
+96
+00:04:33,940 --> 00:04:37,810
+get a survey that says, you know, are
+you considering taking a second course?
+
+97
+00:04:37,810 --> 00:04:39,770
+Were you happy with the first course?
+
+98
+00:04:39,770 --> 00:04:43,730
+And that can give you, maybe not a lot
+of data, but some idea of whether they
+
+99
+00:04:43,730 --> 00:04:46,830
+were happy, and how that relates
+to taking a second course.
+
+100
+00:04:46,830 --> 00:04:49,870
+So it's usually a good idea to try
+to lay out the boundaries around
+
+101
+00:04:49,870 --> 00:04:50,900
+your metric.
+
+102
+00:04:50,900 --> 00:04:54,170
+You won't ever get exactly the same
+results from a couple of different
+
+103
+00:04:54,170 --> 00:04:57,380
+techniques, but they can really give
+you a good sense, in conjunction,
+
+104
+00:04:57,380 --> 00:05:00,080
+of what you might be missing, and
+what the right things to measure are.

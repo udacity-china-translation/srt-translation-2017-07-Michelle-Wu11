@@ -1,0 +1,338 @@
+1
+00:00:00,410 --> 00:00:03,380
+I'll start by calculating the confidence
+interval of the effect size for
+
+2
+00:00:03,380 --> 00:00:05,560
+which I'll only need the total numbers.
+
+3
+00:00:05,560 --> 00:00:09,556
+First, I'll calculate the estimated
+difference, which is the experiment
+
+4
+00:00:09,556 --> 00:00:13,932
+click through rate minus the control
+click through rate and comes to 0.0116.
+
+5
+00:00:13,932 --> 00:00:16,013
+Next, I'll need to calculate
+the standard error for
+
+6
+00:00:16,013 --> 00:00:17,560
+the sample size we have.
+
+7
+00:00:17,560 --> 00:00:21,050
+I can do this using the same method as
+before, assuming that the standard error
+
+8
+00:00:21,050 --> 00:00:24,460
+is proportional to the square
+root of 1 over n1 plus 1 over n2.
+
+9
+00:00:24,460 --> 00:00:28,930
+This gives that the standard error for
+this experiment is 0.0026.
+
+10
+00:00:28,930 --> 00:00:30,876
+To get the margin of error,
+
+11
+00:00:30,876 --> 00:00:36,043
+I'll multiply the standard error
+by the z score and I get 0.0051.
+
+12
+00:00:36,043 --> 00:00:41,882
+Then the confidence interval
+goes from 0.0065 to 0.0167.
+
+13
+00:00:41,882 --> 00:00:44,230
+Since the confidence interval
+does not include zero,
+
+14
+00:00:44,230 --> 00:00:46,720
+these results
+are statistically significant.
+
+15
+00:00:46,720 --> 00:00:49,660
+That is, it's unlikely that
+there was no real difference.
+
+16
+00:00:49,660 --> 00:00:54,069
+However, the confidence interval does
+include the practical significance
+
+17
+00:00:54,069 --> 00:00:58,542
+boundary, meaning that I can't be
+confident at the 95% level that the size
+
+18
+00:00:58,542 --> 00:01:01,205
+of this effect is something
+that I care about.
+
+19
+00:01:01,205 --> 00:01:04,449
+Now to do the sign test, I'll need to
+look at the day-by-day data again, and
+
+20
+00:01:04,449 --> 00:01:07,349
+I'll count the number of days where
+the click through rate is higher in
+
+21
+00:01:07,349 --> 00:01:09,190
+the experiment group.
+
+22
+00:01:09,190 --> 00:01:11,823
+I've checked the days
+where this is true, and
+
+23
+00:01:11,823 --> 00:01:14,872
+it's turned out to be the case for
+9 out of 14 days.
+
+24
+00:01:14,872 --> 00:01:19,104
+Putting 9 and
+14 into the sign test calculator, and
+
+25
+00:01:19,104 --> 00:01:26,014
+clicking Calculate Probabilities, I get
+that the two-tailed value is 0.4240.
+
+26
+00:01:26,014 --> 00:01:27,409
+This is pretty likely, and
+
+27
+00:01:27,409 --> 00:01:31,000
+it's definitely not significant
+at an alpha equals 0.05 level.
+
+28
+00:01:32,290 --> 00:01:36,038
+So the hypothesis test on the effect
+size showed statistically
+
+29
+00:01:36,038 --> 00:01:39,720
+significant results, but
+the sign test didn't.
+
+30
+00:01:39,720 --> 00:01:41,060
+Why could this happen?
+
+31
+00:01:41,060 --> 00:01:45,070
+Well, first off, the sign test has
+lower power than the effect size test,
+
+32
+00:01:45,070 --> 00:01:47,790
+which is frequently the case for
+nonparametric tests.
+
+33
+00:01:47,790 --> 00:01:50,490
+That's the price you pay for
+not making any assumptions.
+
+34
+00:01:50,490 --> 00:01:55,430
+So, this isn't necessarily a red flag,
+but it's worth digging deeper and
+
+35
+00:01:55,430 --> 00:01:57,410
+seeing if we can figure
+out what's going on.
+
+36
+00:01:57,410 --> 00:02:00,370
+I'll take a look again at which
+days showed a positive effect size.
+
+37
+00:02:00,370 --> 00:02:04,710
+It looks like it was Tuesday, Saturday,
+Sunday, Monday, Tuesday, Thursday,
+
+38
+00:02:04,710 --> 00:02:06,370
+Friday, Saturday, Sunday.
+
+39
+00:02:06,370 --> 00:02:08,169
+Now these aren't necessarily
+strange results.
+
+40
+00:02:08,169 --> 00:02:11,720
+But one thing to notice is that all
+four weekend days were positive.
+
+41
+00:02:11,720 --> 00:02:14,000
+In fact, if you look at
+the click-through rate in the experiment
+
+42
+00:02:14,000 --> 00:02:17,530
+group on the weekends, it's much
+higher than the click-through rate on
+
+43
+00:02:17,530 --> 00:02:21,240
+any other day, even the other days
+that did show a positive change.
+
+44
+00:02:21,240 --> 00:02:23,990
+This suggests that maybe
+the change has a small effect or
+
+45
+00:02:23,990 --> 00:02:27,480
+no effect during the week, but
+a larger effect on weekends.
+
+46
+00:02:27,480 --> 00:02:30,390
+I won't step through calculating
+the confidence interval for weekdays and
+
+47
+00:02:30,390 --> 00:02:34,050
+weekends separately, but if you do,
+these are the results you'll get.
+
+48
+00:02:34,050 --> 00:02:37,410
+It looks like the weekdays don't have
+a statistically significant difference,
+
+49
+00:02:37,410 --> 00:02:40,140
+but the weekends do for
+at least the difference of 0.036.
+
+50
+00:02:40,140 --> 00:02:44,480
+That's consistent with the hypothesis
+that the weekends have a large effect
+
+51
+00:02:44,480 --> 00:02:45,640
+and the weekdays have no effect.
+
+52
+00:02:46,760 --> 00:02:50,210
+The signed test results are also
+consistent with this hypothesis.
+
+53
+00:02:50,210 --> 00:02:51,670
+If there were no effect on weekdays,
+
+54
+00:02:51,670 --> 00:02:55,810
+you would expect half the weekdays to be
+positive, which is exactly what we see,
+
+55
+00:02:55,810 --> 00:03:00,010
+and all the weekends to be positive,
+which again, is what we see.
+
+56
+00:03:00,010 --> 00:03:02,940
+Now, there are two main questions to
+answer in deciding what recommendation
+
+57
+00:03:02,940 --> 00:03:04,940
+to make for this experiment.
+
+58
+00:03:04,940 --> 00:03:07,940
+The first is whether it's okay that
+only weekends seem to have improved,
+
+59
+00:03:07,940 --> 00:03:11,940
+and the second is whether the magnitude
+of the change makes it worth launching.
+
+60
+00:03:11,940 --> 00:03:14,160
+Remember, the practical
+significance level was 0.01,
+
+61
+00:03:14,160 --> 00:03:19,210
+and the confidence interval for the
+overall effect included this boundary.
+
+62
+00:03:19,210 --> 00:03:23,200
+The weekend effect was stronger than
+the practical significance level, but
+
+63
+00:03:23,200 --> 00:03:25,530
+you may want a bigger practical
+significance level for
+
+64
+00:03:25,530 --> 00:03:27,660
+a change that only affects weekends.
+
+65
+00:03:27,660 --> 00:03:31,250
+Based on this, I would recommend not
+launching the experiment at this point.
+
+66
+00:03:31,250 --> 00:03:35,280
+Instead, I would dig deeper into why the
+change didn't affect weekday visitors.
+
+67
+00:03:35,280 --> 00:03:37,350
+Once I understood that,
+I might have an idea for
+
+68
+00:03:37,350 --> 00:03:40,370
+how to iterate on the change to
+help it affect more of the users.
+
+69
+00:03:40,370 --> 00:03:43,540
+If not, then I'd talk to the decision
+makers about whether a change of this
+
+70
+00:03:43,540 --> 00:03:45,770
+magnitude on weekend
+traffic is worth launching.

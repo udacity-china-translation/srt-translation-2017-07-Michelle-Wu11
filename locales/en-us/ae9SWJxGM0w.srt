@@ -1,0 +1,175 @@
+1
+00:00:00,390 --> 00:00:03,630
+We just saw that targeting your
+experiment to the appropriate traffic,
+
+2
+00:00:03,630 --> 00:00:04,210
+for example,
+
+3
+00:00:04,210 --> 00:00:08,340
+to just the English speaking traffic,
+can reduce the size of your experiment.
+
+4
+00:00:08,340 --> 00:00:11,090
+But you mentioned earlier that you might
+not always know beforehand what will
+
+5
+00:00:11,090 --> 00:00:11,660
+be affected.
+
+6
+00:00:11,660 --> 00:00:12,360
+Right?
+
+7
+00:00:12,360 --> 00:00:12,880
+>> Yeah.
+So
+
+8
+00:00:12,880 --> 00:00:15,260
+the first reason you don't know
+is that you just don't know.
+
+9
+00:00:15,260 --> 00:00:18,940
+So, for example, if you design
+an improvement to your web page and
+
+10
+00:00:18,940 --> 00:00:21,820
+you don't know which browsers
+are really going to benefit the most or
+
+11
+00:00:21,820 --> 00:00:25,010
+the least from it, that's something
+that happens fairly frequently.
+
+12
+00:00:25,010 --> 00:00:27,860
+Or, you could have a feature on
+your site like language detection,
+
+13
+00:00:27,860 --> 00:00:32,090
+where it classifies it as a language,
+if say, the number of search results in
+
+14
+00:00:32,090 --> 00:00:35,250
+that language is higher than
+the number in some other language.
+
+15
+00:00:35,250 --> 00:00:37,770
+These are things which can
+be fairly hard to predict,
+
+16
+00:00:37,770 --> 00:00:41,110
+exactly, how many of your users
+are going to be affected.
+
+17
+00:00:41,110 --> 00:00:42,730
+You may be able to ballpark it,
+
+18
+00:00:42,730 --> 00:00:47,240
+but it can be harder to actually
+target that experiment directly.
+
+19
+00:00:47,240 --> 00:00:50,260
+Now the other thing you want
+to think about is, you know,
+
+20
+00:00:50,260 --> 00:00:52,050
+how are you actually
+going to detect impact?
+
+21
+00:00:52,050 --> 00:00:56,250
+If you have a feature that triggers
+in a certain way, if it's a really
+
+22
+00:00:56,250 --> 00:01:00,490
+obvious UI feature, then you know how
+many people were actually exposed to it.
+
+23
+00:01:00,490 --> 00:01:02,853
+But if it's something that happens
+on the back end, you know,
+
+24
+00:01:02,853 --> 00:01:05,631
+do you trigger this particular
+feature in generating recommendations?
+
+25
+00:01:05,631 --> 00:01:09,177
+You actually want to keep track
+of what your metric is for, hey,
+
+26
+00:01:09,177 --> 00:01:11,870
+they should have been
+exposed to my feature, and
+
+27
+00:01:11,870 --> 00:01:14,275
+they actually were
+exposed to my feature.
+
+28
+00:01:14,275 --> 00:01:14,905
+>> Okay.
+And then
+
+29
+00:01:14,905 --> 00:01:17,455
+what effect does that have on
+the size of the experiment?
+
+30
+00:01:17,455 --> 00:01:20,815
+>> Well if you really don't know what
+fraction of your population is going to
+
+31
+00:01:20,815 --> 00:01:23,585
+be affected, you're going to have
+to be pretty conservative when you
+
+32
+00:01:23,585 --> 00:01:27,665
+plan how much time and how many
+users have to see your experiment.
+
+33
+00:01:27,665 --> 00:01:31,115
+Now that said, what I like to do
+is either run a pilot where you
+
+34
+00:01:31,115 --> 00:01:34,680
+turn on the experiment for a little
+while and see who's affected, or
+
+35
+00:01:34,680 --> 00:01:38,150
+you can even just use the first day or
+the first week of data to try to get
+
+36
+00:01:38,150 --> 00:01:41,700
+a better guess at what fraction of your
+population you're really looking at.

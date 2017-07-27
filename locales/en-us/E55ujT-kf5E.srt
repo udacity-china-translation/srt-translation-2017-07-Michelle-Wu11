@@ -1,0 +1,45 @@
+1
+00:00:00,450 --> 00:00:04,990
+Knowing which questions to consider to
+evaluate the ethics of a proposed test
+
+2
+00:00:04,990 --> 00:00:06,830
+is definitely important.
+
+3
+00:00:06,830 --> 00:00:08,345
+As is a data policy so
+
+4
+00:00:08,345 --> 00:00:11,300
+test-runners will know how they
+can use the data they collect.
+
+5
+00:00:11,300 --> 00:00:13,860
+We hope you agree that
+the history of A/B testing and
+
+6
+00:00:13,860 --> 00:00:17,850
+of IRBs are interesting, but
+they're not ethically necessary.
+
+7
+00:00:17,850 --> 00:00:20,600
+Knowing what principles to
+uphold when running A/B tests is
+
+8
+00:00:20,600 --> 00:00:22,520
+also an important thing to know.
+
+9
+00:00:22,520 --> 00:00:25,770
+In fact, it would be hard to cover
+the first point well without
+
+10
+00:00:25,770 --> 00:00:26,530
+teaching this too.

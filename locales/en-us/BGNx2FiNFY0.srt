@@ -1,0 +1,36 @@
+1
+00:00:00,480 --> 00:00:04,260
+I would choose the null hypothesis that
+both groups have the same probability of
+
+2
+00:00:04,260 --> 00:00:05,090
+completing a checkout.
+
+3
+00:00:05,090 --> 00:00:07,930
+And I would choose
+an alternative hypothesis
+
+4
+00:00:07,930 --> 00:00:11,480
+that the two groups have a different
+probability of completing a checkout.
+
+5
+00:00:11,480 --> 00:00:13,660
+We could also say as we did before,
+
+6
+00:00:13,660 --> 00:00:18,630
+that the null hypothesis is that
+px minus p comp is equal to zero.
+
+7
+00:00:18,630 --> 00:00:21,300
+And then the alternative hypothesis
+would be that the difference is
+
+8
+00:00:21,300 --> 00:00:22,260
+not equal to zero.

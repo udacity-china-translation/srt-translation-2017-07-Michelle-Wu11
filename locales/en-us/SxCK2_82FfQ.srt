@@ -1,0 +1,78 @@
+1
+00:00:00,360 --> 00:00:04,570
+We defined the estimated difference
+as the experimental probability
+
+2
+00:00:04,570 --> 00:00:06,460
+minus the control probability.
+
+3
+00:00:06,460 --> 00:00:09,110
+And that comes to 0.0289.
+
+4
+00:00:09,110 --> 00:00:13,222
+The margin of error is equal to
+the pulled standard error times 1.96,
+
+5
+00:00:13,222 --> 00:00:16,357
+which is our Z score for
+our confidence level of 95%.
+
+6
+00:00:16,357 --> 00:00:19,202
+And that comes to 0.0087.
+
+7
+00:00:19,202 --> 00:00:23,823
+The lower bound of the confidence
+interval will be d hat minus m,
+
+8
+00:00:23,823 --> 00:00:26,057
+which comes to 0.0202.
+
+9
+00:00:26,057 --> 00:00:30,683
+And the upper bound will d hat plus m,
+which comes to 0.0376.
+
+10
+00:00:30,683 --> 00:00:33,714
+So what can we conclude
+from these results?
+
+11
+00:00:33,714 --> 00:00:38,272
+Well, we can conclude it is highly
+probable that click-through probability
+
+12
+00:00:38,272 --> 00:00:39,797
+changed by at least 2%.
+
+13
+00:00:39,797 --> 00:00:43,623
+Remember that we want to look for both
+statistical and practical significance,
+
+14
+00:00:43,623 --> 00:00:45,170
+and here we have both.
+
+15
+00:00:45,170 --> 00:00:48,400
+Because 2% was our practical
+significance level, and we
+
+16
+00:00:48,400 --> 00:00:52,040
+can be confident that we have at least
+that big of a change at the 95% level.
+
+17
+00:00:53,140 --> 00:00:55,640
+Based on this, I would definitely
+launch the new version.

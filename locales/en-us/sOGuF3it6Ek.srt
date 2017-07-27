@@ -1,0 +1,201 @@
+1
+00:00:00,370 --> 00:00:04,050
+For measuring user engagement, one
+option would be to survey students in
+
+2
+00:00:04,050 --> 00:00:08,620
+the course, asking how engaged they are,
+and use the survey responses as a proxy.
+
+3
+00:00:08,620 --> 00:00:10,170
+This is option number 4.
+
+4
+00:00:10,170 --> 00:00:13,650
+Another option would be to run
+a user experience study, and
+
+5
+00:00:13,650 --> 00:00:16,120
+observe how students
+interact with the courses.
+
+6
+00:00:16,120 --> 00:00:19,620
+If you also asked the study
+participants how engaged they were,
+
+7
+00:00:19,620 --> 00:00:22,210
+you could figure out whether their
+engagement correlates with something
+
+8
+00:00:22,210 --> 00:00:25,580
+easier to measure, such as the length
+of time spent on the page or
+
+9
+00:00:25,580 --> 00:00:27,710
+clicking more links to extra material.
+
+10
+00:00:27,710 --> 00:00:29,770
+So, that's option number 2.
+
+11
+00:00:29,770 --> 00:00:33,200
+Finally, since you think that course
+completion probably predicts engagement
+
+12
+00:00:33,200 --> 00:00:37,580
+well, but is too hard to measure, you
+could also do a retrospective analysis
+
+13
+00:00:37,580 --> 00:00:41,710
+of users who have completed courses and
+see what behaviors they have in common.
+
+14
+00:00:41,710 --> 00:00:43,530
+This is option number 5.
+
+15
+00:00:43,530 --> 00:00:46,000
+Any two of these three would
+have been a good answer.
+
+16
+00:00:46,000 --> 00:00:48,990
+You may also have thought of a good way
+to use one of the other techniques,
+
+17
+00:00:48,990 --> 00:00:50,380
+which is great as well.
+
+18
+00:00:50,380 --> 00:00:52,690
+The shopping site scenario is tricky.
+
+19
+00:00:52,690 --> 00:00:55,880
+One option would be to add some products
+and see how often the new pages were
+
+20
+00:00:55,880 --> 00:00:59,300
+accessed, but that could be
+a significant investment for
+
+21
+00:00:59,300 --> 00:01:02,020
+products the users might
+not even be interested in.
+
+22
+00:01:02,020 --> 00:01:05,800
+Instead, you might want to use
+a focus group to get ideas from users
+
+23
+00:01:05,800 --> 00:01:09,800
+about what products they would
+like to see, or option 3.
+
+24
+00:01:09,800 --> 00:01:13,010
+Alternatively, you could check if there
+is external data available from other
+
+25
+00:01:13,010 --> 00:01:18,370
+shopping sites, indicating what users
+have wanted on those sites, or option 1.
+
+26
+00:01:18,370 --> 00:01:22,360
+For the ad viewing scenario, you
+might also consider external data, or
+
+27
+00:01:22,360 --> 00:01:22,885
+option 1.
+
+28
+00:01:24,140 --> 00:01:26,960
+Specifically, you could look for
+studies that show whether there's
+
+29
+00:01:26,960 --> 00:01:31,230
+something you can measure, like time
+spent on the page or mouse hover events,
+
+30
+00:01:31,230 --> 00:01:34,700
+that you could use as a proxy for
+whether the ad was viewed.
+
+31
+00:01:34,700 --> 00:01:38,900
+Or you could run a user
+experience study, option 2,
+
+32
+00:01:38,900 --> 00:01:42,150
+where you observe users, see what
+ads they're paying attention to with
+
+33
+00:01:42,150 --> 00:01:46,860
+an eye-tracking camera, and then try to
+find a metric that correlates with that.
+
+34
+00:01:46,860 --> 00:01:49,865
+You could also assume that
+clicks correlate with views and
+
+35
+00:01:49,865 --> 00:01:53,851
+use your historical data to estimate
+that the relative number of clicks among
+
+36
+00:01:53,851 --> 00:01:56,075
+ad slots is a proxy for
+the relative views.
+
+37
+00:01:56,075 --> 00:01:59,342
+Or you could look at the lowest
+position where anyone has clicked and
+
+38
+00:01:59,342 --> 00:02:01,670
+assume that people have
+read at least that far.
+
+39
+00:02:01,670 --> 00:02:04,830
+Then, you could do a retrospective
+analysis of your data to see how well
+
+40
+00:02:04,830 --> 00:02:06,450
+these metrics would work.
+
+41
+00:02:06,450 --> 00:02:09,360
+Again, any two of these three
+would have been a good answer, or
+
+42
+00:02:09,360 --> 00:02:11,260
+maybe you thought of a way
+to use another technique.

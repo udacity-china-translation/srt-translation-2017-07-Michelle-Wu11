@@ -1,0 +1,574 @@
+1
+00:00:00,430 --> 00:00:01,260
+Okay.
+Let's
+
+2
+00:00:01,260 --> 00:00:04,320
+suppose Audacity runs an experiment
+where they test changing the color and
+
+3
+00:00:04,320 --> 00:00:05,810
+placement of the Start Now button.
+
+4
+00:00:05,810 --> 00:00:08,940
+Their metric is click-through-rate and
+they divert by cookie.
+
+5
+00:00:08,940 --> 00:00:13,683
+Their practical significance boundary
+is .01 and they use an alpha of .05 and
+
+6
+00:00:13,683 --> 00:00:14,707
+a beta of 0.2.
+
+7
+00:00:14,707 --> 00:00:17,728
+Now here are the results of
+the experiment which was run over
+
+8
+00:00:17,728 --> 00:00:18,399
+seven days.
+
+9
+00:00:18,399 --> 00:00:20,332
+And the total numbers
+are on the last row.
+
+10
+00:00:20,332 --> 00:00:24,168
+I won't go over it now, but if you
+do a sanity check, you'll find that
+
+11
+00:00:24,168 --> 00:00:28,060
+the number of page views is
+comparable between the two groups.
+
+12
+00:00:28,060 --> 00:00:30,270
+So let's start analyzing.
+
+13
+00:00:30,270 --> 00:00:33,450
+Now, in lesson one,
+we analyzed a similar experiment, but
+
+14
+00:00:33,450 --> 00:00:36,520
+we measured click-through probability
+instead of click-through rate, so
+
+15
+00:00:36,520 --> 00:00:39,102
+we could assume a binomial distribution.
+
+16
+00:00:39,102 --> 00:00:41,950
+With click-through rate,
+like I mentioned in lesson four,
+
+17
+00:00:41,950 --> 00:00:44,250
+the distribution is more
+likely to be Poisson,
+
+18
+00:00:44,250 --> 00:00:47,290
+which is harder to deal with
+analytically than the binomial.
+
+19
+00:00:47,290 --> 00:00:50,340
+So this time, in order to
+calculate a confidence interval,
+
+20
+00:00:50,340 --> 00:00:53,556
+it's a good idea to estimate
+the variance empirically.
+
+21
+00:00:53,556 --> 00:00:57,410
+In fact, Audacity already calculated
+the empirical standard error when they
+
+22
+00:00:57,410 --> 00:01:00,560
+decided what size to use for
+their experiment.
+
+23
+00:01:00,560 --> 00:01:03,125
+With a sample size of 10,000
+page views in each group,
+
+24
+00:01:03,125 --> 00:01:06,150
+they had measured the standard
+error to be 0.0035.
+
+25
+00:01:06,150 --> 00:01:09,460
+As in lesson four, I can assume that
+the standard error is proportional to
+
+26
+00:01:09,460 --> 00:01:11,190
+one over the square root of N.
+
+27
+00:01:11,190 --> 00:01:14,950
+However, N here was the sample size of
+one group, which works well if there's
+
+28
+00:01:14,950 --> 00:01:18,580
+the same size in both groups, as in
+the estimation of the standard error.
+
+29
+00:01:18,580 --> 00:01:22,910
+But in our results, there's not the same
+number of page views in both groups.
+
+30
+00:01:22,910 --> 00:01:25,670
+In this case, I can assume that
+the standard error is proportional
+
+31
+00:01:25,670 --> 00:01:28,753
+to the square root of 1
+over N1 plus 1 over n2,
+
+32
+00:01:28,753 --> 00:01:31,660
+and this did work well if
+the ends are fairly close.
+
+33
+00:01:31,660 --> 00:01:33,520
+This should also look familiar.
+
+34
+00:01:33,520 --> 00:01:34,740
+It comes up in the formula for
+
+35
+00:01:34,740 --> 00:01:36,780
+pooled standard error in
+the binomial distribution.
+
+36
+00:01:36,780 --> 00:01:40,520
+So then the standard error for our
+experiment can be determined using this
+
+37
+00:01:40,520 --> 00:01:44,780
+equation, where the empirical standard
+error divided by the empirical scaling
+
+38
+00:01:44,780 --> 00:01:48,070
+factor is equal to the standard
+error for our experiment,
+
+39
+00:01:48,070 --> 00:01:51,750
+divided by the scaling factor for our
+experiment, which involves the number of
+
+40
+00:01:51,750 --> 00:01:56,040
+page views in both the control and
+the experiment group for our experiment.
+
+41
+00:01:56,040 --> 00:01:59,880
+So then the standard error for
+our experiment comes out to 0.0041.
+
+42
+00:01:59,880 --> 00:02:03,170
+Now we'll replace this table of
+results with just the total numbers,
+
+43
+00:02:03,170 --> 00:02:04,640
+to make a little more room.
+
+44
+00:02:04,640 --> 00:02:07,330
+Now I'll estimate the difference
+between the click-through rates and
+
+45
+00:02:07,330 --> 00:02:10,750
+the control and experiment groups
+by subtracting the control
+
+46
+00:02:10,750 --> 00:02:15,330
+estimated click-through rate from the
+experiment estimated click-through rate,
+
+47
+00:02:15,330 --> 00:02:16,480
+and this comes out to 0.0300.
+
+48
+00:02:16,480 --> 00:02:20,601
+Then, the margin of error is
+the standard error times 1.96,
+
+49
+00:02:20,601 --> 00:02:23,297
+which comes to 0.0080.
+
+50
+00:02:23,297 --> 00:02:29,312
+Then, the confidence interval
+is from 0.0020 to 0.0380.
+
+51
+00:02:29,312 --> 00:02:32,163
+Based on this, I would recommend
+launching the experiment.
+
+52
+00:02:32,163 --> 00:02:36,934
+The confidence interval does not include
+the practical significance boundary
+
+53
+00:02:36,934 --> 00:02:41,347
+of 0.01, meaning I can be confident
+at a 95% confidence level that
+
+54
+00:02:41,347 --> 00:02:45,280
+the true change is large
+enough to be worth launching.
+
+55
+00:02:45,280 --> 00:02:48,862
+However, just to double check, let's
+look at the results of the sign test.
+
+56
+00:02:48,862 --> 00:02:52,860
+To do this, I'll need to bring
+up the day by day data again.
+
+57
+00:02:52,860 --> 00:02:56,660
+Here, to the clicks columns, I've
+also added the click through rate, so
+
+58
+00:02:56,660 --> 00:03:00,270
+that's just the clicks divided
+by the page views for each row.
+
+59
+00:03:00,270 --> 00:03:03,725
+To do a sign test, I need to know the
+number of days, which in this case is
+
+60
+00:03:03,725 --> 00:03:07,640
+seven, and I also need to know the
+number of days with a positive change.
+
+61
+00:03:07,640 --> 00:03:11,310
+So comparing the click through rate in
+each row, I can see that the experiment
+
+62
+00:03:11,310 --> 00:03:15,170
+group actually had a higher click
+through rate on all seven days.
+
+63
+00:03:15,170 --> 00:03:16,370
+This certainly looks good for
+
+64
+00:03:16,370 --> 00:03:20,660
+the experiment, but what will be
+the chance of this happening randomly?
+
+65
+00:03:20,660 --> 00:03:21,820
+If there was no difference,
+
+66
+00:03:21,820 --> 00:03:25,770
+then there would be a 50% chance
+of a positive change on each day.
+
+67
+00:03:25,770 --> 00:03:30,040
+So the question is if you
+flip a fair coin seven times,
+
+68
+00:03:30,040 --> 00:03:32,790
+what is the chance it comes
+up heads seven times?
+
+69
+00:03:32,790 --> 00:03:36,200
+This is the same calculation I did
+earlier to do a population count
+
+70
+00:03:36,200 --> 00:03:37,610
+sanity check.
+
+71
+00:03:37,610 --> 00:03:41,150
+Earlier, I used a binomial distribution
+where each event was a cookie, and
+
+72
+00:03:41,150 --> 00:03:43,430
+the two outcomes were being
+assigned to the control group or
+
+73
+00:03:43,430 --> 00:03:44,690
+the experiment group.
+
+74
+00:03:44,690 --> 00:03:49,100
+Here, the event is a day, and the two
+outcomes are a positive change or
+
+75
+00:03:49,100 --> 00:03:53,320
+a negative change, and
+the probability of each outcome is 50%.
+
+76
+00:03:53,320 --> 00:03:54,390
+The main difference is that here,
+
+77
+00:03:54,390 --> 00:03:57,930
+we cannot assume a normal distribution,
+since seven days is not enough for
+
+78
+00:03:57,930 --> 00:04:00,580
+the binomial to closely
+approximate a normal.
+
+79
+00:04:00,580 --> 00:04:04,340
+You can do the calculation by hand using
+the probability density of the binomial
+
+80
+00:04:04,340 --> 00:04:08,110
+distribution, but
+there's also an online calculator that
+
+81
+00:04:08,110 --> 00:04:10,660
+you can use which is linked
+in the instructor's notes.
+
+82
+00:04:10,660 --> 00:04:12,310
+I'll use the online calculator.
+
+83
+00:04:12,310 --> 00:04:15,400
+First, I'll need to enter
+the number of successes I observed.
+
+84
+00:04:15,400 --> 00:04:17,490
+I'll define a positive difference, or
+
+85
+00:04:17,490 --> 00:04:20,200
+the experiment group having a higher
+click-through-rate than the control
+
+86
+00:04:20,200 --> 00:04:24,990
+as a success, so there were seven
+successes out of seven total days.
+
+87
+00:04:24,990 --> 00:04:29,680
+Then I'll leave the probability at 0.5
+and click Calculate Probabilities.
+
+88
+00:04:29,680 --> 00:04:34,626
+The number I'm interested in here is
+the two-tail P value, which is 0.0156.
+
+89
+00:04:34,626 --> 00:04:39,630
+That's the probability of observing a
+result at least this extreme by chance.
+
+90
+00:04:39,630 --> 00:04:44,260
+Since this is less than the chosen alpha
+of 0.05, the sign test agrees with
+
+91
+00:04:44,260 --> 00:04:48,580
+the hypothesis test, that this result
+was unlikely to come about by chance.
+
+92
+00:04:48,580 --> 00:04:50,770
+Given this,
+my recommendation would not change.
+
+93
+00:04:50,770 --> 00:04:53,930
+I would definitely launch the experiment
+with increased confidence in
+
+94
+00:04:53,930 --> 00:04:55,400
+the experiment results.
+
+95
+00:04:55,400 --> 00:04:58,760
+Now, I want you to do the same
+analysis for this table of results.
+
+96
+00:04:58,760 --> 00:05:02,050
+Again, the metric for the experiment
+was click-through rate, and
+
+97
+00:05:02,050 --> 00:05:06,380
+the practical significance boundary
+is 0.01, and the alpha is 0.05.
+
+98
+00:05:06,380 --> 00:05:10,170
+These are the results for
+the first week of the experiment, and
+
+99
+00:05:10,170 --> 00:05:12,430
+these are the results for
+the second week.
+
+100
+00:05:12,430 --> 00:05:15,720
+I've put the click-through rate instead
+of the number of clicks in these columns
+
+101
+00:05:15,720 --> 00:05:17,770
+to make the analysis a little easier.
+
+102
+00:05:17,770 --> 00:05:20,400
+You can also find these results
+in the spreadsheet linked in
+
+103
+00:05:20,400 --> 00:05:21,950
+the instructor's notes.
+
+104
+00:05:21,950 --> 00:05:26,690
+Audacity also empirically estimated that
+the standard error for the click through
+
+105
+00:05:26,690 --> 00:05:30,510
+rate to be .0062 with a sample size
+of 5,000 page views in each group.
+
+106
+00:05:30,510 --> 00:05:33,620
+Like I did, you should both do a sign
+test on the day by day data and
+
+107
+00:05:33,620 --> 00:05:37,460
+computer confidence interval of
+the effect size, that is, the difference
+
+108
+00:05:37,460 --> 00:05:40,680
+between the click through rate in the
+control group and the experiment group.
+
+109
+00:05:40,680 --> 00:05:43,550
+Click the lower and upper balance of
+your confidence interval in these boxes
+
+110
+00:05:43,550 --> 00:05:45,430
+and the the two tailed p value for
+
+111
+00:05:45,430 --> 00:05:48,950
+your sign test in this box,
+all to four decimal places.
+
+112
+00:05:48,950 --> 00:05:52,200
+For each test, are the results
+statistically significant that the alpha
+
+113
+00:05:52,200 --> 00:05:54,470
+equals 0.05 level?
+
+114
+00:05:54,470 --> 00:05:57,680
+Finally, discuss on the forums
+what recommendation you would give
+
+115
+00:05:57,680 --> 00:06:00,460
+if you saw these results in
+an experiment you were running.
+
+116
+00:06:00,460 --> 00:06:02,110
+Would you recommend to launch?
+
+117
+00:06:02,110 --> 00:06:03,160
+Not launch?
+
+118
+00:06:03,160 --> 00:06:05,430
+Dig deeper into something
+strange looking?
+
+119
+00:06:05,430 --> 00:06:08,180
+Would it be a judgment call that
+depended on the business strategy?
+
+120
+00:06:08,180 --> 00:06:10,670
+Once you've discussed your thoughts,
+check this box.

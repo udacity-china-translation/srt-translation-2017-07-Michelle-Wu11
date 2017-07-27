@@ -1,0 +1,153 @@
+1
+00:00:00,230 --> 00:00:03,719
+Okay, we've just seen some cases
+where AB testing isn't very helpful.
+
+2
+00:00:03,719 --> 00:00:05,260
+What should we do in those cases?
+
+3
+00:00:05,260 --> 00:00:07,390
+Are there any other
+techniques you can use?
+
+4
+00:00:07,390 --> 00:00:10,344
+>> Well, there are a lot of different
+ways to gather data about users.
+
+5
+00:00:10,344 --> 00:00:13,137
+And, some of them can be
+complimentary to running an AB
+
+6
+00:00:13,137 --> 00:00:14,607
+test eventually, as well.
+
+7
+00:00:14,607 --> 00:00:19,200
+So, for example, often you'll have logs
+of what users did on your website.
+
+8
+00:00:19,200 --> 00:00:24,250
+You can analyze them retrospectively, or
+observationally, to see if a hypothesis
+
+9
+00:00:24,250 --> 00:00:28,000
+can be developed about what's
+causing changes in their behavior.
+
+10
+00:00:28,000 --> 00:00:31,340
+And, that's something where you may want
+to go forward, and actually design, and
+
+11
+00:00:31,340 --> 00:00:35,460
+randomize, and experiment,
+do a perspective analysis.
+
+12
+00:00:35,460 --> 00:00:38,930
+And, you can use the two data sources
+as, to kind of compliment each other.
+
+13
+00:00:38,930 --> 00:00:42,830
+Where, you may develop a hypothesis
+from looking at the logs.
+
+14
+00:00:42,830 --> 00:00:46,060
+But, you actually want to test out
+whether you can make this happen in
+
+15
+00:00:46,060 --> 00:00:47,220
+an experiment.
+
+16
+00:00:47,220 --> 00:00:50,600
+And so then, you'll want to run an AB
+test as well to compare the results,
+
+17
+00:00:50,600 --> 00:00:52,740
+and, and see if your theory is valid.
+
+18
+00:00:52,740 --> 00:00:55,500
+>> There's a whole host of other
+techniques as well, ranging from user
+
+19
+00:00:55,500 --> 00:01:00,540
+experience research, to focus groups,
+and surveys, and human evaluation.
+
+20
+00:01:00,540 --> 00:01:03,620
+Now, what happens is that AB
+testing can give you a lot
+
+21
+00:01:03,620 --> 00:01:05,040
+of broad quantitative data.
+
+22
+00:01:05,040 --> 00:01:07,710
+But, these other techniques
+give you very deep and
+
+23
+00:01:07,710 --> 00:01:11,010
+qualitative data that are really
+complementary to AB testing.
+
+24
+00:01:11,010 --> 00:01:14,290
+So, for example, you know, these other
+techniques can do a better job of
+
+25
+00:01:14,290 --> 00:01:16,220
+telling you which mountain
+you should be on.
+
+26
+00:01:16,220 --> 00:01:18,960
+So, we'll be going over some of these
+other techniques in lesson three.
+
+27
+00:01:18,960 --> 00:01:22,180
+>> So, there are definitely some things
+that are very difficult to test with
+
+28
+00:01:22,180 --> 00:01:22,980
+AB testing.
+
+29
+00:01:22,980 --> 00:01:25,590
+So, for example,
+if you completely redo your site, or
+
+30
+00:01:25,590 --> 00:01:27,950
+change the way that
+users interact with it.
+
+31
+00:01:27,950 --> 00:01:30,770
+>> That's something that can be really
+hard to run a controlled experiment
+
+32
+00:01:30,770 --> 00:01:33,160
+with, and we'll talk about
+why later in the course.

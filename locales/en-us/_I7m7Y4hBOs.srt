@@ -1,0 +1,370 @@
+1
+00:00:00,420 --> 00:00:02,640
+Now lets talk about how to
+measure the sensitivity and
+
+2
+00:00:02,640 --> 00:00:04,790
+robustness of some different metrics.
+
+3
+00:00:04,790 --> 00:00:07,760
+Specifically, we'll try to
+choose a summary metric for
+
+4
+00:00:07,760 --> 00:00:12,060
+the latency of a video, that is how
+long it takes the video to load.
+
+5
+00:00:12,060 --> 00:00:15,710
+Like before, there are various
+different summary metrics we could use,
+
+6
+00:00:15,710 --> 00:00:19,310
+median, 90th percentile,
+99th percentile.
+
+7
+00:00:19,310 --> 00:00:21,940
+So, we'll want to look at
+the sensitivity and robustness for
+
+8
+00:00:21,940 --> 00:00:23,970
+each of those summary metrics.
+
+9
+00:00:23,970 --> 00:00:27,340
+Like Carrie mentioned, we could start
+out by either looking at the results of
+
+10
+00:00:27,340 --> 00:00:30,830
+a bunch of experiments or
+by doing a retrospective analysis.
+
+11
+00:00:30,830 --> 00:00:33,320
+Let's do the retrospective
+analysis first.
+
+12
+00:00:33,320 --> 00:00:36,560
+What we might do is de-segment
+the data by different videos.
+
+13
+00:00:36,560 --> 00:00:39,880
+In other words, look at the distribution
+of load times per video.
+
+14
+00:00:39,880 --> 00:00:42,650
+If we wanted to look at
+the distribution of a single video,
+
+15
+00:00:42,650 --> 00:00:44,870
+we could plot it as
+a histogram like this, but
+
+16
+00:00:44,870 --> 00:00:48,790
+this can get hard to see when we have
+multiple different videos to compare.
+
+17
+00:00:48,790 --> 00:00:52,080
+Instead, we could draw something called
+a density line over the histogram
+
+18
+00:00:52,080 --> 00:00:54,710
+that roughly approximates
+the shape of the histogram.
+
+19
+00:00:54,710 --> 00:00:57,070
+Then we could plot only
+this density line for
+
+20
+00:00:57,070 --> 00:00:59,010
+several different videos to compare.
+
+21
+00:00:59,010 --> 00:01:01,290
+If I do that, I get something like this.
+
+22
+00:01:01,290 --> 00:01:04,440
+Suppose here that I've picked five
+roughly comparable videos of the same
+
+23
+00:01:04,440 --> 00:01:09,430
+size, so I get a roughly similar
+distribution of load times for
+
+24
+00:01:09,430 --> 00:01:10,890
+the different videos.
+
+25
+00:01:10,890 --> 00:01:14,190
+You can see two peaks here,
+a fairly long load time, and
+
+26
+00:01:14,190 --> 00:01:16,380
+then more people with
+a shorter load time.
+
+27
+00:01:16,380 --> 00:01:20,530
+This could happen if you had people
+with different types of Internet access,
+
+28
+00:01:20,530 --> 00:01:23,230
+a slower Internet access and
+a faster one.
+
+29
+00:01:23,230 --> 00:01:25,360
+Now, in order to characterize
+the sensitivity and
+
+30
+00:01:25,360 --> 00:01:30,120
+robustness of different summary metrics,
+I can see how they vary across videos.
+
+31
+00:01:30,120 --> 00:01:32,790
+So, here I've plotted a few
+different summary metrics by video.
+
+32
+00:01:32,790 --> 00:01:37,880
+The median, 80th, 85th,
+90th, and 99th percentile.
+
+33
+00:01:37,880 --> 00:01:40,740
+In theory, since these videos
+are all comparable, there should
+
+34
+00:01:40,740 --> 00:01:44,470
+not be too much difference between
+the different videos for a good metric.
+
+35
+00:01:44,470 --> 00:01:46,690
+Here, you can see that the median,
+the 80th and
+
+36
+00:01:46,690 --> 00:01:49,810
+the 85th percentile don't
+move around too much.
+
+37
+00:01:49,810 --> 00:01:50,900
+They're pretty good.
+
+38
+00:01:50,900 --> 00:01:55,850
+But the 90th and the 99th percentile
+are zigzagging around a bit.
+
+39
+00:01:55,850 --> 00:02:00,280
+This is a good indication that the 90th
+and 99th percentile are not robust
+
+40
+00:02:00,280 --> 00:02:03,880
+enough as summary metrics,
+since they're moving around quite a bit,
+
+41
+00:02:03,880 --> 00:02:06,660
+even for
+videos that are pretty comparable.
+
+42
+00:02:06,660 --> 00:02:08,880
+Of course, you have to be careful.
+
+43
+00:02:08,880 --> 00:02:10,590
+Maybe these metrics
+are moving around for
+
+44
+00:02:10,590 --> 00:02:14,050
+some other reason because the videos
+aren't actually comparable.
+
+45
+00:02:14,050 --> 00:02:16,830
+For example, maybe the videos
+are at different resolutions or
+
+46
+00:02:16,830 --> 00:02:19,050
+have a different encoding scheme.
+
+47
+00:02:19,050 --> 00:02:19,620
+In this case,
+
+48
+00:02:19,620 --> 00:02:22,570
+let's say that we're pretty sure
+that these videos are comparable and
+
+49
+00:02:22,570 --> 00:02:24,930
+that we've checked for
+those things, but in general,
+
+50
+00:02:24,930 --> 00:02:27,260
+if you think your metric
+might be too sensitive or
+
+51
+00:02:27,260 --> 00:02:31,050
+equivalently not robust enough,
+then it's a good idea to dig and ensure
+
+52
+00:02:31,050 --> 00:02:34,900
+that there's not some underlying factor
+that you haven't taken into account.
+
+53
+00:02:34,900 --> 00:02:37,580
+Now, the other technique Carrie
+mentioned is to look at actual
+
+54
+00:02:37,580 --> 00:02:41,540
+experiments, preferably experiments
+you've already run to save yourself some
+
+55
+00:02:41,540 --> 00:02:43,360
+effort, but
+you can also run new experiments.
+
+56
+00:02:44,410 --> 00:02:46,600
+So, for this example, for the load time,
+
+57
+00:02:46,600 --> 00:02:49,810
+it would be great if we had experiments
+that changed the resolution.
+
+58
+00:02:49,810 --> 00:02:52,310
+That should impact the latency,
+and if it doesn't,
+
+59
+00:02:52,310 --> 00:02:54,700
+then our metric isn't sensitive enough.
+
+60
+00:02:54,700 --> 00:02:57,590
+So let's take a look at data from five
+different experimental groups that
+
+61
+00:02:57,590 --> 00:02:59,630
+have a range of resolutions.
+
+62
+00:02:59,630 --> 00:03:01,790
+Here, video one has
+the highest resolution,
+
+63
+00:03:01,790 --> 00:03:03,720
+which means that it should
+have the highest load time.
+
+64
+00:03:03,720 --> 00:03:07,190
+And in fact, you do see that video
+one is off to the right a bit more.
+
+65
+00:03:08,520 --> 00:03:11,230
+You can also see that the people
+who already have the slow Internet
+
+66
+00:03:11,230 --> 00:03:15,050
+connection are a lot more affected by
+the resolution than the people with
+
+67
+00:03:15,050 --> 00:03:16,820
+the faster connection type.
+
+68
+00:03:16,820 --> 00:03:20,730
+Now let's also look at the same summary
+metrics for these experimental videos.
+
+69
+00:03:20,730 --> 00:03:24,710
+What we should see is the latency going
+down as we increase the video number,
+
+70
+00:03:24,710 --> 00:03:26,950
+that is, we have a lower resolution.
+
+71
+00:03:26,950 --> 00:03:30,550
+And in fact, for some of these metrics
+we do see that, but for the median and
+
+72
+00:03:30,550 --> 00:03:33,770
+the 80th percentile,
+they don't really seem to be moving.
+
+73
+00:03:33,770 --> 00:03:35,840
+This is a good indication
+that the median and
+
+74
+00:03:35,840 --> 00:03:39,015
+the 80th percentile
+are not sensitive enough.
+
+75
+00:03:39,015 --> 00:03:42,560
+They're not showing a change when we
+do make a change that we care about.
+
+76
+00:03:42,560 --> 00:03:45,630
+So in this case, the 85th
+percentile might be a good choice
+
+77
+00:03:45,630 --> 00:03:47,790
+of a metric that's both robust and
+sensitive.

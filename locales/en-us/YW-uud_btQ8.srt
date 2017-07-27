@@ -1,0 +1,204 @@
+1
+00:00:00,400 --> 00:00:03,975
+Like Diane mentioned, if you don't
+want to run a lot of AA experiments,
+
+2
+00:00:03,975 --> 00:00:07,728
+you can run one experiment and then use
+it to estimate the variability of your
+
+3
+00:00:07,728 --> 00:00:10,445
+metric using something
+called the Bootstrap Method.
+
+4
+00:00:10,445 --> 00:00:13,908
+The idea in bootstrapping is
+that you run one experiment.
+
+5
+00:00:13,908 --> 00:00:17,502
+And even though in our spreadsheet we
+only showed one number from each group,
+
+6
+00:00:17,502 --> 00:00:20,214
+for each experiment,
+the click-through probability,
+
+7
+00:00:20,214 --> 00:00:23,866
+those numbers were actually calculated
+from a lot of individual data points,
+
+8
+00:00:23,866 --> 00:00:27,240
+about a bunch of individual
+page views and clicks.
+
+9
+00:00:27,240 --> 00:00:30,070
+Then you take a random sample
+of those data points from each
+
+10
+00:00:30,070 --> 00:00:32,980
+side of the experiment, and
+calculate the click-through
+
+11
+00:00:32,980 --> 00:00:38,290
+probability based on that random sample
+as if it were a full experimental group.
+
+12
+00:00:38,290 --> 00:00:40,810
+Then you record the difference in
+click through probabilities and
+
+13
+00:00:40,810 --> 00:00:43,260
+use that as a simulated experiment.
+
+14
+00:00:43,260 --> 00:00:46,370
+Then you repeat this process over and
+over, recording the results.
+
+15
+00:00:46,370 --> 00:00:49,910
+And you can use the results as if
+you had run multiple experiments,
+
+16
+00:00:49,910 --> 00:00:52,920
+even though you really only
+ran one big experiment.
+
+17
+00:00:52,920 --> 00:00:54,620
+So the numbers in this spreadsheet,
+
+18
+00:00:54,620 --> 00:00:57,660
+we've been assuming that they
+came from multiple A/A tests.
+
+19
+00:00:57,660 --> 00:01:00,847
+But they actually could have
+come from one big experiment,
+
+20
+00:01:00,847 --> 00:01:03,213
+from which we drew
+many bootstrap samples.
+
+21
+00:01:03,213 --> 00:01:06,528
+Now it's your turn to calculate
+confidence intervals empirically.
+
+22
+00:01:06,528 --> 00:01:10,000
+Follow the link in the instructor's
+notes to get to this spreadsheet with
+
+23
+00:01:10,000 --> 00:01:13,730
+values of click through
+probability across 40 experiments.
+
+24
+00:01:13,730 --> 00:01:16,190
+These could be 40 different A/A tests,
+or
+
+25
+00:01:16,190 --> 00:01:19,070
+they could be 40 groups
+sampled using bootstrapping.
+
+26
+00:01:19,070 --> 00:01:20,920
+The analysis is the same.
+
+27
+00:01:20,920 --> 00:01:24,980
+Note that the sample size was 100
+users in each group of the experiment.
+
+28
+00:01:24,980 --> 00:01:26,310
+For each experiment,
+
+29
+00:01:26,310 --> 00:01:29,736
+calculate the difference in
+the click-through-probability between
+
+30
+00:01:29,736 --> 00:01:30,430
+the two groups.
+
+31
+00:01:30,430 --> 00:01:34,002
+Then calculate a 95% confidence
+interval in two different ways.
+
+32
+00:01:34,002 --> 00:01:37,406
+First, calculate the standard
+deviation of the differences, and
+
+33
+00:01:37,406 --> 00:01:41,287
+then assume that the metric is normally
+distributed to calculate the width of
+
+34
+00:01:41,287 --> 00:01:42,675
+the confidence interval.
+
+35
+00:01:42,675 --> 00:01:45,865
+Use the average of the 40 differences
+as the point estimate, or
+
+36
+00:01:45,865 --> 00:01:47,898
+the center of your confidence interval.
+
+37
+00:01:47,898 --> 00:01:51,948
+Second, calculate an empirical
+confidence interval Using just
+
+38
+00:01:51,948 --> 00:01:53,127
+the differences,
+
+39
+00:01:53,127 --> 00:01:57,188
+not making any assumption about
+the distribution of the metric.
+
+40
+00:01:57,188 --> 00:01:58,805
+You can use Google Spreadsheets or
+
+41
+00:01:58,805 --> 00:02:01,488
+any other method you want to
+carry out the calculations.
+
+42
+00:02:01,488 --> 00:02:04,986
+Write the upper and lower bounds of your
+two confidence levels in these boxes to
+
+43
+00:02:04,986 --> 00:02:06,000
+four decimal places.

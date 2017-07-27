@@ -1,0 +1,107 @@
+1
+00:00:00,420 --> 00:00:03,200
+You said consistency was the first
+of three main considerations.
+
+2
+00:00:03,200 --> 00:00:04,180
+What's the second?
+
+3
+00:00:04,180 --> 00:00:05,840
+>> The second is ethical considerations.
+
+4
+00:00:05,840 --> 00:00:08,870
+Do you remember back in lesson two,
+when we went through the principles and
+
+5
+00:00:08,870 --> 00:00:11,480
+questions that you should keep
+in mind as you're designing,
+
+6
+00:00:11,480 --> 00:00:13,340
+running and analyzing your experiment?
+
+7
+00:00:13,340 --> 00:00:17,093
+Well, one of those principles and
+questions was regarding what data you're
+
+8
+00:00:17,093 --> 00:00:19,872
+collecting, and
+whether the data is identified or not.
+
+9
+00:00:19,872 --> 00:00:24,758
+If you are using a User ID then by
+definition the data is identified.
+
+10
+00:00:24,758 --> 00:00:29,114
+And so you have all of those security
+and confidentiality questions that you
+
+11
+00:00:29,114 --> 00:00:33,580
+have to really answer if you're
+going to gather data by User ID.
+
+12
+00:00:33,580 --> 00:00:37,430
+Now if your internal processes
+are really good you are going to be good
+
+13
+00:00:37,430 --> 00:00:38,590
+tackling that challenge.
+
+14
+00:00:38,590 --> 00:00:39,420
+But if not you are,
+
+15
+00:00:39,420 --> 00:00:43,490
+you want to think through whether you
+want to go through all of that work.
+
+16
+00:00:43,490 --> 00:00:46,761
+Now, the other issue that comes
+up with the choice of unit and
+
+17
+00:00:46,761 --> 00:00:49,670
+of diversion is that
+of informed consent.
+
+18
+00:00:49,670 --> 00:00:52,520
+If you're using the User ID,
+you know who the user is, and
+
+19
+00:00:52,520 --> 00:00:54,890
+you can plausibly get user consent.
+
+20
+00:00:54,890 --> 00:00:56,540
+If you're doing a vent based or
+
+21
+00:00:56,540 --> 00:00:59,490
+a cookie based diversion,
+you don't really know who the user is.
+
+22
+00:00:59,490 --> 00:01:01,980
+It's not really a, necessarily,
+a consistent experience.
+
+23
+00:01:01,980 --> 00:01:04,349
+And so user consent becomes
+a little bit less of an issue.

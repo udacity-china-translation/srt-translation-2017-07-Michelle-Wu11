@@ -1,0 +1,102 @@
+1
+00:00:00,360 --> 00:00:03,550
+The first step to sanity checking
+our results is choosing a set of
+
+2
+00:00:03,550 --> 00:00:05,180
+invariant metrics.
+
+3
+00:00:05,180 --> 00:00:07,939
+Like Diane mentioned, there are two
+types of invariant metrics.
+
+4
+00:00:07,939 --> 00:00:12,640
+Population sizing metrics, and any other
+metrics you don't expect to change.
+
+5
+00:00:12,640 --> 00:00:14,810
+Now, I'm going to describe
+two experiments and
+
+6
+00:00:14,810 --> 00:00:18,690
+for each one, I want you to think about
+what metrics should be invariant.
+
+7
+00:00:18,690 --> 00:00:22,420
+That is, what would be the same in
+the control and experiment group?
+
+8
+00:00:22,420 --> 00:00:23,490
+In the first experiment,
+
+9
+00:00:23,490 --> 00:00:26,240
+Audacity changes the order of
+courses in the course list
+
+10
+00:00:26,240 --> 00:00:30,000
+to see how much this affects which
+courses users eventually enroll in.
+
+11
+00:00:30,000 --> 00:00:34,080
+The unit of diversion is a user ID
+since users may visit the site multiple
+
+12
+00:00:34,080 --> 00:00:37,570
+times to explore classes before
+finally enrolling in one.
+
+13
+00:00:37,570 --> 00:00:40,730
+In the second experiment, Audacity
+changes the infrastructure serving
+
+14
+00:00:40,730 --> 00:00:43,530
+videos hoping to reduce
+the video load time.
+
+15
+00:00:43,530 --> 00:00:46,020
+This time,
+the unit of diversion is an event.
+
+16
+00:00:46,020 --> 00:00:49,170
+Now, which of the following
+metrics would be good invariants?
+
+17
+00:00:49,170 --> 00:00:52,882
+Number of signed in users,
+number of cookies, number of events,
+
+18
+00:00:52,882 --> 00:00:56,710
+click-through rate or
+CTR on the Start Now button.
+
+19
+00:00:56,710 --> 00:01:00,188
+Remember, this button takes the user
+from the homepage to the course list.
+
+20
+00:01:00,188 --> 00:01:04,660
+Or finally, the time it takes a student
+to complete a course on average.
+
+21
+00:01:04,660 --> 00:01:08,280
+Check each box if that metric would be
+a good invariant for that experiment.

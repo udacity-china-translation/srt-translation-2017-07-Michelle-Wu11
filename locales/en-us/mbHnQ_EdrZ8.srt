@@ -1,0 +1,393 @@
+1
+00:00:00,420 --> 00:00:02,250
+Let's say I've settled
+on a bunch of metrics.
+
+2
+00:00:02,250 --> 00:00:04,570
+How do I actually make a recommendation?
+
+3
+00:00:04,570 --> 00:00:08,450
+>> So especially when you have multiple
+metrics, it can be a little bit
+
+4
+00:00:08,450 --> 00:00:11,770
+tricky because you have multiple
+comparisons or things along those lines.
+
+5
+00:00:11,770 --> 00:00:13,720
+Now what you're really hoping for
+
+6
+00:00:13,720 --> 00:00:16,700
+is that related metrics are all
+going to move in the same direction.
+
+7
+00:00:16,700 --> 00:00:18,900
+For example, if you're measuring
+both click-through rate and
+
+8
+00:00:18,900 --> 00:00:22,790
+click-through probability, hopefully
+they'll move in the same direction.
+
+9
+00:00:22,790 --> 00:00:26,760
+Another thing might happen when you
+have a composite metric for example.
+
+10
+00:00:26,760 --> 00:00:28,670
+RPM which is revenue
+per thousand queries.
+
+11
+00:00:28,670 --> 00:00:30,650
+Is composed of both click through rate.
+
+12
+00:00:30,650 --> 00:00:33,160
+As well as cost per clicks and
+so if you see.
+
+13
+00:00:33,160 --> 00:00:34,640
+RPM of them one direction.
+
+14
+00:00:34,640 --> 00:00:37,410
+Hopefully you can look at click through
+rate in cost per click to understand
+
+15
+00:00:37,410 --> 00:00:39,110
+why it moved in that direction.
+
+16
+00:00:39,110 --> 00:00:42,070
+Now that said,
+multiple metrics can be unruly.
+
+17
+00:00:42,070 --> 00:00:44,750
+Let's say you've decided that
+reading time on the page or
+
+18
+00:00:44,750 --> 00:00:47,000
+stay time is a good signal.
+
+19
+00:00:47,000 --> 00:00:48,330
+People like your page.
+
+20
+00:00:48,330 --> 00:00:50,440
+But clicks are also a good signal.
+
+21
+00:00:50,440 --> 00:00:53,870
+And so then you might see that when
+you make a UI change to the page
+
+22
+00:00:53,870 --> 00:00:56,980
+people spend less time reading,
+but more time clicking.
+
+23
+00:00:56,980 --> 00:01:00,240
+And then you really have to understand
+how people are reacting to the change
+
+24
+00:01:00,240 --> 00:01:03,360
+because you can't quantitatively
+evaluate which one is better.
+
+25
+00:01:03,360 --> 00:01:04,239
+That makes sense.
+
+26
+00:01:04,239 --> 00:01:07,390
+I'm guessing that's why sometimes
+people want to single overall
+
+27
+00:01:07,390 --> 00:01:10,770
+evaluation criteria, so they can
+make the decision based on that?
+
+28
+00:01:10,770 --> 00:01:11,680
+>> That's right.
+
+29
+00:01:11,680 --> 00:01:14,880
+I think the main question when you
+try and come up with an OEC, or
+
+30
+00:01:14,880 --> 00:01:17,350
+an overall evaluation criteria,
+is how do you find a good one?
+
+31
+00:01:17,350 --> 00:01:20,950
+You really need to understand
+what your company is doing and
+
+32
+00:01:20,950 --> 00:01:24,050
+what the problems are in order
+to try and come up with saying.
+
+33
+00:01:24,050 --> 00:01:25,380
+Ok well how do I balance for
+
+34
+00:01:25,380 --> 00:01:28,490
+example state time and clicks is it
+seventy percent and thirty percent.
+
+35
+00:01:28,490 --> 00:01:30,110
+Is it twenty five and seventy-five.
+
+36
+00:01:30,110 --> 00:01:31,430
+Who knows or maybe.
+
+37
+00:01:31,430 --> 00:01:32,300
+Quite frankly.
+
+38
+00:01:32,300 --> 00:01:34,030
+Clicks is a bad measure for.
+
+39
+00:01:34,030 --> 00:01:34,960
+User experience.
+
+40
+00:01:34,960 --> 00:01:36,320
+On your web site all together.
+
+41
+00:01:36,320 --> 00:01:38,100
+Right you really have to understand.
+
+42
+00:01:38,100 --> 00:01:41,930
+The thing about an OEC is that it
+doesn't absolve you of understanding why
+
+43
+00:01:41,930 --> 00:01:45,100
+stay time and clicks are moving
+in these different directions.
+
+44
+00:01:45,100 --> 00:01:47,620
+What it can be helpful with
+this balancing long term
+
+45
+00:01:47,620 --> 00:01:50,420
+investment like return
+visits to the site
+
+46
+00:01:50,420 --> 00:01:53,720
+with short term day to day
+metrics like increased clicks.
+
+47
+00:01:53,720 --> 00:01:56,710
+You don't want to lose one
+in pursuing the other one.
+
+48
+00:01:56,710 --> 00:02:00,870
+And so often the best OICs give you
+a good balance between those two things.
+
+49
+00:02:00,870 --> 00:02:02,810
+>> Okay.
+And how do you come up with one?
+
+50
+00:02:02,810 --> 00:02:05,500
+>> Well typically there's a lot
+of validation in the process but
+
+51
+00:02:05,500 --> 00:02:08,538
+they usually start with some kind
+of business analysis right so
+
+52
+00:02:08,538 --> 00:02:10,840
+you might
+>> Our company, as a whole,
+
+53
+00:02:10,840 --> 00:02:16,060
+wants to look at 25% revenue plus
+75% increase usage of the site.
+
+54
+00:02:16,060 --> 00:02:18,450
+So usually you start from there.
+
+55
+00:02:18,450 --> 00:02:20,100
+And once you have
+a couple of candidates,
+
+56
+00:02:20,100 --> 00:02:23,030
+you want to actually run a whole
+bunch of different experiments.
+
+57
+00:02:23,030 --> 00:02:24,760
+And validate how they steer you.
+
+58
+00:02:24,760 --> 00:02:27,480
+You know, are they steering
+you in the right direction.
+
+59
+00:02:27,480 --> 00:02:31,090
+Now the downside is you want to make
+sure that you don't plan so much around
+
+60
+00:02:31,090 --> 00:02:34,380
+what the company thinks should happen
+with those experiments that you steer
+
+61
+00:02:34,380 --> 00:02:38,030
+yourself in a way that you hide other
+changes that you weren't expecting.
+
+62
+00:02:38,030 --> 00:02:39,780
+>> At Google we didn't
+up doing a little bit.
+
+63
+00:02:39,780 --> 00:02:40,440
+Bit differently.
+
+64
+00:02:40,440 --> 00:02:44,290
+We actually took hundreds of
+experiments that we had already run and
+
+65
+00:02:44,290 --> 00:02:45,990
+we had made launch decisions about.
+
+66
+00:02:45,990 --> 00:02:48,570
+And we got all of the decision
+makers into a room and
+
+67
+00:02:48,570 --> 00:02:50,490
+we gave them all of those
+experiment results.
+
+68
+00:02:50,490 --> 00:02:52,780
+We didn't tell them what
+the experiment was testing.
+
+69
+00:02:52,780 --> 00:02:54,670
+And we didn't give them
+the actual launch decision.
+
+70
+00:02:54,670 --> 00:02:58,760
+And we made them re-decide based
+solely on the experiment results
+
+71
+00:02:58,760 --> 00:03:00,670
+whether they would launch change or not.
+
+72
+00:03:00,670 --> 00:03:02,710
+From there we could say ok well.
+
+73
+00:03:02,710 --> 00:03:04,760
+How much did each of you
+agree with each other and
+
+74
+00:03:04,760 --> 00:03:07,140
+how did you agree with
+the actual launch decision, and
+
+75
+00:03:07,140 --> 00:03:11,330
+using that we actually re-derived
+the weights for an OAC.
+
+76
+00:03:11,330 --> 00:03:16,230
+Now for us, we came up with an OAC
+that way, but whenever we tried using
+
+77
+00:03:16,230 --> 00:03:19,510
+it to make a launch decision
+everyone sort of look at the OAC and
+
+78
+00:03:19,510 --> 00:03:24,140
+then be like, what were the individual
+metrics that actually changed.
+
+79
+00:03:24,140 --> 00:03:28,270
+So we never actually ended up using
+the OIC to actually make a decision.
+
+80
+00:03:28,270 --> 00:03:30,810
+Now what the sort of tells us is that
+
+81
+00:03:30,810 --> 00:03:33,920
+having an OIC doesn't have
+to be a formal number.
+
+82
+00:03:33,920 --> 00:03:37,200
+It's really just trying to encapsulate
+what your company cares about.
+
+83
+00:03:37,200 --> 00:03:39,530
+And how much you're going to be
+balancing something like stay time
+
+84
+00:03:39,530 --> 00:03:40,070
+and clicks.

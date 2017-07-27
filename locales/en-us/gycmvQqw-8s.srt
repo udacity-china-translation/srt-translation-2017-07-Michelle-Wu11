@@ -1,0 +1,118 @@
+1
+00:00:00,420 --> 00:00:04,280
+Now let's look at some different cases
+that could have come up in our results.
+
+2
+00:00:04,280 --> 00:00:06,970
+Here I've drawn our practical
+significance boundary as these
+
+3
+00:00:06,970 --> 00:00:10,000
+two blue lines, and
+zero as this black line.
+
+4
+00:00:10,000 --> 00:00:14,130
+Our point estimate, that is d hat,
+for the example we just went over was
+
+5
+00:00:14,130 --> 00:00:16,680
+greater than the practical
+significance boundary.
+
+6
+00:00:16,680 --> 00:00:19,250
+And in fact, both ends of the confidence
+interval were greater than
+
+7
+00:00:19,250 --> 00:00:21,120
+the practical significance boundary.
+
+8
+00:00:21,120 --> 00:00:24,660
+Based on this, it's highly probable
+that the click-through probability did,
+
+9
+00:00:24,660 --> 00:00:28,090
+in fact, change by more than
+the practical significance level.
+
+10
+00:00:28,090 --> 00:00:31,400
+Now let's go through some other possible
+cases of what your results could look
+
+11
+00:00:31,400 --> 00:00:34,670
+like, and practice recommending
+a decision in each case.
+
+12
+00:00:34,670 --> 00:00:38,630
+Choose whether you would want to launch
+the change, not launch the change, or
+
+13
+00:00:38,630 --> 00:00:40,040
+try to gather more data,
+
+14
+00:00:40,040 --> 00:00:44,100
+ideally by running an additional test,
+in each of these cases.
+
+15
+00:00:44,100 --> 00:00:47,010
+The first case is the one you just saw,
+and as I said,
+
+16
+00:00:47,010 --> 00:00:48,800
+I would launch this change.
+
+17
+00:00:48,800 --> 00:00:51,700
+You should assume that a positive
+change in click-through probability
+
+18
+00:00:51,700 --> 00:00:55,330
+is desirable, and
+a negative change is undesirable.
+
+19
+00:00:55,330 --> 00:00:58,440
+Remember that the goal of running
+A/B tests is to gather data to
+
+20
+00:00:58,440 --> 00:00:59,930
+make a decision.
+
+21
+00:00:59,930 --> 00:01:02,850
+And the reason we did the work of
+computing the power in the confidence
+
+22
+00:01:02,850 --> 00:01:05,760
+intervals is so that we would
+understand how likely it is that our
+
+23
+00:01:05,760 --> 00:01:07,530
+results are repeatable and robust.
+
+24
+00:01:07,530 --> 00:01:08,990
+And make the right decision.
+
+25
+00:01:08,990 --> 00:01:11,650
+Given this, choose the decision
+you think is best for each case.

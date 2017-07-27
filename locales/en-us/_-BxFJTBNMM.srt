@@ -1,0 +1,102 @@
+1
+00:00:00,390 --> 00:00:03,110
+If you're doing diversion
+based on the user ID,
+
+2
+00:00:03,110 --> 00:00:06,310
+the user would be assigned to
+a group when they first logged in.
+
+3
+00:00:06,310 --> 00:00:08,500
+And that assignment would not change.
+
+4
+00:00:08,500 --> 00:00:11,920
+Note that you can't assign the user
+to a group based on their user ID
+
+5
+00:00:11,920 --> 00:00:13,390
+before they sign in.
+
+6
+00:00:13,390 --> 00:00:16,610
+That means you wouldn't be able to
+run the experiment on this event, so
+
+7
+00:00:16,610 --> 00:00:19,710
+it wouldn't be in the experiment
+group or the control group.
+
+8
+00:00:19,710 --> 00:00:22,640
+If you're doing cookie-based diversion,
+you'd make a decision when
+
+9
+00:00:22,640 --> 00:00:26,800
+the user first visits the home page, and
+again when they start the mobile app,
+
+10
+00:00:26,800 --> 00:00:29,630
+since they will have a different
+cookie on their mobile device.
+
+11
+00:00:29,630 --> 00:00:32,920
+If the user never clears their cookies,
+then this is the answer.
+
+12
+00:00:32,920 --> 00:00:35,490
+But, they could clear their
+cookies at any point,
+
+13
+00:00:35,490 --> 00:00:38,670
+meaning that they could be
+reassigned at any other point also.
+
+14
+00:00:38,670 --> 00:00:42,260
+If you did event based diversion, then
+on every single event, you'd re-decide
+
+15
+00:00:42,260 --> 00:00:45,760
+whether that event was in the experiment
+group or the control group.
+
+16
+00:00:45,760 --> 00:00:48,120
+And each event could have
+a different decision.
+
+17
+00:00:48,120 --> 00:00:50,950
+If you are doing device
+id based diversion,
+
+18
+00:00:50,950 --> 00:00:54,490
+then you'd assign the group at
+the start of the mobile experience.
+
+19
+00:00:54,490 --> 00:00:56,505
+Since you don't typically
+have device id's for
+
+20
+00:00:56,505 --> 00:00:59,900
+non-mobile devices, you wouldn't
+be able to run the experiment on
+
+21
+00:00:59,900 --> 00:01:02,470
+the events before the user
+switched to their mobile device.

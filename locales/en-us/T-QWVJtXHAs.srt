@@ -1,0 +1,62 @@
+1
+00:00:00,340 --> 00:00:03,260
+To calculate the confidence interval,
+first I'll
+
+2
+00:00:03,260 --> 00:00:07,590
+estimate the probability of a success,
+which will be the point estimate.
+
+3
+00:00:07,590 --> 00:00:11,967
+That will be 300 divided by 2000,
+which comes to 0.15.
+
+4
+00:00:11,967 --> 00:00:16,260
+So, 0.15 will be at the center
+of the confidence interval.
+
+5
+00:00:16,260 --> 00:00:18,390
+Next, I'll calculate
+the margin of error.
+
+6
+00:00:18,390 --> 00:00:20,280
+To do that, I'll need the z-score,
+
+7
+00:00:20,280 --> 00:00:24,241
+and it turns out that the value
+is between 2.57 and 2.58.
+
+8
+00:00:24,241 --> 00:00:28,942
+You could really use either and it
+wouldn't matter much, but I'll use 2.58.
+
+9
+00:00:28,942 --> 00:00:33,131
+And then that will need to be
+multiplied by the standard error,
+
+10
+00:00:33,131 --> 00:00:37,174
+which is the square root of p hat,
+times 1 minus p hat over N.
+
+11
+00:00:37,174 --> 00:00:39,790
+And that comes out to about 0.021.
+
+12
+00:00:39,790 --> 00:00:44,230
+Now, to get the upper bound, we add the
+margin of error to the point estimate,
+
+13
+00:00:44,230 --> 00:00:50,869
+which gives 0.171, and to get the lower
+bound we subtract, which gives 0.129.

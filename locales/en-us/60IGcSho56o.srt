@@ -1,0 +1,242 @@
+1
+00:00:00,410 --> 00:00:03,480
+Let's take a look at an experiment
+that tracks multiple metrics.
+
+2
+00:00:03,480 --> 00:00:07,330
+And suppose that Audacity sometimes
+prompts students when they miss quizzes,
+
+3
+00:00:07,330 --> 00:00:09,430
+asking if they'd like
+to contact a coach.
+
+4
+00:00:09,430 --> 00:00:12,720
+And they run an experiment that makes
+this message appear more frequently.
+
+5
+00:00:12,720 --> 00:00:15,190
+There are a few different
+metrics they could track here.
+
+6
+00:00:15,190 --> 00:00:18,020
+First, they might track the probability
+that a student signs up for
+
+7
+00:00:18,020 --> 00:00:19,767
+coaching at any point during the course.
+
+8
+00:00:19,767 --> 00:00:22,667
+Second, they might track how early
+in the course students sign up for
+
+9
+00:00:22,667 --> 00:00:23,680
+coaching.
+
+10
+00:00:23,680 --> 00:00:26,710
+So something like the average amount
+of progress a student makes before
+
+11
+00:00:26,710 --> 00:00:28,200
+enrolling for coaching.
+
+12
+00:00:28,200 --> 00:00:32,210
+If a student never signs up for
+coaching, their progress might be 100%.
+
+13
+00:00:32,210 --> 00:00:34,120
+Finally, if coaching
+is priced differently,
+
+14
+00:00:34,120 --> 00:00:37,050
+depending on how early in
+the course the student signs up,
+
+15
+00:00:37,050 --> 00:00:40,380
+Audacity might track the average
+price paid per student.
+
+16
+00:00:40,380 --> 00:00:42,440
+If Audacity tracks all three metrics and
+
+17
+00:00:42,440 --> 00:00:47,200
+then does three separate significant
+tests, with alpha equals 0.05 for each.
+
+18
+00:00:47,200 --> 00:00:50,000
+Then what is the probability that
+at least one metric will show
+
+19
+00:00:50,000 --> 00:00:53,650
+a significant difference,
+given that there is no true difference?
+
+20
+00:00:53,650 --> 00:00:54,530
+In other words, for
+
+21
+00:00:54,530 --> 00:00:58,030
+three metrics, what is the chance
+of at least one false positive?
+
+22
+00:00:58,030 --> 00:00:59,280
+To make the problem easier,
+
+23
+00:00:59,280 --> 00:01:02,560
+I'll first calculate the probability
+that there are no false positives.
+
+24
+00:01:02,560 --> 00:01:05,660
+That is FP, for
+false positive, equals 0.
+
+25
+00:01:05,660 --> 00:01:10,010
+The chance that each individual metric
+does not show a false positive is 95%.
+
+26
+00:01:10,010 --> 00:01:13,828
+Now in order for none of the metrics
+to have a false positive, the first one
+
+27
+00:01:13,828 --> 00:01:17,722
+can't show a false positive,
+which happens with probability 0.95.
+
+28
+00:01:17,722 --> 00:01:22,390
+And neither can the second, so
+I need to multiply by 0.95.
+
+29
+00:01:22,390 --> 00:01:25,110
+And the third can't have
+a false positive either, so
+
+30
+00:01:25,110 --> 00:01:27,150
+I multiply by 0.95 again.
+
+31
+00:01:27,150 --> 00:01:32,205
+So the chance that none of the metrics
+shows a false positive is 0.95 cubed,
+
+32
+00:01:32,205 --> 00:01:34,027
+which is about 0.857.
+
+33
+00:01:34,027 --> 00:01:40,086
+Then the probability that there is at
+least one false positive is 1- 0.857.
+
+34
+00:01:40,086 --> 00:01:44,280
+Which is a 14.3% chance
+of any false positive.
+
+35
+00:01:44,280 --> 00:01:46,713
+Now I made an assumption
+in this calculation.
+
+36
+00:01:46,713 --> 00:01:48,733
+When I multiplied
+the probabilities together,
+
+37
+00:01:48,733 --> 00:01:51,340
+I was assuming that
+the metrics were independent.
+
+38
+00:01:51,340 --> 00:01:52,816
+In fact, this isn't true here.
+
+39
+00:01:52,816 --> 00:01:56,268
+These three metrics are all related and
+more likely to move together.
+
+40
+00:01:56,268 --> 00:02:01,280
+So 14.3% is an overestimate of
+the probability of a false positive.
+
+41
+00:02:01,280 --> 00:02:05,150
+But assuming independence is an easy
+way to get a conservative estimate.
+
+42
+00:02:05,150 --> 00:02:07,640
+Now suppose you ran an experiment
+with ten metrics and
+
+43
+00:02:07,640 --> 00:02:10,320
+you used a 95% confidence level for
+each metric.
+
+44
+00:02:10,320 --> 00:02:13,090
+Then what would be
+the probability that any of those
+
+45
+00:02:13,090 --> 00:02:14,890
+metrics would show a false positive?
+
+46
+00:02:14,890 --> 00:02:18,830
+Or what if you still had ten metrics but
+you used a 99% confidence level for
+
+47
+00:02:18,830 --> 00:02:19,840
+each metric?
+
+48
+00:02:19,840 --> 00:02:21,850
+Write your answers in these boxes.
+
+49
+00:02:21,850 --> 00:02:25,560
+Each should be a number between 0 and
+1, not a percent chance.
+
+50
+00:02:25,560 --> 00:02:27,570
+And you should give each answer
+to three decimal places.
+
+51
+00:02:28,620 --> 00:02:30,920
+Assume that the ten metrics
+are independent of each other.

@@ -1,0 +1,120 @@
+1
+00:00:00,390 --> 00:00:03,280
+In the first case,
+the unit of analysis is a pageview.
+
+2
+00:00:03,280 --> 00:00:06,050
+This doesn't match the unit
+of diversion, which usually
+
+3
+00:00:06,050 --> 00:00:09,800
+means the analytical estimate will
+be an underestimate of the variance.
+
+4
+00:00:09,800 --> 00:00:12,960
+So, I wouldn't expect the analytic and
+empirical variance to match.
+
+5
+00:00:12,960 --> 00:00:16,110
+In the second case,
+the unit of analysis is a cookie.
+
+6
+00:00:16,110 --> 00:00:18,690
+Or really a daily slice
+of the cookie's activity,
+
+7
+00:00:18,690 --> 00:00:21,700
+since I said that this metric
+was being computed daily.
+
+8
+00:00:21,700 --> 00:00:25,400
+There isn't really a denominator to this
+metric, but since the number of cookies
+
+9
+00:00:25,400 --> 00:00:28,890
+is what's being computed,
+the cookie is the unit of analysis.
+
+10
+00:00:28,890 --> 00:00:32,460
+The unit of analysis is larger
+than the unit of diversion
+
+11
+00:00:32,460 --> 00:00:35,870
+in the sense that one cookie could
+generate multiple pageviews.
+
+12
+00:00:35,870 --> 00:00:39,590
+This is a problem, given that the unit
+of diversion is a pageview, because it
+
+13
+00:00:39,590 --> 00:00:42,900
+means the same cookie could have events
+in both the experiment group, and
+
+14
+00:00:42,900 --> 00:00:43,940
+the control group.
+
+15
+00:00:43,940 --> 00:00:47,790
+That means this metric is actually not
+well defined for this experiment design.
+
+16
+00:00:47,790 --> 00:00:48,440
+In general,
+
+17
+00:00:48,440 --> 00:00:52,980
+you need your unit of diversion to be at
+least as big as your unit of analysis.
+
+18
+00:00:52,980 --> 00:00:55,685
+In this case, cookie would work
+as the unit of diversion, and
+
+19
+00:00:55,685 --> 00:01:00,350
+user-id would work, since one user-id
+can correspond to multiple cookies.
+
+20
+00:01:00,350 --> 00:01:02,650
+But usually not vice versa.
+
+21
+00:01:02,650 --> 00:01:06,305
+But, event level diversion
+is too fine grained here.
+
+22
+00:01:06,305 --> 00:01:09,180
+In the third case,
+the unit of analysis is a user-id,
+
+23
+00:01:09,180 --> 00:01:11,470
+which matches the unit of diversion.
+
+24
+00:01:11,470 --> 00:01:14,540
+You'll never get analytic and
+empirical estimates that agree exactly,
+
+25
+00:01:14,540 --> 00:01:17,110
+but they'll probably be
+a lot closer in this case.

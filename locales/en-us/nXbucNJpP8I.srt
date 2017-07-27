@@ -1,0 +1,393 @@
+1
+00:00:00,350 --> 00:00:02,250
+Lets say we have a biased coin and
+
+2
+00:00:02,250 --> 00:00:06,350
+it has a probability three-quarters of
+coming up heads, which I'll call p.
+
+3
+00:00:06,350 --> 00:00:09,660
+This coin could actually
+be a visitor to a webpage,
+
+4
+00:00:09,660 --> 00:00:12,225
+who has a three-quarters probability
+of clicking a button, but
+
+5
+00:00:12,225 --> 00:00:14,840
+I'm going to do this example
+with coins for simplicity.
+
+6
+00:00:14,840 --> 00:00:18,610
+We we'll define success to be heads and
+failure to be tails.
+
+7
+00:00:18,610 --> 00:00:21,790
+This doesn't necessarily mean
+we're upset if we get a tails,
+
+8
+00:00:21,790 --> 00:00:24,900
+it's just the way of specifying
+what the two outcomes are.
+
+9
+00:00:24,900 --> 00:00:27,600
+Now, let's say we flip
+the coin ten times.
+
+10
+00:00:27,600 --> 00:00:29,480
+How many times will it come up heads?
+
+11
+00:00:29,480 --> 00:00:33,060
+Of course, it could come up
+heads zero times, ten times, or
+
+12
+00:00:33,060 --> 00:00:37,320
+anything in between, but some outcomes
+will be more likely than others.
+
+13
+00:00:37,320 --> 00:00:40,260
+If we mark the probability
+of each number of heads,
+
+14
+00:00:40,260 --> 00:00:42,450
+we'll get something
+that looks like this.
+
+15
+00:00:42,450 --> 00:00:45,820
+As you can see, the most likely
+results are seven or eight heads, but
+
+16
+00:00:45,820 --> 00:00:48,850
+anything between six and
+nine is reasonably likely.
+
+17
+00:00:48,850 --> 00:00:52,960
+Like Carrie mentioned, this distribution
+is called a binomial distribution, and
+
+18
+00:00:52,960 --> 00:00:55,300
+we can draw it for any number of flips.
+
+19
+00:00:55,300 --> 00:00:58,700
+To make it easier to do this,
+I'll relabel this axis
+
+20
+00:00:58,700 --> 00:01:02,420
+as the percentage of flips that
+came up heads, or the fraction.
+
+21
+00:01:02,420 --> 00:01:05,920
+As you increase n, the binomial
+distribution starts to look more and
+
+22
+00:01:05,920 --> 00:01:07,720
+more like a normal distribution.
+
+23
+00:01:07,720 --> 00:01:10,400
+Here, you see the binomial
+distribution with n equals 30,
+
+24
+00:01:10,400 --> 00:01:13,770
+and the normal distribution
+overlaid in blue.
+
+25
+00:01:13,770 --> 00:01:16,630
+The binomial and the normal
+distribution that approximate it
+
+26
+00:01:16,630 --> 00:01:18,970
+will have the same mean,
+which will be equal to p,
+
+27
+00:01:18,970 --> 00:01:21,850
+the probability that
+the coin comes up heads.
+
+28
+00:01:21,850 --> 00:01:26,590
+And the standard deviation will be the
+square root of p times 1 minus p over N,
+
+29
+00:01:26,590 --> 00:01:28,710
+where N is the total number of flips.
+
+30
+00:01:28,710 --> 00:01:29,560
+Now in this case,
+
+31
+00:01:29,560 --> 00:01:33,400
+we assumed that we knew the probability
+that the coin would come up heads.
+
+32
+00:01:33,400 --> 00:01:35,970
+Let's instead consider a case
+where we don't know that.
+
+33
+00:01:35,970 --> 00:01:39,010
+We flip the coin 20 times,
+so N equals 20,
+
+34
+00:01:39,010 --> 00:01:43,300
+and it comes up heads 16 times,
+which I'll call X.
+
+35
+00:01:43,300 --> 00:01:47,830
+Now, let's say we want to estimate the
+probability the coin will come up heads.
+
+36
+00:01:47,830 --> 00:01:51,110
+That is,
+we want to guess the bias of the coin.
+
+37
+00:01:51,110 --> 00:01:54,750
+Of course, this could be a fair coin
+that happens to come up heads more than
+
+38
+00:01:54,750 --> 00:01:59,390
+tails, but the results we saw will be
+more likely if the coin is biased.
+
+39
+00:01:59,390 --> 00:02:02,870
+To estimate the bias,
+which I'll call p hat,
+
+40
+00:02:02,870 --> 00:02:05,040
+it's an estimate of the probability.
+
+41
+00:02:05,040 --> 00:02:07,700
+We'll take the number of heads,
+in this case 16,
+
+42
+00:02:07,700 --> 00:02:11,830
+and divide by the number of flips,
+in this case, 20.
+
+43
+00:02:11,830 --> 00:02:14,120
+And we get four-fifths.
+
+44
+00:02:14,120 --> 00:02:17,460
+So, our best estimate is that this
+coin has a probability four-fifths
+
+45
+00:02:17,460 --> 00:02:19,000
+of coming up heads.
+
+46
+00:02:19,000 --> 00:02:21,930
+If you'd like to see more details
+on what the binomial distribution
+
+47
+00:02:21,930 --> 00:02:22,440
+looks like for
+
+48
+00:02:22,440 --> 00:02:26,390
+different parameters, the page linked in
+the instructor's notes may be helpful.
+
+49
+00:02:26,390 --> 00:02:28,511
+In order to use
+the binomial distribution,
+
+50
+00:02:28,511 --> 00:02:30,068
+a few assumptions have to hold.
+
+51
+00:02:30,068 --> 00:02:32,933
+First, there have to be
+exactly two types of outcomes.
+
+52
+00:02:32,933 --> 00:02:35,520
+We've been calling these success and
+failure.
+
+53
+00:02:35,520 --> 00:02:37,805
+And second,
+the events have to be independent.
+
+54
+00:02:37,805 --> 00:02:41,851
+Learning the outcome of one coin flip
+doesn't tell you anything about whether
+
+55
+00:02:41,851 --> 00:02:44,080
+the next coin came up heads.
+
+56
+00:02:44,080 --> 00:02:47,560
+And finally, the events need to
+follow an identical distribution.
+
+57
+00:02:47,560 --> 00:02:51,250
+That is, the probability of success
+needs to be the same for all of them.
+
+58
+00:02:51,250 --> 00:02:51,960
+In practice,
+
+59
+00:02:51,960 --> 00:02:55,790
+identifying cases where your events
+are independent can be kind of tricky.
+
+60
+00:02:55,790 --> 00:02:57,940
+So let's go over some examples.
+
+61
+00:02:57,940 --> 00:03:01,470
+First, suppose you shuffle a deck
+of 52 cards and you draw and
+
+62
+00:03:01,470 --> 00:03:02,420
+hold the first 20 cards.
+
+63
+00:03:03,730 --> 00:03:08,270
+Each card is an event and the outcome
+is whether the card is red or black.
+
+64
+00:03:08,270 --> 00:03:11,090
+Next, suppose you roll a die 50 times.
+
+65
+00:03:11,090 --> 00:03:12,840
+Each roll is an event and
+
+66
+00:03:12,840 --> 00:03:17,400
+you choose to label six as a success and
+any other result as a failure.
+
+67
+00:03:17,400 --> 00:03:19,970
+Next, suppose a search engine,
+such as Google,
+
+68
+00:03:19,970 --> 00:03:24,080
+is measuring how often people click on
+search results after making a search.
+
+69
+00:03:24,080 --> 00:03:26,800
+Each event is one search made
+on the search engine and
+
+70
+00:03:26,800 --> 00:03:29,470
+the outcome is whether the person
+clicked any link in the results.
+
+71
+00:03:30,610 --> 00:03:34,585
+Next, supposed an online education
+company, like Udacity, is measuring how
+
+72
+00:03:34,585 --> 00:03:38,282
+many of the students who enroll in
+a course complete it within two months.
+
+73
+00:03:38,282 --> 00:03:39,716
+Each event is one student and
+
+74
+00:03:39,716 --> 00:03:43,678
+the outcome is whether the student has
+completed the course two months later.
+
+75
+00:03:43,678 --> 00:03:47,204
+Finally, suppose an online
+shopping company, such as Amazon,
+
+76
+00:03:47,204 --> 00:03:51,242
+is measuring how often items that are
+added to a shopping cart are purchased
+
+77
+00:03:51,242 --> 00:03:52,570
+within a week.
+
+78
+00:03:52,570 --> 00:03:54,580
+Each event is a single item and
+
+79
+00:03:54,580 --> 00:03:57,600
+the outcome is whether the item
+has been purchased a week later.
+
+80
+00:03:57,600 --> 00:03:59,540
+For each of these situations,
+
+81
+00:03:59,540 --> 00:04:03,760
+check the box if you think it is valid
+to assume a binomial distribution, and
+
+82
+00:04:03,760 --> 00:04:07,320
+specifically, think about whether
+the events will be independent.
+
+83
+00:04:07,320 --> 00:04:10,430
+Some of them are a bit subjective,
+but take your best guess.

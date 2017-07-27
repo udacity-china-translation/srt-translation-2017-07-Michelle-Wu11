@@ -1,0 +1,301 @@
+1
+00:00:00,252 --> 00:00:02,825
+>> Now that we've covered some
+different way you can divert traffic,
+
+2
+00:00:02,825 --> 00:00:04,552
+how would you actually
+choose between them?
+
+3
+00:00:04,552 --> 00:00:06,873
+>> So there are really
+three main considerations.
+
+4
+00:00:06,873 --> 00:00:09,023
+The first was user consistency.
+
+5
+00:00:09,023 --> 00:00:13,690
+If you're using a user ID, then the user
+gets a consistent experiences as they
+
+6
+00:00:13,690 --> 00:00:16,462
+change devices as long
+as they're signed in.
+
+7
+00:00:16,462 --> 00:00:19,347
+And so for a certain set of changes,
+so for example,
+
+8
+00:00:19,347 --> 00:00:22,299
+if you're testing how
+courses are being displayed,
+
+9
+00:00:22,299 --> 00:00:25,855
+then the user will get a consistent
+experience across devices.
+
+10
+00:00:25,855 --> 00:00:29,543
+Now, on the other hand, if you're
+testing a change that crosses the sign
+
+11
+00:00:29,543 --> 00:00:32,530
+in, sign out border,
+then a user ID doesn't work as well.
+
+12
+00:00:32,530 --> 00:00:35,573
+So for example, if you're changing
+the layout of the page or
+
+13
+00:00:35,573 --> 00:00:37,195
+the location of the sign in bar.
+
+14
+00:00:37,195 --> 00:00:41,473
+In that case, you may want to use
+a cookie instead, so you get consistency
+
+15
+00:00:41,473 --> 00:00:45,208
+across the sign in and sign out border,
+but not across devices.
+
+16
+00:00:45,208 --> 00:00:46,067
+>> Okay.
+
+17
+00:00:46,067 --> 00:00:49,442
+So then would you always want to use
+a user ID or a cookie if you can, so
+
+18
+00:00:49,442 --> 00:00:51,650
+that you will get some
+type of consistency?
+
+19
+00:00:51,650 --> 00:00:55,795
+>> For user visible changes, you would
+definitely use a cookie or a user ID.
+
+20
+00:00:55,795 --> 00:00:57,194
+Now the thing is that,
+
+21
+00:00:57,194 --> 00:01:01,698
+there's probably a whole host of
+changes that are not visible to users.
+
+22
+00:01:01,698 --> 00:01:06,577
+This can range from latency changes
+to backend infrastructure changes or
+
+23
+00:01:06,577 --> 00:01:08,703
+honestly, ranking changes.
+
+24
+00:01:08,703 --> 00:01:12,648
+Most of the time, users can't tell
+when you change the ranking function.
+
+25
+00:01:12,648 --> 00:01:17,455
+Now, user visibility's one
+consideration as to whether you
+
+26
+00:01:17,455 --> 00:01:19,865
+want to use a user ID or cookie.
+
+27
+00:01:19,865 --> 00:01:21,786
+The other thing is what
+you want to measure.
+
+28
+00:01:21,786 --> 00:01:25,794
+So for example, if you want to
+measure a learning effect, whether or
+
+29
+00:01:25,794 --> 00:01:27,425
+not users adapt to change.
+
+30
+00:01:27,425 --> 00:01:28,637
+In those cases,
+
+31
+00:01:28,637 --> 00:01:33,498
+you also need a stateful unit of
+diversion like a cookie or user ID.
+
+32
+00:01:33,498 --> 00:01:37,201
+For example, if you're making a latency
+where, that you're making the site
+
+33
+00:01:37,201 --> 00:01:40,753
+slower and you're trying to see whether
+or not the user uses the site less.
+
+34
+00:01:40,753 --> 00:01:43,282
+In those cases,
+you need to use a cookie or
+
+35
+00:01:43,282 --> 00:01:45,825
+a user ID to see what
+happens across time.
+
+36
+00:01:45,825 --> 00:01:48,323
+So even when the user
+doesn't notice the change,
+
+37
+00:01:48,323 --> 00:01:52,255
+depending on what you want to measure,
+you may also choose a user ID or cookie.
+
+38
+00:01:52,255 --> 00:01:53,358
+>> Okay.
+That makes sense.
+
+39
+00:01:53,358 --> 00:01:56,728
+And how about IP based diversion,
+how does that compare?
+
+40
+00:01:56,728 --> 00:02:00,433
+>> So generally speaking, I don't
+find IP based diversion very useful.
+
+41
+00:02:00,433 --> 00:02:04,003
+You don't get the consistency that
+you get from a user ID or a cookie,
+
+42
+00:02:04,003 --> 00:02:07,632
+because the user's IP address could
+randomly change depending on what's
+
+43
+00:02:07,632 --> 00:02:09,187
+happening with the provider nor
+
+44
+00:02:09,187 --> 00:02:13,125
+do you get the clean randomization that
+you get from like event based diversion.
+
+45
+00:02:13,125 --> 00:02:14,133
+Now that said,
+
+46
+00:02:14,133 --> 00:02:19,498
+there's a whole host of changes where IP
+based diversion may be your only choice.
+
+47
+00:02:19,498 --> 00:02:23,435
+So let's say, for example, your testing
+out an infrastructure change when you're
+
+48
+00:02:23,435 --> 00:02:26,771
+testing out one hosting provider
+versus a different hosting provider to
+
+49
+00:02:26,771 --> 00:02:28,425
+understand the impact of latency.
+
+50
+00:02:28,425 --> 00:02:33,057
+In that situation, IP based diversion
+may really be your only choice.
+
+51
+00:02:33,057 --> 00:02:35,600
+Now when you're doing
+IP based diversion,
+
+52
+00:02:35,600 --> 00:02:38,770
+one of the key challenges is
+actually in the analysis.
+
+53
+00:02:38,770 --> 00:02:41,741
+Because what happens with IP
+based diversion is that you
+
+54
+00:02:41,741 --> 00:02:45,670
+may not get a clean comparison between
+your experiment and your control.
+
+55
+00:02:45,670 --> 00:02:49,325
+One example of this is, for
+example, modem dialups.
+
+56
+00:02:49,325 --> 00:02:52,047
+I know it's not very common anymore,
+but it can still happen.
+
+57
+00:02:52,047 --> 00:02:56,506
+And what happens for some providers is
+they all aggregate all of those modem
+
+58
+00:02:56,506 --> 00:02:58,853
+dialup users into a single IP address.
+
+59
+00:02:58,853 --> 00:03:03,389
+And so then the question is how do I
+find that comparable population of users
+
+60
+00:03:03,389 --> 00:03:04,325
+in my control?
+
+61
+00:03:04,325 --> 00:03:06,733
+And so
+what you're going to do analytically,
+
+62
+00:03:06,733 --> 00:03:10,313
+when you do IP based diversion is doing
+a lot of post analysis to try and
+
+63
+00:03:10,313 --> 00:03:13,860
+find those good comparisons between
+your experiment and control.

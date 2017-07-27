@@ -1,0 +1,112 @@
+1
+00:00:00,430 --> 00:00:03,660
+To calculate the confidence interval,
+I'll need the average of the seven
+
+2
+00:00:03,660 --> 00:00:07,720
+measurements, the standard deviation and
+the standard error.
+
+3
+00:00:07,720 --> 00:00:11,550
+I can compute the average using Google
+spreadsheets average function, and
+
+4
+00:00:11,550 --> 00:00:14,580
+this comes out to about 91,000.
+
+5
+00:00:14,580 --> 00:00:18,290
+Then I can compute the standard
+deviation, using the same strategy but
+
+6
+00:00:18,290 --> 00:00:20,610
+with the standard deviation function.
+
+7
+00:00:20,610 --> 00:00:22,910
+And this comes out to about 17,000.
+
+8
+00:00:22,910 --> 00:00:27,467
+Finally the standard error for the
+sample will be the standard deviation
+
+9
+00:00:27,467 --> 00:00:31,736
+divided by the square root of 7,
+which comes to about 6,000.
+
+10
+00:00:31,736 --> 00:00:34,816
+Rounded to the nearest integer,
+
+11
+00:00:34,816 --> 00:00:39,769
+I get 91,762, 17,015 and 6,430.
+
+12
+00:00:39,769 --> 00:00:43,136
+Now, to calculate the confidence
+interval, the estimated mean,
+
+13
+00:00:43,136 --> 00:00:45,388
+or n bar,
+will be the center of the interval.
+
+14
+00:00:45,388 --> 00:00:47,920
+Then I'll need to calculate
+the margin of error.
+
+15
+00:00:47,920 --> 00:00:50,746
+Because this metric is
+normally distributed,
+
+16
+00:00:50,746 --> 00:00:54,488
+the margin of error is the z score
+times the standard error, and
+
+17
+00:00:54,488 --> 00:00:59,007
+since we're using a 95% confidence
+interval, our Z score is 1.96,
+
+18
+00:00:59,007 --> 00:01:02,278
+then the margin of error
+comes to about 12,605.
+
+19
+00:01:02,278 --> 00:01:06,146
+The upper bound of the confidence
+interval will be the center plus
+
+20
+00:01:06,146 --> 00:01:09,070
+the margin of error, which is 104,367.
+
+21
+00:01:09,070 --> 00:01:13,460
+And the lower bound is 79,158.
+
+22
+00:01:13,460 --> 00:01:15,690
+So if Audacity repeated
+the measurement for
+
+23
+00:01:15,690 --> 00:01:18,660
+another seven weeks,
+they might expect to get anywhere
+
+24
+00:01:18,660 --> 00:01:22,610
+from 79,000 to a 104,000 as
+the mean homepage visits per week

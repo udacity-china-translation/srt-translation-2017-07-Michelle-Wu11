@@ -1,0 +1,66 @@
+1
+00:00:01,120 --> 00:00:04,201
+The standard deviation in
+this case comes to 0.0029.
+
+2
+00:00:04,201 --> 00:00:08,315
+And, that means the margin
+of error is 0.0056.
+
+3
+00:00:08,315 --> 00:00:13,774
+The confidence interval balance
+are then 0.4944 and 0.5056.
+
+4
+00:00:13,774 --> 00:00:18,110
+The actual fraction in
+the control group is 0.5006.
+
+5
+00:00:18,110 --> 00:00:19,830
+Which is within what is expected.
+
+6
+00:00:19,830 --> 00:00:22,090
+So, this does pass the sanity check.
+
+7
+00:00:22,090 --> 00:00:25,882
+Notice that the actual fraction in
+the control group wasn't exactly 0.5.
+
+8
+00:00:25,882 --> 00:00:29,890
+And looking at the day by day data
+again, the number of events in
+
+9
+00:00:29,890 --> 00:00:34,225
+the control and experiment groups
+wasn't exactly equal on any day.
+
+10
+00:00:34,225 --> 00:00:35,185
+That's expected.
+
+11
+00:00:35,185 --> 00:00:37,945
+And, since the fraction in the control
+group is within the bounds of
+
+12
+00:00:37,945 --> 00:00:40,865
+the confidence interval,
+there's no reason to be alarmed.
+
+13
+00:00:40,865 --> 00:00:44,525
+Since the total numbers pass the sanity
+check this time, there's no need to dig
+
+14
+00:00:44,525 --> 00:00:46,985
+into the day-by-day data to
+figure out what's going wrong.

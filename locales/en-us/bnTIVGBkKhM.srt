@@ -1,0 +1,80 @@
+1
+00:00:00,370 --> 00:00:04,350
+Okay, we know how to calculate pooled
+standard error and confidence intervals.
+
+2
+00:00:04,350 --> 00:00:06,120
+Are we ready to run the experiment?
+
+3
+00:00:06,120 --> 00:00:07,500
+>> Not quite.
+
+4
+00:00:07,500 --> 00:00:10,250
+So, we first have to
+design our experiment.
+
+5
+00:00:10,250 --> 00:00:12,840
+Now, the main question
+that we have to decide is
+
+6
+00:00:12,840 --> 00:00:16,059
+given that we have control over how
+many page views go into our control and
+
+7
+00:00:16,059 --> 00:00:19,940
+our experiment, we have to decide
+how many page views we need
+
+8
+00:00:19,940 --> 00:00:23,020
+in order to get a statistically
+significant result.
+
+9
+00:00:23,020 --> 00:00:25,180
+This is called statistical power.
+
+10
+00:00:25,180 --> 00:00:28,240
+Now, the key thing is that if
+we see something interesting,
+
+11
+00:00:28,240 --> 00:00:32,509
+we want to make sure that we have enough
+power to conclude with high probability
+
+12
+00:00:32,509 --> 00:00:35,640
+that the interesting result is,
+in fact, statistically significant.
+
+13
+00:00:36,920 --> 00:00:41,106
+Now, the key thing to keep in mind is
+that power has an inverse trade-off
+
+14
+00:00:41,106 --> 00:00:41,810
+with size.
+
+15
+00:00:41,810 --> 00:00:45,320
+The smaller the change that you want
+to detect, or the increased confidence
+
+16
+00:00:45,320 --> 00:00:47,880
+that you basically want to have in
+the result, means that you have to run
+
+17
+00:00:47,880 --> 00:00:51,060
+a larger experiment, so more page views
+in your control and your experiment.

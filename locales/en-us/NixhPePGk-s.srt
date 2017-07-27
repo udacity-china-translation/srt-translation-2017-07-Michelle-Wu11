@@ -1,0 +1,13 @@
+1
+00:00:00,370 --> 00:00:02,170
+Thanks for sharing your thoughts.
+
+2
+00:00:02,170 --> 00:00:04,005
+I'll go over how I
+solved the problem next,
+
+3
+00:00:04,005 --> 00:00:06,190
+but there could also be
+multiple approaches.

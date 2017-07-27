@@ -1,0 +1,112 @@
+1
+00:00:00,440 --> 00:00:03,600
+I'll show you using Google Spreadsheets
+to perform the calculations.
+
+2
+00:00:03,600 --> 00:00:05,970
+First, I'll make a new
+column with the differences.
+
+3
+00:00:05,970 --> 00:00:07,048
+So I'll take equals,
+
+4
+00:00:07,048 --> 00:00:13,080
+then first group minus the second
+group and I'll drag that down.
+
+5
+00:00:13,080 --> 00:00:17,630
+Next I'll calculate the standard
+deviation of the differences,
+
+6
+00:00:17,630 --> 00:00:18,860
+which comes to about 0.0364.
+
+7
+00:00:18,860 --> 00:00:23,780
+I'll also calculate the average
+which comes to about 0.0043.
+
+8
+00:00:23,780 --> 00:00:28,180
+So the center of the first
+confidence interval is 0.0043.
+
+9
+00:00:28,180 --> 00:00:32,776
+And the margin of error
+is 0.0364 times 1.96.
+
+10
+00:00:32,776 --> 00:00:37,036
+That is the standard deviation I just
+calculated, times the z score for
+
+11
+00:00:37,036 --> 00:00:38,746
+a 95% confidence level.
+
+12
+00:00:38,746 --> 00:00:41,410
+That comes to 0.0713.
+
+13
+00:00:41,410 --> 00:00:45,896
+Then the upper bound of the confidence
+interval will be 0.0756 and
+
+14
+00:00:45,896 --> 00:00:48,943
+the lower bound will be negative 0.0670.
+
+15
+00:00:48,943 --> 00:00:51,740
+To get the empirical
+confidence interval,
+
+16
+00:00:51,740 --> 00:00:54,570
+I'll sort the rows by difference,
+which is in column D.
+
+17
+00:00:54,570 --> 00:00:56,580
+Then the bounds of the confidence
+interval will go from
+
+18
+00:00:56,580 --> 00:01:00,130
+the second smallest value
+to the second largest.
+
+19
+00:01:00,130 --> 00:01:06,017
+That means the balance of the empirical
+confidence interval are negative 0.06,
+
+20
+00:01:06,017 --> 00:01:07,149
+and 0.08.
+
+21
+00:01:07,149 --> 00:01:09,870
+The two confidence intervals
+are in the same ballpark but
+
+22
+00:01:09,870 --> 00:01:11,490
+they're not super close.
+
+23
+00:01:11,490 --> 00:01:14,840
+That's because for the empirical
+confidence interval in particular, it's
+
+24
+00:01:14,840 --> 00:01:18,200
+best to have more than 40 experiments
+to be really confident in your answer.

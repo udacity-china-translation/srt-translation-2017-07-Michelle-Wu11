@@ -1,0 +1,160 @@
+1
+00:00:00,440 --> 00:00:03,260
+Okay, what's the next thing we need
+to characterize about our metrics in
+
+2
+00:00:03,260 --> 00:00:05,170
+order to analyze the experiment?
+
+3
+00:00:05,170 --> 00:00:08,170
+>> Well, the next thing we need
+to talk about is variability.
+
+4
+00:00:08,170 --> 00:00:12,110
+Up until now, we've talked sort of about
+developing intuition for the metric,
+
+5
+00:00:12,110 --> 00:00:14,330
+about sensitivity, and robustness.
+
+6
+00:00:14,330 --> 00:00:17,080
+But now, we're going to need
+a really more rigorous statistical
+
+7
+00:00:17,080 --> 00:00:21,070
+definition of variability, so that we
+can use it in lesson four to look at
+
+8
+00:00:21,070 --> 00:00:25,110
+sizing the experiment, and in lesson
+five to actually analyze the confidence
+
+9
+00:00:25,110 --> 00:00:26,858
+intervals, and draw conclusions.
+
+10
+00:00:26,858 --> 00:00:30,796
+We also want to check that the practical
+significance level we're interested in,
+
+11
+00:00:30,796 --> 00:00:32,549
+is really realistic for our metric.
+
+12
+00:00:32,549 --> 00:00:37,160
+If we have a metric that varies a lot
+under normal circumstances, that may not
+
+13
+00:00:37,160 --> 00:00:40,750
+really work for us in practice,
+because the practical significance level
+
+14
+00:00:40,750 --> 00:00:44,130
+we're interested in, just may not
+be feasible with this metric.
+
+15
+00:00:44,130 --> 00:00:46,460
+>> Okay, so,
+how would we figure that out?
+
+16
+00:00:46,460 --> 00:00:49,190
+>> Well,
+in lesson one we did a simple example
+
+17
+00:00:49,190 --> 00:00:53,340
+of our click-through probability,
+where we looked at user data which was
+
+18
+00:00:53,340 --> 00:00:56,090
+whether the user clicked
+on a specific link or not.
+
+19
+00:00:56,090 --> 00:00:59,870
+And our summary statistic was
+the overall click-through probability.
+
+20
+00:00:59,870 --> 00:01:03,270
+In that case, we were able to
+do an analytic, or a theoretical
+
+21
+00:01:03,270 --> 00:01:07,810
+computation of the variance that we
+expected from our overall probability.
+
+22
+00:01:07,810 --> 00:01:10,650
+Now, for other types of metrics,
+the same thing works.
+
+23
+00:01:10,650 --> 00:01:12,590
+For example,
+if you have nice normal data,
+
+24
+00:01:12,590 --> 00:01:17,230
+like demographic data, you have counts
+or probabilities, then usually,
+
+25
+00:01:17,230 --> 00:01:20,450
+you can do the,
+the confidence interval, theoretically.
+
+26
+00:01:20,450 --> 00:01:24,260
+But in some other cases, you may
+actually have to do this another way.
+
+27
+00:01:24,260 --> 00:01:27,920
+So, if you're using something
+like a count or a probability,
+
+28
+00:01:27,920 --> 00:01:31,250
+then you're only really dealing with the
+variability of a single measurement, or
+
+29
+00:01:31,250 --> 00:01:34,060
+of a constrained one,
+in the case of probability.
+
+30
+00:01:34,060 --> 00:01:39,330
+If you move on to using ratios or
+percentiles, like the 90th percentile,
+
+31
+00:01:39,330 --> 00:01:42,295
+or if your data, like our latency data,
+is pretty lumpy,
+
+32
+00:01:42,295 --> 00:01:46,430
+then you probably want to actually
+compute the variability empirically,
+
+33
+00:01:46,430 --> 00:01:48,360
+which we'll talk about a bit more in,
+in a moment.

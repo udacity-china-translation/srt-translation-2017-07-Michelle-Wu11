@@ -1,0 +1,601 @@
+1
+00:00:00,517 --> 00:00:01,089
+Okay.
+
+2
+00:00:01,089 --> 00:00:04,021
+We've looked at a lot of the
+distributions you might see in your data
+
+3
+00:00:04,021 --> 00:00:06,800
+and used that information to choose
+a specific summary metric or
+
+4
+00:00:06,800 --> 00:00:09,897
+to understand the sensitivity and
+robustness of your summary metric.
+
+5
+00:00:09,897 --> 00:00:12,967
+But now,
+it's time to add a level of rigor.
+
+6
+00:00:12,967 --> 00:00:15,657
+In order to calculate a confidence
+interval for your metric,
+
+7
+00:00:15,657 --> 00:00:17,167
+you're going to need two things.
+
+8
+00:00:17,167 --> 00:00:20,107
+You'll need to know the variance or
+equivalently the standard
+
+9
+00:00:20,107 --> 00:00:23,553
+deviation of your metric and you'll
+also need to know its distribution.
+
+10
+00:00:23,553 --> 00:00:26,126
+In lesson one, we calculated
+the confidence interval for
+
+11
+00:00:26,126 --> 00:00:29,550
+a probability metric, which we assumed
+followed a binomial distribution.
+
+12
+00:00:29,550 --> 00:00:31,751
+Then we calculated the standard error,
+
+13
+00:00:31,751 --> 00:00:35,377
+which was our estimate of the standard
+deviation using the formula
+
+14
+00:00:35,377 --> 00:00:38,177
+the square root of p hat
+times one minus p hat over n.
+
+15
+00:00:38,177 --> 00:00:41,760
+Then we calculated the width of
+the confidence interval or the margin of
+
+16
+00:00:41,760 --> 00:00:45,413
+error, as the z score of our confidence
+level times the standard error.
+
+17
+00:00:45,413 --> 00:00:48,307
+So we definitely needed to
+know the standard error and
+
+18
+00:00:48,307 --> 00:00:52,183
+we also used the fact that this was
+a binomial distribution in two ways.
+
+19
+00:00:52,183 --> 00:00:55,328
+First, we use the fact that this
+was a binomial distribution to get
+
+20
+00:00:55,328 --> 00:00:57,133
+this formula for the standard error.
+
+21
+00:00:57,133 --> 00:01:01,238
+And second, this formula for the margin
+of error depends on the assumption that
+
+22
+00:01:01,238 --> 00:01:02,902
+this is a normal distribution.
+
+23
+00:01:02,902 --> 00:01:06,697
+And remember, the binomial approaches
+a normal distribution as N gets larger.
+
+24
+00:01:06,697 --> 00:01:10,846
+So to summarize, if your type of metric
+is a probability metric, you can usually
+
+25
+00:01:10,846 --> 00:01:14,264
+assume a binomial distribution,
+which approximates a normal for
+
+26
+00:01:14,264 --> 00:01:18,046
+a large enough sample size and the
+estimated variance will be the standard
+
+27
+00:01:18,046 --> 00:01:20,813
+deviation squared or
+p hat times 1 minus p hat over N.
+
+28
+00:01:20,813 --> 00:01:24,192
+Now let's talk about some other
+types of metrics you might see.
+
+29
+00:01:24,192 --> 00:01:27,657
+If your metric is a mean,
+then by the central limit theorem, your
+
+30
+00:01:27,657 --> 00:01:31,767
+metric will follow a normal distribution
+if the sample size is large enough.
+
+31
+00:01:31,767 --> 00:01:35,549
+And the variants of the metric will be
+given by the variance of the sample,
+
+32
+00:01:35,549 --> 00:01:38,965
+which I'm representing as sigma
+hat squared divided by the size of
+
+33
+00:01:38,965 --> 00:01:39,643
+the sample.
+
+34
+00:01:39,643 --> 00:01:42,890
+Notice the distinction between
+the variance of the sample,
+
+35
+00:01:42,890 --> 00:01:46,768
+that is take each of your data points
+and then collect the variance of them
+
+36
+00:01:46,768 --> 00:01:49,949
+versus the variance of the actual
+metric, which means that
+
+37
+00:01:49,949 --> 00:01:54,113
+if you were to collect a new sample, how
+would you expect this metric to vary?
+
+38
+00:01:54,113 --> 00:01:57,000
+We'll be going over an example
+of this in a minute.
+
+39
+00:01:57,000 --> 00:01:59,843
+Now this estimated variance
+is an analytic result.
+
+40
+00:01:59,843 --> 00:02:02,013
+For other types of
+summary metrics though,
+
+41
+00:02:02,013 --> 00:02:04,893
+estimating the variance
+analytically may not be so easy.
+
+42
+00:02:04,893 --> 00:02:08,233
+Take the median, for example,
+if the underlying data is normal and
+
+43
+00:02:08,233 --> 00:02:11,640
+the sample is large, then the median
+will be approximately normal.
+
+44
+00:02:11,640 --> 00:02:13,870
+But if the underlying
+data is not normal,
+
+45
+00:02:13,870 --> 00:02:16,239
+then the median might
+not be normal either.
+
+46
+00:02:16,239 --> 00:02:19,734
+Suppose, for example, you're
+considering latency and your latency is
+
+47
+00:02:19,734 --> 00:02:23,510
+a bimodal distribution since some people
+have a slower internet connection and
+
+48
+00:02:23,510 --> 00:02:25,047
+some people have a faster type.
+
+49
+00:02:25,047 --> 00:02:28,837
+Then for a large enough sample,
+the mean would be normally distributed.
+
+50
+00:02:28,837 --> 00:02:32,672
+Where this blue line is the distribution
+of the underlined data and
+
+51
+00:02:32,672 --> 00:02:35,353
+the pink line is
+the distribution of the mean.
+
+52
+00:02:35,353 --> 00:02:38,386
+The median on the other hand,
+might not be normally distributed.
+
+53
+00:02:38,386 --> 00:02:40,847
+In this example,
+you can see it looks pretty crazy.
+
+54
+00:02:40,847 --> 00:02:45,023
+Other percentiles besides the median
+might also not be normally distributed.
+
+55
+00:02:45,023 --> 00:02:46,984
+To estimate the variance of the median,
+
+56
+00:02:46,984 --> 00:02:50,973
+you'd need to make an assumption about
+how the underlying data was distributed.
+
+57
+00:02:50,973 --> 00:02:52,901
+And depending on your assumption,
+
+58
+00:02:52,901 --> 00:02:56,187
+it might not be easy to estimate
+the variance analytically.
+
+59
+00:02:56,187 --> 00:03:00,330
+So for a median or other percentile, the
+distribution of the metric depends on
+
+60
+00:03:00,330 --> 00:03:03,596
+the distribution of the underlying
+data and your estimate for
+
+61
+00:03:03,596 --> 00:03:06,453
+the variance will depend
+on this assumption as well.
+
+62
+00:03:06,453 --> 00:03:09,702
+Another type of metric that's often
+easier to analyze is a count or rather,
+
+63
+00:03:09,702 --> 00:03:12,446
+you're usually looking at
+the difference between two counts,
+
+64
+00:03:12,446 --> 00:03:14,663
+say the experiment group
+minus the control group.
+
+65
+00:03:14,663 --> 00:03:18,278
+This difference won't always
+be normally distributed, but
+
+66
+00:03:18,278 --> 00:03:21,830
+it often is especially for
+things like demographic data.
+
+67
+00:03:21,830 --> 00:03:25,254
+The estimated variance of the difference
+is the sum of the variances
+
+68
+00:03:25,254 --> 00:03:26,822
+of the individual variables.
+
+69
+00:03:26,822 --> 00:03:31,086
+Other types of metrics, such as rates
+have more unusual distributions,
+
+70
+00:03:31,086 --> 00:03:33,368
+but they can have analytic solutions.
+
+71
+00:03:33,368 --> 00:03:35,873
+Rates tend to follow
+a poisson distribution and
+
+72
+00:03:35,873 --> 00:03:39,705
+the variance of the poisson distribution
+is actually equal to the mean.
+
+73
+00:03:39,705 --> 00:03:42,089
+So you could estimate it by
+taking the mean of your sample,
+
+74
+00:03:42,089 --> 00:03:43,072
+which I'll call x bar.
+
+75
+00:03:43,072 --> 00:03:44,329
+For your experiment though,
+
+76
+00:03:44,329 --> 00:03:46,950
+you would be interested in
+the difference between two rates.
+
+77
+00:03:46,950 --> 00:03:50,699
+That is you would need to estimate
+the variance of the difference between
+
+78
+00:03:50,699 --> 00:03:52,245
+two poisson distributions.
+
+79
+00:03:52,245 --> 00:03:55,528
+Or alternatively, you could test that
+the ratio of the means is close to
+
+80
+00:03:55,528 --> 00:03:57,290
+one and compute the variance of that.
+
+81
+00:03:57,290 --> 00:04:01,517
+Unlike for the normally distributed
+data, these difference in rates aren't
+
+82
+00:04:01,517 --> 00:04:04,537
+likely to be either poisson or
+normal in distribution.
+
+83
+00:04:04,537 --> 00:04:07,440
+You can do this analytically and
+there are several options.
+
+84
+00:04:07,440 --> 00:04:09,557
+See the Instructor's Notes.
+
+85
+00:04:09,557 --> 00:04:13,022
+But most people probably don't want
+to and it can be a big investment and
+
+86
+00:04:13,022 --> 00:04:14,080
+hard to generalize.
+
+87
+00:04:14,080 --> 00:04:16,237
+We'll talk in a minute
+about other options.
+
+88
+00:04:16,237 --> 00:04:19,310
+Finally, businesses often
+want to use general ratios.
+
+89
+00:04:19,310 --> 00:04:23,463
+For example, you might want to use the
+ratio of click-through probabilities in
+
+90
+00:04:23,463 --> 00:04:26,713
+your experiment and
+control group instead of the difference.
+
+91
+00:04:26,713 --> 00:04:30,729
+Like for the median, the distribution
+and estimated variance of a ratio will
+
+92
+00:04:30,729 --> 00:04:34,267
+depend on the distribution for
+the numerator and the denominator.
+
+93
+00:04:34,267 --> 00:04:36,819
+Often, you won't know those
+distributions and for
+
+94
+00:04:36,819 --> 00:04:39,081
+anything more complicated
+than two normals,
+
+95
+00:04:39,081 --> 00:04:41,990
+you often won't have an analytic
+result for the variance.
+
+96
+00:04:41,990 --> 00:04:44,481
+You've already calculated
+a confidence interval for
+
+97
+00:04:44,481 --> 00:04:47,466
+a probability in less than one
+using the binomial distribution.
+
+98
+00:04:47,466 --> 00:04:50,264
+Now, I'd like you to calculate
+a confidence interval for
+
+99
+00:04:50,264 --> 00:04:52,732
+a mean,
+which will follow a normal distribution.
+
+100
+00:04:52,732 --> 00:04:56,294
+Suppose that audacity wants to measure
+the mean number of students that visit
+
+101
+00:04:56,294 --> 00:04:57,570
+their home page each week.
+
+102
+00:04:57,570 --> 00:05:01,602
+So they record home page visits for
+seven weeks and get seven measurements,
+
+103
+00:05:01,602 --> 00:05:02,616
+one for each week.
+
+104
+00:05:02,616 --> 00:05:04,377
+From this they can computer a mean,
+
+105
+00:05:04,377 --> 00:05:08,145
+which I'll represent as N bar by summing
+the data points and dividing by 7.
+
+106
+00:05:08,145 --> 00:05:10,912
+Now what is the confidence interval for
+this measurement?
+
+107
+00:05:10,912 --> 00:05:14,891
+To answer this, you'll need to calculate
+the standard deviation of the seven
+
+108
+00:05:14,891 --> 00:05:17,677
+counts audacity collected,
+which I'll call sigma.
+
+109
+00:05:17,677 --> 00:05:18,400
+You can do this any way you want.
+
+110
+00:05:18,400 --> 00:05:21,804
+One way would be to enter the numbers
+into a Google spreadsheet or
+
+111
+00:05:21,804 --> 00:05:25,285
+you can copy the spreadsheet
+linked in the Instructor's Notes.
+
+112
+00:05:25,285 --> 00:05:28,203
+To compute the standard deviation,
+you would type equals and
+
+113
+00:05:28,203 --> 00:05:30,064
+use the standard deviation function.
+
+114
+00:05:30,064 --> 00:05:33,956
+Then you would select the appropriate
+range, add a close paren and
+
+115
+00:05:33,956 --> 00:05:34,799
+press Enter.
+
+116
+00:05:34,799 --> 00:05:37,737
+Most programming languages also
+have built in functions to compute
+
+117
+00:05:37,737 --> 00:05:40,426
+the standard deviation or
+you could write your own function.
+
+118
+00:05:40,426 --> 00:05:43,595
+You'll also need to calculate
+the standard error for the mean,
+
+119
+00:05:43,595 --> 00:05:46,067
+which is equal to the square
+root of the variance.
+
+120
+00:05:46,067 --> 00:05:48,482
+That is sigma over
+the square root of seven,
+
+121
+00:05:48,482 --> 00:05:51,498
+since seven is the number of
+data points in our sample.
+
+122
+00:05:51,498 --> 00:05:54,164
+Use this to compute a 95%
+confidence interval,
+
+123
+00:05:54,164 --> 00:05:57,827
+around audacity's measurement of
+the mean number of users per week.
+
+124
+00:05:57,827 --> 00:06:01,233
+Enter the upper and lower bounds of your
+confidence interval in these boxes and
+
+125
+00:06:01,233 --> 00:06:03,100
+round each answer to
+the nearest integer.

@@ -1,0 +1,212 @@
+1
+00:00:00,385 --> 00:00:03,680
+Carrie, what can you do if you want to
+use one of these more difficult metrics
+
+2
+00:00:03,680 --> 00:00:04,540
+like a median or
+
+3
+00:00:04,540 --> 00:00:08,280
+ratio or anything where you can't
+calculate the variants analytically?
+
+4
+00:00:08,280 --> 00:00:11,200
+>> Well, we're going to talk in
+a minute about specifically computing
+
+5
+00:00:11,200 --> 00:00:14,620
+the variants empirically, but
+there's actually a broader class of
+
+6
+00:00:14,620 --> 00:00:17,420
+methods here called
+non-parametric methods.
+
+7
+00:00:17,420 --> 00:00:20,810
+That means that you have a way to
+analyze the data without making
+
+8
+00:00:20,810 --> 00:00:23,660
+an assumption about what
+the distribution Is.
+
+9
+00:00:23,660 --> 00:00:27,310
+Now, these methods can be noisier,
+and they can be more computationally
+
+10
+00:00:27,310 --> 00:00:30,420
+intensive, but
+they can also be very useful.
+
+11
+00:00:30,420 --> 00:00:31,030
+>> Interesting.
+
+12
+00:00:31,030 --> 00:00:32,530
+So, what's an example of that?
+
+13
+00:00:32,530 --> 00:00:35,970
+>> Well, a great simple example
+is called the sign test.
+
+14
+00:00:35,970 --> 00:00:39,990
+Now, let's imagine that we ran our
+AB experiment for 20 days, and
+
+15
+00:00:39,990 --> 00:00:41,980
+on 15 of those days,
+
+16
+00:00:41,980 --> 00:00:46,680
+the experiment side had a higher
+measurement than the control side.
+
+17
+00:00:46,680 --> 00:00:49,740
+Now, that seems unlikely to
+have arrived by chance, and
+
+18
+00:00:49,740 --> 00:00:53,640
+what you can do is use what we learned
+in Lesson One about the binomial
+
+19
+00:00:53,640 --> 00:00:57,220
+to actually calculate how likely
+it is that that occurred,
+
+20
+00:00:57,220 --> 00:01:00,170
+if there was really no difference
+between the two sides.
+
+21
+00:01:00,170 --> 00:01:03,470
+Now, the downside of doing this is
+that it doesn't help you estimate
+
+22
+00:01:03,470 --> 00:01:04,879
+the size of the effect.
+
+23
+00:01:04,879 --> 00:01:06,340
+That is, you can't say, you know,
+
+24
+00:01:06,340 --> 00:01:10,570
+I'm confident this is at
+least 2% change in my metric.
+
+25
+00:01:10,570 --> 00:01:12,700
+The upside is,
+it's pretty easy to do, and
+
+26
+00:01:12,700 --> 00:01:15,830
+you can do it under a lot
+of different circumstances.
+
+27
+00:01:15,830 --> 00:01:19,770
+>> Okay, so if you wanted to launch any
+positive change in your experiment,
+
+28
+00:01:19,770 --> 00:01:22,920
+then you could figure out whether
+there was one using a sign test.
+
+29
+00:01:22,920 --> 00:01:26,340
+>> Right, and we'll talk a little
+further about that in Lesson Five.
+
+30
+00:01:26,340 --> 00:01:29,330
+>> But, like you mentioned in Lesson
+One, sometimes you won't want to launch
+
+31
+00:01:29,330 --> 00:01:32,340
+unless you meet some threshold,
+your practical significance level.
+
+32
+00:01:32,340 --> 00:01:33,510
+So, what then?
+
+33
+00:01:33,510 --> 00:01:34,110
+>> Right.
+Well,
+
+34
+00:01:34,110 --> 00:01:37,070
+later in the lesson we're going to
+talk about how to actually compute
+
+35
+00:01:37,070 --> 00:01:40,010
+the variance empirically,
+from the sample data.
+
+36
+00:01:40,010 --> 00:01:42,380
+Once you've done that,
+you have two choices.
+
+37
+00:01:42,380 --> 00:01:45,240
+First, if you look at your summary
+statistic distribution, and
+
+38
+00:01:45,240 --> 00:01:48,270
+it's pretty nice and normal,
+you can do what we've done for
+
+39
+00:01:48,270 --> 00:01:52,090
+more normally-distributed metrics and
+use a normal conference interval just
+
+40
+00:01:52,090 --> 00:01:53,890
+with the variants you
+estimated empirically.
+
+41
+00:01:53,890 --> 00:01:56,590
+If your data's a little
+funnier than that, or
+
+42
+00:01:56,590 --> 00:01:59,840
+if you want to be really robust,
+you can actually go ahead and
+
+43
+00:01:59,840 --> 00:02:02,350
+compute a non-parametric
+conference interval.
+
+44
+00:02:02,350 --> 00:02:05,330
+It's pretty easy to do,
+and go ahead in that way.

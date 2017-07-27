@@ -1,0 +1,308 @@
+1
+00:00:00,370 --> 00:00:03,340
+We just saw an example experiment
+where three out of four metrics had
+
+2
+00:00:03,340 --> 00:00:07,530
+a statistically significant difference
+at the alpha = 0.05 level for
+
+3
+00:00:07,530 --> 00:00:09,270
+each metric individually.
+
+4
+00:00:09,270 --> 00:00:12,960
+But when I combined the metrics and
+tested for significance using
+
+5
+00:00:12,960 --> 00:00:16,850
+the Bonferroni correction,
+none of the metrics were significant.
+
+6
+00:00:16,850 --> 00:00:19,440
+So how do I actually make
+a recommendation here?
+
+7
+00:00:19,440 --> 00:00:21,990
+The Bonferroni method is
+likely to be too conservative,
+
+8
+00:00:21,990 --> 00:00:24,320
+since I expect the metrics
+to be correlated,
+
+9
+00:00:24,320 --> 00:00:27,900
+but my rigorous results say that
+the change isn't significant.
+
+10
+00:00:27,900 --> 00:00:30,820
+The rigorous answer here is to use
+a more sophisticated method than
+
+11
+00:00:30,820 --> 00:00:33,730
+Bonferroni, ideally one that
+takes into account the fact
+
+12
+00:00:33,730 --> 00:00:35,880
+that the metrics are likely
+to be correlated.
+
+13
+00:00:35,880 --> 00:00:39,170
+There's a list of other possible
+methods in the instructor's notes.
+
+14
+00:00:39,170 --> 00:00:41,960
+There's also another type of
+strategy here that's different
+
+15
+00:00:41,960 --> 00:00:46,320
+than just choosing an individual alpha,
+and I'll talk about that in a minute.
+
+16
+00:00:46,320 --> 00:00:48,860
+Ideally, I would have decided
+what method to use when designing
+
+17
+00:00:48,860 --> 00:00:51,680
+the experiment, and
+taken that into account when sizing.
+
+18
+00:00:51,680 --> 00:00:52,820
+Practically speaking,
+
+19
+00:00:52,820 --> 00:00:55,570
+this type of situation may
+come down to a judgment call.
+
+20
+00:00:55,570 --> 00:00:58,460
+If I have a lot of experience running
+different experiments with these
+
+21
+00:00:58,460 --> 00:01:00,310
+metrics, then I would
+have a good intuition for
+
+22
+00:01:00,310 --> 00:01:02,230
+whether these results
+are likely to persist or not.
+
+23
+00:01:02,230 --> 00:01:05,170
+In this case, I would need to
+communicate that to the decision
+
+24
+00:01:05,170 --> 00:01:07,190
+makers to make sure they
+understand the risk.
+
+25
+00:01:07,190 --> 00:01:10,520
+There may also be other factors
+here such as business strategy.
+
+26
+00:01:10,520 --> 00:01:13,330
+The decision makers may want to launch
+the change if there are strong,
+
+27
+00:01:13,330 --> 00:01:15,430
+strategical reasons to launch it.
+
+28
+00:01:15,430 --> 00:01:17,330
+Or otherwise they may
+choose to abandon it,
+
+29
+00:01:17,330 --> 00:01:19,270
+given the uncertainty of the results.
+
+30
+00:01:19,270 --> 00:01:22,720
+Or if it's not urgent, they may want
+to run another set of experiments
+
+31
+00:01:22,720 --> 00:01:24,560
+that are more adequately powered.
+
+32
+00:01:24,560 --> 00:01:27,370
+So what's the other strategy
+that I mentioned a minute ago?
+
+33
+00:01:27,370 --> 00:01:30,940
+Well, the methods we've used up to now
+try to control the probability that
+
+34
+00:01:30,940 --> 00:01:33,130
+any metric shows a false positive.
+
+35
+00:01:33,130 --> 00:01:35,910
+I've been calling this
+probability the overall alpha.
+
+36
+00:01:35,910 --> 00:01:41,130
+But it's more commonly called
+the family wise error rate, or FWER.
+
+37
+00:01:41,130 --> 00:01:44,480
+Another approach is to loosen that and
+say you're okay with some false
+
+38
+00:01:44,480 --> 00:01:48,910
+positives, even with a high probability,
+as long as there's not too many.
+
+39
+00:01:48,910 --> 00:01:49,480
+In this case,
+
+40
+00:01:49,480 --> 00:01:53,650
+you would try to control what is called
+the false discovery rate, or FDR.
+
+41
+00:01:53,650 --> 00:01:57,820
+The false discovery rate is the number
+of false positives, that is, the number
+
+42
+00:01:57,820 --> 00:02:02,000
+of times that you reject the null,
+even when the null was true, divided by
+
+43
+00:02:02,000 --> 00:02:05,620
+the total number of rejections of
+the null, both valid and invalid.
+
+44
+00:02:05,620 --> 00:02:08,750
+And actually, it's the expected
+value of this quantity.
+
+45
+00:02:08,750 --> 00:02:10,860
+What the false discovery
+rate is measuring is,
+
+46
+00:02:10,860 --> 00:02:13,610
+out of all of the rejections
+of the null, that is, all of
+
+47
+00:02:13,610 --> 00:02:17,120
+the metrics that you declare to have
+a statistically significant difference.
+
+48
+00:02:17,120 --> 00:02:20,290
+How many of them had a real difference
+as opposed to how many were
+
+49
+00:02:20,290 --> 00:02:21,600
+false positives?
+
+50
+00:02:21,600 --> 00:02:25,610
+This really only makes sense if you have
+a huge number of metrics, say hundreds.
+
+51
+00:02:25,610 --> 00:02:29,060
+So suppose that you have 200
+metrics that you're measuring and
+
+52
+00:02:29,060 --> 00:02:32,750
+you capped the false
+discovery rate at 0.05.
+
+53
+00:02:32,750 --> 00:02:36,570
+What this means is that you're okay
+with having 5 false positives and
+
+54
+00:02:36,570 --> 00:02:39,880
+95 true positives in every experiment.
+
+55
+00:02:39,880 --> 00:02:43,390
+The family wise error rate, or
+the overall alpha in this case,
+
+56
+00:02:43,390 --> 00:02:47,370
+would be one, since you have at
+least one false positive every time.
+
+57
+00:02:47,370 --> 00:02:50,770
+But the false discovery rate is 0.05.
+
+58
+00:02:50,770 --> 00:02:53,880
+Since most of the metrics that you're
+claiming have a significant difference
+
+59
+00:02:53,880 --> 00:02:54,940
+actually do.
+
+60
+00:02:54,940 --> 00:02:58,430
+So if you're trying to detect
+significant changes across a large
+
+61
+00:02:58,430 --> 00:03:01,660
+number of metrics,
+then capping the false discovery rate
+
+62
+00:03:01,660 --> 00:03:05,050
+instead of the family wise error
+rate can be a lot more lenient.
+
+63
+00:03:05,050 --> 00:03:07,870
+See the instructor's notes for
+more details about controlling the false
+
+64
+00:03:07,870 --> 00:03:10,320
+discovery rate and
+some methods you can use to do so.

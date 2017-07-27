@@ -1,0 +1,56 @@
+1
+00:00:00,410 --> 00:00:02,200
+Now that we've set up a hypothesis test,
+
+2
+00:00:02,200 --> 00:00:04,620
+how will we decide whether
+to reject the null?
+
+3
+00:00:04,620 --> 00:00:07,440
+>> Well, we're going to need to look at
+our conference intervals in a slightly
+
+4
+00:00:07,440 --> 00:00:08,500
+different way.
+
+5
+00:00:08,500 --> 00:00:11,610
+So remember in this case,
+we actually have two samples.
+
+6
+00:00:11,610 --> 00:00:12,910
+We have the control side,
+
+7
+00:00:12,910 --> 00:00:16,100
+which may have a different number
+of users from the experiment side.
+
+8
+00:00:16,100 --> 00:00:21,030
+So we'll need to compare the proportion
+of clicks estimated on the control side,
+
+9
+00:00:21,030 --> 00:00:24,130
+with the proportion estimated
+on the experiment side.
+
+10
+00:00:24,130 --> 00:00:27,730
+Then the quantitative task tells us
+whether it's likely that the results we
+
+11
+00:00:27,730 --> 00:00:31,440
+got, the difference we observed, could
+have occurred by chance, or if it would
+
+12
+00:00:31,440 --> 00:00:34,920
+be extremely unlikely to have occurred
+if the two sides were actually the same.

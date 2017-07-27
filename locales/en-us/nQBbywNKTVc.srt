@@ -1,0 +1,52 @@
+1
+00:00:00,470 --> 00:00:04,850
+Recall in lesson one, we used the
+example of changing the Start Now button
+
+2
+00:00:04,850 --> 00:00:06,880
+on our online education website,
+
+3
+00:00:06,880 --> 00:00:10,700
+Audacity, and we use click-through
+probability as the metric.
+
+4
+00:00:10,700 --> 00:00:14,200
+In this lesson, we'll be focusing
+on metrics for experiments.
+
+5
+00:00:14,200 --> 00:00:17,770
+We'll first cover how to define a
+metric, which involves brainstorming and
+
+6
+00:00:17,770 --> 00:00:19,660
+establishing a suite of metrics.
+
+7
+00:00:19,660 --> 00:00:22,460
+Then taking things from a high
+level concept of a metric
+
+8
+00:00:22,460 --> 00:00:26,420
+to a practical definition that
+works given your data capture.
+
+9
+00:00:26,420 --> 00:00:29,260
+Then we'll explain how to build
+intuition about your metrics and
+
+10
+00:00:29,260 --> 00:00:32,250
+understanding your metrics
+sensitivity and robustness.
+
+11
+00:00:32,250 --> 00:00:35,190
+We'll conclude with how to characterize
+the variability of your metric.

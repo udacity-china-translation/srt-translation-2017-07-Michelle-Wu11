@@ -1,0 +1,419 @@
+1
+00:00:00,410 --> 00:00:04,780
+Like Diane said a unit of diversion is
+how we define what an individual subject
+
+2
+00:00:04,780 --> 00:00:06,570
+is in the experiment.
+
+3
+00:00:06,570 --> 00:00:10,200
+There are three commonly used
+categories of unit of diversion.
+
+4
+00:00:10,200 --> 00:00:13,982
+The first two a user identifier and
+an anonymous identifier are different
+
+5
+00:00:13,982 --> 00:00:16,361
+approximations for
+an actual user or person.
+
+6
+00:00:16,361 --> 00:00:18,492
+And the last is just the single event.
+
+7
+00:00:18,492 --> 00:00:20,326
+Let's dive into each of these.
+
+8
+00:00:20,326 --> 00:00:23,695
+A user identifier is what most
+people think of first for
+
+9
+00:00:23,695 --> 00:00:26,290
+running an experiment on.
+
+10
+00:00:26,290 --> 00:00:30,120
+This would be something like the login
+that people create on websites or apps.
+
+11
+00:00:30,120 --> 00:00:33,608
+For example, your email address
+if you log into Facebook or
+
+12
+00:00:33,608 --> 00:00:37,740
+Amazon, or your username,
+if create a username instead.
+
+13
+00:00:37,740 --> 00:00:41,070
+While a person could have more
+than one login, typically a login
+
+14
+00:00:41,070 --> 00:00:45,390
+is a pretty good proxy for a user and
+it's stable and unchanging.
+
+15
+00:00:45,390 --> 00:00:49,560
+If you use a user id as your unit of
+diversion, what that means is that all
+
+16
+00:00:49,560 --> 00:00:54,040
+the events correspond to the same used
+id are either in the control group or
+
+17
+00:00:54,040 --> 00:00:57,460
+the experiment group, but they
+are not mixed between the two groups.
+
+18
+00:00:57,460 --> 00:01:00,140
+Whether the user is using
+an app on their phone,
+
+19
+00:01:00,140 --> 00:01:01,720
+visiting the website on their phone, or
+
+20
+00:01:01,720 --> 00:01:05,480
+visiting the website on their desktop
+computer, it's a consistent experience.
+
+21
+00:01:06,580 --> 00:01:09,730
+However, it's worth noting that
+a user id is considered personally
+
+22
+00:01:09,730 --> 00:01:11,220
+identifiable.
+
+23
+00:01:11,220 --> 00:01:14,350
+Some sites use your email
+address as your login and for
+
+24
+00:01:14,350 --> 00:01:18,730
+sites where you create a username many
+people use some variation on their name.
+
+25
+00:01:18,730 --> 00:01:21,870
+And either way the site will typically
+associate some other information with
+
+26
+00:01:21,870 --> 00:01:24,490
+the account, such as the user's
+email address or phone number,
+
+27
+00:01:24,490 --> 00:01:26,430
+to help with account recovery.
+
+28
+00:01:26,430 --> 00:01:29,270
+An anonymous id is usually
+something like a cookie.
+
+29
+00:01:29,270 --> 00:01:33,410
+On most websites, whenever a user visits
+the website, it will write a cookie,
+
+30
+00:01:33,410 --> 00:01:37,835
+which is usually an anonymous random
+identifier to a file on that device.
+
+31
+00:01:37,835 --> 00:01:40,880
+The cookie is specific to a browser and
+a device though.
+
+32
+00:01:40,880 --> 00:01:43,780
+If the users switches from
+Chrome to Firefox, or if
+
+33
+00:01:43,780 --> 00:01:47,490
+they switch from their laptop to their
+phone, they'll get a different cookie.
+
+34
+00:01:47,490 --> 00:01:51,030
+Users can also choose to clear their
+cookies, in which case the next time
+
+35
+00:01:51,030 --> 00:01:53,510
+they visit the website they'll
+get assigned a new one.
+
+36
+00:01:53,510 --> 00:01:56,350
+It's also possible to set your
+preferences such that every time you
+
+37
+00:01:56,350 --> 00:01:59,580
+close your browser, all your
+cookies are cleared automatically.
+
+38
+00:01:59,580 --> 00:02:03,260
+In other words, it's much easier for
+a person to change their cookie
+
+39
+00:02:03,260 --> 00:02:07,490
+than it is for a person to change or
+clear an account, ie a user identifier.
+
+40
+00:02:07,490 --> 00:02:11,180
+Apps on mobile devices can also
+use a similar cookie mechanism.
+
+41
+00:02:11,180 --> 00:02:14,540
+Although it can be a bit more cumbersome
+to clear a cookie on a mobile device or
+
+42
+00:02:14,540 --> 00:02:16,582
+for an app than it is in a browser.
+
+43
+00:02:16,582 --> 00:02:19,880
+Finally, event-based diversion
+means that on every single event,
+
+44
+00:02:19,880 --> 00:02:23,290
+you redecide whether that event is
+in the experiment or in the control.
+
+45
+00:02:23,290 --> 00:02:26,560
+This means that a user may not get
+a consistent experience at all, so
+
+46
+00:02:26,560 --> 00:02:30,708
+this is only appropriate in situations
+where the changes are not user visible.
+
+47
+00:02:30,708 --> 00:02:32,600
+For example, if you have a ranked list,
+
+48
+00:02:32,600 --> 00:02:35,525
+changes to the order of the list
+would fall in this category.
+
+49
+00:02:35,525 --> 00:02:38,165
+Most users can't tell or won't notice.
+
+50
+00:02:38,165 --> 00:02:41,045
+There are also a couple of other
+less commonly used options for
+
+51
+00:02:41,045 --> 00:02:42,655
+unit of diversion.
+
+52
+00:02:42,655 --> 00:02:46,065
+On mobile devices only, there's
+an option called a device id that's
+
+53
+00:02:46,065 --> 00:02:47,655
+in between a cookie and a user ID.
+
+54
+00:02:47,655 --> 00:02:50,402
+The device device id is
+typically something that's
+
+55
+00:02:50,402 --> 00:02:54,042
+tied to a specific device, and
+it's unchangeable by the user.
+
+56
+00:02:54,042 --> 00:02:57,042
+It's also considered identifiable
+because it's immutable.
+
+57
+00:02:57,042 --> 00:02:58,852
+But it doesn't have the cross device or
+
+58
+00:02:58,852 --> 00:03:02,567
+cross platform consistency that
+the user identifier might have.
+
+59
+00:03:02,567 --> 00:03:05,362
+Another option is to divert
+based on IP address, so
+
+60
+00:03:05,362 --> 00:03:09,310
+that any event with the same IP
+address will be put in the same group.
+
+61
+00:03:09,310 --> 00:03:13,280
+If the user changes location,
+then they often get a new IP address.
+
+62
+00:03:13,280 --> 00:03:16,320
+To make sure all this is clear,
+I'll go through an example.
+
+63
+00:03:16,320 --> 00:03:19,700
+Imagine you have a user who does
+the following sequence of events.
+
+64
+00:03:19,700 --> 00:03:23,350
+They're on desktop, not signed in,
+and they visit the homepage.
+
+65
+00:03:23,350 --> 00:03:25,030
+They've also cleared
+their cookies recently.
+
+66
+00:03:25,030 --> 00:03:27,150
+So they're not automatically signed in.
+
+67
+00:03:27,150 --> 00:03:29,410
+So, they sign in again,
+then they visit a class,
+
+68
+00:03:29,410 --> 00:03:31,890
+and then they start watching a video.
+
+69
+00:03:31,890 --> 00:03:35,040
+After that video, we don't see
+the user again for a while, but
+
+70
+00:03:35,040 --> 00:03:38,410
+then they pop up on their mobile phone
+where they're automatically signed in
+
+71
+00:03:38,410 --> 00:03:40,250
+because the login is saved.
+
+72
+00:03:40,250 --> 00:03:43,590
+Then they continue watching the video
+from where they stopped last.
+
+73
+00:03:43,590 --> 00:03:46,150
+Now suppose you're running
+an experiment that would affect
+
+74
+00:03:46,150 --> 00:03:47,850
+each of these different pages.
+
+75
+00:03:47,850 --> 00:03:51,110
+For example, maybe you changed
+something about the navigation bar and
+
+76
+00:03:51,110 --> 00:03:52,790
+it shows up on every page.
+
+77
+00:03:52,790 --> 00:03:56,450
+For each of the different units of
+diversion we've talked about, user-id,
+
+78
+00:03:56,450 --> 00:03:58,970
+cookie, event, device id and
+
+79
+00:03:58,970 --> 00:04:03,420
+IP address, when would the user be
+assigned to the same group as before and
+
+80
+00:04:03,420 --> 00:04:06,670
+when could they potentially be
+switched to the other group?
+
+81
+00:04:06,670 --> 00:04:10,590
+That is, the experimental group if they
+were in the control and vice-versa.
+
+82
+00:04:10,590 --> 00:04:13,670
+For each case,
+check the box at the point or points,
+
+83
+00:04:13,670 --> 00:04:17,570
+where the user could be switched from
+the experiment to control or vice-versa,
+
+84
+00:04:17,570 --> 00:04:20,740
+including the first time that
+they are assigned to a group.
+
+85
+00:04:20,740 --> 00:04:24,440
+For the IP address diversion, you don't
+haven't enough information to answer.
+
+86
+00:04:24,440 --> 00:04:27,320
+Clearly, they'll be assigned to
+a group when they first visit, but
+
+87
+00:04:27,320 --> 00:04:30,280
+after that their IP Address
+could change at any point and
+
+88
+00:04:30,280 --> 00:04:32,000
+if it does, they could be reassigned.

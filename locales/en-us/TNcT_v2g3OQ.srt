@@ -1,0 +1,185 @@
+1
+00:00:00,410 --> 00:00:02,490
+Are we ready to move on to variability?
+
+2
+00:00:02,490 --> 00:00:03,490
+>> Not quite.
+
+3
+00:00:03,490 --> 00:00:07,300
+First, we have to actually decide how
+we're going to compute the comparison.
+
+4
+00:00:07,300 --> 00:00:09,430
+What we have is, we have a value for
+your experiment,
+
+5
+00:00:09,430 --> 00:00:11,030
+and you have a value for your control.
+
+6
+00:00:11,030 --> 00:00:13,750
+But, we have to actually decide, how
+are you going to compute the comparison
+
+7
+00:00:13,750 --> 00:00:15,760
+between the experiment and the control?
+
+8
+00:00:15,760 --> 00:00:18,430
+>> Couldn't you take the difference
+like we did in lesson 1?
+
+9
+00:00:18,430 --> 00:00:20,670
+>> The simplest way is just
+to take the difference.
+
+10
+00:00:20,670 --> 00:00:24,001
+And, if you're just getting started with
+experiments, or you're building up your
+
+11
+00:00:24,001 --> 00:00:27,214
+knowledge of a whole bunch of different
+metrics, that's probably the way to go.
+
+12
+00:00:27,214 --> 00:00:27,945
+>> True.
+
+13
+00:00:27,945 --> 00:00:31,154
+But if you're running lots of
+experiments, you may want to consider
+
+14
+00:00:31,154 --> 00:00:34,380
+computing the relative change,
+as opposed to the absolute change.
+
+15
+00:00:34,380 --> 00:00:37,020
+In other words, the percent change.
+
+16
+00:00:37,020 --> 00:00:41,540
+Now, the main advantage of computing the
+percent change is that you only have to
+
+17
+00:00:41,540 --> 00:00:46,300
+choose one practical significance
+boundary, to get stability over time.
+
+18
+00:00:46,300 --> 00:00:51,050
+Now, the main situations that I really
+see this being applicable are basically
+
+19
+00:00:51,050 --> 00:00:55,160
+with regards to seasonality, and
+as your system is changing over time.
+
+20
+00:00:55,160 --> 00:00:57,780
+So, lets say you have a shopping site,
+right?
+
+21
+00:00:57,780 --> 00:01:01,780
+And in June, most people are on
+vacation, they're not shopping a lot.
+
+22
+00:01:01,780 --> 00:01:04,420
+So, you have fewer users, you probably
+have a lower click-through rate.
+
+23
+00:01:04,420 --> 00:01:08,040
+Whereas, in December,
+you've got loads of users, and
+
+24
+00:01:08,040 --> 00:01:09,990
+a much higher click-through rate.
+
+25
+00:01:09,990 --> 00:01:13,680
+You, if you have the same practical
+significance boundary, and
+
+26
+00:01:13,680 --> 00:01:16,960
+across the same times, you can
+basically have the same comparison.
+
+27
+00:01:16,960 --> 00:01:19,670
+Now, the other situation is that
+if you're actually running lots of
+
+28
+00:01:19,670 --> 00:01:22,730
+experiments, and your system is
+actually changing over time,
+
+29
+00:01:22,730 --> 00:01:25,280
+your metrics are probably
+changing over time as well.
+
+30
+00:01:25,280 --> 00:01:27,170
+Again, if you're using
+the relative difference,
+
+31
+00:01:27,170 --> 00:01:30,070
+you can stick with one
+practical significance boundary
+
+32
+00:01:30,070 --> 00:01:33,070
+as opposed to having to change
+it as your system changes.
+
+33
+00:01:33,070 --> 00:01:34,770
+>> Right.
+The main disadvantage is really
+
+34
+00:01:34,770 --> 00:01:36,020
+variability.
+
+35
+00:01:36,020 --> 00:01:37,880
+Ratios, such as relative difference,
+
+36
+00:01:37,880 --> 00:01:40,940
+are not always as well behaved
+as absolute differences.
+
+37
+00:01:40,940 --> 00:01:43,080
+So, if you're just
+starting out with this, or
+
+38
+00:01:43,080 --> 00:01:45,720
+if you have some metrics you
+don't understand that well, it's
+
+39
+00:01:45,720 --> 00:01:48,620
+often good to start with the absolute
+difference, and then work your way up.

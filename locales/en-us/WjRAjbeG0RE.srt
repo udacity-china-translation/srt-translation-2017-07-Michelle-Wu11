@@ -1,0 +1,47 @@
+1
+00:00:00,430 --> 00:00:02,880
+The search engine case
+is a minimal risk.
+
+2
+00:00:02,880 --> 00:00:05,710
+The search engine is simply providing
+additional information that was
+
+3
+00:00:05,710 --> 00:00:07,390
+already publicly available.
+
+4
+00:00:07,390 --> 00:00:10,620
+The health app case is potentially
+more than minimal risk.
+
+5
+00:00:10,620 --> 00:00:13,930
+This is providing medical
+advice tailored to individuals.
+
+6
+00:00:13,930 --> 00:00:18,020
+So if the advice is incorrect, it could
+cause users significant health risks.
+
+7
+00:00:18,020 --> 00:00:20,200
+Also, depending on the exact
+information given,
+
+8
+00:00:20,200 --> 00:00:24,140
+the app may be subject to
+additional FDA regulation.
+
+9
+00:00:24,140 --> 00:00:26,690
+The encyclopedia case is minimal risk.
+
+10
+00:00:26,690 --> 00:00:29,260
+Changing the location of a search
+bar is a pretty harmless change.

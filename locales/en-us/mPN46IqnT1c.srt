@@ -1,0 +1,62 @@
+1
+00:00:00,470 --> 00:00:04,490
+As mentioned previously, a clear
+statement of what data you collect and
+
+2
+00:00:04,490 --> 00:00:06,620
+how you use it, is ethically necessary,
+
+3
+00:00:06,620 --> 00:00:09,740
+assuming you collect any data
+about your users at all.
+
+4
+00:00:09,740 --> 00:00:13,230
+A history of your company's funding,
+on the other hand, is not required.
+
+5
+00:00:13,230 --> 00:00:14,910
+And while it's probably a good idea for
+
+6
+00:00:14,910 --> 00:00:19,150
+most sites to have a navigation bar,
+this isn't an ethical requirement.
+
+7
+00:00:19,150 --> 00:00:22,010
+A list of all experiments
+might sounds nice, since then,
+
+8
+00:00:22,010 --> 00:00:25,560
+users can be fully informed about what
+experimentation they are undergoing.
+
+9
+00:00:25,560 --> 00:00:28,980
+However, for some experiments,
+giving out this information could skew
+
+10
+00:00:28,980 --> 00:00:33,260
+your results, and for experiments with
+minimal risk that properly protect
+
+11
+00:00:33,260 --> 00:00:36,190
+sensitive data,
+this measure is not necessary.
+
+12
+00:00:36,190 --> 00:00:39,430
+A search bar, like a navigation bar,
+might be a good feature for
+
+13
+00:00:39,430 --> 00:00:41,980
+many sites to include, but
+it's not ethically necessary.

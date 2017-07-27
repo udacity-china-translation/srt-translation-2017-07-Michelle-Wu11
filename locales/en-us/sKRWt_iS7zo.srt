@@ -1,0 +1,180 @@
+1
+00:00:00,350 --> 00:00:03,370
+So Carrie, in lesson one, we talked
+about how the size in experiment
+
+2
+00:00:03,370 --> 00:00:06,920
+based on your practical significance,
+your statistical significance and
+
+3
+00:00:06,920 --> 00:00:08,370
+the sensitivity you want.
+
+4
+00:00:08,370 --> 00:00:11,390
+What do we need to update about that
+based on what we've covered since then?
+
+5
+00:00:11,390 --> 00:00:13,874
+>> Well, we have a couple of
+things that we've just looked at.
+
+6
+00:00:13,874 --> 00:00:17,317
+Your choice of metric, your choice
+of the unit of diversion, and
+
+7
+00:00:17,317 --> 00:00:18,828
+your choice of population.
+
+8
+00:00:18,828 --> 00:00:22,360
+And all those things can affect
+the variability of your metric.
+
+9
+00:00:22,360 --> 00:00:26,160
+So you want to take all the stuff into
+account and then start to determine
+
+10
+00:00:26,160 --> 00:00:29,190
+the size based on the process
+that we talked about before.
+
+11
+00:00:29,190 --> 00:00:31,910
+And then you're going to have to figure
+out if what you've planned to do is
+
+12
+00:00:31,910 --> 00:00:35,110
+really realistic, given how long
+you have to run the experiment and
+
+13
+00:00:35,110 --> 00:00:36,770
+the variability of your metrics.
+
+14
+00:00:36,770 --> 00:00:38,590
+>> Okay.
+Can you give me an example?
+
+15
+00:00:38,590 --> 00:00:40,860
+>> Well let's think about
+what we talked about before.
+
+16
+00:00:40,860 --> 00:00:44,380
+The page load time,
+the 90th percentile latency.
+
+17
+00:00:44,380 --> 00:00:46,930
+Now originally you could
+measure that in an event-based
+
+18
+00:00:46,930 --> 00:00:49,980
+diversion because you just
+measure each page load time.
+
+19
+00:00:49,980 --> 00:00:53,170
+But let's say we now say, okay,
+we also want to look at a user ID
+
+20
+00:00:53,170 --> 00:00:57,360
+diversion where we look at whether
+that user uses our site more or
+
+21
+00:00:57,360 --> 00:01:00,220
+less based on the latency
+that they're experiencing.
+
+22
+00:01:00,220 --> 00:01:02,370
+Now that's a little more
+challenging as a metric,
+
+23
+00:01:02,370 --> 00:01:05,780
+because you're going to need a fair
+amount of user data to make that work.
+
+24
+00:01:05,780 --> 00:01:09,590
+And if you're originally planning to run
+this globally, you may realize looking
+
+25
+00:01:09,590 --> 00:01:12,550
+at the variance of your metrics,
+that that's just not really realistic.
+
+26
+00:01:12,550 --> 00:01:15,230
+It's going to take a very long
+time to get a lot of data,
+
+27
+00:01:15,230 --> 00:01:16,840
+it's a big investment.
+
+28
+00:01:16,840 --> 00:01:19,520
+So you may want to go back and
+say, you know what?
+
+29
+00:01:19,520 --> 00:01:22,960
+I'm really affecting the 90th percentile
+here, that's what I'm targeting.
+
+30
+00:01:22,960 --> 00:01:25,770
+So, let's look at people
+with slow connections.
+
+31
+00:01:25,770 --> 00:01:29,470
+And then maybe, because I need to get
+enough data, I want to look at a cohort
+
+32
+00:01:29,470 --> 00:01:34,030
+of users who've used my site fairly
+regularly over the past two months.
+
+33
+00:01:34,030 --> 00:01:37,180
+And that way, I can get more
+data about them more quickly.
+
+34
+00:01:37,180 --> 00:01:41,530
+And so, while this restriction may give
+you a smaller scope to your project,
+
+35
+00:01:41,530 --> 00:01:44,710
+it can really give you a better
+sense of whether you're going to get
+
+36
+00:01:44,710 --> 00:01:48,880
+a signal out of this experiment at
+all before you invest the time and
+
+37
+00:01:48,880 --> 00:01:51,600
+the user time in actually running
+a much larger experiment.

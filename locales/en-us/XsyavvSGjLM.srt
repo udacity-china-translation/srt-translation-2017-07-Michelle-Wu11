@@ -1,0 +1,203 @@
+1
+00:00:00,420 --> 00:00:04,380
+To calculate the global pool to standard
+error, I'll first need to calculate
+
+2
+00:00:04,380 --> 00:00:06,970
+the number of users into the number
+of clicks in the control and
+
+3
+00:00:06,970 --> 00:00:11,900
+experiment groups globally by adding up
+the New Zealand data with the other data
+
+4
+00:00:11,900 --> 00:00:13,430
+which gives these results.
+
+5
+00:00:13,430 --> 00:00:15,540
+Then I can calculate
+the pooled probability and
+
+6
+00:00:15,540 --> 00:00:21,460
+the pooled standard error which
+come out to 0.051 and 0.0013.
+
+7
+00:00:21,460 --> 00:00:22,540
+Recall that for New Zealand,
+
+8
+00:00:22,540 --> 00:00:26,505
+the pooled error was 0.0042 which
+is about four times as large.
+
+9
+00:00:26,505 --> 00:00:30,190
+In this case the variability
+of the global data
+
+10
+00:00:30,190 --> 00:00:33,900
+as measured by the pooled standard
+error is lower than the filtered data.
+
+11
+00:00:33,900 --> 00:00:36,970
+Mostly because there is so
+much more data globally.
+
+12
+00:00:36,970 --> 00:00:39,190
+This will often be the case in practice.
+
+13
+00:00:39,190 --> 00:00:41,770
+But it's also good to keep in mind that,
+in practice,
+
+14
+00:00:41,770 --> 00:00:45,920
+your data will actually be a mix of
+different populations almost every time.
+
+15
+00:00:45,920 --> 00:00:47,890
+When you filter,
+you're going to get a smaller but
+
+16
+00:00:47,890 --> 00:00:50,130
+also more uniform population.
+
+17
+00:00:50,130 --> 00:00:52,739
+Which means that for
+the same number of data points,
+
+18
+00:00:52,739 --> 00:00:55,722
+the variability of the filtered
+data is likely to be lower.
+
+19
+00:00:55,722 --> 00:00:59,985
+In order to find whether the difference
+was statistically significant we first
+
+20
+00:00:59,985 --> 00:01:03,685
+need to calculate the difference
+which globally was 0.0013.
+
+21
+00:01:03,685 --> 00:01:07,190
+Then I'll construct a confidence
+interval and see if it includes 0.
+
+22
+00:01:07,190 --> 00:01:10,190
+The margin of error will be the pooled
+standard error times the z score
+
+23
+00:01:10,190 --> 00:01:13,786
+of 1.96 which comes to 0.0025.
+
+24
+00:01:13,786 --> 00:01:17,097
+Since the margin of error is wider
+than the estimated difference,
+
+25
+00:01:17,097 --> 00:01:19,233
+the confidence interval will include 0.
+
+26
+00:01:19,233 --> 00:01:21,873
+Which means that this
+difference is not significant.
+
+27
+00:01:21,873 --> 00:01:25,435
+Carrying out the same calculations for
+the New Zealand data,
+
+28
+00:01:25,435 --> 00:01:27,844
+the difference observed is 0.012.
+
+29
+00:01:27,844 --> 00:01:31,040
+And the margin of error is 0.0082.
+
+30
+00:01:31,040 --> 00:01:35,180
+In this case, the margin of error is
+smaller than the observed difference.
+
+31
+00:01:35,180 --> 00:01:37,330
+So the confidence interval
+will not include 0.
+
+32
+00:01:37,330 --> 00:01:39,650
+And the results are significant.
+
+33
+00:01:39,650 --> 00:01:43,420
+Note that even though the New Zealand
+only data had a higher variability, and
+
+34
+00:01:43,420 --> 00:01:46,810
+thus a wider margin of error,
+or a wider confidence interval,
+
+35
+00:01:46,810 --> 00:01:50,590
+the New Zealand results were significant
+whereas the global results were not,
+
+36
+00:01:50,590 --> 00:01:54,700
+because the observed difference was so
+
+37
+00:01:54,700 --> 00:01:58,470
+much higher in New Zealand,
+0.012 versus 0.0013.
+
+38
+00:01:58,470 --> 00:02:02,160
+Adding all of the unaffected traffic
+that was outside of New Zealand
+
+39
+00:02:02,160 --> 00:02:04,230
+diluted the difference
+in the global data,
+
+40
+00:02:04,230 --> 00:02:06,630
+causing the result not
+to be significant.
+
+41
+00:02:06,630 --> 00:02:10,580
+To summarize, the global pooled
+standard error was 0.0013.
+
+42
+00:02:10,580 --> 00:02:13,800
+The New Zealand results
+were significant.
+
+43
+00:02:13,800 --> 00:02:15,160
+And the global results were not.

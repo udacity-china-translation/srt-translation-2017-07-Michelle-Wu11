@@ -1,0 +1,70 @@
+1
+00:00:00,360 --> 00:00:02,790
+To give you a bit more variety
+in the examples you've seen,
+
+2
+00:00:02,790 --> 00:00:05,420
+I'm going to go over three
+more possible changes.
+
+3
+00:00:05,420 --> 00:00:06,430
+Again, for each one,
+
+4
+00:00:06,430 --> 00:00:10,520
+check the box if you think it would be
+useful to run an A/B test on the change.
+
+5
+00:00:10,520 --> 00:00:14,300
+First, suppose you have
+a website selling cars, and
+
+6
+00:00:14,300 --> 00:00:16,820
+you're considering a change, and
+you want to know wether that
+
+7
+00:00:16,820 --> 00:00:21,570
+change will make customers more likely
+to return or refer their friends.
+
+8
+00:00:21,570 --> 00:00:24,220
+Second, suppose a company
+wants to update their brand,
+
+9
+00:00:24,220 --> 00:00:26,080
+including the main logo for their site.
+
+10
+00:00:26,080 --> 00:00:27,950
+Would you A/B test this change?
+
+11
+00:00:27,950 --> 00:00:30,970
+Third, suppose you want to test some
+changes to the initial page of your
+
+12
+00:00:30,970 --> 00:00:32,590
+mobile application.
+
+13
+00:00:32,590 --> 00:00:35,150
+You want to change things like
+what information is included,
+
+14
+00:00:35,150 --> 00:00:37,680
+what wording you use,
+and what colors you use.
+
+15
+00:00:37,680 --> 00:00:40,320
+Check each case that you think is
+a good candidate for A/B testing.

@@ -1,0 +1,19 @@
+1
+00:00:00,430 --> 00:00:03,910
+At this point you hopefully have
+a grasp of the major policy and
+
+2
+00:00:03,910 --> 00:00:08,370
+ethical considerations to take into
+account when assessing your A/B test.
+
+3
+00:00:08,370 --> 00:00:12,190
+In the next lesson, we're going to dive
+back into the technical details starting
+
+4
+00:00:12,190 --> 00:00:15,700
+with how to choose which project to
+use for evaluating your experiment.

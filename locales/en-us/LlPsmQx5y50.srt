@@ -1,0 +1,120 @@
+1
+00:00:00,240 --> 00:00:03,760
+The answer in the first case depends
+primarily on what information is being
+
+2
+00:00:03,760 --> 00:00:05,060
+gathered in the survey.
+
+3
+00:00:05,060 --> 00:00:08,430
+If the survey collects personal
+information such as names,
+
+4
+00:00:08,430 --> 00:00:11,470
+then the information received
+in the survey is more sensitive.
+
+5
+00:00:11,470 --> 00:00:12,810
+However, in most cases,
+
+6
+00:00:12,810 --> 00:00:16,920
+this survey should be fine to run if
+no personal information is collected.
+
+7
+00:00:16,920 --> 00:00:19,550
+Survey data that doesn't
+collect personal information
+
+8
+00:00:19,550 --> 00:00:21,600
+isn't usually considered sensitive.
+
+9
+00:00:21,600 --> 00:00:25,560
+Since users can chose to respond
+either not at all or dishonestly.
+
+10
+00:00:25,560 --> 00:00:27,880
+Users can voluntarily
+choose what to do and
+
+11
+00:00:27,880 --> 00:00:30,900
+its this implicit voluntary
+consent that's key.
+
+12
+00:00:30,900 --> 00:00:34,940
+The ethical considerations also increase
+if the user can only read the article in
+
+13
+00:00:34,940 --> 00:00:35,540
+exchange for
+
+14
+00:00:35,540 --> 00:00:39,610
+their survey information, even if
+there is still that voluntary consent.
+
+15
+00:00:39,610 --> 00:00:42,420
+The mail delivery experiment
+is probably fine.
+
+16
+00:00:42,420 --> 00:00:44,970
+No new sensitive data
+is being collected, and
+
+17
+00:00:44,970 --> 00:00:48,010
+the risk to users of different
+menu layouts is minimal.
+
+18
+00:00:48,010 --> 00:00:51,200
+The heart rate experiment should
+probably get additional review.
+
+19
+00:00:51,200 --> 00:00:53,470
+Since physical fitness is
+important to good health,
+
+20
+00:00:53,470 --> 00:00:56,190
+presentations that confuse
+users about their data or
+
+21
+00:00:56,190 --> 00:01:00,650
+encourage them to exercise too much or
+too little could pose a serious risk.
+
+22
+00:01:00,650 --> 00:01:03,740
+Also, the data being collected
+is certainly sensitive and
+
+23
+00:01:03,740 --> 00:01:06,480
+needs to be carefully secured and
+anonymized.
+
+24
+00:01:06,480 --> 00:01:10,480
+Depending on the data, it may not be
+possible to anonymize it while keeping
+
+25
+00:01:10,480 --> 00:01:14,590
+the same level of granularity in which
+case you may need to aggregate the data.

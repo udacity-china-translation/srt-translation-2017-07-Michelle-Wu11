@@ -1,0 +1,193 @@
+1
+00:00:00,440 --> 00:00:03,840
+In the first case, both probabilities
+would give the same result,
+
+2
+00:00:03,840 --> 00:00:07,120
+regardless of whether the user
+double clicked or single clicked.
+
+3
+00:00:07,120 --> 00:00:10,940
+For example, suppose a user loads
+the page, which generates a page view.
+
+4
+00:00:10,940 --> 00:00:14,080
+Then one minute later,
+they click twice, half a second apart.
+
+5
+00:00:14,080 --> 00:00:18,210
+Assuming that the time interval is
+longer than a minute, say five minutes,
+
+6
+00:00:18,210 --> 00:00:21,690
+then the cookie definition and the page
+view definition of probabilities will
+
+7
+00:00:21,690 --> 00:00:25,032
+both count the single unique click and
+give a result of one.
+
+8
+00:00:25,032 --> 00:00:26,430
+The click-through rate,
+on the other hand,
+
+9
+00:00:26,430 --> 00:00:29,480
+would be two, since both clicks
+would be counted separately,
+
+10
+00:00:29,480 --> 00:00:32,570
+which is a different answer than
+if the user had single clicked.
+
+11
+00:00:32,570 --> 00:00:33,510
+In the second case,
+
+12
+00:00:33,510 --> 00:00:37,030
+only the cookie definition would
+give the same answer either way.
+
+13
+00:00:37,030 --> 00:00:38,340
+Compare these two timelines.
+
+14
+00:00:38,340 --> 00:00:40,870
+In the first timeline,
+the user loads the page,
+
+15
+00:00:40,870 --> 00:00:43,490
+which generates a pageview,
+then navigate away.
+
+16
+00:00:43,490 --> 00:00:46,620
+Then, one minute later,
+they use the back button to return, and
+
+17
+00:00:46,620 --> 00:00:48,600
+it generates another pageview.
+
+18
+00:00:48,600 --> 00:00:50,680
+And then they click a minute after that.
+
+19
+00:00:50,680 --> 00:00:54,230
+The second timeline is the same, but in
+this case, the browser cached the page,
+
+20
+00:00:54,230 --> 00:00:56,330
+so the second pageview is missing.
+
+21
+00:00:56,330 --> 00:00:59,050
+Thus, by looking at your data,
+all you can really see is that there was
+
+22
+00:00:59,050 --> 00:01:01,800
+a pageview, and then two minutes later,
+there was a click.
+
+23
+00:01:01,800 --> 00:01:05,050
+The cookie probability will
+calculate one unique click and
+
+24
+00:01:05,050 --> 00:01:07,180
+one user in both cases.
+
+25
+00:01:07,180 --> 00:01:11,090
+The pageview probability will also
+calculate one unique click, but
+
+26
+00:01:11,090 --> 00:01:14,095
+in the first case there will be
+two pageviews in the denominator.
+
+27
+00:01:14,095 --> 00:01:18,240
+And in the second, there will only
+be one, giving a different result.
+
+28
+00:01:18,240 --> 00:01:21,180
+Finally, the rate will also calculate
+a different number of pageviews in
+
+29
+00:01:21,180 --> 00:01:23,580
+the denominator, two versus one.
+
+30
+00:01:23,580 --> 00:01:25,310
+Giving a different answer.
+
+31
+00:01:25,310 --> 00:01:28,850
+In the last case, if two clicks
+are recorded instead of one,
+
+32
+00:01:28,850 --> 00:01:30,850
+this is the same as double clicking.
+
+33
+00:01:30,850 --> 00:01:34,690
+So the rate will be affected,
+and the probabilities will not.
+
+34
+00:01:34,690 --> 00:01:38,350
+However, suppose, instead,
+that a click is completely missed.
+
+35
+00:01:38,350 --> 00:01:41,850
+So, instead of recording one pageview
+with a click a minute later,
+
+36
+00:01:41,850 --> 00:01:44,270
+you just record a page
+view with no click.
+
+37
+00:01:44,270 --> 00:01:47,820
+All three definitions will give one in
+the case where there was a click, and
+
+38
+00:01:47,820 --> 00:01:49,880
+zero in the case where there was not.
+
+39
+00:01:49,880 --> 00:01:52,000
+So all the definitions will be affected.
+
+40
+00:01:52,000 --> 00:01:55,210
+Perhaps it's not terribly surprising
+that it's hard to choose a metric that
+
+41
+00:01:55,210 --> 00:01:57,380
+won't be affected by
+a problem this drastic.

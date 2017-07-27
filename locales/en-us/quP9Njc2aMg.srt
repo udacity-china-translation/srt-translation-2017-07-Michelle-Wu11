@@ -1,0 +1,47 @@
+1
+00:00:00,530 --> 00:00:03,960
+In this lesson, we have gone over all
+the necessary steps to choose metrics
+
+2
+00:00:03,960 --> 00:00:06,250
+for evaluating your experiment.
+
+3
+00:00:06,250 --> 00:00:10,510
+First, we talked about establishing
+the high level concept for your metrics.
+
+4
+00:00:10,510 --> 00:00:13,320
+Next, we needed to go into
+some nitty-gritty details
+
+5
+00:00:13,320 --> 00:00:15,610
+in order to actually
+compute the metrics.
+
+6
+00:00:15,610 --> 00:00:18,700
+Then we went over how to build
+intuition about your metrics and
+
+7
+00:00:18,700 --> 00:00:21,410
+how appropriate they'll be for
+different experiments.
+
+8
+00:00:21,410 --> 00:00:24,490
+Finally, you learned how to characterize
+the variability of your metrics.
+
+9
+00:00:25,650 --> 00:00:26,519
+In the next lesson,
+
+10
+00:00:26,519 --> 00:00:29,550
+we'll dig into how to design an A/B
+test using what you've learned.

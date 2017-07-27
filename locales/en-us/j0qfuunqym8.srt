@@ -1,0 +1,104 @@
+1
+00:00:00,410 --> 00:00:04,100
+Now I want you to assess the participant
+risk of a few possible experiments.
+
+2
+00:00:04,100 --> 00:00:07,640
+For each experiment, choose whether
+you think the risk is minimal or
+
+3
+00:00:07,640 --> 00:00:09,010
+more than minimal.
+
+4
+00:00:09,010 --> 00:00:12,310
+That is beyond the risks that may
+be encountered in normal life.
+
+5
+00:00:12,310 --> 00:00:15,340
+First, suppose you were on
+a search engine such as Bing and
+
+6
+00:00:15,340 --> 00:00:18,560
+you're testing a change adding
+information to your results page.
+
+7
+00:00:18,560 --> 00:00:20,480
+Specifically for shopping queries,
+
+8
+00:00:20,480 --> 00:00:23,950
+you're adding price information
+available from product sites.
+
+9
+00:00:23,950 --> 00:00:26,720
+How much risk would this cause
+the users of your website?
+
+10
+00:00:26,720 --> 00:00:30,380
+Second, suppose you've created an app
+that helps users monitor their diet,
+
+11
+00:00:30,380 --> 00:00:31,790
+exercise, and sleep.
+
+12
+00:00:31,790 --> 00:00:35,100
+you're considering adding a feature
+that gives users dietary advice and
+
+13
+00:00:35,100 --> 00:00:38,240
+lets them know the possible
+consequences of their current diets.
+
+14
+00:00:38,240 --> 00:00:41,250
+For example, your app might let
+a user know that their current sugar
+
+15
+00:00:41,250 --> 00:00:44,440
+intake puts them at high risk for
+developing diabetes, and
+
+16
+00:00:44,440 --> 00:00:46,170
+advise that they eat less sugar.
+
+17
+00:00:46,170 --> 00:00:49,580
+Would it pose beyond a minimal
+risk to test this change?
+
+18
+00:00:49,580 --> 00:00:53,880
+Finally, suppose you run an online
+encyclopedia, such as Wikipedia, and
+
+19
+00:00:53,880 --> 00:00:56,870
+you want to test changing
+the location of the search bar.
+
+20
+00:00:56,870 --> 00:00:58,800
+What level of risk would this present?
+
+21
+00:00:58,800 --> 00:01:02,750
+For each change, check the box if you
+think testing the change would pose more
+
+22
+00:01:02,750 --> 00:01:04,940
+than a minimal risk to
+the website's users.

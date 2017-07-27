@@ -1,0 +1,134 @@
+1
+00:00:00,310 --> 00:00:04,129
+For the Audacity example, we decided to
+use click-through-probability instead of
+
+2
+00:00:04,129 --> 00:00:05,770
+click-through-rate.
+
+3
+00:00:05,770 --> 00:00:08,080
+Why, and how do you decide in general?
+
+4
+00:00:08,080 --> 00:00:11,570
+>> So generally speaking, you use a rate
+when you want to measure the usability
+
+5
+00:00:11,570 --> 00:00:15,460
+of the site, and a probability when you
+want to measure the total impact, right?
+
+6
+00:00:15,460 --> 00:00:19,310
+So if, for example, you want to measure
+the usability of a particular button,
+
+7
+00:00:19,310 --> 00:00:22,660
+you use a rate because the users have a
+variety of different places on the page
+
+8
+00:00:22,660 --> 00:00:25,250
+that they can actually
+choose to click on.
+
+9
+00:00:25,250 --> 00:00:28,780
+And so the rate will say how often
+do they actually find that button.
+
+10
+00:00:28,780 --> 00:00:32,600
+Now, if you just want to know how often
+users went to the second level page on
+
+11
+00:00:32,600 --> 00:00:36,620
+your site, you use a probability,
+because you don't want to count if
+
+12
+00:00:36,620 --> 00:00:40,910
+users just double-clicked, or did they
+reload, or all of those types of issues.
+
+13
+00:00:40,910 --> 00:00:42,170
+>> Okay.
+And in our example,
+
+14
+00:00:42,170 --> 00:00:45,200
+we're interested in whether users
+are progressing to the second level of
+
+15
+00:00:45,200 --> 00:00:47,460
+the funnel,
+which is why we picked a probability.
+
+16
+00:00:47,460 --> 00:00:48,150
+>> That's right.
+
+17
+00:00:48,150 --> 00:00:49,210
+>> That makes sense.
+
+18
+00:00:49,210 --> 00:00:51,780
+So, how will we actually
+compute the probability?
+
+19
+00:00:51,780 --> 00:00:54,950
+>> So, to compute the probability,
+you're going to have to first just work
+
+20
+00:00:54,950 --> 00:00:57,492
+with the engineers to
+modify your website.
+
+21
+00:00:57,492 --> 00:00:59,630
+They're going to have to
+change the website so
+
+22
+00:00:59,630 --> 00:01:01,580
+that on every page view
+you capture the event,
+
+23
+00:01:01,580 --> 00:01:04,810
+and then whenever a user clicks
+you also capture that click event.
+
+24
+00:01:06,020 --> 00:01:08,510
+Now, once you have the data captured,
+to compute our rate,
+
+25
+00:01:08,510 --> 00:01:11,510
+you just sum the page views,
+you sum the clicks and you divide.
+
+26
+00:01:11,510 --> 00:01:12,590
+Pretty simple.
+
+27
+00:01:12,590 --> 00:01:16,850
+For a probability though, you're going
+to have to match each page view with all
+
+28
+00:01:16,850 --> 00:01:20,980
+of the child clicks, so that you count,
+at most, one child click per page view.

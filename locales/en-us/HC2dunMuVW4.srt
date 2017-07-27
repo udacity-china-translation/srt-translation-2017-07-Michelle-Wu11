@@ -1,0 +1,169 @@
+1
+00:00:00,450 --> 00:00:03,600
+You keep talking about the population,
+but you mentioned cohorts earlier too.
+
+2
+00:00:03,600 --> 00:00:04,550
+What's the difference?
+
+3
+00:00:04,550 --> 00:00:07,030
+>> Well, in the population you
+have a whole group of users.
+
+4
+00:00:07,030 --> 00:00:10,700
+But within that population you can
+define what's called a cohort.
+
+5
+00:00:10,700 --> 00:00:14,930
+And typically, this means people who
+enter the experiment at the same time.
+
+6
+00:00:14,930 --> 00:00:18,260
+So for example,
+if you just divert by cookie or
+
+7
+00:00:18,260 --> 00:00:22,250
+a user ID, and
+you look at this particular country.
+
+8
+00:00:22,250 --> 00:00:25,990
+Now, you may have all kinds of problems
+during the span of your experiment where
+
+9
+00:00:25,990 --> 00:00:28,980
+people come who come in
+classified as that country,
+
+10
+00:00:28,980 --> 00:00:33,380
+either drop out of the experiment, or
+potentially even for mechanical reasons,
+
+11
+00:00:33,380 --> 00:00:37,710
+like their IP gets reclassified
+into a different geographic region.
+
+12
+00:00:37,710 --> 00:00:39,820
+So you can lose users,
+and gain users, and
+
+13
+00:00:39,820 --> 00:00:43,550
+have users who've been exposed to the
+experiment for different period of time.
+
+14
+00:00:43,550 --> 00:00:48,650
+So cohort usually means that you define
+an entering class and you only look at
+
+15
+00:00:48,650 --> 00:00:53,130
+users who entered your experiment on
+both sides around the same time, and
+
+16
+00:00:53,130 --> 00:00:54,820
+you go forward from there.
+
+17
+00:00:54,820 --> 00:00:56,730
+You could also use
+different information, so
+
+18
+00:00:56,730 --> 00:00:58,840
+you don't look at people who join later,
+right?
+
+19
+00:00:58,840 --> 00:01:02,820
+You start with your initial group, and
+you can also use other information.
+
+20
+00:01:02,820 --> 00:01:04,760
+Like, if you want to know that oh,
+
+21
+00:01:04,760 --> 00:01:08,390
+these are users who've used your site
+consistently for the last two months.
+
+22
+00:01:08,390 --> 00:01:12,630
+Or who have both a mobile and
+a desktop associated with their user ID,
+
+23
+00:01:12,630 --> 00:01:15,210
+you can use all of that
+to define a cohort.
+
+24
+00:01:15,210 --> 00:01:18,540
+>> Okay, and when would you want
+to use populations versus cohorts?
+
+25
+00:01:18,540 --> 00:01:20,420
+>> Well,
+cohorts are harder to analyze, and
+
+26
+00:01:20,420 --> 00:01:23,310
+they're going to take more data
+because you'll lose users.
+
+27
+00:01:23,310 --> 00:01:27,770
+So typically, you only want to use them
+when you're looking for user stability.
+
+28
+00:01:27,770 --> 00:01:31,220
+So say, you have a learning effect or
+you want to measure something like
+
+29
+00:01:31,220 --> 00:01:35,530
+increased usage of the site or
+increased usage of a mobile device.
+
+30
+00:01:35,530 --> 00:01:39,310
+Those are cases where you really
+want to see if your change had
+
+31
+00:01:39,310 --> 00:01:42,980
+a real effect on their behavior
+relative to their history.
+
+32
+00:01:42,980 --> 00:01:44,390
+And then you want a cohort.
+
+33
+00:01:44,390 --> 00:01:46,070
+If you don't need those
+types of metrics,
+
+34
+00:01:46,070 --> 00:01:48,220
+then you can probably
+stick with the population.
+
+35
+00:01:48,220 --> 00:01:48,720
+>> Got it.

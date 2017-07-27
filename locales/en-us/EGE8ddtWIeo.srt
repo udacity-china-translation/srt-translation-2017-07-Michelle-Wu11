@@ -1,0 +1,219 @@
+1
+00:00:00,440 --> 00:00:02,530
+We've discussed the three main
+considerations when you're
+
+2
+00:00:02,530 --> 00:00:03,840
+choosing a unit of diversion.
+
+3
+00:00:03,840 --> 00:00:07,720
+Are there any other questions to keep in
+mind when you're choosing a population?
+
+4
+00:00:07,720 --> 00:00:09,840
+>> Yeah, so first you want to
+think about the fact that,
+
+5
+00:00:09,840 --> 00:00:13,290
+in anything but event diversion,
+if you do cookie diversion,
+
+6
+00:00:13,290 --> 00:00:17,080
+if you do device diversion, you're
+really looking at proxies for users.
+
+7
+00:00:17,080 --> 00:00:20,040
+And that means you're going to have one
+group of users on the A side of your
+
+8
+00:00:20,040 --> 00:00:22,280
+experiment and one group on the B side.
+
+9
+00:00:22,280 --> 00:00:23,890
+Now if you do event based diversion,
+
+10
+00:00:23,890 --> 00:00:27,150
+you can end up with the mix of
+the same people on both sides.
+
+11
+00:00:27,150 --> 00:00:30,030
+So you have to be pretty careful in
+this case to make sure you haven't
+
+12
+00:00:30,030 --> 00:00:32,560
+inadvertently mismatched your users.
+
+13
+00:00:32,560 --> 00:00:33,970
+There are some other options.
+
+14
+00:00:33,970 --> 00:00:36,730
+There's what's called
+an intra-user experiment.
+
+15
+00:00:36,730 --> 00:00:41,870
+That typically means that you expose the
+same user to this feature being on and
+
+16
+00:00:41,870 --> 00:00:43,510
+of over time, and
+
+17
+00:00:43,510 --> 00:00:46,730
+you actually analyze how they
+behave in different time windows.
+
+18
+00:00:46,730 --> 00:00:48,470
+This has some pitfalls, for example,
+
+19
+00:00:48,470 --> 00:00:51,850
+you have to be really careful that
+you choose a comparable time window.
+
+20
+00:00:51,850 --> 00:00:54,270
+You don't want to do this in
+the two weeks before Christmas and
+
+21
+00:00:54,270 --> 00:00:57,200
+then have them behave very
+differently in the second part.
+
+22
+00:00:57,200 --> 00:01:00,630
+The other issues with a lot of features,
+you have a frustration or a learning
+
+23
+00:01:00,630 --> 00:01:04,430
+problem, where people learn to use
+the particular feature in the first two
+
+24
+00:01:04,430 --> 00:01:07,740
+weeks and then when you turn it off
+they're like, why did my website change?
+
+25
+00:01:07,740 --> 00:01:10,250
+So you can get some different
+behaviors as a result.
+
+26
+00:01:10,250 --> 00:01:15,530
+For certain other types of applications
+like search ranking, preferences or,
+
+27
+00:01:15,530 --> 00:01:19,090
+you know, other things where you
+actually have a ranked order list,
+
+28
+00:01:19,090 --> 00:01:22,170
+you have an option of running what's
+called an interleaved experiment, where
+
+29
+00:01:22,170 --> 00:01:26,840
+you actually expose the same user to
+the A and the B side at the same time.
+
+30
+00:01:26,840 --> 00:01:29,770
+And typically this only works
+in cases where you're looking at
+
+31
+00:01:29,770 --> 00:01:30,950
+reordering a list.
+
+32
+00:01:30,950 --> 00:01:32,900
+There's more information
+in the instructor's notes
+
+33
+00:01:32,900 --> 00:01:34,830
+if you want to follow up on that.
+
+34
+00:01:34,830 --> 00:01:37,380
+But what we mainly talk
+about in A/B testing
+
+35
+00:01:37,380 --> 00:01:39,640
+is what's called inter-user experiments.
+
+36
+00:01:39,640 --> 00:01:43,630
+That means you've got different people
+on the A side and on the B side.
+
+37
+00:01:43,630 --> 00:01:47,640
+We'll talk in a minute about
+a refinement of that called a cohort.
+
+38
+00:01:47,640 --> 00:01:50,670
+In a cohort, you try to match
+up your entering class so
+
+39
+00:01:50,670 --> 00:01:54,670
+at least you have roughly the same
+parameters in your two user groups.
+
+40
+00:01:54,670 --> 00:01:57,290
+In medical and drug treatment trials and
+things like that,
+
+41
+00:01:57,290 --> 00:02:00,750
+they'll take this even a step further,
+and they'll actually match up
+
+42
+00:02:00,750 --> 00:02:04,830
+patients in the trial based on
+demographic information, age,
+
+43
+00:02:04,830 --> 00:02:08,280
+medical history, and
+they'll actually do a paired analysis.
+
+44
+00:02:08,280 --> 00:02:11,430
+But because of what we don't know
+about people on the internet, we're,
+
+45
+00:02:11,430 --> 00:02:13,880
+we don't even know if
+these are real people.
+
+46
+00:02:13,880 --> 00:02:16,440
+You basically never see that
+in internet experiments.

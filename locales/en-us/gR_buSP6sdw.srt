@@ -1,0 +1,164 @@
+1
+00:00:01,010 --> 00:00:02,750
+Hi, and welcome to A/B testing.
+
+2
+00:00:02,750 --> 00:00:06,730
+In this course, we'll discuss how to run
+experiments, or A/B tests for businesses
+
+3
+00:00:06,730 --> 00:00:10,280
+who have an online presence via
+websites or mobile apps, for example.
+
+4
+00:00:10,280 --> 00:00:14,910
+>> A/B tests allow you to determine
+scientifically how to optimize a website
+
+5
+00:00:14,910 --> 00:00:17,860
+or a mobile app by trying
+out possible changes and
+
+6
+00:00:17,860 --> 00:00:19,551
+seeing what performs
+better with your users.
+
+7
+00:00:19,551 --> 00:00:24,380
+Using A/B tests means that you
+can get data to make decisions
+
+8
+00:00:24,380 --> 00:00:27,160
+rather than relying on intuition or
+hippos ie,
+
+9
+00:00:27,160 --> 00:00:29,840
+the highest paid person's opinion
+>> In this course,
+
+10
+00:00:29,840 --> 00:00:32,340
+we'll be going over the process
+form start to finish.
+
+11
+00:00:32,340 --> 00:00:35,060
+Everything from deciding what change
+you want to test in the first place,
+
+12
+00:00:35,060 --> 00:00:36,990
+through drawing a conclusion.
+
+13
+00:00:36,990 --> 00:00:39,590
+>> On the other hand,
+we won't focus on how to implement
+
+14
+00:00:39,590 --> 00:00:42,090
+your using A/B testing framework
+>> This
+
+15
+00:00:42,090 --> 00:00:46,230
+course is about how to design a task,
+choose metrics, and analyze the results.
+
+16
+00:00:46,230 --> 00:00:46,880
+>> Sounds good.
+
+17
+00:00:46,880 --> 00:00:50,400
+But, before we jump into that, why don't
+we take a minute to introduce ourselves?
+
+18
+00:00:50,400 --> 00:00:51,650
+>> Sure.
+I'm Diane Tang.
+
+19
+00:00:51,650 --> 00:00:56,640
+I have a PhD in computer science and
+I worked for over 12 years at Google.
+
+20
+00:00:56,640 --> 00:00:59,790
+I worked on just about every
+aspect of experimentation.
+
+21
+00:00:59,790 --> 00:01:02,700
+Review from the underlying
+infrastructure to designing metrics and
+
+22
+00:01:02,700 --> 00:01:06,800
+dashboards to running and analyzing
+experiments to the processing culture,
+
+23
+00:01:06,800 --> 00:01:09,380
+needed to facilitate
+data driven decisions.
+
+24
+00:01:09,380 --> 00:01:12,160
+I'll be giving you the practical
+engineering perspective
+
+25
+00:01:12,160 --> 00:01:15,980
+on how to design and analyze
+experiments for a bus decision making.
+
+26
+00:01:15,980 --> 00:01:19,700
+>> My name is Carrie Grimes Bostock,
+I have a PhD in statistics, and
+
+27
+00:01:19,700 --> 00:01:23,440
+I've worked at Google for almost 12
+years, in all kinds of different areas.
+
+28
+00:01:23,440 --> 00:01:26,380
+I'll be giving you the more statistical
+perspective on how you draw
+
+29
+00:01:26,380 --> 00:01:28,600
+conclusions in A/B experiments.
+
+30
+00:01:28,600 --> 00:01:29,660
+And I'm Caroline Buckey.
+
+31
+00:01:29,660 --> 00:01:31,993
+I'm, of course,
+a developer at UDacity and before that,
+
+32
+00:01:31,993 --> 00:01:34,140
+I was a software engineer
+in Silicon Valley.
+
+33
+00:01:34,140 --> 00:01:37,100
+I'll be going over examples,
+diving into details and making sure you
+
+34
+00:01:37,100 --> 00:01:39,320
+have everything you need to apply
+what you're learning on your own

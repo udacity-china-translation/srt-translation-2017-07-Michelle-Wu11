@@ -1,0 +1,185 @@
+1
+00:00:00,340 --> 00:00:03,340
+Now lets take a look at a simplified
+version of the Berkley paradox
+
+2
+00:00:03,340 --> 00:00:05,300
+with only two departments.
+
+3
+00:00:05,300 --> 00:00:08,890
+As you can see more men applied to to
+department A than department B and
+
+4
+00:00:08,890 --> 00:00:10,410
+vice versa for women.
+
+5
+00:00:10,410 --> 00:00:13,740
+Now if I calculate the percentage of
+men who were accepted to department
+
+6
+00:00:13,740 --> 00:00:18,380
+A I get 62% and if I do the same for
+women, I get 82%.
+
+7
+00:00:18,380 --> 00:00:23,000
+So acceptance is fairly high and
+more women are accepted.
+
+8
+00:00:23,000 --> 00:00:23,890
+Now if I do the same for
+
+9
+00:00:23,890 --> 00:00:27,030
+department B I get that the overall
+acceptance rate is lower but
+
+10
+00:00:27,030 --> 00:00:31,080
+still more women were accepted than
+men as a percentage of the applicants.
+
+11
+00:00:31,080 --> 00:00:34,590
+However now let's look at the total
+numbers of men and women who applied and
+
+12
+00:00:34,590 --> 00:00:37,040
+were accepted across both departments.
+
+13
+00:00:37,040 --> 00:00:40,230
+Overall, a greater percentage of
+men have been accepted than women.
+
+14
+00:00:40,230 --> 00:00:41,490
+How can this happen?
+
+15
+00:00:41,490 --> 00:00:46,580
+Like Kary said, the explanation is that
+more women applied to department B,
+
+16
+00:00:46,580 --> 00:00:48,920
+which has a lower acceptance rate.
+
+17
+00:00:48,920 --> 00:00:52,300
+So that a lower percentage of
+women are accepted overall.
+
+18
+00:00:52,300 --> 00:00:55,020
+Now the actual Berkeley data
+was more complicated than this.
+
+19
+00:00:55,020 --> 00:00:57,120
+There were more than two departments,
+and
+
+20
+00:00:57,120 --> 00:01:00,130
+in some departments men had a higher
+acceptance rate than women.
+
+21
+00:01:00,130 --> 00:01:03,000
+But not a statistically
+significant difference, and
+
+22
+00:01:03,000 --> 00:01:06,920
+most departments had a small but
+significant bias in favor of women.
+
+23
+00:01:06,920 --> 00:01:09,070
+Now, how can this apply to AB testing?
+
+24
+00:01:09,070 --> 00:01:12,080
+Well, you could see the same sort of
+think happen for click through rate.
+
+25
+00:01:12,080 --> 00:01:15,880
+Where if you look at your total or
+aggregate experiment results, then
+
+26
+00:01:15,880 --> 00:01:19,562
+the experiment group has a lower click
+through rate than the control group.
+
+27
+00:01:19,562 --> 00:01:21,680
+But then if you break it
+down by new users and
+
+28
+00:01:21,680 --> 00:01:24,450
+experienced users, you see the reverse.
+
+29
+00:01:24,450 --> 00:01:25,500
+How could this happen?
+
+30
+00:01:25,500 --> 00:01:27,510
+Actually, I want you to
+fill in the numbers.
+
+31
+00:01:27,510 --> 00:01:30,720
+You should be able to use a similar
+strategy to the Berkeley example.
+
+32
+00:01:30,720 --> 00:01:33,360
+Once you're done, you can take a minute
+to think about what those results would
+
+33
+00:01:33,360 --> 00:01:35,860
+mean but
+while you're coming up with the numbers
+
+34
+00:01:35,860 --> 00:01:38,230
+don't worry too much about
+how plausible they are.
+
+35
+00:01:38,230 --> 00:01:41,670
+Fill in any numbers such that the click
+through rate is higher in the experiment
+
+36
+00:01:41,670 --> 00:01:45,120
+group than the control group for
+both new and experienced users.
+
+37
+00:01:45,120 --> 00:01:48,750
+But overall, the click through rate
+is lower in the experiment group.
+
+38
+00:01:48,750 --> 00:01:51,960
+You only need to fill in these two
+rows but if you also want to fill in
+
+39
+00:01:51,960 --> 00:01:54,980
+the total row to help keep track
+of your work you can do that too.

@@ -1,0 +1,88 @@
+1
+00:00:00,410 --> 00:00:03,650
+In each of the following example
+experiments, choose what
+
+2
+00:00:03,650 --> 00:00:07,640
+unit of diversion you think would be
+needed to ensure enough consistency.
+
+3
+00:00:07,640 --> 00:00:11,060
+That is, if a consistent user
+experience is not necessary,
+
+4
+00:00:11,060 --> 00:00:13,110
+choose event level diversion.
+
+5
+00:00:13,110 --> 00:00:16,248
+Otherwise, choose cookie diversion,
+if that is consistent enough.
+
+6
+00:00:16,248 --> 00:00:20,020
+And, choose user-id diversion
+if that is necessary.
+
+7
+00:00:20,020 --> 00:00:24,270
+First, suppose Audacity is testing a
+change to the backend which would reduce
+
+8
+00:00:24,270 --> 00:00:28,900
+video load time by 100 milliseconds,
+but it would be more expensive.
+
+9
+00:00:28,900 --> 00:00:32,340
+They want to know whether the reduced
+load time will be worth the money.
+
+10
+00:00:32,340 --> 00:00:35,390
+What level of consistency
+would they need in this case?
+
+11
+00:00:35,390 --> 00:00:39,360
+And second, suppose Audacity has placed
+the button more prominently on the page
+
+12
+00:00:39,360 --> 00:00:42,250
+by changing the color and
+increasing the size.
+
+13
+00:00:42,250 --> 00:00:45,900
+Third, suppose Audacity has a search bar
+that lets students search for classes.
+
+14
+00:00:45,900 --> 00:00:49,990
+And, they test changing the order in
+which the search results are shown.
+
+15
+00:00:49,990 --> 00:00:54,114
+Finally, suppose Audacity notices
+a low pass rate for some quizzes, and
+
+16
+00:00:54,114 --> 00:00:56,744
+they test adding additional
+information to the instructor's
+
+17
+00:00:56,744 --> 00:01:00,294
+notes below the videos before those
+quizzes to see if this helps.
+
+18
+00:01:00,294 --> 00:01:03,694
+In each case, select what level of
+consistency Audacity would need.

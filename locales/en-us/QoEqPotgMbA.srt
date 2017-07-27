@@ -1,0 +1,253 @@
+1
+00:00:00,320 --> 00:00:03,250
+To establish that our results
+are statistically significant using
+
+2
+00:00:03,250 --> 00:00:04,770
+hypothesis testing,
+
+3
+00:00:04,770 --> 00:00:08,320
+you need to calculate how likely it is
+that your results are due to chance.
+
+4
+00:00:08,320 --> 00:00:12,200
+In order to calculate this probability,
+you need to have a hypothesis about what
+
+5
+00:00:12,200 --> 00:00:14,830
+the results would be if your
+experiment had no effect.
+
+6
+00:00:14,830 --> 00:00:17,650
+In the Audacity example,
+we'll collect two samples.
+
+7
+00:00:17,650 --> 00:00:19,480
+A control group with the orange button,
+and
+
+8
+00:00:19,480 --> 00:00:21,570
+an experimental group
+with the pink button.
+
+9
+00:00:21,570 --> 00:00:24,860
+We've already assumed that each group
+follows a binomial distribution, but
+
+10
+00:00:24,860 --> 00:00:27,560
+the probabilities might be different for
+the two groups.
+
+11
+00:00:27,560 --> 00:00:31,210
+I'll call the probability that someone
+in the control group clicks Pcont for
+
+12
+00:00:31,210 --> 00:00:36,002
+control, and the probably that someone
+in the experiment group clicks Pexp for
+
+13
+00:00:36,002 --> 00:00:37,650
+experiment.
+
+14
+00:00:37,650 --> 00:00:40,350
+This potentially gives two
+different distributions.
+
+15
+00:00:40,350 --> 00:00:42,580
+If changing the button
+color had no effect,
+
+16
+00:00:42,580 --> 00:00:45,680
+then we would expect the two groups
+to have equivalent distributions, so
+
+17
+00:00:45,680 --> 00:00:47,490
+they would right on top of each other.
+
+18
+00:00:47,490 --> 00:00:50,940
+In other words, p control and
+p experiment would be equal.
+
+19
+00:00:50,940 --> 00:00:55,210
+Another way of saying this would be that
+p experiment minus p control equals 0.
+
+20
+00:00:55,210 --> 00:00:59,360
+This hypothesis of what our results
+would look like if the experiment had no
+
+21
+00:00:59,360 --> 00:01:02,250
+effect is called the null hypothesis.
+
+22
+00:01:02,250 --> 00:01:04,849
+And it is also represented as H naught.
+
+23
+00:01:04,849 --> 00:01:07,980
+We also need a hypothesis about
+the results if the experiment does
+
+24
+00:01:07,980 --> 00:01:09,020
+have an effect.
+
+25
+00:01:09,020 --> 00:01:12,410
+This is called the alternative
+hypothesis or HA.
+
+26
+00:01:12,410 --> 00:01:15,770
+In this case, if changing the button
+color does have an effect,
+
+27
+00:01:15,770 --> 00:01:20,120
+we expect the P experiment minus
+P control is not equal to zero.
+
+28
+00:01:20,120 --> 00:01:23,910
+Once we've defined these hypotheses,
+we can estimate p control and
+
+29
+00:01:23,910 --> 00:01:26,510
+p experiment from
+the data we've collected.
+
+30
+00:01:26,510 --> 00:01:28,510
+Then we'll calculate
+the difference between these,
+
+31
+00:01:28,510 --> 00:01:32,390
+and compute the probability that this
+difference would have arisen by chance,
+
+32
+00:01:32,390 --> 00:01:34,460
+if the null hypothesis were true.
+
+33
+00:01:34,460 --> 00:01:37,740
+Then we want to reject the null
+hypothesis, and conclude that
+
+34
+00:01:37,740 --> 00:01:41,610
+our experiment has an effect if
+this probability is small enough.
+
+35
+00:01:41,610 --> 00:01:44,990
+This is the same type of significance
+threshold as a confidence interval, so
+
+36
+00:01:44,990 --> 00:01:46,790
+it make sense to choose the same cutoff.
+
+37
+00:01:46,790 --> 00:01:49,000
+Thus, we'll choose
+the same cutoff as before.
+
+38
+00:01:49,000 --> 00:01:52,520
+And reject the null if this
+probability is less than 0.05.
+
+39
+00:01:52,520 --> 00:01:55,470
+This cutoff is also called alpha.
+
+40
+00:01:55,470 --> 00:01:57,520
+Now, suppose you're running
+an experiment where you have
+
+41
+00:01:57,520 --> 00:02:00,600
+changed the checkout flow of
+an online shopping website.
+
+42
+00:02:00,600 --> 00:02:03,420
+You test the effectiveness of your
+change by running an experiment
+
+43
+00:02:03,420 --> 00:02:07,240
+where some users check out using the old
+flow, and some using the new flow.
+
+44
+00:02:07,240 --> 00:02:09,280
+For each group,
+you measure the proportion, or
+
+45
+00:02:09,280 --> 00:02:12,080
+the probability who successfully
+complete the checkout.
+
+46
+00:02:12,080 --> 00:02:15,420
+What null and alternative hypothesis
+would you choose for this experiment?
+
+47
+00:02:15,420 --> 00:02:17,260
+There could be multiple valid answers,
+but
+
+48
+00:02:17,260 --> 00:02:19,640
+choose a formulation that
+you think would work.
+
+49
+00:02:19,640 --> 00:02:22,210
+Share your response in plain
+English in the forum thread
+
+50
+00:02:22,210 --> 00:02:24,120
+linked in the instructor's notes.
+
+51
+00:02:24,120 --> 00:02:26,930
+Then read the response of
+the person above you in the thread,
+
+52
+00:02:26,930 --> 00:02:30,240
+compare their answer to yours, and
+leave a comment with your thoughts.
+
+53
+00:02:30,240 --> 00:02:31,730
+When you've done this, check this box.

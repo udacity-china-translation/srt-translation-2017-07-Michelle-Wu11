@@ -1,0 +1,337 @@
+1
+00:00:00,440 --> 00:00:03,990
+Like you just saw, the main problem
+with tracking multiple metrics
+
+2
+00:00:03,990 --> 00:00:07,060
+is that a false positive,
+which should be a rare event,
+
+3
+00:00:07,060 --> 00:00:10,730
+becomes more common as you increase
+the number of metrics you're measuring.
+
+4
+00:00:10,730 --> 00:00:13,500
+As you might guess, the main way
+to fix this is to use a higher
+
+5
+00:00:13,500 --> 00:00:15,990
+confidence level for
+each individual metric
+
+6
+00:00:15,990 --> 00:00:19,320
+in order to bring down the overall
+probability of a false positive.
+
+7
+00:00:19,320 --> 00:00:22,380
+Exactly what confidence level you
+use depends on how conservative
+
+8
+00:00:22,380 --> 00:00:23,460
+you want to be.
+
+9
+00:00:23,460 --> 00:00:25,410
+The first method you might
+think of is to assume that
+
+10
+00:00:25,410 --> 00:00:27,600
+the metrics are independent
+of each other.
+
+11
+00:00:27,600 --> 00:00:30,740
+Then you can use the same equation
+that I used earlier to calculate
+
+12
+00:00:30,740 --> 00:00:32,420
+the overall alpha.
+
+13
+00:00:32,420 --> 00:00:33,290
+But instead,
+
+14
+00:00:33,290 --> 00:00:37,780
+this time you would set the overall
+alpha to be what you wanted, maybe .05.
+
+15
+00:00:37,780 --> 00:00:41,410
+And then solve for the individual alpha
+you needed in order to get the overall
+
+16
+00:00:41,410 --> 00:00:42,910
+alpha you're happy with.
+
+17
+00:00:42,910 --> 00:00:45,900
+However, there's a different method
+that people are more likely to use in
+
+18
+00:00:45,900 --> 00:00:48,570
+practice called
+the Bonferroni correction.
+
+19
+00:00:48,570 --> 00:00:50,690
+The Bonferroni correction
+has two main advantages.
+
+20
+00:00:50,690 --> 00:00:54,270
+It's very simple to calculate and
+it doesn't make any assumptions.
+
+21
+00:00:54,270 --> 00:00:57,450
+That is, it doesn't assume
+independence like our method one did.
+
+22
+00:00:57,450 --> 00:00:59,940
+The Bonferroni method is
+also very conservative.
+
+23
+00:00:59,940 --> 00:01:04,349
+It's guaranteed to give an alpha overall
+at least as small as you specified.
+
+24
+00:01:04,349 --> 00:01:07,260
+And again, it does this without
+making any assumptions.
+
+25
+00:01:07,260 --> 00:01:10,630
+Depending on your use case, this
+might or might not be what you want.
+
+26
+00:01:10,630 --> 00:01:14,200
+To use the Bonferroni correction,
+you calculate the individual
+
+27
+00:01:14,200 --> 00:01:18,160
+alpha you should use for each metric by
+taking the overall alpha you want and
+
+28
+00:01:18,160 --> 00:01:20,330
+dividing by the number of metrics.
+
+29
+00:01:20,330 --> 00:01:24,571
+So if you have N equals three metrics,
+and you want your overall probability of
+
+30
+00:01:24,571 --> 00:01:27,720
+a false positive to be 0.05 or
+less than the individual
+
+31
+00:01:27,720 --> 00:01:31,406
+alpha that you would use for
+the significance test of each metrics.
+
+32
+00:01:31,406 --> 00:01:36,406
+Would be 0.05 divided by 3 or 0.0167.
+
+33
+00:01:36,406 --> 00:01:38,685
+If you want to see a proof
+of why this method works,
+
+34
+00:01:38,685 --> 00:01:40,470
+see the instructor's notes.
+
+35
+00:01:40,470 --> 00:01:43,710
+The main problem with the Bonferroni
+correction is that often, you'll
+
+36
+00:01:43,710 --> 00:01:47,100
+be tracking metrics that are correlated
+and all tend to move at the same time.
+
+37
+00:01:47,100 --> 00:01:50,360
+In which case,
+this method is too conservative.
+
+38
+00:01:50,360 --> 00:01:52,450
+In our coaching example from earlier.
+
+39
+00:01:52,450 --> 00:01:55,256
+If users are adopting coaching
+earlier in the course,
+
+40
+00:01:55,256 --> 00:01:58,612
+it's likely that the probability
+of adoption is also going up and
+
+41
+00:01:58,612 --> 00:02:01,188
+the price is probably more
+likely to change also.
+
+42
+00:02:01,188 --> 00:02:05,074
+So, in this case, the Bonferroni method
+is probably too conservative for
+
+43
+00:02:05,074 --> 00:02:06,128
+Audacity's need.
+
+44
+00:02:06,128 --> 00:02:09,560
+That will lead to them launching fewer
+experiments than they would like.
+
+45
+00:02:09,560 --> 00:02:12,550
+Now, suppose Audacity runs
+an experiment where they update one of
+
+46
+00:02:12,550 --> 00:02:14,600
+the descriptions on the course list.
+
+47
+00:02:14,600 --> 00:02:16,670
+We talked about some metrics
+that might be good for
+
+48
+00:02:16,670 --> 00:02:18,570
+this experiment in lesson three.
+
+49
+00:02:18,570 --> 00:02:21,440
+They almost certainly want to
+track the probability of clicking
+
+50
+00:02:21,440 --> 00:02:24,720
+through to the course overview
+page from the course list.
+
+51
+00:02:24,720 --> 00:02:28,320
+But it's also a good idea to track
+continued progression down the funnel
+
+52
+00:02:28,320 --> 00:02:31,200
+to catch whether the updated
+description is misleading.
+
+53
+00:02:31,200 --> 00:02:31,810
+So suppose,
+
+54
+00:02:31,810 --> 00:02:36,020
+Audacity also measures the average time
+spent reading the course overview page.
+
+55
+00:02:36,020 --> 00:02:38,890
+The probability of enrolling in
+the course, given that you reached
+
+56
+00:02:38,890 --> 00:02:42,530
+the course overview page, and the
+average time spent in the classroom for
+
+57
+00:02:42,530 --> 00:02:45,270
+this course during the first
+week after enrollment.
+
+58
+00:02:45,270 --> 00:02:48,410
+Now, here is the measured difference
+as well as the standard error for
+
+59
+00:02:48,410 --> 00:02:49,660
+each metric.
+
+60
+00:02:49,660 --> 00:02:52,480
+You can assume that each metric
+is normally distributed.
+
+61
+00:02:52,480 --> 00:02:55,830
+Now, which of these metrics showed
+a statistically significant change?
+
+62
+00:02:55,830 --> 00:02:59,580
+First, determine which metrics showed us
+statistically significant difference,
+
+63
+00:02:59,580 --> 00:03:02,860
+with the individual alpha for
+each metric at 0.05.
+
+64
+00:03:02,860 --> 00:03:06,120
+Next, set your overall alpha to 0.05 and
+
+65
+00:03:06,120 --> 00:03:09,970
+use the Bonferroni correction to
+calculate the individual alpha.
+
+66
+00:03:09,970 --> 00:03:10,730
+As a reminder,
+
+67
+00:03:10,730 --> 00:03:14,450
+here's how to calculate the individual
+alpha using the Bonferroni correction.
+
+68
+00:03:14,450 --> 00:03:16,350
+For each method and each metric,
+
+69
+00:03:16,350 --> 00:03:20,020
+check the box if that metric showed
+a statistically significant difference.
+
+70
+00:03:20,020 --> 00:03:23,210
+Do you think the Bonferroni method
+is overly conservative here or
+
+71
+00:03:23,210 --> 00:03:24,030
+is it appropriate?

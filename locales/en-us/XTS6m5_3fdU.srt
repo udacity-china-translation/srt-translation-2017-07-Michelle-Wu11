@@ -1,0 +1,344 @@
+1
+00:00:00,430 --> 00:00:03,220
+Looking at different segments of
+your data can also be useful for
+
+2
+00:00:03,220 --> 00:00:05,230
+evaluating metric definitions,
+
+3
+00:00:05,230 --> 00:00:08,630
+since you can look at how the different
+definitions vary by segment.
+
+4
+00:00:08,630 --> 00:00:11,680
+This exploration is useful when
+building intuition about your data
+
+5
+00:00:11,680 --> 00:00:12,870
+and your system.
+
+6
+00:00:12,870 --> 00:00:15,620
+For example, let's look at
+total active cookies over time,
+
+7
+00:00:15,620 --> 00:00:18,860
+since that's an important
+high-level business metric.
+
+8
+00:00:18,860 --> 00:00:22,910
+So this plot shows the number of active
+cookies per day for the past four weeks.
+
+9
+00:00:22,910 --> 00:00:26,340
+And there's this weird spike that
+showed up sometime last week.
+
+10
+00:00:26,340 --> 00:00:28,540
+You can also see some weekly variation.
+
+11
+00:00:28,540 --> 00:00:31,290
+The number of visitors looks
+higher over the weekend.
+
+12
+00:00:31,290 --> 00:00:34,250
+One way I can verify whether
+the spike is odd is by looking
+
+13
+00:00:34,250 --> 00:00:36,190
+at what's called a week-over-week plot.
+
+14
+00:00:36,190 --> 00:00:39,790
+That is, I'll divide each data point
+by the corresponding data point
+
+15
+00:00:39,790 --> 00:00:41,090
+from a week ago.
+
+16
+00:00:41,090 --> 00:00:44,550
+As you can see, that tends to
+smooth out the weekly variation.
+
+17
+00:00:44,550 --> 00:00:48,150
+So if I had wondered whether one of
+these spikes was higher than usual,
+
+18
+00:00:48,150 --> 00:00:50,840
+I can see looking at this plot
+that it would stand out if one of
+
+19
+00:00:50,840 --> 00:00:54,320
+these were abnormally high given
+what day of the week it was.
+
+20
+00:00:54,320 --> 00:00:57,160
+Since we see that this
+same spike is still here,
+
+21
+00:00:57,160 --> 00:01:00,620
+that makes it clear that this spike
+is not due to weekly variation.
+
+22
+00:01:00,620 --> 00:01:04,260
+By the way, this corresponding drop,
+a week later, happens because we divided
+
+23
+00:01:04,260 --> 00:01:07,440
+this data point by the spike
+that occurred a week earlier.
+
+24
+00:01:07,440 --> 00:01:10,280
+Another good thing to look
+at is year-over-year data.
+
+25
+00:01:10,280 --> 00:01:14,360
+This is the same as week over week, but
+dividing by the numbers from a year ago.
+
+26
+00:01:14,360 --> 00:01:16,330
+That way,
+if there's an annual conference or
+
+27
+00:01:16,330 --> 00:01:19,520
+something causing the spike,
+it will disappear.
+
+28
+00:01:19,520 --> 00:01:21,580
+But, as you can see,
+the same spike is still here,
+
+29
+00:01:21,580 --> 00:01:24,870
+meaning it's probably not
+due to a yearly variation.
+
+30
+00:01:24,870 --> 00:01:28,460
+You can also see that the weekly
+variation is back, since the day of week
+
+31
+00:01:28,460 --> 00:01:31,735
+is not quite matched up to
+the day of week from a year ago.
+
+32
+00:01:31,735 --> 00:01:35,035
+Now the question is, if we can pin
+down what's causing this spike,
+
+33
+00:01:35,035 --> 00:01:39,035
+since it doesn't seem to be caused by
+either weekly or yearly variation.
+
+34
+00:01:39,035 --> 00:01:42,065
+One way we could figure this out is
+by looking at this metric across
+
+35
+00:01:42,065 --> 00:01:47,225
+different segments of our population to
+see if one segment is causing the spike.
+
+36
+00:01:47,225 --> 00:01:50,400
+So let's trying looking at how
+this metric varies by country.
+
+37
+00:01:50,400 --> 00:01:53,860
+What's interesting here is that we don't
+see the spike in most countries, but we
+
+38
+00:01:53,860 --> 00:01:58,110
+do see it in Berzerkistan, so that one
+country was causing the entire spike.
+
+39
+00:01:58,110 --> 00:02:01,140
+At this point, it's a good idea to
+talk to the engineering team, and
+
+40
+00:02:01,140 --> 00:02:04,150
+maybe they'll be able to figure out
+if this spike is in fact caused
+
+41
+00:02:04,150 --> 00:02:07,320
+by only a small number
+of rogue IP addresses.
+
+42
+00:02:07,320 --> 00:02:11,900
+And this is pretty likely to be spam,
+or a row grow bot, or some competitor
+
+43
+00:02:11,900 --> 00:02:16,130
+trying to get information about classes,
+or something of that nature.
+
+44
+00:02:16,130 --> 00:02:20,220
+Now suppose that you suspect there is
+an issue with JavaScript click tracking.
+
+45
+00:02:20,220 --> 00:02:23,050
+Specifically, you're worried
+that JavaScript is counting
+
+46
+00:02:23,050 --> 00:02:26,320
+each click event twice on mobile but
+not on desktop.
+
+47
+00:02:26,320 --> 00:02:30,000
+Which of the following graphs would
+confirm this problem if it existed?
+
+48
+00:02:30,000 --> 00:02:31,035
+First, would a graph of
+
+49
+00:02:31,035 --> 00:02:33,760
+click-through-rate over time
+help you find the problem?
+
+50
+00:02:33,760 --> 00:02:36,940
+This would be a line graph showing
+click-through-rate over time.
+
+51
+00:02:36,940 --> 00:02:39,160
+What about click through
+probability over time?
+
+52
+00:02:39,160 --> 00:02:42,790
+You can assume the page view definition
+with a time interval of five minutes.
+
+53
+00:02:42,790 --> 00:02:44,950
+This graph would look pretty
+similar to the first, but
+
+54
+00:02:44,950 --> 00:02:47,060
+showing a probability instead of a rate.
+
+55
+00:02:47,060 --> 00:02:50,870
+Or how about showing both click through
+rate and probability on the same graph?
+
+56
+00:02:50,870 --> 00:02:53,160
+So there would be two
+lines of different colors.
+
+57
+00:02:53,160 --> 00:02:56,710
+Would it help to see click-through-rate
+over time broken down by platform?
+
+58
+00:02:56,710 --> 00:03:00,380
+That is, there would be one color of
+line for mobile and another for desktop.
+
+59
+00:03:00,380 --> 00:03:03,980
+Or similarly, would it help to see
+click-through-probability by platform?
+
+60
+00:03:03,980 --> 00:03:06,760
+Finally, what about a graph showing
+both click through rate and
+
+61
+00:03:06,760 --> 00:03:08,640
+probability by platform?
+
+62
+00:03:08,640 --> 00:03:11,850
+That is, show both of the previous
+two graphs side by side so
+
+63
+00:03:11,850 --> 00:03:13,370
+you can compare them.
+
+64
+00:03:13,370 --> 00:03:14,470
+In each case,
+
+65
+00:03:14,470 --> 00:03:18,200
+decide whether this visualization by
+itself could help you decide whether or
+
+66
+00:03:18,200 --> 00:03:21,063
+not there was a problem, without
+referencing any of the other graphs.
+
+67
+00:03:21,063 --> 00:03:24,945
+Thus, click-through-rate, by itself,
+couldn't tell you whether there was
+
+68
+00:03:24,945 --> 00:03:29,365
+a problem, since you don't expect the
+click tracking issue to vary over time.
+
+69
+00:03:29,365 --> 00:03:32,465
+And click-through-probability, by
+itself, wouldn't tell you much either.
+
+70
+00:03:32,465 --> 00:03:35,025
+For each of the other four cases,
+check the box
+
+71
+00:03:35,025 --> 00:03:38,205
+if you think this comparison would tell
+you whether or not there was a problem.

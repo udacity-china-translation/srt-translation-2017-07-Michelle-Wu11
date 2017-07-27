@@ -1,0 +1,58 @@
+1
+00:00:00,380 --> 00:00:03,370
+Congratulations, you
+finished lesson five.
+
+2
+00:00:03,370 --> 00:00:06,430
+In this lesson we covered the
+fundamentals of the handling the results
+
+3
+00:00:06,430 --> 00:00:07,550
+of your experiment.
+
+4
+00:00:07,550 --> 00:00:10,320
+Some gotchas for single and
+multiple metrics.
+
+5
+00:00:10,320 --> 00:00:11,070
+And suggestions for
+
+6
+00:00:11,070 --> 00:00:14,760
+converting significant results into a
+real business case for your experiments.
+
+7
+00:00:14,760 --> 00:00:16,290
+>> This is also the end of the course.
+
+8
+00:00:16,290 --> 00:00:17,270
+We hope you enjoyed it.
+
+9
+00:00:17,270 --> 00:00:18,670
+And we want to hear what you thought.
+
+10
+00:00:18,670 --> 00:00:21,930
+Please go to the forums and tell us what
+was your favorite part about the course.
+
+11
+00:00:21,930 --> 00:00:24,360
+And do you have any suggestions for
+what we could improve?
+
+12
+00:00:24,360 --> 00:00:28,410
+>> Absolutely and now that you have all
+the basic pieces try it out on your own.
+
+13
+00:00:28,410 --> 00:00:30,440
+Experiment and see how it works.

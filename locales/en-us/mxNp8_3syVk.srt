@@ -1,0 +1,123 @@
+1
+00:00:00,025 --> 00:00:04,150
+A/B testing in technology,
+like many experiments in anthropology,
+
+2
+00:00:04,150 --> 00:00:08,230
+psychology, sociology and
+medicine, are on actual people.
+
+3
+00:00:08,230 --> 00:00:09,140
+Because of this,
+
+4
+00:00:09,140 --> 00:00:12,514
+you need to ensure that the participants
+are adequately protected.
+
+5
+00:00:13,685 --> 00:00:17,615
+To explain this, let's go through a few
+examples of cases where participants
+
+6
+00:00:17,615 --> 00:00:19,335
+may not have been adequately protected.
+
+7
+00:00:20,495 --> 00:00:25,455
+One famous example from medical history
+is the Tuskegee syphilis experiment,
+
+8
+00:00:25,455 --> 00:00:29,835
+where approximately 600 rural
+African-American men in Tuskegee,
+
+9
+00:00:29,835 --> 00:00:31,155
+Alabama, between 1932 and 1972,
+
+10
+00:00:31,155 --> 00:00:36,100
+thought they were receiving free
+healthcare from the government.
+
+11
+00:00:36,100 --> 00:00:40,060
+But in fact, they were being cited
+regarding the natural progression of
+
+12
+00:00:40,060 --> 00:00:41,700
+untreated syphilis.
+
+13
+00:00:41,700 --> 00:00:45,060
+This study continued even after
+penicillin was established
+
+14
+00:00:45,060 --> 00:00:47,110
+as a standard treatment for syphilis and
+
+15
+00:00:47,110 --> 00:00:52,080
+the men were both not treated and
+not informed of a possible treatment.
+
+16
+00:00:52,080 --> 00:00:54,680
+Another example from psychology
+is the Milgram experiment,
+
+17
+00:00:54,680 --> 00:00:58,630
+done in the early 1960s,
+where Yale professor, Stanley Milgram,
+
+18
+00:00:58,630 --> 00:01:02,820
+measured the willingness of studied
+participants to obey an authority figure
+
+19
+00:01:02,820 --> 00:01:06,710
+who instructed them to administer
+electric shocks to a third person.
+
+20
+00:01:06,710 --> 00:01:10,220
+That third person was an actor who
+simply pretended to be shocked
+
+21
+00:01:10,220 --> 00:01:14,610
+with gradually increasing responses and
+pleas to stop.
+
+22
+00:01:14,610 --> 00:01:17,670
+The question was, how far would
+the participants would go in
+
+23
+00:01:17,670 --> 00:01:20,890
+causing pain with prompts
+from an authority figure?
+
+24
+00:01:20,890 --> 00:01:25,560
+In both cases, participants were subject
+to a high risk for permanent harm.
+
+25
+00:01:25,560 --> 00:01:28,100
+Untreated syphilis can cost death, and
+
+26
+00:01:28,100 --> 00:01:31,320
+participants of the Milgram experiment
+may have been damaged psychologically.

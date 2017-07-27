@@ -1,0 +1,108 @@
+1
+00:00:00,460 --> 00:00:03,610
+In the next several videos, we'll be
+going over the statistics behind whether
+
+2
+00:00:03,610 --> 00:00:06,220
+to be surprised by 150 clicks.
+
+3
+00:00:06,220 --> 00:00:09,040
+If you're already familiar with
+the binomial distribution,
+
+4
+00:00:09,040 --> 00:00:12,190
+confidence intervals, and
+hypothesis testing, then you can follow
+
+5
+00:00:12,190 --> 00:00:15,490
+the link in the instructor's
+notes to skip past this section.
+
+6
+00:00:15,490 --> 00:00:19,970
+So, Carrie, how do you know whether
+to be surprised by 150 clicks?
+
+7
+00:00:19,970 --> 00:00:23,930
+In other words, how do you know how
+variable your estimate is likely to be?
+
+8
+00:00:23,930 --> 00:00:27,480
+>> Well, there are certain distributions
+that commonly arise in statistics that
+
+9
+00:00:27,480 --> 00:00:29,400
+can help give you some
+good guidelines for
+
+10
+00:00:29,400 --> 00:00:32,049
+how variable your data is likely to be.
+
+11
+00:00:32,049 --> 00:00:35,760
+If you haven't worked with this before,
+something like the bell curve that comes
+
+12
+00:00:35,760 --> 00:00:38,900
+up in grades is a good example
+of the normal distribution and
+
+13
+00:00:38,900 --> 00:00:40,650
+we'll talk about that in a minute.
+
+14
+00:00:40,650 --> 00:00:41,900
+But for our data here,
+
+15
+00:00:41,900 --> 00:00:45,350
+we're going to be using a slightly
+different distribution than binomial,
+
+16
+00:00:45,350 --> 00:00:49,950
+because instead of having continuous
+data, we have successes and failures.
+
+17
+00:00:49,950 --> 00:00:53,690
+Now, for the binomial, we're in good
+shape for this example because we can
+
+18
+00:00:53,690 --> 00:00:58,000
+call a click a success and
+a no click visit to the page a failure.
+
+19
+00:00:58,000 --> 00:00:59,105
+It doesn't really matter though.
+
+20
+00:00:59,105 --> 00:01:03,210
+You could also use this distribution
+if your data were red and blue, or
+
+21
+00:01:03,210 --> 00:01:05,390
+any two exclusive outcomes.
+
+22
+00:01:05,390 --> 00:01:10,090
+What matters is, we have exactly two
+possible outcomes, click and no click,
+
+23
+00:01:10,090 --> 00:01:12,880
+and that our metric we're going to
+compute with this is a probability.

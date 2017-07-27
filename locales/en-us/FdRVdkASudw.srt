@@ -1,0 +1,51 @@
+1
+00:00:00,480 --> 00:00:04,870
+If you run a website or app, which of
+the following pieces of information
+
+2
+00:00:04,870 --> 00:00:07,700
+is ethically necessary
+to provide to users?
+
+3
+00:00:07,700 --> 00:00:09,260
+Check all that apply.
+
+4
+00:00:09,260 --> 00:00:13,220
+A Terms of Service, also called a TOS,
+or a Privacy Policy
+
+5
+00:00:13,220 --> 00:00:16,580
+that clearly states what data
+you collect and how you use it.
+
+6
+00:00:16,580 --> 00:00:19,220
+A history of how your
+company has been funded.
+
+7
+00:00:19,220 --> 00:00:21,280
+A navigation bar at the top of the page,
+
+8
+00:00:21,280 --> 00:00:24,320
+allowing users to visit
+the different sections of your site.
+
+9
+00:00:24,320 --> 00:00:27,560
+A list of all the experiments you
+are planning on running on your users
+
+10
+00:00:27,560 --> 00:00:28,980
+in the near future.
+
+11
+00:00:28,980 --> 00:00:31,110
+Or a search bar that lets
+users search the site.

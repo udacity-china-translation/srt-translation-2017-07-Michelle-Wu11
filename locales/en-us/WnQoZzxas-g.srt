@@ -1,0 +1,138 @@
+1
+00:00:00,350 --> 00:00:02,870
+Sensitivity can be a bit
+tricky to calculate, so
+
+2
+00:00:02,870 --> 00:00:05,960
+people have a few different techniques
+they might use to determine how many
+
+3
+00:00:05,960 --> 00:00:07,320
+page views they'll need.
+
+4
+00:00:07,320 --> 00:00:10,510
+First, some programming languages
+have built-in libraries that can
+
+5
+00:00:10,510 --> 00:00:11,760
+calculate this.
+
+6
+00:00:11,760 --> 00:00:15,410
+You might also be able to find a table
+where you can look up the answer, or
+
+7
+00:00:15,410 --> 00:00:17,450
+you might be able to use
+an online calculator.
+
+8
+00:00:18,670 --> 00:00:21,410
+For the audacity experiment,
+we'd like you to use the online
+
+9
+00:00:21,410 --> 00:00:23,910
+calculator linked in
+the instructors notes.
+
+10
+00:00:23,910 --> 00:00:24,800
+Now on this calculator,
+
+11
+00:00:24,800 --> 00:00:28,010
+there are a few different pieces of
+information you'll have to enter.
+
+12
+00:00:28,010 --> 00:00:31,500
+The baseline conversion rate in our
+case means the estimated click through
+
+13
+00:00:31,500 --> 00:00:35,580
+probability before making the change,
+and the minimum detectable effect is
+
+14
+00:00:35,580 --> 00:00:38,240
+what we've been calling
+the practical significance level.
+
+15
+00:00:38,240 --> 00:00:41,100
+You'll also need to specify whether
+your practical significance
+
+16
+00:00:41,100 --> 00:00:43,730
+total is an absolute or
+a relative change.
+
+17
+00:00:43,730 --> 00:00:47,560
+We've been using an absolute change,
+so make sure you check this option.
+
+18
+00:00:47,560 --> 00:00:49,520
+We'll talk more about
+the difference in Lesson three.
+
+19
+00:00:49,520 --> 00:00:52,432
+Finally, you'll need to enter
+1 minus beta and alpha.
+
+20
+00:00:52,432 --> 00:00:56,441
+Note that this calculator refers to
+1 minus beta as statistical power,
+
+21
+00:00:56,441 --> 00:00:58,550
+rather than sensitivity.
+
+22
+00:00:58,550 --> 00:01:01,720
+Write the number of page views we'll
+need in each group of the experiment
+
+23
+00:01:01,720 --> 00:01:03,050
+in this box.
+
+24
+00:01:03,050 --> 00:01:04,709
+Recall that before making the change,
+
+25
+00:01:04,709 --> 00:01:10,240
+we collected 1000 unique page views,
+of which 100 resulted in a click,
+
+26
+00:01:10,240 --> 00:01:14,850
+We decided on a practical
+significance level of 2%, or 0.02,
+
+27
+00:01:14,850 --> 00:01:19,710
+which I am calling d min, because it's
+the minimum difference we care about.
+
+28
+00:01:19,710 --> 00:01:22,710
+And you should use alpha equals 0.05,
+and
+
+29
+00:01:22,710 --> 00:01:26,040
+beta equals 0.2,
+which is fairly standard.

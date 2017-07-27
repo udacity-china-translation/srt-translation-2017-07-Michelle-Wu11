@@ -1,0 +1,242 @@
+1
+00:00:00,400 --> 00:00:01,670
+Like Diane just mentioned,
+
+2
+00:00:01,670 --> 00:00:04,750
+there are four broad
+categories of summary metrics.
+
+3
+00:00:04,750 --> 00:00:06,985
+First, there are sums and counts.
+
+4
+00:00:06,985 --> 00:00:09,900
+An example of this type of metric
+might be the number of users
+
+5
+00:00:09,900 --> 00:00:11,400
+who visited some page.
+
+6
+00:00:11,400 --> 00:00:14,450
+Second, there are means,
+medians and percentiles.
+
+7
+00:00:14,450 --> 00:00:19,000
+For example, the mean age of all users
+who have completed a certain course or
+
+8
+00:00:19,000 --> 00:00:21,320
+the median latency of a page load.
+
+9
+00:00:21,320 --> 00:00:24,010
+Third, there are probabilities and
+rates.
+
+10
+00:00:24,010 --> 00:00:28,460
+Like you saw, a probability has 0 or
+1 possible outcome in each case.
+
+11
+00:00:28,460 --> 00:00:32,580
+For example, did the user
+click zero times, or one time?
+
+12
+00:00:32,580 --> 00:00:35,200
+Whereas the rate could have zero or
+more, for
+
+13
+00:00:35,200 --> 00:00:38,630
+example, the user clicks two times or
+four times.
+
+14
+00:00:38,630 --> 00:00:40,680
+Fourth, there are ratios.
+
+15
+00:00:40,680 --> 00:00:45,020
+These are more general than rates, which
+are two counts divided by each other.
+
+16
+00:00:45,020 --> 00:00:47,990
+A ratio is any two numbers
+divided by each other.
+
+17
+00:00:47,990 --> 00:00:50,090
+So it could have any value.
+
+18
+00:00:50,090 --> 00:00:53,130
+Business metrics often
+make sense as ratios.
+
+19
+00:00:53,130 --> 00:00:56,130
+For example, you might want
+to measure the probability
+
+20
+00:00:56,130 --> 00:00:58,795
+that a user clicks a link
+that generates revenue,
+
+21
+00:00:58,795 --> 00:01:03,210
+versus the probability that a user
+clicks any link on the page.
+
+22
+00:01:03,210 --> 00:01:06,690
+Now, let's focus in on the second
+category and see how we can choose
+
+23
+00:01:06,690 --> 00:01:10,310
+between these different options by
+looking at the distribution of our data.
+
+24
+00:01:10,310 --> 00:01:13,910
+To do that, let's look at an example
+of some simulated user data
+
+25
+00:01:13,910 --> 00:01:18,050
+about how long users spend on
+a particular page of the Audacity site.
+
+26
+00:01:18,050 --> 00:01:21,030
+Here, I've shown a histogram
+of the time spent on the page
+
+27
+00:01:21,030 --> 00:01:22,780
+where each bar is the frequency.
+
+28
+00:01:22,780 --> 00:01:24,780
+So out of 10,000 data points,
+
+29
+00:01:24,780 --> 00:01:27,830
+a little less than 3,000
+fall in this first bucket.
+
+30
+00:01:27,830 --> 00:01:29,660
+The mean of this data is about 1.3.
+
+31
+00:01:29,660 --> 00:01:34,230
+That is, the average user spends
+about 1.3 seconds on this page.
+
+32
+00:01:34,230 --> 00:01:37,128
+The median, on the other hand,
+is about 0.9.
+
+33
+00:01:37,128 --> 00:01:41,980
+That means 50% of all users spend
+less than a second on the page.
+
+34
+00:01:41,980 --> 00:01:45,130
+The reason for this difference is
+all these points off to the right.
+
+35
+00:01:45,130 --> 00:01:49,750
+They increase the mean proportional to
+their size, so if one user stays for
+
+36
+00:01:49,750 --> 00:01:54,460
+say six seconds, then that outweighs
+a few users who don't stay long at all.
+
+37
+00:01:54,460 --> 00:01:57,670
+This is an example of
+an exponential distribution.
+
+38
+00:01:57,670 --> 00:01:59,550
+If you're thinking about something like,
+
+39
+00:01:59,550 --> 00:02:02,400
+how many users really get
+information from this page,
+
+40
+00:02:02,400 --> 00:02:05,490
+you might want to use something
+besides the median or the mean.
+
+41
+00:02:05,490 --> 00:02:09,449
+Maybe the 75th percentile or
+the 90th percentile.
+
+42
+00:02:09,449 --> 00:02:13,300
+In addition to these possible metrics,
+you could take this one step further.
+
+43
+00:02:13,300 --> 00:02:17,120
+Let's say you find out, in some UER
+studies that it would take the average
+
+44
+00:02:17,120 --> 00:02:21,340
+person at least three seconds to read
+most of the content on the page.
+
+45
+00:02:21,340 --> 00:02:24,910
+Based on this, you could use as your
+metric the percent of users who spend at
+
+46
+00:02:24,910 --> 00:02:26,670
+least three seconds.
+
+47
+00:02:26,670 --> 00:02:30,430
+In this case, that would be about 11% of
+the data points that stay about three
+
+48
+00:02:30,430 --> 00:02:31,840
+seconds or longer.
+
+49
+00:02:31,840 --> 00:02:34,470
+This metric does have its own problems,
+though.
+
+50
+00:02:34,470 --> 00:02:36,860
+What if you make the page
+really confusing?
+
+51
+00:02:36,860 --> 00:02:38,660
+That could artificially
+inflate this metric.

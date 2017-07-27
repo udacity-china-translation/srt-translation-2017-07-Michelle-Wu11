@@ -1,0 +1,66 @@
+1
+00:00:00,340 --> 00:00:02,930
+Okay, now we've estimated
+the click-through probability of
+
+2
+00:00:02,930 --> 00:00:06,420
+the Start Now button, but we haven't
+actually changed the button yet.
+
+3
+00:00:06,420 --> 00:00:07,310
+Once we do that, and
+
+4
+00:00:07,310 --> 00:00:10,420
+we run the experiment,
+how will we analyze the results?
+
+5
+00:00:10,420 --> 00:00:14,430
+>> Well, there's a concept in statistics
+called hypothesis testing, or inference,
+
+6
+00:00:14,430 --> 00:00:16,920
+which is a quantitative way to establish
+
+7
+00:00:16,920 --> 00:00:20,310
+how likely it is that your
+results occurred by chance.
+
+8
+00:00:20,310 --> 00:00:24,140
+So, the first thing we need is what's
+called a null hypothesis, or a baseline.
+
+9
+00:00:24,140 --> 00:00:27,420
+In our case, that's the theory that
+there's no difference in click-through
+
+10
+00:00:27,420 --> 00:00:30,680
+probability between our control,
+and our experiment.
+
+11
+00:00:30,680 --> 00:00:33,810
+Then we need to think about what's
+called the alternative hypothesis.
+
+12
+00:00:33,810 --> 00:00:36,900
+Are we interested in whether
+the click-through rate is different?
+
+13
+00:00:36,900 --> 00:00:39,730
+Or just whether it's higher, or lower?
+
+14
+00:00:39,730 --> 00:00:41,650
+Or are we interested in any
+kind of difference at all?

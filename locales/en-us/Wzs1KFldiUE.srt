@@ -1,0 +1,344 @@
+1
+00:00:00,310 --> 00:00:03,280
+So for more complicated metrics,
+you might need to estimate the variance
+
+2
+00:00:03,280 --> 00:00:05,820
+empirically instead of
+computing it analytically.
+
+3
+00:00:05,820 --> 00:00:08,290
+Are there any other reasons
+to use the empirical method?
+
+4
+00:00:08,290 --> 00:00:10,830
+>> So, fundamentally what you're
+doing when you're computing
+
+5
+00:00:10,830 --> 00:00:11,980
+the variance of a metric,
+
+6
+00:00:11,980 --> 00:00:15,840
+is you're making an assumption about
+the underlying distribution of the data.
+
+7
+00:00:15,840 --> 00:00:18,960
+For a relatively simple metric, making
+that assumption makes total sense and
+
+8
+00:00:18,960 --> 00:00:20,660
+you should absolutely do that, but
+
+9
+00:00:20,660 --> 00:00:24,570
+as you get to more complicated metrics,
+the distribution can be very weird and
+
+10
+00:00:24,570 --> 00:00:27,630
+that's why you might want to
+shift to an empirical estimate.
+
+11
+00:00:27,630 --> 00:00:31,990
+Now, at Google, what we found was that
+even for some of the simple metrics,
+
+12
+00:00:31,990 --> 00:00:35,860
+the analytical estimate of the variance
+ended up being an underestimate.
+
+13
+00:00:35,860 --> 00:00:37,954
+And we were actually very
+surprised by that, and
+
+14
+00:00:37,954 --> 00:00:40,663
+we'll actually explain some of
+the reasoning as to why it turns
+
+15
+00:00:40,663 --> 00:00:43,440
+out that it's an underestimate
+more in lesson four.
+
+16
+00:00:43,440 --> 00:00:47,471
+But because of that, we shifted to
+using A versus A experiments across
+
+17
+00:00:47,471 --> 00:00:51,589
+the board to estimate the empirical
+variability of all of our metrics.
+
+18
+00:00:51,589 --> 00:00:53,870
+>> What are A versus
+A experiments again?
+
+19
+00:00:53,870 --> 00:00:57,340
+>> So this class is about A/B testing,
+where you have control,
+
+20
+00:00:57,340 --> 00:01:00,760
+your A, versus your experiment, the B.
+
+21
+00:01:00,760 --> 00:01:02,850
+And any changes that you
+measure between A and
+
+22
+00:01:02,850 --> 00:01:06,490
+B are due to the changes in
+the system that you've done.
+
+23
+00:01:06,490 --> 00:01:10,460
+Now in an A versus A test, what you have
+is a control, A against another control
+
+24
+00:01:10,460 --> 00:01:13,940
+A, and so there's actually no change
+in what the users are seeing.
+
+25
+00:01:13,940 --> 00:01:16,700
+What that means that any differences
+that you measure are due to
+
+26
+00:01:16,700 --> 00:01:19,200
+the underlying variability,
+maybe of your system,
+
+27
+00:01:19,200 --> 00:01:23,230
+of the user population, what users
+are doing, all of those types of things.
+
+28
+00:01:23,230 --> 00:01:26,900
+Now I think Carrie mentioned how we
+might use A versus A experiments
+
+29
+00:01:26,900 --> 00:01:30,190
+to actually test for the sensitivity and
+robustness of metrics.
+
+30
+00:01:30,190 --> 00:01:33,560
+For example, if you see a lot of
+variability in a metric in an A versus
+
+31
+00:01:33,560 --> 00:01:37,180
+A test, it's probably too
+sensitive to be useful in,
+
+32
+00:01:37,180 --> 00:01:39,130
+in evaluating a real experiment.
+
+33
+00:01:39,130 --> 00:01:39,700
+>> Okay.
+
+34
+00:01:39,700 --> 00:01:43,180
+So you can kind of pin down
+the variability with these A/A tests.
+
+35
+00:01:43,180 --> 00:01:45,910
+How many do you usually
+need to get a good sense?
+
+36
+00:01:45,910 --> 00:01:48,890
+>> Well, at Google we started with ten,
+then we moved to twenty.
+
+37
+00:01:48,890 --> 00:01:51,580
+Now, we literally run
+hundreds of A versus A tests
+
+38
+00:01:51,580 --> 00:01:53,430
+at a whole bunch of different sizes.
+
+39
+00:01:53,430 --> 00:01:58,020
+Now, clearly there's a diminishing
+return as you run more A versus A tests.
+
+40
+00:01:58,020 --> 00:02:01,470
+The key rule of thumb to keep in
+mind is that the standard deviation
+
+41
+00:02:01,470 --> 00:02:04,540
+is going to be proportional to
+the square root of the number of sample.
+
+42
+00:02:04,540 --> 00:02:07,370
+>> That's great if you have enough
+traffic and you run your own experiments
+
+43
+00:02:07,370 --> 00:02:10,800
+so that you can run that many, but
+what if you can't for some reason?
+
+44
+00:02:10,800 --> 00:02:15,080
+>> Well, another option is to run one
+really big A versus A experiment.
+
+45
+00:02:15,080 --> 00:02:18,220
+And then there's a method in statistics
+called the bootstrap, where what you do
+
+46
+00:02:18,220 --> 00:02:21,230
+is you take that big sample, and
+you randomly divvy it up into a bunch of
+
+47
+00:02:21,230 --> 00:02:26,050
+small samples and you do the comparison
+within those random subsets.
+
+48
+00:02:26,050 --> 00:02:28,140
+I think you're going to basically
+be explained that technique more
+
+49
+00:02:28,140 --> 00:02:29,480
+in the next section.
+
+50
+00:02:29,480 --> 00:02:32,170
+>> Yeah, so why wouldn't you
+always use the bootstrap method so
+
+51
+00:02:32,170 --> 00:02:34,550
+that you wouldn't need to
+run that many A/A tests?
+
+52
+00:02:34,550 --> 00:02:35,880
+>> It's definitely an option.
+
+53
+00:02:35,880 --> 00:02:38,250
+One advantage of running the several,
+many, or
+
+54
+00:02:38,250 --> 00:02:42,480
+just lots of different A versus A tests
+is because if your experiment system
+
+55
+00:02:42,480 --> 00:02:46,800
+is itself complicated, it's actually
+a very good test of your system.
+
+56
+00:02:46,800 --> 00:02:50,730
+So, for example, is your
+randomization function truly random?
+
+57
+00:02:50,730 --> 00:02:53,430
+Do you have any other issues
+with regards to bias or
+
+58
+00:02:53,430 --> 00:02:54,830
+weird population effects?
+
+59
+00:02:54,830 --> 00:02:56,590
+Or anything else along those lines,
+
+60
+00:02:56,590 --> 00:03:00,570
+you can actually truly test
+that with the A versus A tests.
+
+61
+00:03:00,570 --> 00:03:05,290
+Now, in reality, what we have is
+a whole gradation of different methods.
+
+62
+00:03:05,290 --> 00:03:08,090
+If you're starting out and you're
+running your first experiment using
+
+63
+00:03:08,090 --> 00:03:12,094
+a relatively simple metric,
+do the analytical estimate of your ants.
+
+64
+00:03:12,094 --> 00:03:15,120
+As you're starting to push towards
+more complicated metrics or
+
+65
+00:03:15,120 --> 00:03:17,350
+you're running more and
+more features through,
+
+66
+00:03:17,350 --> 00:03:20,930
+at that point, you might want to
+consider at least doing the bootstrap.
+
+67
+00:03:20,930 --> 00:03:24,340
+Now if your bootstrap estimate is
+agreeing with your analytical estimate,
+
+68
+00:03:24,340 --> 00:03:26,600
+you can probably move on and
+you don't have to worry about it.
+
+69
+00:03:26,600 --> 00:03:29,840
+But if your bootstrap estimate isn't
+agreeing with your analytical,
+
+70
+00:03:29,840 --> 00:03:32,880
+at that point you may want to consider
+running a lot of A versus A tests and
+
+71
+00:03:32,880 --> 00:03:34,300
+really digging into
+understanding what's going on.
