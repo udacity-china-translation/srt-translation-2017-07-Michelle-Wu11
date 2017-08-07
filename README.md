@@ -2,7 +2,7 @@
 
 ## 试译流程
 
-到达这一步，你应该已经在 [Google Spreadsheets](https://docs.google.com/spreadsheets/d/1A2Lpk6cz59dQDNdG9ul6RnQYR_SmgSLxPRBTEu-tQsw/edit#gid=982304948) 中认领了翻译和校对任务，并提交了截止日期。注：试译必须至少完成 2 个字幕翻译任务，2 个字幕校对任务
+到达这一步，你应该已经在 [Google Spreadsheets](https://docs.google.com/spreadsheets/d/1A2Lpk6cz59dQDNdG9ul6RnQYR_SmgSLxPRBTEu-tQsw/edit#gid=982304948) 中认领了翻译和校对任务，并提交了截止日期。注：试译必须至少完成 1 个字幕翻译任务，3 个字幕校对任务
 现在你需要做的是：
 
 1. 使用 git 克隆 repo 至本地，创建新 branch。
