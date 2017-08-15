@@ -6,6 +6,7 @@
 现在你需要做的是：
 
 1. 使用 git 克隆 repo 至本地，创建新 branch。
+    - branch 一般的取名规则为：<名字>/<目的>，如 chenwei/fix-ml-part1 （全部小写）
 2. 根据任务的字幕 ID 找到需要翻译或校对的字幕文件：
     - 英文字幕在 [locales/en-us](/locales/en-us) 文件夹
     - 中文字幕在 [locales/zh-cn](/locales/zh-cn) 文件夹
