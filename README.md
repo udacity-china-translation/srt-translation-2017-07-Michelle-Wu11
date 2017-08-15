@@ -10,10 +10,11 @@
     - 英文字幕在 [locales/en-us](/locales/en-us) 文件夹
     - 中文字幕在 [locales/zh-cn](/locales/zh-cn) 文件夹
 3. 对应的课程视频及链接在任务表中可以查到
-4. 你需要参照[中文字幕格式规范](https://discussions.youdaxue.com/t/v1-1/3313)进行翻译和校对
-5. 在截止日期前完成任务并提交 Pull Request
-6. 等待审核并修改
-7. 审核修改 2 次后达到 96 分即可通过
+4. 你需要参照[中文字幕格式规范](/tools/中文字幕格式规范.md)进行翻译和校对
+5. 在截止日期前完成任务并提交 Pull Request，将提交 PR 的 Github 链接填写到[任务表](https://docs.google.com/spreadsheets/d/1A2Lpk6cz59dQDNdG9ul6RnQYR_SmgSLxPRBTEu-tQsw/edit#gid=982304948)对应位置
+6. 回到 slack #training 频道 @课程小组负责人 进行审核
+7. 等待审核并修改
+8. 审核修改 2 次后达到 96 分即可通过
 
 
 ## 评分标准
@@ -24,7 +25,7 @@
   - 每处错译与漏译扣除 10 分
 - 确保词句符合中文习惯，没有病句与歧义
   - 每处病句扣除 5 分
-- 确保字幕格式符合[中文字幕格式规范](https://discussions.youdaxue.com/t/v1-1/3313)
+- 确保字幕格式符合[中文字幕格式规范](/tools/中文字幕格式规范.md)
   - 每处格式问题扣除 5 分
 - 确保没有错别字
   - 每处错别字扣除 1 分
@@ -33,7 +34,7 @@
 
 ## 参考资料
 
-- [中文字幕格式规范](https://discussions.youdaxue.com/t/v1-1/3313)
+- [中文字幕格式规范](/tools/中文字幕格式规范.md)
 - [优达学城论坛 - 翻译经验讨论](https://discussions.youdaxue.com/c/translation/69-category)
   - [对翻译有帮助的资料或网站](https://discussions.youdaxue.com/t/topic/3007)
 - [参考词汇表](https://docs.google.com/spreadsheets/d/1u5Nf9IEqfRR2EI4Q695KhH4dySIr9yF6rP2lTGrZKjg/edit?usp=sharing)
